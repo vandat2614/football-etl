@@ -29,7 +29,6 @@ class CrawlStateRepository(BaseRepository[CrawlStateLog]):
         league_id: int,
         season: str,
         status: str,
-        trigger: str,
         fixtures_count: Optional[int] = None,
         next_recrawl_at: Optional[datetime] = None,
         error: Optional[str] = None,
@@ -42,7 +41,6 @@ class CrawlStateRepository(BaseRepository[CrawlStateLog]):
             league_id: League identifier.
             season: Target season (e.g. '2025-2026').
             status: STATUS_SUCCESS or STATUS_FAILED.
-            trigger: Why the crawl ran (e.g. 'manual', 'refresh_7d').
             fixtures_count: Number of fixtures crawled.
             next_recrawl_at: When the league must be crawled again (UTC), or None.
             error: Error message for failed runs.
@@ -55,7 +53,6 @@ class CrawlStateRepository(BaseRepository[CrawlStateLog]):
             league_id=int(league_id),
             season=season,
             crawled_at=crawled_at or datetime.now(timezone.utc),
-            trigger=trigger,
             status=status,
             fixtures_count=fixtures_count,
             next_recrawl_at=next_recrawl_at,

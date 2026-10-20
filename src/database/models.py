@@ -109,9 +109,6 @@ class CrawlStateLog(Base):
         DateTime(timezone=True), server_default=func.now(), nullable=False
     )
  
-    # Why this crawl ran: "manual", "never_crawled", "refresh_7d", "group_finished:<max_time>"
-    trigger: Mapped[str] = mapped_column(String(100), nullable=False)
- 
     # SUCCESS | FAILED
     status: Mapped[str] = mapped_column(String(16), nullable=False)
     fixtures_count: Mapped[Optional[int]] = mapped_column(Integer, nullable=True)

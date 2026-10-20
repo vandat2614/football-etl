@@ -103,7 +103,6 @@ def record_state(
     league_id: Any,
     season: str,
     status: str,
-    trigger: str,
     fixtures: Optional[List[Dict[str, Any]]] = None,
     error: Optional[str] = None,
 ) -> bool:
@@ -115,7 +114,6 @@ def record_state(
                 league_id=int(league_id),
                 season=season,
                 status=status,
-                trigger=trigger,
                 fixtures_count=len(fixtures) if fixtures is not None else None,
                 next_recrawl_at=next_recrawl_time(fixtures, now) if fixtures else None,
                 error=error,
@@ -197,7 +195,6 @@ def main() -> None:
     for league in leagues:
         league_id = league_id_of(league)
         league_name = league.get("name", f"League {league_id}")
-        trigger = "manual"
 
         if args.only_due:
             last_at, next_at = latest_success.get(int(league_id), (None, None))
@@ -206,7 +203,6 @@ def main() -> None:
                 logger.info("Skip [%s]: not due yet.", league_name)
                 results["skipped"] += 1
                 continue
-            trigger = reason
             logger.info("[%s] is due: %s", league_name, reason)
 
         if crawled_any:
@@ -219,7 +215,7 @@ def main() -> None:
             results["failed"] += 1
             if not args.dry_run:
                 record_state(
-                    league_id, args.season, STATUS_FAILED, trigger,
+                    league_id, args.season, STATUS_FAILED,
                     error="crawl or publish failed",
                 )
             continue
@@ -230,7 +226,7 @@ def main() -> None:
         # Crawl + publish succeeded -> log it (resets the 7-day counter and
         # stores the max kickoff time of the pending match groups)
         if not args.dry_run:
-            if not record_state(league_id, args.season, STATUS_SUCCESS, trigger, fixtures=fixtures):
+            if not record_state(league_id, args.season, STATUS_SUCCESS, fixtures=fixtures):
                 # Published but the state was not saved -> the next run will crawl
                 # this league again (safe because the load step upserts)
                 results["success"] -= 1
