@@ -7,6 +7,9 @@ x-etl-base: &etl-base
   env_file: .env
   # Give the consumer time to finish the current message and flush before being killed.
   stop_grace_period: 30s
+  networks:
+    - default
+    - kafka_default
 
 services:
   transform:
@@ -34,3 +37,8 @@ services:
 
 volumes:
   pgdata:
+
+
+networks:
+  kafka_default:
+    external: true
