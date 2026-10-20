@@ -35,6 +35,13 @@ services:
     ports:
       - "127.0.0.1:5433:5432"
 
+  api:
+    <<: *etl-base
+    container_name: football-api
+    command: ["uvicorn", "src.api.main:app", "--host", "0.0.0.0", "--port", "8000"]
+    ports:
+      - "8000:8000"
+
 volumes:
   pgdata:
 
