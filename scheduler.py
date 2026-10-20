@@ -28,8 +28,6 @@ import src.config as config
 from src.utils.logging_config import setup_logging
 from src.utils.crawl_state import due_reason, next_recrawl_time
 from src.database import (
-    STATUS_FAILED,
-    STATUS_SUCCESS,
     CrawlStateRepository,
     get_session,
 )
@@ -97,33 +95,6 @@ def crawl_league(
     except Exception as exc:
         logger.error("  -> Failed to crawl [%s]: %s", league_name, exc)
         return None
-
-
-def record_state(
-    league_id: Any,
-    season: str,
-    status: str,
-    fixtures: Optional[List[Dict[str, Any]]] = None,
-    error: Optional[str] = None,
-) -> bool:
-    """Append a row to crawl_state_log. Returns False if the DB write fails."""
-    now = datetime.now(timezone.utc)
-    try:
-        with get_session() as session:
-            CrawlStateRepository(session).record_crawl(
-                league_id=int(league_id),
-                season=season,
-                status=status,
-                fixtures_count=len(fixtures) if fixtures is not None else None,
-                next_recrawl_at=next_recrawl_time(fixtures, now) if fixtures else None,
-                error=error,
-                crawled_at=now,
-            )
-        return True
-    except Exception as exc:
-        logger.error("  -> Failed to record crawl state for league %s: %s", league_id, exc)
-        return False
-
 
 def main() -> None:
     parser = argparse.ArgumentParser(
@@ -213,24 +184,10 @@ def main() -> None:
 
         if fixtures is None:
             results["failed"] += 1
-            if not args.dry_run:
-                record_state(
-                    league_id, args.season, STATUS_FAILED,
-                    error="crawl or publish failed",
-                )
             continue
 
         results["success"] += 1
         results["total_fixtures"] += len(fixtures)
-
-        # Crawl + publish succeeded -> log it (resets the 7-day counter and
-        # stores the max kickoff time of the pending match groups)
-        if not args.dry_run:
-            if not record_state(league_id, args.season, STATUS_SUCCESS, fixtures=fixtures):
-                # Published but the state was not saved -> the next run will crawl
-                # this league again (safe because the load step upserts)
-                results["success"] -= 1
-                results["failed"] += 1
 
     logger.info("=" * 60)
     logger.info("Scheduler finished.")

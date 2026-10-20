@@ -4,9 +4,16 @@ Takes cleaned/transformed match payloads and persists them into the database
 using FixtureRepository (idempotent upsert via SQLAlchemy).
 """
 
+from datetime import datetime, timezone
 from typing import Any, Dict, List
-from src.database import FixtureRepository, get_session
 
+from src.database import (
+    STATUS_SUCCESS,
+    CrawlStateRepository,
+    FixtureRepository,
+    get_session,
+)
+from src.utils.crawl_state import next_recrawl_time
 
 def load_fixtures(
     fixtures: List[Dict[str, Any]],
@@ -33,6 +40,16 @@ def load_fixtures(
             fixtures=fixtures,
             league_id=league_id,
             season=season,
+        )
+
+        now = datetime.now(timezone.utc)
+        CrawlStateRepository(session).record_crawl(
+            league_id=league_id,
+            season=season,
+            status=STATUS_SUCCESS,
+            fixtures_count=len(fixtures),
+            next_recrawl_at=next_recrawl_time(fixtures, now),
+            crawled_at=now,
         )
 
     return {
