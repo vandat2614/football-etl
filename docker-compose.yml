@@ -1,0 +1,36 @@
+# One image, two containers: each runs a different consumer via --service.
+x-etl-base: &etl-base
+  build: .
+  image: football-etl:latest
+  restart: unless-stopped
+  # Runtime config (Kafka address, DB credentials...). The file is NOT baked into the image.
+  env_file: .env
+  # Give the consumer time to finish the current message and flush before being killed.
+  stop_grace_period: 30s
+
+services:
+  transform:
+    <<: *etl-base
+    container_name: fixture-transform
+    command: ["python", "main.py", "--service", "transform"]
+
+  load:
+    <<: *etl-base
+    container_name: fixture-load
+    command: ["python", "main.py", "--service", "load"]
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: football-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "127.0.0.1:5433:5432"
+
+volumes:
+  pgdata:

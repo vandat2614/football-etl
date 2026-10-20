@@ -1,0 +1,17 @@
+[
+  {
+    "id": 47,
+    "name": "Premier League",
+    "country_code": "ENG"
+  },
+  {
+    "id": 42,
+    "name": "Champions League",
+    "country_code": "INT"
+  },
+  {
+    "id": 133,
+    "name": "EFL Cup",
+    "country_code": "ENG"
+  }
+]

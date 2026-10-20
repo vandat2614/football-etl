@@ -1,0 +1,20 @@
+# ============================================================
+# Football ETL Pipeline - Python Dependencies
+# Install with: pip install -r requirements.txt
+# ============================================================
+
+# HTTP & HTML Parsing (Fast SSR Scraping)
+requests>=2.28.0
+beautifulsoup4>=4.12.0
+
+# Kafka streaming
+confluent-kafka>=2.0.0
+
+# Database ORM
+SQLAlchemy>=2.0.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# PostgreSQL driver (optional, needed only when DATABASE_URL uses postgresql://)
+psycopg2-binary>=2.9.0
