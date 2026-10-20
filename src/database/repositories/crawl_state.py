@@ -31,7 +31,7 @@ class CrawlStateRepository(BaseRepository[CrawlStateLog]):
         status: str,
         trigger: str,
         fixtures_count: Optional[int] = None,
-        max_times: Optional[List[str]] = None,
+        next_recrawl_at: Optional[datetime] = None,
         error: Optional[str] = None,
         crawled_at: Optional[datetime] = None,
     ) -> CrawlStateLog:
@@ -44,7 +44,7 @@ class CrawlStateRepository(BaseRepository[CrawlStateLog]):
             status: STATUS_SUCCESS or STATUS_FAILED.
             trigger: Why the crawl ran (e.g. 'manual', 'refresh_7d').
             fixtures_count: Number of fixtures crawled.
-            max_times: max_match_time (UTC ISO) of the pending match groups.
+            next_recrawl_at: When the league must be crawled again (UTC), or None.
             error: Error message for failed runs.
             crawled_at: Crawl completion time (defaults to now, UTC).
 
@@ -58,7 +58,7 @@ class CrawlStateRepository(BaseRepository[CrawlStateLog]):
             trigger=trigger,
             status=status,
             fixtures_count=fixtures_count,
-            max_times=max_times or [],
+            next_recrawl_at=next_recrawl_at,
             error=error[:2000] if error else None,
         )
         self.session.add(row)

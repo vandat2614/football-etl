@@ -83,27 +83,25 @@ def scheduled_max_times(fixtures: List[Dict[str, Any]]) -> List[str]:
     return [_iso(g["max"]) for g in groups]
 
 
-def pending_max_times(fixtures: List[Dict[str, Any]], now: datetime) -> List[str]:
-    """Max kickoff times of the groups whose end (max + BUFFER) is still in the future."""
-    return [t for t in scheduled_max_times(fixtures) if _parse(t) + BUFFER > now]
-
+def next_recrawl_time(fixtures: List[Dict[str, Any]], now: datetime) -> Optional[datetime]:
+    """Earliest group end (max kickoff + BUFFER) that is still in the future, or None."""
+    ends = [_parse(t) + BUFFER for t in scheduled_max_times(fixtures)]
+    pending = [e for e in ends if e > now]
+    return min(pending) if pending else None
 
 def due_reason(
     last_crawl_at: Optional[datetime],
-    max_times: Optional[List[str]],
+    next_recrawl_at: Optional[datetime],
     now: datetime,
 ) -> Optional[str]:
     """Return why a league must be crawled now, or None if it is not due yet.
 
-    last_crawl_at and max_times come from the latest SUCCESS row of crawl_state_log.
+    last_crawl_at and next_recrawl_at come from the latest SUCCESS row of crawl_state_log.
     """
     if last_crawl_at is None:
         return "never_crawled"
-    last = _aware(last_crawl_at)
-    if now - last >= REFRESH:
+    if now - _aware(last_crawl_at) >= REFRESH:
         return "refresh_7d"
-    for t in max_times or []:
-        # The group has finished and no crawl happened after that point
-        if last < _parse(t) + BUFFER <= now:
-            return f"group_finished:{t}"
+    if next_recrawl_at is not None and _aware(next_recrawl_at) <= now:
+        return f"group_finished:{_iso(_aware(next_recrawl_at) - BUFFER)}"
     return None

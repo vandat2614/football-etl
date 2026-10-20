@@ -116,8 +116,11 @@ class CrawlStateLog(Base):
     status: Mapped[str] = mapped_column(String(16), nullable=False)
     fixtures_count: Mapped[Optional[int]] = mapped_column(Integer, nullable=True)
  
-    # max_match_time (UTC ISO strings) of the pending match groups at crawl time
-    max_times: Mapped[list[Any]] = mapped_column(JSON, nullable=False, default=list)
+    # When this league must be crawled again: the end (max kickoff + buffer) of
+    # the earliest pending match group. NULL if there are no pending groups.
+    next_recrawl_at: Mapped[Optional[datetime]] = mapped_column(
+        DateTime(timezone=True), nullable=True
+    )
  
     error: Mapped[Optional[str]] = mapped_column(Text, nullable=True)
  

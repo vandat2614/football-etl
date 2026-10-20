@@ -26,7 +26,7 @@ from typing import Any, Dict, List, Optional
 
 import src.config as config
 from src.utils.logging_config import setup_logging
-from src.utils.crawl_state import due_reason, pending_max_times
+from src.utils.crawl_state import due_reason, next_recrawl_time
 from src.database import (
     STATUS_FAILED,
     STATUS_SUCCESS,
@@ -117,7 +117,7 @@ def record_state(
                 status=status,
                 trigger=trigger,
                 fixtures_count=len(fixtures) if fixtures is not None else None,
-                max_times=pending_max_times(fixtures, now) if fixtures else [],
+                next_recrawl_at=next_recrawl_time(fixtures, now) if fixtures else None,
                 error=error,
                 crawled_at=now,
             )
@@ -188,7 +188,7 @@ def main() -> None:
             rows = CrawlStateRepository(session).get_latest_success_by_league(args.season)
             # Copy the values out before the session is closed
             latest_success = {
-                lid: (row.crawled_at, list(row.max_times or [])) for lid, row in rows.items()
+                lid: (row.crawled_at, row.next_recrawl_at) for lid, row in rows.items()
             }
 
     results = {"success": 0, "failed": 0, "skipped": 0, "total_fixtures": 0}
@@ -200,8 +200,8 @@ def main() -> None:
         trigger = "manual"
 
         if args.only_due:
-            last_at, max_times = latest_success.get(int(league_id), (None, []))
-            reason = due_reason(last_at, max_times, datetime.now(timezone.utc))
+            last_at, next_at = latest_success.get(int(league_id), (None, None))
+            reason = due_reason(last_at, next_at, datetime.now(timezone.utc))
             if reason is None:
                 logger.info("Skip [%s]: not due yet.", league_name)
                 results["skipped"] += 1
