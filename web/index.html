@@ -252,6 +252,64 @@
         .node {
             transition: border-color .3s, box-shadow .3s
         }
+
+        .status {
+            margin-top: 40px
+        }
+
+        .status h2 {
+            font: 700 1.5rem/1.2 "Bricolage Grotesque", system-ui, sans-serif;
+            margin: 0 0 6px
+        }
+
+        .status select {
+            font: inherit;
+            color: var(--ink);
+            background: var(--surface);
+            border: 2px solid var(--line);
+            border-radius: 8px;
+            padding: 6px 10px;
+            margin: 8px 0 14px
+        }
+
+        .tablewrap {
+            overflow-x: auto;
+            background: var(--surface);
+            border: 2px solid var(--line);
+            border-radius: 12px
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            min-width: 560px
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 10px 14px;
+            border-bottom: 1px solid var(--line);
+            font-size: 15px
+        }
+
+        th {
+            font-weight: 500;
+            color: var(--muted)
+        }
+
+        tr:last-child td {
+            border-bottom: 0
+        }
+
+        td.num {
+            font-variant-numeric: tabular-nums
+        }
+
+        .msg {
+            padding: 16px;
+            color: var(--muted)
+        }
     </style>
 </head>
 
@@ -267,6 +325,19 @@
         </div>
         <div class="flow" id="flow" role="list"></div>
         <section class="panel" id="panel" aria-live="polite"></section>
+        <section class="status">
+            <h2>Crawl status by league</h2>
+            <p class="hint">Live from the API. A league is crawled again when its next group of matches has finished, or
+                after 7 days.</p>
+            <label class="hint" for="season">Season</label><br>
+            <select id="season">
+                <option>2026-2027</option>
+                <option>2025-2026</option>
+            </select>
+            <div class="tablewrap" id="tablewrap">
+                <div class="msg">Loading…</div>
+            </div>
+        </section>
         <p class="loop">The scheduler does not touch the database. Before crawling it asks the API which leagues are
             due, and the load step records when each league must be crawled again.</p>
     </main>
@@ -339,6 +410,32 @@
             }, 2200);
         });
         show(0, false);
+
+        const wrap = document.getElementById('tablewrap'), seasonSel = document.getElementById('season');
+        const fmt = s => s ? new Date(s).toLocaleString([], { dateStyle: 'medium', timeStyle: 'short' }) : 'No upcoming matches';
+        function say(t) { wrap.innerHTML = '<div class="msg"></div>'; wrap.firstChild.textContent = t }
+        async function loadStatus() {
+            say('Loading…');
+            try {
+                const r = await fetch('/public/crawl-state?season=' + encodeURIComponent(seasonSel.value));
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                const rows = await r.json();
+                if (!rows.length) { say('No crawl recorded for this season yet.'); return }
+                rows.sort((a, b) => a.league.localeCompare(b.league));
+                const t = document.createElement('table');
+                t.innerHTML = '<thead><tr><th>League</th><th>Matches</th><th>Last crawled</th><th>Next crawl</th></tr></thead><tbody></tbody>';
+                rows.forEach(x => {
+                    const tr = document.createElement('tr');
+                    [x.league, x.fixtures_count, fmt(x.crawled_at), fmt(x.next_recrawl_at)].forEach((v, i) => {
+                        const td = document.createElement('td'); td.textContent = v; if (i === 1) td.className = 'num'; tr.appendChild(td)
+                    });
+                    t.tBodies[0].appendChild(tr);
+                });
+                wrap.replaceChildren(t);
+            } catch (e) { say('Could not load the crawl status (' + e.message + '). This table only works when the page is served next to the API.') }
+        }
+        seasonSel.addEventListener('change', loadStatus);
+        loadStatus();
     </script>
 </body>
 
