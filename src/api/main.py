@@ -8,7 +8,8 @@ from src.database import CrawlStateRepository, get_session
 app = FastAPI(title="Football ETL API")
 
 API_TOKEN = os.environ.get("API_TOKEN", "")
-
+if not API_TOKEN:
+    raise RuntimeError("API_TOKEN is not set. Define it in .env or the environment.")
 
 def verify_token(authorization: str = Header(default="")) -> None:
     expected = f"Bearer {API_TOKEN}"

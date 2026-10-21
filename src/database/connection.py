@@ -13,9 +13,10 @@ from sqlalchemy.orm import Session, declarative_base, sessionmaker
 from src.config import DATABASE_URL
 
 connect_args = {}
-if DATABASE_URL.startswith("sqlite"):
-    connect_args["check_same_thread"] = False
+if not DATABASE_URL:
+    raise RuntimeError("DATABASE_URL is not set. Define it in .env or the environment.")
 
+    
 engine = create_engine(
     DATABASE_URL,
     connect_args=connect_args,

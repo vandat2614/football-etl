@@ -23,14 +23,11 @@ except ImportError:
     pass
 
 # Database
-DATABASE_URL: str = os.environ.get(
-    "DATABASE_URL",
-    f"sqlite:///{EXPERIMENT_DIR / 'football.db'}",
-)
+DATABASE_URL: str = os.environ.get("DATABASE_URL", "")
 
-# Kafka / Aiven
-KAFKA_BOOTSTRAP_SERVERS: str = os.environ.get("KAFKA_BOOTSTRAP_SERVERS", "localhost:9092")
-KAFKA_SECURITY_PROTOCOL: str = os.environ.get("KAFKA_SECURITY_PROTOCOL", "PLAINTEXT")
+# Kafka
+KAFKA_BOOTSTRAP_SERVERS: str = os.environ.get("KAFKA_BOOTSTRAP_SERVERS", "")
+KAFKA_SECURITY_PROTOCOL: str = os.environ.get("KAFKA_SECURITY_PROTOCOL", "")
 
 # SSL certificates (required when KAFKA_SECURITY_PROTOCOL = "SSL")
 KAFKA_SSL_CA_LOCATION: str = os.environ.get("KAFKA_SSL_CA_LOCATION", "")
@@ -54,5 +51,5 @@ LEAGUES_CONFIG_FILE: Path = CONFIG_DIR / "leagues.json"
 DEFAULT_SEASON: str = os.environ.get("DEFAULT_SEASON", "2025-2026")
 
 # Crawl state API (used by the scheduler instead of a direct DB connection)
-API_URL: str = os.environ.get("API_URL", "http://localhost:8000")
+API_URL: str = os.environ.get("API_URL", "")
 API_TOKEN: str = os.environ.get("API_TOKEN", "")

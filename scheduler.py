@@ -53,6 +53,10 @@ def league_id_of(league: Dict[str, Any]) -> Any:
 
 def fetch_latest_success(season: str) -> Dict[int, Any]:
     """Get {league_id: (crawled_at, next_recrawl_at)} from the API."""
+
+    if not config.API_URL or not config.API_TOKEN:
+        raise RuntimeError("API_URL and API_TOKEN must be set to fetch the crawl state.")
+
     resp = requests.get(
         f"{config.API_URL}/crawl-state",
         params={"season": season},
