@@ -5,13 +5,43 @@
     "country_code": "ENG"
   },
   {
+    "id": 87,
+    "name": "La Liga",
+    "country_code": "ESP"
+  },
+  {
+    "id": 55,
+    "name": "Serie A",
+    "country_code": "ITA"
+  },
+  {
+    "id": 54,
+    "name": "Bundesliga",
+    "country_code": "GER"
+  },
+  {
+    "id": 53,
+    "name": "Ligue 1",
+    "country_code": "FRA"
+  },
+  {
     "id": 42,
     "name": "Champions League",
     "country_code": "INT"
   },
   {
+    "id": 73,
+    "name": "Europa League",
+    "country_code": "INT"
+  },
+  {
     "id": 133,
     "name": "EFL Cup",
+    "country_code": "ENG"
+  },
+  {
+    "id": 132,
+    "name": "FA Cup",
     "country_code": "ENG"
   }
 ]
