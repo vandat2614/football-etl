@@ -40,26 +40,10 @@ services:
     container_name: football-api
     command: ["uvicorn", "src.api.main:app", "--host", "0.0.0.0", "--port", "8000"]
     ports:
-      - "8000:8000"
-
-  caddy:
-    image: caddy:2-alpine
-    container_name: football-caddy
-    restart: unless-stopped
-    environment:
-      API_DOMAIN: ${API_DOMAIN}
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile:ro
-      - caddy_data:/data
-      - caddy_config:/config
-
+      - "127.0.0.1:8000:8000"
+      
 volumes:
   pgdata:
-  caddy_data:
-  caddy_config:
 
 networks:
   kafka_default:
