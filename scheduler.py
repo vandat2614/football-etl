@@ -17,6 +17,7 @@ Usage:
 """
 
 import argparse
+import requests
 import json
 import logging
 import time
@@ -26,11 +27,7 @@ from typing import Any, Dict, List, Optional
 
 import src.config as config
 from src.utils.logging_config import setup_logging
-from src.utils.crawl_state import due_reason, next_recrawl_time
-from src.database import (
-    CrawlStateRepository,
-    get_session,
-)
+from src.utils.crawl_state import due_reason
 from src.services.extract.crawler import extract_fixtures
 from src.services.extract.publisher import publish_raw_fixtures
 
@@ -54,6 +51,22 @@ def load_leagues(config_file: Path) -> List[Dict[str, Any]]:
 def league_id_of(league: Dict[str, Any]) -> Any:
     return league.get("id") or league.get("fotmob_id")
 
+def fetch_latest_success(season: str) -> Dict[int, Any]:
+    """Get {league_id: (crawled_at, next_recrawl_at)} from the API."""
+    resp = requests.get(
+        f"{config.API_URL}/crawl-state",
+        params={"season": season},
+        headers={"Authorization": f"Bearer {config.API_TOKEN}"},
+        timeout=15,
+    )
+    resp.raise_for_status()
+    return {
+        item["league_id"]: (
+            datetime.fromisoformat(item["crawled_at"]),
+            datetime.fromisoformat(item["next_recrawl_at"]) if item["next_recrawl_at"] else None,
+        )
+        for item in resp.json()
+    }
 
 def crawl_league(
     league: Dict[str, Any],
@@ -150,15 +163,9 @@ def main() -> None:
 
     logger.info("Processing %d league(s)...", len(leagues))
 
-    # Latest crawl state (latest SUCCESS row) of every league
     latest_success: Dict[int, Any] = {}
     if args.only_due:
-        with get_session() as session:
-            rows = CrawlStateRepository(session).get_latest_success_by_league(args.season)
-            # Copy the values out before the session is closed
-            latest_success = {
-                lid: (row.crawled_at, row.next_recrawl_at) for lid, row in rows.items()
-            }
+        latest_success = fetch_latest_success(args.season)
 
     results = {"success": 0, "failed": 0, "skipped": 0, "total_fixtures": 0}
     crawled_any = False
