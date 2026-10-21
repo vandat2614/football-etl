@@ -377,3 +377,137 @@ def serve_data_explorer():
     if html_file.exists():
         return FileResponse(html_file, media_type="text/html")
     return HTMLResponse("<h2>Data explorer interface not found</h2>", status_code=404)
+
+# ---------------------------------------------------------------------------
+# Crawl Observability & Monitoring Endpoints
+# ---------------------------------------------------------------------------
+
+@app.get("/public/crawl-logs")
+def public_crawl_logs(
+    league_id: Optional[int] = Query(None),
+    season: Optional[str] = Query(None),
+    status: Optional[str] = Query(None),
+    page: int = Query(1, ge=1),
+    page_size: int = Query(50, ge=1, le=200),
+):
+    """Query crawl execution history and audit logs with pagination and filters."""
+    stmt = (
+        select(CrawlStateLog, DimLeague.league_name)
+        .outerjoin(DimLeague, CrawlStateLog.league_id == DimLeague.league_id)
+    )
+    count_stmt = select(func.count()).select_from(CrawlStateLog)
+
+    if league_id:
+        stmt = stmt.where(CrawlStateLog.league_id == league_id)
+        count_stmt = count_stmt.where(CrawlStateLog.league_id == league_id)
+    if season:
+        stmt = stmt.where(CrawlStateLog.season == season)
+        count_stmt = count_stmt.where(CrawlStateLog.season == season)
+    if status:
+        stmt = stmt.where(CrawlStateLog.status == status.upper())
+        count_stmt = count_stmt.where(CrawlStateLog.status == status.upper())
+
+    with get_session() as session:
+        total = session.scalar(count_stmt) or 0
+        offset = (page - 1) * page_size
+        stmt = stmt.order_by(CrawlStateLog.crawled_at.desc(), CrawlStateLog.id.desc()).offset(offset).limit(page_size)
+        rows = session.execute(stmt).all()
+
+        items = []
+        for log, l_name in rows:
+            items.append({
+                "id": log.id,
+                "league_id": log.league_id,
+                "league_name": l_name or f"League {log.league_id}",
+                "season": log.season,
+                "crawled_at": log.crawled_at.isoformat() if log.crawled_at else None,
+                "status": log.status,
+                "fixtures_count": log.fixtures_count,
+                "next_recrawl_at": log.next_recrawl_at.isoformat() if log.next_recrawl_at else None,
+                "error": log.error,
+            })
+
+        return {
+            "total": total,
+            "page": page,
+            "page_size": page_size,
+            "total_pages": (total + page_size - 1) // page_size if total > 0 else 0,
+            "logs": items,
+        }
+
+
+@app.get("/public/crawl-overview")
+def public_crawl_overview(season: Optional[str] = Query(None)):
+    """Summary of all leagues' crawl state and upcoming scheduled runs."""
+    from sqlalchemy import and_
+
+    with get_session() as session:
+        db_leagues = session.scalars(select(DimLeague).order_by(DimLeague.league_name)).all()
+        league_map = {l.league_id: l.league_name for l in db_leagues}
+
+        subq = (
+            select(
+                CrawlStateLog.league_id,
+                func.max(CrawlStateLog.crawled_at).label("max_at")
+            )
+            .group_by(CrawlStateLog.league_id)
+        )
+        if season:
+            subq = subq.where(CrawlStateLog.season == season)
+        subq = subq.subquery()
+
+        stmt = (
+            select(CrawlStateLog, DimLeague.league_name)
+            .join(subq, and_(CrawlStateLog.league_id == subq.c.league_id, CrawlStateLog.crawled_at == subq.c.max_at))
+            .outerjoin(DimLeague, CrawlStateLog.league_id == DimLeague.league_id)
+            .order_by(CrawlStateLog.crawled_at.desc())
+        )
+        latest_rows = session.execute(stmt).all()
+
+        leagues_status = []
+        for log, l_name in latest_rows:
+            leagues_status.append({
+                "league_id": log.league_id,
+                "league_name": l_name or league_map.get(log.league_id, f"League {log.league_id}"),
+                "season": log.season,
+                "status": log.status,
+                "crawled_at": log.crawled_at.isoformat() if log.crawled_at else None,
+                "next_recrawl_at": log.next_recrawl_at.isoformat() if log.next_recrawl_at else None,
+                "fixtures_count": log.fixtures_count or 0,
+                "error": log.error,
+            })
+
+        total_runs = session.scalar(select(func.count()).select_from(CrawlStateLog)) or 0
+        success_runs = session.scalar(
+            select(func.count()).select_from(CrawlStateLog).where(CrawlStateLog.status == "SUCCESS")
+        ) or 0
+        failed_runs = session.scalar(
+            select(func.count()).select_from(CrawlStateLog).where(CrawlStateLog.status == "FAILED")
+        ) or 0
+
+        now_utc = datetime.now(timezone.utc)
+        upcoming_stmt = (
+            select(CrawlStateLog, DimLeague.league_name)
+            .outerjoin(DimLeague, CrawlStateLog.league_id == DimLeague.league_id)
+            .where(CrawlStateLog.next_recrawl_at > now_utc)
+            .order_by(CrawlStateLog.next_recrawl_at.asc())
+            .limit(1)
+        )
+        next_up = session.execute(upcoming_stmt).first()
+        next_run_info = None
+        if next_up:
+            n_log, n_name = next_up
+            next_run_info = {
+                "league_id": n_log.league_id,
+                "league_name": n_name or str(n_log.league_id),
+                "next_recrawl_at": n_log.next_recrawl_at.isoformat() if n_log.next_recrawl_at else None,
+            }
+
+        return {
+            "total_runs": total_runs,
+            "success_runs": success_runs,
+            "failed_runs": failed_runs,
+            "success_rate": round(success_runs / total_runs * 100, 1) if total_runs > 0 else 100.0,
+            "next_upcoming_run": next_run_info,
+            "leagues_status": leagues_status,
+        }

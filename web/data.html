@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Football Data Hub | Match Center & Analytics</title>
+  <title>Football Data Hub & Crawl Observatory</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
     :root {
       --bg-dark: #070d14;
@@ -20,6 +20,7 @@
       --accent-blue: #38bdf8;
       --accent-amber: #f59e0b;
       --accent-rose: #f43f5e;
+      --accent-purple: #a855f7;
       --text-main: #f8fafc;
       --text-muted: #94a3b8;
       --text-dim: #64748b;
@@ -40,12 +41,12 @@
       line-height: 1.5;
     }
 
-    /* Ambient Background Glow */
+    /* Ambient Lighting */
     body::before {
       content: "";
       position: fixed;
       top: -200px;
-      left: 20%;
+      left: 15%;
       width: 600px;
       height: 600px;
       background: radial-gradient(circle, rgba(16, 185, 129, 0.08) 0%, transparent 70%);
@@ -64,12 +65,12 @@
       z-index: 0;
     }
 
-    /* Top Navigation Bar */
+    /* Top Navigation Header */
     header {
       position: sticky;
       top: 0;
       z-index: 50;
-      background: rgba(7, 13, 20, 0.85);
+      background: rgba(7, 13, 20, 0.88);
       backdrop-filter: blur(16px);
       border-bottom: 1px solid var(--border);
       padding: 14px 28px;
@@ -185,10 +186,157 @@
       z-index: 1;
     }
 
-    /* Quick KPI Row */
+    /* Top Mode Switcher (Observatory vs Data Hub) */
+    .view-mode-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+    .mode-nav {
+      display: inline-flex;
+      background: var(--bg-surface);
+      padding: 6px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+      gap: 6px;
+    }
+    .mode-btn {
+      padding: 10px 22px;
+      border-radius: 10px;
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      font-family: 'Outfit', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .mode-btn:hover {
+      color: #fff;
+    }
+    .mode-btn.active {
+      background: var(--bg-card);
+      color: #fff;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .mode-btn .badge-count {
+      font-size: 0.72rem;
+      padding: 2px 8px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.1);
+      font-family: 'Inter', sans-serif;
+    }
+
+    /* Radar / Scheduled Queue Cards */
+    .radar-section {
+      margin-bottom: 28px;
+    }
+    .section-title-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 14px;
+    }
+    .section-heading {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-main);
+    }
+    .section-sub {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .radar-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 16px;
+    }
+    .radar-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 18px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+    .radar-card:hover {
+      background: var(--bg-card);
+      border-color: var(--border-focus);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+    .radar-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .radar-league {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #fff;
+    }
+    .radar-countdown {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--accent-amber);
+      background: rgba(245, 158, 11, 0.12);
+      border: 1px solid rgba(245, 158, 11, 0.25);
+      padding: 4px 10px;
+      border-radius: 8px;
+    }
+    .radar-details {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+    .radar-detail-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .radar-detail-val {
+      font-weight: 600;
+      color: var(--text-main);
+    }
+    .trigger-tag {
+      font-size: 0.72rem;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-family: 'JetBrains Mono', monospace;
+      background: rgba(56, 189, 248, 0.12);
+      color: #38bdf8;
+      border: 1px solid rgba(56, 189, 248, 0.25);
+      max-width: 200px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    /* KPI Grid */
     .kpi-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
       gap: 16px;
       margin-bottom: 24px;
     }
@@ -227,7 +375,7 @@
       color: var(--text-muted);
     }
 
-    /* Filters Bar */
+    /* Controls Panel */
     .controls-panel {
       background: var(--bg-surface);
       border: 1px solid var(--border);
@@ -285,8 +433,6 @@
       border-color: var(--primary);
       box-shadow: 0 0 0 3px var(--primary-glow);
     }
-
-    /* Search Input */
     .search-box {
       flex: 1;
       min-width: 240px;
@@ -305,7 +451,7 @@
       background-size: 16px;
     }
 
-    /* View & Status Tabs */
+    /* Sub Tabs & Filter Pills */
     .controls-bottom {
       display: flex;
       flex-wrap: wrap;
@@ -338,9 +484,7 @@
       align-items: center;
       gap: 6px;
     }
-    .tab-btn:hover {
-      color: var(--text-main);
-    }
+    .tab-btn:hover { color: var(--text-main); }
     .tab-btn.active {
       background: var(--bg-card);
       color: #fff;
@@ -348,25 +492,66 @@
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     }
 
-    /* Content Area */
-    .view-content {
-      display: none;
+    /* Table Styles */
+    .table-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow-x: auto;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
     }
-    .view-content.active {
-      display: block;
-      animation: fadeIn 0.25s ease-out;
+    .custom-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
     }
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(6px); }
-      to { opacity: 1; transform: translateY(0); }
+    .custom-table th {
+      background: var(--bg-card);
+      color: var(--text-dim);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-weight: 600;
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .custom-table td {
+      padding: 14px 16px;
+      font-size: 0.9rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+      color: var(--text-main);
+    }
+    .custom-table tr:hover td {
+      background: var(--bg-card);
+    }
+    .custom-table td.num {
+      text-align: center;
+      font-variant-numeric: tabular-nums;
+    }
+    .code-font {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.82rem;
     }
 
-    /* Matches Grid / Cards */
-    .matches-list {
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
+    /* Badges */
+    .badge {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 6px;
+      letter-spacing: 0.04em;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
     }
+    .badge-success { background: rgba(16, 185, 129, 0.15); color: #34d399; }
+    .badge-failed { background: rgba(244, 63, 94, 0.2); color: #fb7185; }
+    .badge-scheduled { background: rgba(56, 189, 248, 0.15); color: #38bdf8; }
+    .badge-manual { background: rgba(168, 85, 247, 0.15); color: #c084fc; }
+
+    /* Match Card */
+    .matches-list { display: flex; flex-direction: column; gap: 14px; }
     .date-header {
       font-family: 'Outfit', sans-serif;
       font-size: 0.95rem;
@@ -379,13 +564,7 @@
       align-items: center;
       gap: 10px;
     }
-    .date-header::after {
-      content: "";
-      flex: 1;
-      height: 1px;
-      background: var(--border);
-    }
-
+    .date-header::after { content: ""; flex: 1; height: 1px; background: var(--border); }
     .match-card {
       background: var(--bg-surface);
       border: 1px solid var(--border);
@@ -403,294 +582,67 @@
       transform: translateY(-1px);
       box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
     }
-    .match-meta {
-      font-size: 0.78rem;
-      color: var(--text-dim);
-      font-weight: 500;
-    }
-    .match-time {
-      font-size: 0.9rem;
-      font-weight: 600;
-      color: var(--text-main);
-    }
-    .team-cell {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      font-size: 0.95rem;
-      font-weight: 600;
-      letter-spacing: -0.01em;
-    }
-    .team-cell.home {
-      justify-content: flex-end;
-      text-align: right;
-    }
-    .team-cell.away {
-      justify-content: flex-start;
-      text-align: left;
-    }
+    .match-meta { font-size: 0.78rem; color: var(--text-dim); }
+    .match-time { font-size: 0.9rem; font-weight: 600; color: var(--text-main); }
+    .team-cell { display: flex; align-items: center; gap: 12px; font-size: 0.95rem; font-weight: 600; }
+    .team-cell.home { justify-content: flex-end; text-align: right; }
+    .team-cell.away { justify-content: flex-start; text-align: left; }
     .team-avatar {
-      width: 32px;
-      height: 32px;
-      border-radius: 50%;
-      background: var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.75rem;
-      font-weight: 700;
-      color: #fff;
-      flex-shrink: 0;
+      width: 32px; height: 32px; border-radius: 50%; background: var(--border);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.75rem; font-weight: 700; color: #fff; flex-shrink: 0;
     }
-    .team-cell.winner {
-      color: var(--primary);
-    }
-
-    /* Score Box */
-    .score-cell {
-      min-width: 90px;
-      text-align: center;
-    }
+    .score-cell { min-width: 90px; text-align: center; }
     .score-badge {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      padding: 6px 14px;
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      font-family: 'Outfit', sans-serif;
-      font-size: 1.15rem;
-      font-weight: 700;
-      letter-spacing: 0.05em;
+      display: inline-flex; align-items: center; justify-content: center;
+      padding: 6px 14px; background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 8px; font-family: 'Outfit', sans-serif; font-size: 1.15rem; font-weight: 700;
     }
-    .score-badge.finished {
-      background: rgba(16, 185, 129, 0.1);
-      border-color: rgba(16, 185, 129, 0.3);
-      color: #34d399;
-    }
-    .score-badge.scheduled {
-      background: rgba(56, 189, 248, 0.1);
-      border-color: rgba(56, 189, 248, 0.3);
-      color: #38bdf8;
-      font-size: 0.82rem;
-      font-family: 'Inter', sans-serif;
-    }
+    .score-badge.finished { background: rgba(16, 185, 129, 0.1); border-color: rgba(16, 185, 129, 0.3); color: #34d399; }
+    .score-badge.scheduled { background: rgba(56, 189, 248, 0.1); border-color: rgba(56, 189, 248, 0.3); color: #38bdf8; font-size: 0.82rem; font-family: 'Inter', sans-serif; }
+    .status-cell { display: flex; align-items: center; justify-content: flex-end; gap: 8px; }
 
-    .status-cell {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      gap: 8px;
-    }
-    .badge {
-      font-size: 0.72rem;
-      text-transform: uppercase;
-      font-weight: 700;
-      padding: 3px 8px;
-      border-radius: 6px;
-      letter-spacing: 0.04em;
-    }
-    .badge-finished { background: rgba(16, 185, 129, 0.15); color: #34d399; }
-    .badge-scheduled { background: rgba(56, 189, 248, 0.15); color: #38bdf8; }
-    .badge-live { background: rgba(244, 63, 94, 0.2); color: #fb7185; animation: pulse 1.5s infinite; }
-
-    .fotmob-link {
-      color: var(--text-dim);
-      font-size: 0.85rem;
-      text-decoration: none;
-      padding: 4px;
-      border-radius: 4px;
-      transition: var(--transition);
-    }
-    .fotmob-link:hover {
-      color: var(--text-main);
-    }
-
-    /* Standings Table */
-    .table-card {
-      background: var(--bg-surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
-      overflow-x: auto;
-      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
-    }
-    .standings-table {
-      width: 100%;
-      border-collapse: collapse;
-      text-align: left;
-    }
-    .standings-table th {
-      background: var(--bg-card);
-      color: var(--text-dim);
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      font-weight: 600;
-      padding: 14px 16px;
-      border-bottom: 1px solid var(--border);
-    }
-    .standings-table td {
-      padding: 14px 16px;
-      font-size: 0.9rem;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
-      color: var(--text-main);
-    }
-    .standings-table tr:hover td {
-      background: var(--bg-card);
-    }
-    .standings-table td.num {
-      text-align: center;
-      font-variant-numeric: tabular-nums;
-    }
-    .standings-table td.pts {
-      font-weight: 700;
-      color: #34d399;
-      font-size: 1rem;
-      text-align: center;
-    }
-    .rank-cell {
-      width: 40px;
-      text-align: center;
-      font-weight: 700;
-      color: var(--text-muted);
-    }
-    .rank-cell.top-4 {
-      position: relative;
-    }
-    .rank-cell.top-4::before {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 10px;
-      bottom: 10px;
-      width: 3px;
-      background: #38bdf8;
-      border-radius: 2px;
-    }
-    .rank-cell.relegation::before {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 10px;
-      bottom: 10px;
-      width: 3px;
-      background: #f43f5e;
-      border-radius: 2px;
-    }
-    .form-pills {
-      display: inline-flex;
-      gap: 4px;
-    }
-    .form-dot {
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      font-size: 0.65rem;
-      font-weight: 700;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
-    }
+    /* Standings */
+    .standings-table td.pts { font-weight: 700; color: #34d399; font-size: 1rem; text-align: center; }
+    .rank-cell { width: 40px; text-align: center; font-weight: 700; color: var(--text-muted); }
+    .rank-cell.top-4 { position: relative; }
+    .rank-cell.top-4::before { content: ""; position: absolute; left: 0; top: 10px; bottom: 10px; width: 3px; background: #38bdf8; border-radius: 2px; }
+    .rank-cell.relegation::before { content: ""; position: absolute; left: 0; top: 10px; bottom: 10px; width: 3px; background: #f43f5e; border-radius: 2px; }
+    .form-pills { display: inline-flex; gap: 4px; }
+    .form-dot { width: 20px; height: 20px; border-radius: 50%; font-size: 0.65rem; font-weight: 700; display: flex; align-items: center; justify-content: center; color: #fff; }
     .form-w { background: #059669; }
     .form-d { background: #475569; }
     .form-l { background: #e11d48; }
 
+    /* Views container */
+    .main-view { display: none; }
+    .main-view.active { display: block; animation: fadeIn 0.2s ease-out; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+
     /* Pagination */
-    .pagination-bar {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-top: 24px;
-      padding: 12px 4px;
-    }
-    .page-info {
-      font-size: 0.85rem;
-      color: var(--text-muted);
-    }
-    .page-btns {
-      display: flex;
-      gap: 8px;
-    }
+    .pagination-bar { display: flex; align-items: center; justify-content: space-between; margin-top: 24px; padding: 12px 4px; }
+    .page-info { font-size: 0.85rem; color: var(--text-muted); }
+    .page-btns { display: flex; gap: 8px; }
     .page-btn {
-      padding: 6px 14px;
-      border-radius: var(--radius-sm);
-      background: var(--bg-surface);
-      border: 1px solid var(--border);
-      color: var(--text-main);
-      font-size: 0.85rem;
-      cursor: pointer;
-      transition: var(--transition);
+      padding: 6px 14px; border-radius: var(--radius-sm); background: var(--bg-surface);
+      border: 1px solid var(--border); color: var(--text-main); font-size: 0.85rem; cursor: pointer; transition: var(--transition);
     }
-    .page-btn:hover:not(:disabled) {
-      background: var(--bg-card);
-      border-color: var(--text-dim);
-    }
-    .page-btn:disabled {
-      opacity: 0.4;
-      cursor: not-allowed;
-    }
+    .page-btn:hover:not(:disabled) { background: var(--bg-card); border-color: var(--text-dim); }
+    .page-btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-    /* Empty & Loading States */
+    /* State box */
     .state-box {
-      text-align: center;
-      padding: 60px 20px;
-      background: var(--bg-surface);
-      border: 1px dashed var(--border);
-      border-radius: var(--radius-lg);
-      margin: 20px 0;
+      text-align: center; padding: 60px 20px; background: var(--bg-surface);
+      border: 1px dashed var(--border); border-radius: var(--radius-lg); margin: 20px 0;
     }
-    .state-icon {
-      font-size: 40px;
-      margin-bottom: 12px;
-      opacity: 0.8;
-    }
-    .state-title {
-      font-family: 'Outfit', sans-serif;
-      font-size: 1.25rem;
-      font-weight: 700;
-      margin-bottom: 6px;
-    }
-    .state-desc {
-      font-size: 0.9rem;
-      color: var(--text-muted);
-      max-width: 480px;
-      margin: 0 auto 18px;
-    }
-    .primary-btn {
-      padding: 10px 20px;
-      background: var(--primary);
-      color: #070d14;
-      font-weight: 600;
-      border-radius: var(--radius-sm);
-      border: none;
-      cursor: pointer;
-      transition: var(--transition);
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .primary-btn:hover {
-      background: #34d399;
-      box-shadow: 0 4px 16px rgba(16, 185, 129, 0.4);
-    }
+    .state-icon { font-size: 40px; margin-bottom: 12px; opacity: 0.8; }
+    .state-title { font-family: 'Outfit', sans-serif; font-size: 1.25rem; font-weight: 700; margin-bottom: 6px; }
+    .state-desc { font-size: 0.9rem; color: var(--text-muted); max-width: 480px; margin: 0 auto; }
 
-    /* Responsive */
     @media (max-width: 900px) {
-      .match-card {
-        grid-template-columns: 1fr;
-        gap: 12px;
-        text-align: center;
-      }
-      .team-cell.home, .team-cell.away {
-        justify-content: center;
-        text-align: center;
-      }
-      .status-cell {
-        justify-content: center;
-      }
+      .match-card { grid-template-columns: 1fr; gap: 12px; text-align: center; }
+      .team-cell.home, .team-cell.away { justify-content: center; }
+      .status-cell { justify-content: center; }
     }
   </style>
 </head>
@@ -700,13 +652,13 @@
   <header>
     <div class="header-inner">
       <a href="/data" class="brand">
-        <div class="brand-icon">⚽</div>
+        <div class="brand-icon">⚡</div>
         <div>
           <div class="brand-title">
-            Football Data Hub
-            <span class="brand-badge">Live API</span>
+            Football Pipeline Observatory
+            <span class="brand-badge">Live Monitor</span>
           </div>
-          <div class="brand-subtitle">Streamlined ETL Data Explorer & Match Center</div>
+          <div class="brand-subtitle">Automated Event-Driven Crawl State & Match Hub</div>
         </div>
       </a>
 
@@ -716,123 +668,230 @@
           <span id="api-status-text">Connecting API...</span>
         </div>
         <a href="/" class="nav-btn" title="View ETL Pipeline Architecture">
-          <span>Flow Diagram</span> ↗
+          <span>Architecture Flow</span> ↗
         </a>
       </div>
     </div>
   </header>
 
   <main>
-    <!-- Quick KPI Header Cards -->
-    <section class="kpi-grid">
-      <div class="kpi-card">
-        <span class="kpi-label">Total Matches</span>
-        <div class="kpi-val" id="kpi-total-matches">--</div>
-        <span class="kpi-sub" id="kpi-matches-sub">Persisted in Fact Matches</span>
+    <!-- Top Mode Switcher -->
+    <div class="view-mode-bar">
+      <div class="mode-nav">
+        <button type="button" class="mode-btn active" data-target="view-observatory">
+          <span>📡</span> Crawl Logs & Scheduler Radar
+          <span class="badge-count" id="mode-logs-count">Live</span>
+        </button>
+        <button type="button" class="mode-btn" data-target="view-matches-hub">
+          <span>📅</span> Fixtures & Match Center
+        </button>
+        <button type="button" class="mode-btn" data-target="view-standings-hub">
+          <span>🏆</span> League Standings Table
+        </button>
       </div>
-      <div class="kpi-card">
-        <span class="kpi-label">Leagues Tracked</span>
-        <div class="kpi-val" id="kpi-leagues-count">--</div>
-        <span class="kpi-sub">Top European & Domestic Cups</span>
-      </div>
-      <div class="kpi-card">
-        <span class="kpi-label">7-Day Crawl Success</span>
-        <div class="kpi-val" id="kpi-success-rate">--</div>
-        <span class="kpi-sub" id="kpi-runs-sub">Pipeline execution reliability</span>
-      </div>
-      <div class="kpi-card">
-        <span class="kpi-label">Latest Crawl Run</span>
-        <div class="kpi-val" id="kpi-last-crawl" style="font-size: 1.25rem;">--</div>
-        <span class="kpi-sub">Dynamic event-based scheduler</span>
-      </div>
-    </section>
 
-    <!-- Filters & Navigation Controls -->
-    <section class="controls-panel">
-      <div class="controls-top">
-        <div class="filter-group">
-          <!-- League Select -->
-          <div class="select-wrap">
-            <label class="select-label" for="sel-league">Tournament</label>
-            <select id="sel-league">
-              <option value="">Loading leagues...</option>
-            </select>
+      <div style="font-size: 0.85rem; color: var(--text-dim);" id="clock-utc">
+        UTC: --:--:--
+      </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- VIEW 1: PIPELINE & CRAWL OBSERVATORY (The Requested Feature) -->
+    <!-- ============================================================ -->
+    <div id="view-observatory" class="main-view active">
+
+      <!-- KPI Summary Ribbon -->
+      <section class="kpi-grid">
+        <div class="kpi-card">
+          <span class="kpi-label">Total Crawl Executions</span>
+          <div class="kpi-val" id="kpi-obs-total">--</div>
+          <span class="kpi-sub" id="kpi-obs-total-sub">All-time pipeline runs</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">Pipeline Success Rate</span>
+          <div class="kpi-val" id="kpi-obs-rate" style="color: #34d399;">--%</div>
+          <span class="kpi-sub" id="kpi-obs-fail-count">0 failed runs</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">Next Scheduled Ingestion</span>
+          <div class="kpi-val" id="kpi-obs-next-countdown" style="font-size: 1.35rem; color: var(--accent-amber);">--</div>
+          <span class="kpi-sub" id="kpi-obs-next-target">Checking schedule queue...</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">Total Matches Ingested</span>
+          <div class="kpi-val" id="kpi-obs-matches">--</div>
+          <span class="kpi-sub">Cleaned & loaded in database</span>
+        </div>
+      </section>
+
+      <!-- Live Scheduler Radar (League Status & Recrawl Queues) -->
+      <section class="radar-section">
+        <div class="section-title-row">
+          <div>
+            <div class="section-heading"><span>🎯</span> Dynamic Scheduler Radar</div>
+            <div class="section-sub">Next crawl triggers automatically when a match group finishes (+3h buffer) or after 7 days</div>
           </div>
+          <button type="button" class="nav-btn" onclick="fetchObservatoryData()">🔄 Refresh Queue</button>
+        </div>
 
-          <!-- Season Select -->
-          <div class="select-wrap" style="min-width: 130px;">
-            <label class="select-label" for="sel-season">Season</label>
-            <select id="sel-season">
-              <option value="2026-2027">2026-2027</option>
-              <option value="2025-2026" selected>2025-2026</option>
-              <option value="2024-2025">2024-2025</option>
-              <option value="2023-2024">2023-2024</option>
-            </select>
-          </div>
-
-          <!-- Round Select -->
-          <div class="select-wrap" style="min-width: 130px;">
-            <label class="select-label" for="sel-round">Round / Matchday</label>
-            <select id="sel-round">
-              <option value="">All Rounds</option>
-            </select>
+        <div class="radar-grid" id="radar-container">
+          <div class="radar-card">
+            <div class="radar-top">
+              <span class="radar-league">Loading radar state...</span>
+            </div>
+            <div class="radar-details">Connecting to crawl state repository...</div>
           </div>
         </div>
+      </section>
 
-        <!-- Search Input -->
-        <div class="search-box">
-          <label class="select-label" for="search-input">Search Clubs</label>
-          <input type="text" id="search-input" class="search-input" placeholder="Search team (e.g. Arsenal, Real Madrid, Swansea)...">
+      <!-- Crawl Audit Logs Table -->
+      <section class="controls-panel">
+        <div class="section-title-row" style="margin-bottom: 0;">
+          <div class="section-heading"><span>📋</span> Execution History & Crawl Audit Trail</div>
         </div>
+
+        <div class="controls-top" style="margin-top: 10px;">
+          <div class="filter-group">
+            <div class="select-wrap">
+              <label class="select-label" for="filter-log-league">Filter Tournament</label>
+              <select id="filter-log-league">
+                <option value="">All Tournaments</option>
+              </select>
+            </div>
+            <div class="select-wrap" style="min-width: 140px;">
+              <label class="select-label" for="filter-log-status">Status</label>
+              <select id="filter-log-status">
+                <option value="">All Statuses</option>
+                <option value="SUCCESS">Success Only</option>
+                <option value="FAILED">Failed Only</option>
+              </select>
+            </div>
+            <div class="select-wrap" style="min-width: 160px;">
+              <label class="select-label" for="filter-log-trigger">Trigger Type</label>
+              <select id="filter-log-trigger">
+                <option value="">All Triggers</option>
+                <option value="group_finished">Group Finished</option>
+                <option value="refresh_7d">7-Day Refresh</option>
+                <option value="manual">Manual Dispatch</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="table-card">
+        <table class="custom-table">
+          <thead>
+            <tr>
+              <th class="num">ID</th>
+              <th>Execution Time (VN / UTC)</th>
+              <th>Tournament & Season</th>
+              <th>Trigger Reason</th>
+              <th>Fixtures</th>
+              <th>Status</th>
+              <th>Next Target Crawl</th>
+              <th>Diagnostic</th>
+            </tr>
+          </thead>
+          <tbody id="logs-table-body">
+            <tr>
+              <td colspan="8" style="text-align: center; padding: 40px; color: var(--text-muted);">
+                Loading crawl execution history...
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
-      <div class="controls-bottom">
-        <!-- View Switcher -->
-        <div class="tabs-wrapper">
-          <button type="button" class="tab-btn active" data-view="matches">
-            <span>📅</span> Fixtures & Results
-          </button>
-          <button type="button" class="tab-btn" data-view="standings">
-            <span>🏆</span> Standings Table
-          </button>
-          <button type="button" class="tab-btn" data-view="analytics">
-            <span>📊</span> Analytics
-          </button>
-        </div>
-
-        <!-- Status Filter -->
-        <div class="tabs-wrapper" id="status-filter-wrapper">
-          <button type="button" class="tab-btn active" data-status="">All</button>
-          <button type="button" class="tab-btn" data-status="FINISHED">Finished</button>
-          <button type="button" class="tab-btn" data-status="SCHEDULED">Scheduled</button>
+      <div class="pagination-bar" id="log-pagination" style="display: none;">
+        <span class="page-info" id="log-page-info">Showing logs</span>
+        <div class="page-btns">
+          <button type="button" class="page-btn" id="btn-log-prev" disabled>← Previous</button>
+          <button type="button" class="page-btn" id="btn-log-next">Next →</button>
         </div>
       </div>
-    </section>
+    </div>
 
-    <!-- TAB 1: Matches List View -->
-    <section id="view-matches" class="view-content active">
+    <!-- ============================================================ -->
+    <!-- VIEW 2: FIXTURES & MATCH CENTER -->
+    <!-- ============================================================ -->
+    <div id="view-matches-hub" class="main-view">
+      <section class="controls-panel">
+        <div class="controls-top">
+          <div class="filter-group">
+            <div class="select-wrap">
+              <label class="select-label" for="sel-match-league">Tournament</label>
+              <select id="sel-match-league"><option value="">All Tournaments</option></select>
+            </div>
+            <div class="select-wrap" style="min-width: 130px;">
+              <label class="select-label" for="sel-match-season">Season</label>
+              <select id="sel-match-season">
+                <option value="2026-2027">2026-2027</option>
+                <option value="2025-2026" selected>2025-2026</option>
+                <option value="2024-2025">2024-2025</option>
+              </select>
+            </div>
+            <div class="select-wrap" style="min-width: 130px;">
+              <label class="select-label" for="sel-match-round">Round</label>
+              <select id="sel-match-round"><option value="">All Rounds</option></select>
+            </div>
+          </div>
+          <div class="search-box">
+            <label class="select-label" for="search-match-input">Search Clubs</label>
+            <input type="text" id="search-match-input" class="search-input" placeholder="Search team (e.g. Arsenal, Real Madrid, Swansea)...">
+          </div>
+        </div>
+
+        <div class="controls-bottom">
+          <div class="tabs-wrapper" id="match-status-tabs">
+            <button type="button" class="tab-btn active" data-mstatus="">All Matches</button>
+            <button type="button" class="tab-btn" data-mstatus="FINISHED">Finished (Results)</button>
+            <button type="button" class="tab-btn" data-mstatus="SCHEDULED">Scheduled (Upcoming)</button>
+          </div>
+        </div>
+      </section>
+
       <div id="matches-container" class="matches-list">
         <div class="state-box">
           <div class="state-icon">⏳</div>
-          <div class="state-title">Loading Match Fixtures...</div>
-          <div class="state-desc">Querying normalized match records from database.</div>
+          <div class="state-title">Loading Fixtures...</div>
         </div>
       </div>
 
-      <!-- Pagination Controls -->
-      <div class="pagination-bar" id="pagination-bar" style="display: none;">
-        <span class="page-info" id="page-info">Showing matches</span>
+      <div class="pagination-bar" id="match-pagination" style="display: none;">
+        <span class="page-info" id="match-page-info">Showing matches</span>
         <div class="page-btns">
-          <button type="button" class="page-btn" id="btn-prev" disabled>← Previous</button>
-          <button type="button" class="page-btn" id="btn-next">Next →</button>
+          <button type="button" class="page-btn" id="btn-match-prev" disabled>← Previous</button>
+          <button type="button" class="page-btn" id="btn-match-next">Next →</button>
         </div>
       </div>
-    </section>
+    </div>
 
-    <!-- TAB 2: Standings Table View -->
-    <section id="view-standings" class="view-content">
+    <!-- ============================================================ -->
+    <!-- VIEW 3: LEAGUE STANDINGS TABLE -->
+    <!-- ============================================================ -->
+    <div id="view-standings-hub" class="main-view">
+      <section class="controls-panel">
+        <div class="controls-top">
+          <div class="filter-group">
+            <div class="select-wrap">
+              <label class="select-label" for="sel-stand-league">Tournament</label>
+              <select id="sel-stand-league"></select>
+            </div>
+            <div class="select-wrap" style="min-width: 130px;">
+              <label class="select-label" for="sel-stand-season">Season</label>
+              <select id="sel-stand-season">
+                <option value="2026-2027">2026-2027</option>
+                <option value="2025-2026" selected>2025-2026</option>
+                <option value="2024-2025">2024-2025</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <div class="table-card">
-        <table class="standings-table">
+        <table class="custom-table standings-table">
           <thead>
             <tr>
               <th class="num">#</th>
@@ -845,530 +904,537 @@
               <th class="num">GA</th>
               <th class="num">GD</th>
               <th class="num">PTS</th>
-              <th>Recent Form</th>
+              <th>Recent 5 Matches Form</th>
             </tr>
           </thead>
           <tbody id="standings-body">
             <tr>
               <td colspan="11" style="text-align: center; padding: 40px; color: var(--text-muted);">
-                Select a tournament and season to view table standings.
+                Select tournament above to view table standings.
               </td>
             </tr>
           </tbody>
         </table>
       </div>
-    </section>
-
-    <!-- TAB 3: Analytics View -->
-    <section id="view-analytics" class="view-content">
-      <div class="kpi-grid" id="analytics-kpi-grid">
-        <div class="kpi-card">
-          <span class="kpi-label">Completed Matches</span>
-          <div class="kpi-val" id="an-completed">--</div>
-          <span class="kpi-sub">Total matches with full-time score</span>
-        </div>
-        <div class="kpi-card">
-          <span class="kpi-label">Total Goals Scored</span>
-          <div class="kpi-val" id="an-goals">--</div>
-          <span class="kpi-sub">Home & Away goals combined</span>
-        </div>
-        <div class="kpi-card">
-          <span class="kpi-label">Average Goals / Match</span>
-          <div class="kpi-val" id="an-goals-per-match">--</div>
-          <span class="kpi-sub">Scoring rate per game</span>
-        </div>
-        <div class="kpi-card">
-          <span class="kpi-label">Outcome Distribution</span>
-          <div class="kpi-val" id="an-outcomes" style="font-size: 1.1rem;">--</div>
-          <span class="kpi-sub">Home Wins / Draws / Away Wins</span>
-        </div>
-      </div>
-    </section>
+    </div>
   </main>
 
   <script>
-    // State Management
-    let state = {
-      activeView: 'matches',
-      leagueId: null,
-      season: '2025-2026',
-      round: '',
-      status: '',
-      teamSearch: '',
-      page: 1,
-      pageSize: 50,
-      totalPages: 1,
+    // State
+    const appState = {
       leagues: [],
-      debounceTimer: null
+      obsPage: 1,
+      obsPageSize: 20,
+      obsTotalPages: 1,
+      matchPage: 1,
+      matchPageSize: 50,
+      matchTotalPages: 1,
+      matchStatus: '',
+      matchSearch: '',
+      matchDebounce: null,
+      radarInterval: null,
+      radarData: []
     };
 
-    // Color avatars for teams
+    // Helper functions
+    function fmtDate(isoStr) {
+      if (!isoStr) return '--';
+      try {
+        const d = new Date(isoStr);
+        const vnTime = d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
+        const vnDate = d.toLocaleDateString([], { day: '2-digit', month: 'short', year: 'numeric' });
+        return `${vnTime} (VN) · ${vnDate}`;
+      } catch (e) { return isoStr; }
+    }
+
+    function timeAgo(isoStr) {
+      if (!isoStr) return 'Never';
+      try {
+        const diff = (Date.now() - new Date(isoStr).getTime()) / 1000;
+        if (diff < 60) return `${Math.floor(diff)}s ago`;
+        if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
+        if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
+        return `${Math.floor(diff / 86400)}d ago`;
+      } catch (e) { return isoStr; }
+    }
+
+    function countdown(isoStr) {
+      if (!isoStr) return 'Not scheduled';
+      const target = new Date(isoStr).getTime();
+      const now = Date.now();
+      const diff = Math.floor((target - now) / 1000);
+      if (diff <= 0) return '⚡ Due now';
+      const h = Math.floor(diff / 3600);
+      const m = Math.floor((diff % 3600) / 60);
+      const s = diff % 60;
+      return `${String(h).padStart(2, '0')}h ${String(m).padStart(2, '0')}m ${String(s).padStart(2, '0')}s`;
+    }
+
+    function triggerBadge(trigger) {
+      if (!trigger) return '<span class="trigger-tag">--</span>';
+      if (trigger.startsWith('group_finished')) {
+        const parts = trigger.split(':');
+        const dt = parts.length > 1 ? parts[1].replace('T', ' ').replace('Z', '') : '';
+        return `<span class="trigger-tag" title="${trigger}">🎯 group_finished (${dt})</span>`;
+      }
+      if (trigger === 'refresh_7d') return '<span class="trigger-tag" style="color:#a855f7; border-color:rgba(168,85,247,0.3)">🔄 refresh_7d</span>';
+      if (trigger === 'manual') return '<span class="trigger-tag" style="color:#f59e0b; border-color:rgba(245,158,11,0.3)">⚡ manual</span>';
+      return `<span class="trigger-tag">${trigger}</span>`;
+    }
+
+    // Avatar colors
     const AVATAR_COLORS = ['#3b82f6', '#10b981', '#f59e0b', '#ec4899', '#8b5cf6', '#06b6d4', '#e11d48'];
-    function getTeamAvatarColor(name) {
+    function getAvatarColor(name) {
       let hash = 0;
       for (let i = 0; i < (name || '').length; i++) hash = name.charCodeAt(i) + ((hash << 5) - hash);
       return AVATAR_COLORS[Math.abs(hash) % AVATAR_COLORS.length];
     }
     function getInitials(name) {
       if (!name) return 'FC';
-      const parts = name.split(' ').filter(p => p.length > 0);
-      if (parts.length === 1) return parts[0].substring(0, 2).toUpperCase();
-      return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
+      const p = name.split(' ').filter(x => x.length > 0);
+      return p.length === 1 ? p[0].substring(0, 2).toUpperCase() : (p[0][0] + p[p.length - 1][0]).toUpperCase();
     }
 
-    // Format Kickoff Date & Time
-    function formatKickoff(utcStr, dateStr, timeStr) {
-      if (utcStr) {
-        try {
-          const d = new Date(utcStr);
-          const time = d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: false });
-          const date = d.toLocaleDateString([], { weekday: 'short', day: '2-digit', month: 'short', year: 'numeric' });
-          return { time: time + ' (VN)', date: date };
-        } catch (e) {}
-      }
-      return { time: timeStr ? timeStr.substring(0, 5) : '--:--', date: dateStr || 'TBD' };
-    }
-
-    // DOM Elements
-    const selLeague = document.getElementById('sel-league');
-    const selSeason = document.getElementById('sel-season');
-    const selRound = document.getElementById('sel-round');
-    const searchInput = document.getElementById('search-input');
-    const matchesContainer = document.getElementById('matches-container');
-    const standingsBody = document.getElementById('standings-body');
-    const paginationBar = document.getElementById('pagination-bar');
-    const pageInfo = document.getElementById('page-info');
-    const btnPrev = document.getElementById('btn-prev');
-    const btnNext = document.getElementById('btn-next');
-    const apiStatusText = document.getElementById('api-status-text');
-
-    // Initialize Page
+    // Initialization
     async function init() {
-      setupEventListeners();
-      await fetchApiStats();
+      setupNavigation();
+      startUtcClock();
+      await fetchObservatoryData();
+      await fetchCrawlLogs();
       await loadLeaguesAndSeasons();
-      await loadRounds();
-      loadActiveView();
+
+      // Tick count-down timers every second
+      setInterval(updateRadarCountdowns, 1000);
     }
 
-    function setupEventListeners() {
-      // Main View Switching
-      document.querySelectorAll('.tab-btn[data-view]').forEach(btn => {
-        btn.addEventListener('click', () => {
-          document.querySelectorAll('.tab-btn[data-view]').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          state.activeView = btn.dataset.view;
+    function startUtcClock() {
+      function tick() {
+        const now = new Date();
+        document.getElementById('clock-utc').textContent = 'UTC: ' + now.toISOString().substring(11, 19);
+      }
+      tick();
+      setInterval(tick, 1000);
+    }
 
-          document.querySelectorAll('.view-content').forEach(v => v.classList.remove('active'));
-          document.getElementById('view-' + state.activeView).classList.add('active');
-          loadActiveView();
+    function setupNavigation() {
+      document.querySelectorAll('.mode-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const target = btn.dataset.target;
+          document.querySelectorAll('.main-view').forEach(v => v.classList.remove('active'));
+          document.getElementById(target).classList.add('active');
+
+          if (target === 'view-matches-hub') loadMatches();
+          if (target === 'view-standings-hub') loadStandings();
         });
       });
 
-      // Status Filter Tabs
-      document.querySelectorAll('#status-filter-wrapper .tab-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-          document.querySelectorAll('#status-filter-wrapper .tab-btn').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          state.status = btn.dataset.status;
-          state.page = 1;
-          loadMatches();
-        });
-      });
+      // Log Filters
+      document.getElementById('filter-log-league').addEventListener('change', () => { appState.obsPage = 1; fetchCrawlLogs(); });
+      document.getElementById('filter-log-status').addEventListener('change', () => { appState.obsPage = 1; fetchCrawlLogs(); });
+      document.getElementById('filter-log-trigger').addEventListener('change', () => { appState.obsPage = 1; fetchCrawlLogs(); });
+      document.getElementById('btn-log-prev').addEventListener('click', () => { if (appState.obsPage > 1) { appState.obsPage--; fetchCrawlLogs(); } });
+      document.getElementById('btn-log-next').addEventListener('click', () => { if (appState.obsPage < appState.obsTotalPages) { appState.obsPage++; fetchCrawlLogs(); } });
 
-      // Tournament Change
-      selLeague.addEventListener('change', async () => {
-        state.leagueId = selLeague.value ? parseInt(selLeague.value) : null;
-        state.page = 1;
-        await loadRounds();
-        loadActiveView();
-      });
-
-      // Season Change
-      selSeason.addEventListener('change', async () => {
-        state.season = selSeason.value;
-        state.page = 1;
-        await loadRounds();
-        loadActiveView();
-      });
-
-      // Round Change
-      selRound.addEventListener('change', () => {
-        state.round = selRound.value;
-        state.page = 1;
-        loadMatches();
-      });
-
-      // Search Clubs
-      searchInput.addEventListener('input', () => {
-        clearTimeout(state.debounceTimer);
-        state.debounceTimer = setTimeout(() => {
-          state.teamSearch = searchInput.value.trim();
-          state.page = 1;
+      // Match Filters
+      document.getElementById('sel-match-league').addEventListener('change', () => { appState.matchPage = 1; loadRounds(); loadMatches(); });
+      document.getElementById('sel-match-season').addEventListener('change', () => { appState.matchPage = 1; loadRounds(); loadMatches(); });
+      document.getElementById('sel-match-round').addEventListener('change', () => { appState.matchPage = 1; loadMatches(); });
+      document.getElementById('search-match-input').addEventListener('input', (e) => {
+        clearTimeout(appState.matchDebounce);
+        appState.matchDebounce = setTimeout(() => {
+          appState.matchSearch = e.target.value.trim();
+          appState.matchPage = 1;
           loadMatches();
         }, 300);
       });
+      document.querySelectorAll('#match-status-tabs .tab-btn').forEach(b => {
+        b.addEventListener('click', () => {
+          document.querySelectorAll('#match-status-tabs .tab-btn').forEach(x => x.classList.remove('active'));
+          b.classList.add('active');
+          appState.matchStatus = b.dataset.mstatus;
+          appState.matchPage = 1;
+          loadMatches();
+        });
+      });
+      document.getElementById('btn-match-prev').addEventListener('click', () => { if (appState.matchPage > 1) { appState.matchPage--; loadMatches(); } });
+      document.getElementById('btn-match-next').addEventListener('click', () => { if (appState.matchPage < appState.matchTotalPages) { appState.matchPage++; loadMatches(); } });
 
-      // Pagination
-      btnPrev.addEventListener('click', () => {
-        if (state.page > 1) {
-          state.page--;
-          loadMatches();
-          window.scrollTo({ top: 300, behavior: 'smooth' });
-        }
-      });
-      btnNext.addEventListener('click', () => {
-        if (state.page < state.totalPages) {
-          state.page++;
-          loadMatches();
-          window.scrollTo({ top: 300, behavior: 'smooth' });
-        }
-      });
+      // Standings Filters
+      document.getElementById('sel-stand-league').addEventListener('change', loadStandings);
+      document.getElementById('sel-stand-season').addEventListener('change', loadStandings);
     }
 
-    // Load Overview Stats
-    async function fetchApiStats() {
+    // 1. Fetch Observatory & Radar Queue
+    async function fetchObservatoryData() {
       try {
-        const res = await fetch('/public/stats');
-        if (res.ok) {
-          const stats = await res.json();
-          document.getElementById('kpi-total-matches').textContent = stats.total_matches?.toLocaleString() || '0';
-          document.getElementById('kpi-leagues-count').textContent = stats.leagues_tracked || '0';
-          document.getElementById('kpi-success-rate').textContent = (stats.success_rate_7d != null ? stats.success_rate_7d + '%' : '100%');
-          document.getElementById('kpi-runs-sub').textContent = `${stats.crawl_runs_7d || 0} crawl executions in 7d`;
-
-          if (stats.last_crawled_at) {
-            const dt = new Date(stats.last_crawled_at);
-            document.getElementById('kpi-last-crawl').textContent = dt.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) + ' ' + dt.toLocaleDateString([], { day: '2-digit', month: 'short' });
-          } else {
-            document.getElementById('kpi-last-crawl').textContent = 'Ready';
-          }
-          apiStatusText.textContent = 'API Connected';
-        }
-      } catch (err) {
-        apiStatusText.textContent = 'API Offline';
-      }
-    }
-
-    // Load Leagues & Available Seasons
-    async function loadLeaguesAndSeasons() {
-      try {
-        const [lRes, sRes] = await Promise.all([
-          fetch('/public/leagues'),
-          fetch('/public/seasons')
+        const [overviewRes, statsRes] = await Promise.all([
+          fetch('/public/crawl-overview'),
+          fetch('/public/stats')
         ]);
 
-        if (lRes.ok) {
-          state.leagues = await lRes.json();
-          selLeague.innerHTML = '<option value="">All Tournaments</option>';
-          state.leagues.forEach(lg => {
-            const opt = document.createElement('option');
-            opt.value = lg.league_id;
-            opt.textContent = `${lg.league_name} (${lg.country_code})`;
-            selLeague.appendChild(opt);
-          });
+        if (overviewRes.ok) {
+          const overview = await overviewRes.json();
+          document.getElementById('kpi-obs-total').textContent = overview.total_runs.toLocaleString();
+          document.getElementById('kpi-obs-rate').textContent = overview.success_rate + '%';
+          document.getElementById('kpi-obs-fail-count').textContent = `${overview.failed_runs} failed run(s)`;
 
-          if (state.leagues.length > 0) {
-            selLeague.value = state.leagues[0].league_id;
-            state.leagueId = state.leagues[0].league_id;
+          if (overview.next_upcoming_run) {
+            document.getElementById('kpi-obs-next-target').textContent = `${overview.next_upcoming_run.league_name}`;
+            document.getElementById('kpi-obs-next-countdown').dataset.targetTime = overview.next_upcoming_run.next_recrawl_at;
+          } else {
+            document.getElementById('kpi-obs-next-countdown').textContent = 'All in sync';
+            document.getElementById('kpi-obs-next-target').textContent = 'No pending match groups';
           }
+
+          appState.radarData = overview.leagues_status || [];
+          renderRadar(appState.radarData);
+          document.getElementById('api-status-text').textContent = 'API Live';
         }
 
-        if (sRes.ok) {
-          const seasons = await sRes.json();
-          if (seasons.length > 0) {
-            selSeason.innerHTML = '';
-            seasons.forEach(s => {
-              const opt = document.createElement('option');
-              opt.value = s;
-              opt.textContent = s;
-              if (s === '2025-2026') opt.selected = true;
-              selSeason.appendChild(opt);
-            });
-            state.season = selSeason.value;
-          }
+        if (statsRes.ok) {
+          const stats = await statsRes.json();
+          document.getElementById('kpi-obs-matches').textContent = (stats.total_matches || 0).toLocaleString();
         }
-      } catch (e) {
-        console.warn('Failed to load leagues/seasons:', e);
+      } catch (err) {
+        document.getElementById('api-status-text').textContent = 'API Disconnected';
       }
     }
 
-    // Load Rounds for Current League/Season
-    async function loadRounds() {
-      if (!state.leagueId) {
-        selRound.innerHTML = '<option value="">All Rounds</option>';
+    function renderRadar(leagues) {
+      const container = document.getElementById('radar-container');
+      if (!leagues || leagues.length === 0) {
+        container.innerHTML = `
+          <div class="state-box" style="grid-column: 1 / -1; padding: 30px;">
+            <div class="state-icon">📡</div>
+            <div class="state-title">No Crawl Records Yet</div>
+            <div class="state-desc">Run scheduler or test crawler to populate crawl state log.</div>
+          </div>`;
         return;
       }
+
+      container.innerHTML = leagues.map(item => {
+        const isSuccess = (item.status === 'SUCCESS');
+        return `
+          <div class="radar-card">
+            <div class="radar-top">
+              <span class="radar-league">${item.league_name}</span>
+              <span class="radar-countdown" data-countdown-time="${item.next_recrawl_at || ''}">${countdown(item.next_recrawl_at)}</span>
+            </div>
+            <div class="radar-details">
+              <div class="radar-detail-row">
+                <span>Last Run Status:</span>
+                <span class="badge ${isSuccess ? 'badge-success' : 'badge-failed'}">
+                  ${isSuccess ? '● SUCCESS' : '✖ FAILED'}
+                </span>
+              </div>
+              <div class="radar-detail-row">
+                <span>Last Crawled:</span>
+                <span class="radar-detail-val" title="${item.crawled_at || ''}">${timeAgo(item.crawled_at)}</span>
+              </div>
+              <div class="radar-detail-row">
+                <span>Fixtures in Sync:</span>
+                <span class="radar-detail-val">${item.fixtures_count.toLocaleString()} matches</span>
+              </div>
+              <div class="radar-detail-row">
+                <span>Last Trigger Event:</span>
+                ${triggerBadge(item.trigger)}
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function updateRadarCountdowns() {
+      document.querySelectorAll('[data-countdown-time]').forEach(el => {
+        const target = el.dataset.countdownTime;
+        if (target) el.textContent = countdown(target);
+      });
+      const topNext = document.getElementById('kpi-obs-next-countdown');
+      if (topNext && topNext.dataset.targetTime) {
+        topNext.textContent = countdown(topNext.dataset.targetTime);
+      }
+    }
+
+    // 2. Fetch Crawl Audit Logs Table
+    async function fetchCrawlLogs() {
+      const tbody = document.getElementById('logs-table-body');
+      tbody.innerHTML = '<tr><td colspan="8" style="text-align:center; padding:30px; color:var(--text-muted);">Loading logs...</td></tr>';
+
+      const params = new URLSearchParams({
+        page: appState.obsPage,
+        page_size: appState.obsPageSize
+      });
+      const league = document.getElementById('filter-log-league').value;
+      const status = document.getElementById('filter-log-status').value;
+      const trigger = document.getElementById('filter-log-trigger').value;
+
+      if (league) params.append('league_id', league);
+      if (status) params.append('status', status);
+      if (trigger) params.append('trigger', trigger);
+
       try {
-        const res = await fetch(`/public/rounds?league_id=${state.leagueId}&season=${encodeURIComponent(state.season)}`);
+        const res = await fetch(`/public/crawl-logs?${params.toString()}`);
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+
+        appState.obsTotalPages = data.total_pages || 1;
+        updateLogPagination(data.total);
+
+        if (!data.logs || data.logs.length === 0) {
+          tbody.innerHTML = '<tr><td colspan="8" style="text-align:center; padding:30px; color:var(--text-muted);">No crawl logs found matching criteria.</td></tr>';
+          return;
+        }
+
+        tbody.innerHTML = data.logs.map(log => {
+          const isSuccess = log.status === 'SUCCESS';
+          return `
+            <tr>
+              <td class="num code-font" style="color:var(--text-dim);">${log.id}</td>
+              <td class="code-font">${fmtDate(log.crawled_at)}</td>
+              <td><strong>${log.league_name}</strong> <span style="font-size:0.75rem; color:var(--text-dim);">(${log.season})</span></td>
+              <td>${triggerBadge(log.trigger)}</td>
+              <td class="num font-bold">${log.fixtures_count != null ? log.fixtures_count.toLocaleString() : '--'}</td>
+              <td>
+                <span class="badge ${isSuccess ? 'badge-success' : 'badge-failed'}">
+                  ${isSuccess ? 'SUCCESS' : 'FAILED'}
+                </span>
+              </td>
+              <td class="code-font" style="color:var(--text-muted);">${log.next_recrawl_at ? fmtDate(log.next_recrawl_at) : '--'}</td>
+              <td>
+                ${log.error ? `<span style="color:#fb7185; font-size:0.75rem;" title="${log.error}">⚠️ ${log.error.substring(0, 30)}...</span>` : '<span style="color:#34d399; font-size:0.8rem;">✓ Clean</span>'}
+              </td>
+            </tr>
+          `;
+        }).join('');
+      } catch (err) {
+        tbody.innerHTML = `<tr><td colspan="8" style="text-align:center; padding:30px; color:#fb7185;">Error loading crawl logs: ${err.message}</td></tr>`;
+      }
+    }
+
+    function updateLogPagination(total) {
+      const bar = document.getElementById('log-pagination');
+      if (total > appState.obsPageSize) {
+        bar.style.display = 'flex';
+        const start = (appState.obsPage - 1) * appState.obsPageSize + 1;
+        const end = Math.min(appState.obsPage * appState.obsPageSize, total);
+        document.getElementById('log-page-info').textContent = `Showing logs ${start}-${end} of ${total} (Page ${appState.obsPage}/${appState.obsTotalPages})`;
+        document.getElementById('btn-log-prev').disabled = (appState.obsPage <= 1);
+        document.getElementById('btn-log-next').disabled = (appState.obsPage >= appState.obsTotalPages);
+      } else {
+        bar.style.display = 'none';
+      }
+    }
+
+    // 3. Match Center
+    async function loadLeaguesAndSeasons() {
+      try {
+        const res = await fetch('/public/leagues');
         if (res.ok) {
-          const rounds = await res.json();
-          selRound.innerHTML = '<option value="">All Rounds</option>';
-          rounds.forEach(r => {
-            const opt = document.createElement('option');
-            opt.value = r;
-            opt.textContent = `Round ${r}`;
-            selRound.appendChild(opt);
+          appState.leagues = await res.json();
+          const selM = document.getElementById('sel-match-league');
+          const selS = document.getElementById('sel-stand-league');
+          const selL = document.getElementById('filter-log-league');
+
+          selM.innerHTML = '<option value="">All Tournaments</option>';
+          selS.innerHTML = '';
+          selL.innerHTML = '<option value="">All Tournaments</option>';
+
+          appState.leagues.forEach(lg => {
+            const opt1 = document.createElement('option');
+            opt1.value = lg.league_id; opt1.textContent = `${lg.league_name} (${lg.country_code})`;
+            selM.appendChild(opt1);
+
+            const opt2 = document.createElement('option');
+            opt2.value = lg.league_id; opt2.textContent = `${lg.league_name} (${lg.country_code})`;
+            selS.appendChild(opt2);
+
+            const opt3 = document.createElement('option');
+            opt3.value = lg.league_id; opt3.textContent = lg.league_name;
+            selL.appendChild(opt3);
           });
         }
       } catch (e) {}
     }
 
-    // Switch view dispatcher
-    function loadActiveView() {
-      if (state.activeView === 'matches') {
-        loadMatches();
-      } else if (state.activeView === 'standings') {
-        loadStandings();
-      } else if (state.activeView === 'analytics') {
-        loadAnalytics();
-      }
+    async function loadRounds() {
+      const lid = document.getElementById('sel-match-league').value;
+      const season = document.getElementById('sel-match-season').value;
+      const selR = document.getElementById('sel-match-round');
+      if (!lid) { selR.innerHTML = '<option value="">All Rounds</option>'; return; }
+
+      try {
+        const res = await fetch(`/public/rounds?league_id=${lid}&season=${encodeURIComponent(season)}`);
+        if (res.ok) {
+          const rounds = await res.json();
+          selR.innerHTML = '<option value="">All Rounds</option>';
+          rounds.forEach(r => {
+            const opt = document.createElement('option');
+            opt.value = r; opt.textContent = 'Round ' + r;
+            selR.appendChild(opt);
+          });
+        }
+      } catch (e) {}
     }
 
-    // Fetch and render matches
     async function loadMatches() {
-      matchesContainer.innerHTML = `
-        <div class="state-box">
-          <div class="state-icon">⏳</div>
-          <div class="state-title">Querying Fixtures...</div>
-        </div>`;
+      const container = document.getElementById('matches-container');
+      container.innerHTML = '<div class="state-box"><div class="state-icon">⏳</div><div class="state-title">Loading Fixtures...</div></div>';
 
       const params = new URLSearchParams({
-        page: state.page,
-        page_size: state.pageSize,
-        season: state.season
+        page: appState.matchPage,
+        page_size: appState.matchPageSize,
+        season: document.getElementById('sel-match-season').value
       });
-      if (state.leagueId) params.append('league_id', state.leagueId);
-      if (state.round) params.append('round', state.round);
-      if (state.status) params.append('status', state.status);
-      if (state.teamSearch) params.append('team', state.teamSearch);
+      const lid = document.getElementById('sel-match-league').value;
+      const round = document.getElementById('sel-match-round').value;
+      if (lid) params.append('league_id', lid);
+      if (round) params.append('round', round);
+      if (appState.matchStatus) params.append('status', appState.matchStatus);
+      if (appState.matchSearch) params.append('team', appState.matchSearch);
 
       try {
         const res = await fetch(`/public/matches?${params.toString()}`);
         if (!res.ok) throw new Error('HTTP ' + res.status);
         const data = await res.json();
 
-        state.totalPages = data.total_pages || 1;
-        updatePagination(data.total);
+        appState.matchTotalPages = data.total_pages || 1;
+        updateMatchPagination(data.total);
 
         if (!data.matches || data.matches.length === 0) {
-          matchesContainer.innerHTML = `
-            <div class="state-box">
-              <div class="state-icon">📭</div>
-              <div class="state-title">No Match Records Found</div>
-              <div class="state-desc">There are currently no matches recorded in database for this season or filter combination. Run crawler or choose another season.</div>
-              <button class="primary-btn" onclick="state.round=''; state.teamSearch=''; searchInput.value=''; loadMatches();">
-                Reset Filters
-              </button>
-            </div>`;
+          container.innerHTML = '<div class="state-box"><div class="state-icon">📭</div><div class="state-title">No Matches Found</div><div class="state-desc">Try resetting your search or tournament filter.</div></div>';
           return;
         }
 
         renderMatches(data.matches);
       } catch (err) {
-        matchesContainer.innerHTML = `
-          <div class="state-box">
-            <div class="state-icon">⚠️</div>
-            <div class="state-title">Unable to Connect to Data API</div>
-            <div class="state-desc">Error fetching matches: ${err.message}. Ensure the FastAPI server is running with <code>uvicorn src.api.main:app</code>.</div>
-          </div>`;
+        container.innerHTML = `<div class="state-box"><div class="state-icon">⚠️</div><div class="state-title">Could not load matches</div><div class="state-desc">${err.message}</div></div>`;
       }
     }
 
-    // Render Match Cards grouped by Date
     function renderMatches(matches) {
-      matchesContainer.innerHTML = '';
+      const container = document.getElementById('matches-container');
+      container.innerHTML = '';
       let currentDate = '';
 
       matches.forEach(m => {
-        const dt = formatKickoff(m.utc_time, m.match_date, m.match_time);
+        let kickTime = m.match_time ? m.match_time.substring(0, 5) : '--:--';
+        let matchDateStr = m.match_date || 'TBD';
 
-        if (dt.date !== currentDate) {
-          currentDate = dt.date;
-          const dateEl = document.createElement('div');
-          dateEl.className = 'date-header';
-          dateEl.innerHTML = `<span>${currentDate}</span>`;
-          matchesContainer.appendChild(dateEl);
+        if (m.utc_time) {
+          try {
+            const d = new Date(m.utc_time);
+            kickTime = d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: false }) + ' (VN)';
+            matchDateStr = d.toLocaleDateString([], { weekday: 'short', day: '2-digit', month: 'short', year: 'numeric' });
+          } catch (e) {}
+        }
+
+        if (matchDateStr !== currentDate) {
+          currentDate = matchDateStr;
+          const h = document.createElement('div');
+          h.className = 'date-header';
+          h.innerHTML = `<span>${currentDate}</span>`;
+          container.appendChild(h);
         }
 
         const isFinished = (m.status === 'FINISHED');
-        const isScheduled = (m.status === 'SCHEDULED');
-        const homeWon = isFinished && m.home_score > m.away_score;
-        const awayWon = isFinished && m.away_score > m.home_score;
-
-        const homeColor = getTeamAvatarColor(m.home_team);
-        const awayColor = getTeamAvatarColor(m.away_team);
-
         const card = document.createElement('div');
         card.className = 'match-card';
-
         card.innerHTML = `
           <div class="match-meta">
-            <div class="match-time">${dt.time}</div>
+            <div class="match-time">${kickTime}</div>
             <div>${m.round_name || ('Round ' + m.round)}</div>
           </div>
-
-          <div class="team-cell home ${homeWon ? 'winner' : ''}">
+          <div class="team-cell home">
             <span>${m.home_team}</span>
-            <div class="team-avatar" style="background:${homeColor};">${getInitials(m.home_team)}</div>
+            <div class="team-avatar" style="background:${getAvatarColor(m.home_team)}">${getInitials(m.home_team)}</div>
           </div>
-
           <div class="score-cell">
             ${isFinished ? 
               `<div class="score-badge finished">${m.home_score} - ${m.away_score}</div>` : 
-              `<div class="score-badge scheduled">${dt.time}</div>`
+              `<div class="score-badge scheduled">${kickTime}</div>`
             }
           </div>
-
-          <div class="team-cell away ${awayWon ? 'winner' : ''}">
-            <div class="team-avatar" style="background:${awayColor};">${getInitials(m.away_team)}</div>
+          <div class="team-cell away">
+            <div class="team-avatar" style="background:${getAvatarColor(m.away_team)}">${getInitials(m.away_team)}</div>
             <span>${m.away_team}</span>
           </div>
-
           <div class="status-cell">
-            <span class="badge ${isFinished ? 'badge-finished' : (isScheduled ? 'badge-scheduled' : 'badge-live')}">
-              ${m.status}
-            </span>
-            ${m.match_url ? `<a href="${m.match_url}" target="_blank" rel="noopener" class="fotmob-link" title="View on FotMob">↗</a>` : ''}
+            <span class="badge ${isFinished ? 'badge-success' : 'badge-scheduled'}">${m.status}</span>
+            ${m.match_url ? `<a href="${m.match_url}" target="_blank" rel="noopener" style="color:var(--text-dim); text-decoration:none;">↗</a>` : ''}
           </div>
         `;
-
-        matchesContainer.appendChild(card);
+        container.appendChild(card);
       });
     }
 
-    // Pagination helper
-    function updatePagination(total) {
-      if (total > state.pageSize) {
-        paginationBar.style.display = 'flex';
-        const start = (state.page - 1) * state.pageSize + 1;
-        const end = Math.min(state.page * state.pageSize, total);
-        pageInfo.textContent = `Showing ${start}-${end} of ${total.toLocaleString()} matches (Page ${state.page} / ${state.totalPages})`;
-        btnPrev.disabled = (state.page <= 1);
-        btnNext.disabled = (state.page >= state.totalPages);
+    function updateMatchPagination(total) {
+      const bar = document.getElementById('match-pagination');
+      if (total > appState.matchPageSize) {
+        bar.style.display = 'flex';
+        const start = (appState.matchPage - 1) * appState.matchPageSize + 1;
+        const end = Math.min(appState.matchPage * appState.matchPageSize, total);
+        document.getElementById('match-page-info').textContent = `Showing matches ${start}-${end} of ${total} (Page ${appState.matchPage}/${appState.matchTotalPages})`;
+        document.getElementById('btn-match-prev').disabled = (appState.matchPage <= 1);
+        document.getElementById('btn-match-next').disabled = (appState.matchPage >= appState.matchTotalPages);
       } else {
-        paginationBar.style.display = 'none';
+        bar.style.display = 'none';
       }
     }
 
-    // Load Standings Table
+    // 4. Standings
     async function loadStandings() {
-      if (!state.leagueId) {
-        standingsBody.innerHTML = `
-          <tr><td colspan="11" style="text-align:center; padding:40px; color:var(--text-muted);">
-            Please select a specific tournament above to calculate the table standings.
-          </td></tr>`;
-        return;
-      }
+      const tbody = document.getElementById('standings-body');
+      const lid = document.getElementById('sel-stand-league').value;
+      const season = document.getElementById('sel-stand-season').value;
+      if (!lid) return;
 
-      standingsBody.innerHTML = `
-        <tr><td colspan="11" style="text-align:center; padding:40px; color:var(--text-muted);">
-          Calculating standings from finished matches...
-        </td></tr>`;
+      tbody.innerHTML = '<tr><td colspan="11" style="text-align:center; padding:30px; color:var(--text-muted);">Calculating standings table...</td></tr>';
 
       try {
-        const res = await fetch(`/public/standings?league_id=${state.leagueId}&season=${encodeURIComponent(state.season)}`);
+        const res = await fetch(`/public/standings?league_id=${lid}&season=${encodeURIComponent(season)}`);
         if (!res.ok) throw new Error('HTTP ' + res.status);
         const table = await res.json();
 
         if (!table || table.length === 0) {
-          standingsBody.innerHTML = `
-            <tr><td colspan="11" style="text-align:center; padding:40px; color:var(--text-muted);">
-              No completed matches found for this league in season ${state.season}. Standings will update automatically as matches finish.
-            </td></tr>`;
+          tbody.innerHTML = '<tr><td colspan="11" style="text-align:center; padding:30px; color:var(--text-muted);">No completed matches recorded yet for this league.</td></tr>';
           return;
         }
 
-        renderStandings(table);
+        tbody.innerHTML = table.map(r => {
+          const form = (r.form || []).map(f => `<span class="form-dot ${f === 'W' ? 'form-w' : (f === 'D' ? 'form-d' : 'form-l')}">${f}</span>`).join('');
+          const isTop4 = r.rank <= 4;
+          const isRel = r.rank >= table.length - 2 && table.length >= 10;
+          return `
+            <tr>
+              <td class="rank-cell ${isTop4 ? 'top-4' : (isRel ? 'relegation' : '')}">${r.rank}</td>
+              <td>
+                <div style="display:flex; align-items:center; gap:10px;">
+                  <div class="team-avatar" style="background:${getAvatarColor(r.team_name)}; width:28px; height:28px; font-size:0.7rem;">${getInitials(r.team_name)}</div>
+                  <strong>${r.team_name}</strong>
+                </div>
+              </td>
+              <td class="num">${r.played}</td>
+              <td class="num">${r.won}</td>
+              <td class="num">${r.drawn}</td>
+              <td class="num">${r.lost}</td>
+              <td class="num">${r.gf}</td>
+              <td class="num">${r.ga}</td>
+              <td class="num" style="font-weight:600; color:${r.gd > 0 ? '#34d399' : (r.gd < 0 ? '#fb7185' : 'inherit')}">
+                ${r.gd > 0 ? '+' + r.gd : r.gd}
+              </td>
+              <td class="pts">${r.points}</td>
+              <td><div class="form-pills">${form || '--'}</div></td>
+            </tr>
+          `;
+        }).join('');
       } catch (err) {
-        standingsBody.innerHTML = `
-          <tr><td colspan="11" style="text-align:center; padding:40px; color:var(--accent-rose);">
-            Could not calculate standings: ${err.message}
-          </td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="11" style="text-align:center; padding:30px; color:#fb7185;">Could not calculate standings: ${err.message}</td></tr>`;
       }
     }
 
-    function renderStandings(table) {
-      standingsBody.innerHTML = '';
-      table.forEach(row => {
-        const tr = document.createElement('tr');
-        const color = getTeamAvatarColor(row.team_name);
-
-        const formHtml = (row.form || []).map(f => {
-          const cls = f === 'W' ? 'form-w' : (f === 'D' ? 'form-d' : 'form-l');
-          return `<span class="form-dot ${cls}">${f}</span>`;
-        }).join('');
-
-        const isTop4 = row.rank <= 4;
-        const isRelegation = row.rank >= table.length - 2 && table.length >= 10;
-
-        tr.innerHTML = `
-          <td class="rank-cell ${isTop4 ? 'top-4' : (isRelegation ? 'relegation' : '')}">${row.rank}</td>
-          <td>
-            <div style="display:flex; align-items:center; gap:10px;">
-              <div class="team-avatar" style="background:${color}; width:28px; height:28px; font-size:0.7rem;">${getInitials(row.team_name)}</div>
-              <strong>${row.team_name}</strong>
-            </div>
-          </td>
-          <td class="num">${row.played}</td>
-          <td class="num">${row.won}</td>
-          <td class="num">${row.drawn}</td>
-          <td class="num">${row.lost}</td>
-          <td class="num">${row.gf}</td>
-          <td class="num">${row.ga}</td>
-          <td class="num" style="font-weight:600; color:${row.gd > 0 ? '#34d399' : (row.gd < 0 ? '#f43f5e' : 'inherit')}">
-            ${row.gd > 0 ? '+' + row.gd : row.gd}
-          </td>
-          <td class="pts">${row.points}</td>
-          <td><div class="form-pills">${formHtml || '--'}</div></td>
-        `;
-        standingsBody.appendChild(tr);
-      });
-    }
-
-    // Analytics summary
-    async function loadAnalytics() {
-      const params = new URLSearchParams({
-        page: 1,
-        page_size: 200,
-        season: state.season
-      });
-      if (state.leagueId) params.append('league_id', state.leagueId);
-
-      try {
-        const res = await fetch(`/public/matches?${params.toString()}`);
-        if (!res.ok) return;
-        const data = await res.json();
-        const matches = data.matches || [];
-
-        const finished = matches.filter(m => m.status === 'FINISHED');
-        let totalGoals = 0, homeWins = 0, draws = 0, awayWins = 0;
-
-        finished.forEach(m => {
-          if (m.home_score != null && m.away_score != null) {
-            totalGoals += (m.home_score + m.away_score);
-            if (m.home_score > m.away_score) homeWins++;
-            else if (m.home_score === m.away_score) draws++;
-            else awayWins++;
-          }
-        });
-
-        document.getElementById('an-completed').textContent = finished.length.toLocaleString();
-        document.getElementById('an-goals').textContent = totalGoals.toLocaleString();
-        document.getElementById('an-goals-per-match').textContent = finished.length > 0 ? (totalGoals / finished.length).toFixed(2) : '0.00';
-        
-        if (finished.length > 0) {
-          const hwPct = Math.round((homeWins / finished.length) * 100);
-          const dPct = Math.round((draws / finished.length) * 100);
-          const awPct = Math.round((awayWins / finished.length) * 100);
-          document.getElementById('an-outcomes').textContent = `${hwPct}% H / ${dPct}% D / ${awPct}% A`;
-        } else {
-          document.getElementById('an-outcomes').textContent = 'No finished games';
-        }
-      } catch (e) {}
-    }
-
-    // Start App
     window.addEventListener('DOMContentLoaded', init);
   </script>
 </body>
