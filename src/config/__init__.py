@@ -48,7 +48,7 @@ LOG_FILE: str = os.environ.get("LOG_FILE", str(EXPERIMENT_DIR / "logs" / "etl.lo
 
 # Leagues Config (stored in src/config/leagues.json)
 LEAGUES_CONFIG_FILE: Path = CONFIG_DIR / "leagues.json"
-DEFAULT_SEASON: str = os.environ.get("DEFAULT_SEASON", "2025-2026")
+DEFAULT_SEASON: str = os.environ.get("DEFAULT_SEASON", "2026-2027")
 
 # Crawl state API (used by the scheduler instead of a direct DB connection)
 API_URL: str = os.environ.get("API_URL", "")
