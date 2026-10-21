@@ -6,6 +6,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import select
 from src.database import CrawlStateRepository, get_session
 from src.database.models import DimLeague
+from datetime import datetime, timedelta, timezone
+from sqlalchemy import func, select
+from src.database.models import CrawlStateLog, DimLeague, FactMatch
 
 app = FastAPI(title="Football ETL API")
 
@@ -56,3 +59,28 @@ def public_crawl_state(season: str = Query(...)):
             }
             for lid, row in rows.items()
         ]
+
+@app.get("/public/stats")
+def public_stats():
+    """Public, read-only summary numbers for the landing page."""
+    since = datetime.now(timezone.utc) - timedelta(days=7)
+    with get_session() as session:
+        total_matches = session.scalar(select(func.count()).select_from(FactMatch))
+        leagues = session.scalar(select(func.count()).select_from(DimLeague))
+        last_crawled = session.scalar(
+            select(func.max(CrawlStateLog.crawled_at))
+            .where(CrawlStateLog.status == "SUCCESS")
+        )
+        runs, ok = session.execute(
+            select(
+                func.count(),
+                func.count().filter(CrawlStateLog.status == "SUCCESS"),
+            ).where(CrawlStateLog.crawled_at >= since)
+        ).one()
+        return {
+            "total_matches": total_matches,
+            "leagues_tracked": leagues,
+            "last_crawled_at": last_crawled.isoformat() if last_crawled else None,
+            "crawl_runs_7d": runs,
+            "success_rate_7d": round(ok / runs * 100, 1) if runs else None,
+        }
