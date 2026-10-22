@@ -1116,10 +1116,14 @@
       const target = new Date(isoStr).getTime();
       const now = Date.now();
       const diff = Math.floor((target - now) / 1000);
-      if (diff <= 0) return '⚡ Due now';
-      const h = Math.floor(diff / 3600);
+      if (diff <= 0) return 'Due now';
+      const d = Math.floor(diff / 86400);
+      const h = Math.floor((diff % 86400) / 3600);
       const m = Math.floor((diff % 3600) / 60);
       const s = diff % 60;
+      if (d > 0) {
+        return `${d}d ${String(h).padStart(2, '0')}h ${String(m).padStart(2, '0')}m ${String(s).padStart(2, '0')}s`;
+      }
       return `${String(h).padStart(2, '0')}h ${String(m).padStart(2, '0')}m ${String(s).padStart(2, '0')}s`;
     }
 
