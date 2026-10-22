@@ -55,7 +55,7 @@ class FactMatch(Base):
     season: Mapped[str] = mapped_column(String(20), index=True, nullable=False)
 
     # Round & Stage Categorization
-    round: Mapped[str] = mapped_column(String(20), index=True, nullable=False)
+    round: Mapped[str] = mapped_column(String(50), index=True, nullable=False)
     round_name: Mapped[str] = mapped_column(String(100), nullable=False)
     stage: Mapped[str] = mapped_column(String(50), index=True, nullable=False)
 
