@@ -13,6 +13,7 @@ from src.services.extract.publisher import publish_raw_fixtures
 from typing import Any, Dict, List, Optional
 
 
+
 app = FastAPI(title="Football ETL API")
 
 API_TOKEN = os.environ.get("API_TOKEN", "")
@@ -520,6 +521,7 @@ def public_crawl_overview(season: Optional[str] = Query(None)):
             "next_upcoming_run": next_run_info,
             "leagues_status": leagues_status,
         }
+from pydantic import BaseModel
 
 class IngestPayload(BaseModel):
     league_id: int
