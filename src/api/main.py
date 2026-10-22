@@ -9,6 +9,9 @@ from src.database.models import DimLeague
 from datetime import datetime, timedelta, timezone
 from sqlalchemy import func, select
 from src.database.models import CrawlStateLog, DimLeague, FactMatch
+from src.services.extract.publisher import publish_raw_fixtures
+from typing import Any, Dict, List, Optional
+
 
 app = FastAPI(title="Football ETL API")
 
@@ -517,3 +520,23 @@ def public_crawl_overview(season: Optional[str] = Query(None)):
             "next_upcoming_run": next_run_info,
             "leagues_status": leagues_status,
         }
+
+class IngestPayload(BaseModel):
+    league_id: int
+    season: str
+    fixtures: List[Dict[str, Any]]
+    trigger_reason: Optional[str] = None
+    crawled_at: Optional[str] = None
+
+
+@app.post("/ingest", dependencies=[Depends(verify_token)])
+def ingest(payload: IngestPayload):
+    """Receive crawled fixtures from the scheduler and publish them to Kafka."""
+    publish_raw_fixtures(
+        league_id=payload.league_id,
+        season=payload.season,
+        fixtures=payload.fixtures,
+        trigger_reason=payload.trigger_reason,
+        crawled_at=payload.crawled_at,
+    )
+    return {"status": "published", "count": len(payload.fixtures)}
