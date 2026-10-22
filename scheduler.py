@@ -29,7 +29,6 @@ import src.config as config
 from src.utils.logging_config import setup_logging
 from src.utils.crawl_state import due_reason
 from src.services.extract.crawler import extract_fixtures
-from src.services.extract.publisher import publish_raw_fixtures
 
 logger = logging.getLogger("scheduler")
 
@@ -50,6 +49,30 @@ def load_leagues(config_file: Path) -> List[Dict[str, Any]]:
 
 def league_id_of(league: Dict[str, Any]) -> Any:
     return league.get("id") or league.get("fotmob_id")
+
+def send_to_api(
+    league_id: int,
+    season: str,
+    fixtures: List[Dict[str, Any]],
+    trigger_reason: Optional[str],
+    crawled_at: str,
+) -> None:
+    """Send crawled fixtures to the API, which publishes them to Kafka."""
+    if not config.API_URL or not config.API_TOKEN:
+        raise RuntimeError("API_URL and API_TOKEN must be set to send fixtures.")
+    resp = requests.post(
+        f"{config.API_URL}/ingest",
+        json={
+            "league_id": league_id,
+            "season": season,
+            "fixtures": fixtures,
+            "trigger_reason": trigger_reason,
+            "crawled_at": crawled_at,
+        },
+        headers={"Authorization": f"Bearer {config.API_TOKEN}"},
+        timeout=60,
+    )
+    resp.raise_for_status()
 
 def fetch_latest_success(season: str) -> Dict[int, Any]:
     """Get {league_id: (crawled_at, next_recrawl_at)} from the API."""
@@ -100,14 +123,14 @@ def crawl_league(
         logger.info("  -> Fetched %d matches.", len(fixtures))
 
         if not dry_run:
-            publish_raw_fixtures(
+            send_to_api(
                 league_id=int(league_id),
                 season=season,
                 fixtures=fixtures,
                 trigger_reason=trigger_reason,
                 crawled_at=crawled_at,
             )
-            logger.info("  -> Published to Kafka topic '%s'.", config.TOPIC_RAW_FIXTURES)
+            logger.info("  -> Sent to API for publishing.")
         else:
             logger.info("  -> [DRY RUN] Skipping Kafka publish.")
 
