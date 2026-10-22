@@ -405,7 +405,7 @@ def serve_architecture():
 def public_teams(
     query: Optional[str] = Query(None),
     league_id: Optional[int] = Query(None),
-    limit: int = Query(300, ge=1, le=1000),
+    limit: int = Query(1000, ge=1, le=5000),
 ):
     """List available clubs with optional search or league filter for H2H."""
     with get_session() as session:
@@ -425,6 +425,28 @@ def public_teams(
         return [{"team_id": t.team_id, "team_name": t.team_name} for t in teams]
 
 
+COMMON_H2H_ALIASES = {
+    "barca": "Barcelona",
+    "barcelona": "Barcelona",
+    "mu": "Manchester United",
+    "man utd": "Manchester United",
+    "man united": "Manchester United",
+    "man city": "Manchester City",
+    "mc": "Manchester City",
+    "psg": "Paris Saint-Germain",
+    "dortmund": "Borussia Dortmund",
+    "bayern": "Bayern",
+    "munich": "Bayern",
+    "inter": "Inter",
+    "inter milan": "Inter",
+    "juve": "Juventus",
+    "juventus": "Juventus",
+    "spurs": "Tottenham",
+    "tottenham": "Tottenham",
+    "atletico": "Atlético Madrid",
+    "real": "Real Madrid",
+}
+
 @app.get("/public/h2h")
 def public_h2h(
     team1: str = Query(..., description="First team ID or name"),
@@ -438,26 +460,30 @@ def public_h2h(
     AwayTeam = aliased(DimTeam)
 
     with get_session() as session:
+        # Normalize alias or query string
+        q1 = COMMON_H2H_ALIASES.get(team1.lower().strip(), team1.strip())
+        q2 = COMMON_H2H_ALIASES.get(team2.lower().strip(), team2.strip())
+
         # Resolve team 1 (ID -> exact name -> substring match)
         t1 = session.scalar(
             select(DimTeam).where(
-                (DimTeam.team_id == team1) | (DimTeam.team_name.ilike(team1.strip()))
+                (DimTeam.team_id == team1) | (DimTeam.team_name.ilike(q1))
             )
         )
         if not t1:
             t1 = session.scalar(
-                select(DimTeam).where(DimTeam.team_name.ilike(chr(37) + team1.strip() + chr(37)))
+                select(DimTeam).where(DimTeam.team_name.ilike(chr(37) + q1 + chr(37)))
             )
 
         # Resolve team 2 (ID -> exact name -> substring match)
         t2 = session.scalar(
             select(DimTeam).where(
-                (DimTeam.team_id == team2) | (DimTeam.team_name.ilike(team2.strip()))
+                (DimTeam.team_id == team2) | (DimTeam.team_name.ilike(q2))
             )
         )
         if not t2:
             t2 = session.scalar(
-                select(DimTeam).where(DimTeam.team_name.ilike(chr(37) + team2.strip() + chr(37)))
+                select(DimTeam).where(DimTeam.team_name.ilike(chr(37) + q2 + chr(37)))
             )
 
         if not t1 or not t2:
