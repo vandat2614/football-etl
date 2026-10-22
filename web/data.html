@@ -590,8 +590,43 @@
       text-align: left
     }
 
-    .team-avatar {
-      display: none
+    .team-badge-wrap {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      position: relative;
+    }
+
+    .team-logo-img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      filter: drop-shadow(0 1px 2px rgba(0,0,0,0.18));
+      transition: transform 0.15s ease;
+    }
+
+    .team-logo-img:hover {
+      transform: scale(1.15);
+    }
+
+    .team-avatar.fallback-avatar {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.72rem;
+      flex-shrink: 0;
+      border: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .league-logo-img {
+      display: inline-block;
+      object-fit: contain;
+      vertical-align: middle;
+      filter: drop-shadow(0 1px 2px rgba(0,0,0,0.12));
     }
 
     .score-cell {
@@ -1114,6 +1149,35 @@
       return p.length === 1 ? p[0].substring(0, 2).toUpperCase() : (p[0][0] + p[p.length - 1][0]).toUpperCase();
     }
 
+    function renderTeamBadge(teamId, teamName, size = 28) {
+      const avatarColor = getAvatarColor(teamName);
+      const initials = getInitials(teamName);
+      if (!teamId) {
+        return `<span class="team-avatar fallback-avatar" style="width:${size}px; height:${size}px; background:${avatarColor};">${initials}</span>`;
+      }
+      return `
+        <span class="team-badge-wrap" style="width:${size}px; height:${size}px;" title="${teamName || ''}">
+          <img class="team-logo-img" src="/images/teams/${teamId}.png" alt="${teamName || ''}" 
+               onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='inline-flex';" 
+               loading="lazy">
+          <span class="team-avatar fallback-avatar" style="display:none; width:${size}px; height:${size}px; background:${avatarColor};">
+            ${initials}
+          </span>
+        </span>
+      `;
+    }
+
+    function renderLeagueBadge(leagueId, leagueName, size = 22) {
+      if (!leagueId) return '';
+      return `
+        <img class="league-logo-img" src="/images/leagues/${leagueId}.png" alt="${leagueName || ''}" 
+             title="${leagueName || ''}"
+             onerror="this.style.display='none';" 
+             style="width:${size}px; height:${size}px; object-fit:contain; vertical-align:middle;" 
+             loading="lazy">
+      `;
+    }
+
     // Initialization
     async function init() {
       setupNavigation();
@@ -1238,7 +1302,10 @@
         return `
           <div class="radar-card">
             <div class="radar-top">
-              <span class="radar-league">${item.league_name}</span>
+              <div style="display:flex; align-items:center; gap:8px;">
+                ${renderLeagueBadge(item.league_id, item.league_name, 26)}
+                <span class="radar-league">${item.league_name}</span>
+              </div>
               <span class="radar-countdown" data-countdown-time="${item.next_recrawl_at || ''}">${countdown(item.next_recrawl_at)}</span>
             </div>
             <div class="radar-details">
@@ -1313,7 +1380,15 @@
             <tr>
               <td class="num code-font" style="color:var(--text-dim);">${log.id}</td>
               <td class="code-font">${fmtDate(log.crawled_at)}</td>
-              <td><strong>${log.league_name}</strong> <span style="font-size:0.75rem; color:var(--text-dim);">(${log.season})</span></td>
+              <td>
+                <div style="display:flex; align-items:center; gap:8px;">
+                  ${renderLeagueBadge(log.league_id, log.league_name, 22)}
+                  <div>
+                    <strong>${log.league_name}</strong>
+                    <span style="font-size:0.75rem; color:var(--text-dim); display:block;">${log.season}</span>
+                  </div>
+                </div>
+              </td>
               <td>${triggerBadge(log.trigger)}</td>
               <td class="num font-bold">${log.fixtures_count != null ? log.fixtures_count.toLocaleString() : '--'}</td>
               <td>
@@ -1467,8 +1542,8 @@
             <div>${m.round_name || ('Round ' + m.round)}</div>
           </div>
           <div class="team-cell home">
-            <span>${m.home_team}</span>
-            <div class="team-avatar" style="background:${getAvatarColor(m.home_team)}">${getInitials(m.home_team)}</div>
+            <span class="team-name">${m.home_team}</span>
+            ${renderTeamBadge(m.home_team_id, m.home_team, 30)}
           </div>
           <div class="score-cell">
             ${isFinished ?
@@ -1477,8 +1552,8 @@
           }
           </div>
           <div class="team-cell away">
-            <div class="team-avatar" style="background:${getAvatarColor(m.away_team)}">${getInitials(m.away_team)}</div>
-            <span>${m.away_team}</span>
+            ${renderTeamBadge(m.away_team_id, m.away_team, 30)}
+            <span class="team-name">${m.away_team}</span>
           </div>
           <div class="status-cell">
             <span class="badge ${isFinished ? 'badge-success' : 'badge-scheduled'}">${m.status}</span>
@@ -1531,8 +1606,8 @@
               <td class="rank-cell ${isTop4 ? 'top-4' : (isRel ? 'relegation' : '')}">${r.rank}</td>
               <td>
                 <div style="display:flex; align-items:center; gap:10px;">
-                  <div class="team-avatar" style="background:${getAvatarColor(r.team_name)}; width:28px; height:28px; font-size:0.7rem;">${getInitials(r.team_name)}</div>
-                  <strong>${r.team_name}</strong>
+                  ${renderTeamBadge(r.team_id, r.team_name, 26)}
+                  <strong style="font-size:0.95rem;">${r.team_name}</strong>
                 </div>
               </td>
               <td class="num">${r.played}</td>

@@ -101,6 +101,10 @@ from src.config import LEAGUES_CONFIG_FILE
 
 WEB_DIR = Path(__file__).resolve().parent.parent.parent / "web"
 
+if (WEB_DIR / "images").exists():
+    from fastapi.staticfiles import StaticFiles
+    app.mount("/images", StaticFiles(directory=str(WEB_DIR / "images")), name="images")
+
 
 @app.get("/public/leagues")
 def public_leagues():

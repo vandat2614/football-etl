@@ -4,438 +4,983 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Football ETL pipeline</title>
+    <title>Football ETL Pipeline - Architecture & Event Stream Flow</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=IBM+Plex+Sans:wght@400;500&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg: #e9efec;
-            --surface: #f7faf8;
-            --ink: #14232b;
-            --muted: #53666d;
-            --line: #b9c7c1;
-            --pitch: #1d6a4b;
-            --active: #f0b429;
-            --code: #10201f;
-            --code-ink: #d8ece3;
-            box-sizing: border-box;
-            padding-top: env(safe-area-inset-top, 0px);
-            padding-bottom: env(safe-area-inset-bottom, 0px);
-        }
-
-        @media (prefers-color-scheme:dark) {
-            :root:not([data-theme="light"]) {
-                --bg: #0f1b1c;
-                --surface: #16282a;
-                --ink: #e3efe9;
-                --muted: #9bb2aa;
-                --line: #2c4443;
-                --pitch: #4fbf8b;
-                --active: #f0b429;
-                --code: #0a1313;
-                --code-ink: #cfe8dc;
-            }
-        }
-
-        :root[data-theme="dark"] {
-            --bg: #0f1b1c;
-            --surface: #16282a;
-            --ink: #e3efe9;
-            --muted: #9bb2aa;
-            --line: #2c4443;
-            --pitch: #4fbf8b;
-            --active: #f0b429;
-            --code: #0a1313;
-            --code-ink: #cfe8dc;
-        }
-
-        html {
-            height: auto;
-            scroll-padding-top: env(safe-area-inset-top, 0px)
+            --bg-base: #0b1114;
+            --bg-surface: #121c21;
+            --bg-card: #18252c;
+            --bg-card-hover: #1e3039;
+            --border: #223740;
+            --border-hover: #32505d;
+            --border-active: #06b6d4;
+            --text-main: #f1f7f6;
+            --text-muted: #8ca2ad;
+            --text-dim: #5c727c;
+            --accent-cyan: #06b6d4;
+            --accent-green: #10b981;
+            --accent-amber: #f59e0b;
+            --accent-purple: #8b5cf6;
+            --accent-blue: #3b82f6;
+            --code-bg: #090e10;
+            --code-ink: #cbe3e9;
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 14px;
+            --font-display: "Bricolage Grotesque", -apple-system, sans-serif;
+            --font-body: "IBM Plex Sans", -apple-system, sans-serif;
+            --font-mono: "JetBrains Mono", Consolas, monospace;
         }
 
         * {
-            box-sizing: border-box
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
         }
 
         body {
-            margin: 0;
-            background: var(--bg);
-            color: var(--ink);
-            font: 400 16px/1.6 "IBM Plex Sans", system-ui, sans-serif
-        }
-
-        main {
-            max-width: 980px;
-            margin: 0 auto;
-            padding: 40px 20px 64px
-        }
-
-        h1 {
-            font: 700 clamp(2rem, 6vw, 3.4rem)/1.05 "Bricolage Grotesque", system-ui, sans-serif;
-            margin: 0 0 14px;
-            letter-spacing: -.02em
-        }
-
-        .lead {
-            max-width: 60ch;
-            color: var(--muted);
-            margin: 0 0 28px
-        }
-
-        .bar {
+            background-color: var(--bg-base);
+            color: var(--text-main);
+            font: 400 15px/1.6 var(--font-body);
+            min-height: 100vh;
             display: flex;
-            gap: 12px;
+            flex-direction: column;
+            background-image: 
+                radial-gradient(ellipse 80% 50% at 50% -20%, rgba(6, 182, 212, 0.12), transparent 70%),
+                radial-gradient(ellipse 60% 40% at 80% 100%, rgba(16, 185, 129, 0.08), transparent 70%);
+            background-attachment: fixed;
+        }
+
+        /* Header */
+        header {
+            border-bottom: 1px solid var(--border);
+            background: rgba(18, 28, 33, 0.88);
+            backdrop-filter: blur(12px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            max-width: 1240px;
+            margin: 0 auto;
+            padding: 14px 24px;
+            display: flex;
             align-items: center;
+            justify-content: space-between;
+            gap: 20px;
             flex-wrap: wrap;
-            margin-bottom: 22px
         }
 
-        button {
-            font: 500 15px "IBM Plex Sans", system-ui, sans-serif;
-            background: var(--pitch);
+        .brand-group {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .brand-badge {
+            width: 38px;
+            height: 38px;
+            border-radius: var(--radius-md);
+            background: linear-gradient(135deg, #06b6d4, #10b981);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #051b18;
+            box-shadow: 0 0 16px rgba(6, 182, 212, 0.35);
+        }
+
+        .brand-text h1 {
+            font: 700 1.25rem/1.2 var(--font-display);
+            letter-spacing: -0.01em;
             color: #fff;
+        }
+
+        .brand-text p {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .btn-observatory {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 18px;
+            border-radius: var(--radius-sm);
+            background: linear-gradient(135deg, #06b6d4, #0284c7);
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.88rem;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            box-shadow: 0 4px 14px rgba(6, 182, 212, 0.25);
+            transition: all 0.2s ease;
+        }
+
+        .btn-observatory:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 20px rgba(6, 182, 212, 0.4);
+            filter: brightness(1.1);
+        }
+
+        /* Main Container */
+        main {
+            max-width: 1240px;
+            margin: 0 auto;
+            padding: 32px 24px 64px;
+            flex: 1;
+            width: 100%;
+        }
+
+        /* Hero */
+        .hero {
+            margin-bottom: 28px;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 10px;
+            background: rgba(6, 182, 212, 0.1);
+            border: 1px solid rgba(6, 182, 212, 0.25);
+            border-radius: 999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--accent-cyan);
+            margin-bottom: 12px;
+        }
+
+        .hero-title {
+            font: 800 clamp(1.8rem, 4.5vw, 2.6rem)/1.15 var(--font-display);
+            letter-spacing: -0.02em;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, #fff 40%, #c8e0e6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-desc {
+            max-width: 74ch;
+            color: var(--text-muted);
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        /* Control Bar */
+        .control-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            flex-wrap: wrap;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 12px 18px;
+            margin-bottom: 24px;
+        }
+
+        .control-left {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        .btn-sim {
+            font: 600 14px var(--font-body);
+            background: var(--accent-green);
+            color: #06231c;
             border: 0;
-            border-radius: 8px;
-            padding: 10px 18px;
-            cursor: pointer
+            border-radius: var(--radius-sm);
+            padding: 8px 18px;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s;
+            box-shadow: 0 2px 10px rgba(16, 185, 129, 0.25);
         }
 
-        :root[data-theme="dark"] button {
-            color: #0b1a14
+        .btn-sim:hover {
+            filter: brightness(1.1);
+            transform: translateY(-1px);
         }
 
-        @media (prefers-color-scheme:dark) {
-            :root:not([data-theme="light"]) button {
-                color: #0b1a14
+        .btn-sim.running {
+            background: var(--accent-amber);
+            color: #261601;
+        }
+
+        .sim-hint {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .sim-hint b {
+            color: var(--text-main);
+            font-family: var(--font-mono);
+            font-weight: 500;
+        }
+
+        .legend-pills {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            font-size: 0.78rem;
+        }
+
+        .pill {
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        .pill.extract { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
+        .pill.gateway { background: rgba(6, 182, 212, 0.15); color: #22d3ee; border: 1px solid rgba(6, 182, 212, 0.3); }
+        .pill.queue { background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); }
+        .pill.transform { background: rgba(168, 85, 247, 0.15); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); }
+        .pill.load { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+
+        /* Flow Grid */
+        .flow-container {
+            margin-bottom: 28px;
+        }
+
+        .flow-grid {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            gap: 10px;
+            position: relative;
+        }
+
+        .flow-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 14px 10px;
+            cursor: pointer;
+            text-align: left;
+            position: relative;
+            transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 124px;
+        }
+
+        .flow-card:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--border-hover);
+            transform: translateY(-2px);
+        }
+
+        .flow-card.on {
+            background: var(--bg-card);
+            border-color: var(--accent-cyan);
+            box-shadow: 0 0 0 2px rgba(6, 182, 212, 0.3), 0 8px 24px rgba(0, 0, 0, 0.4);
+            transform: translateY(-3px);
+        }
+
+        .flow-card.done {
+            border-color: var(--accent-green);
+        }
+
+        .flow-card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+
+        .step-num {
+            font: 700 0.72rem var(--font-mono);
+            color: var(--text-dim);
+            padding: 1px 5px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 4px;
+        }
+
+        .flow-card.on .step-num {
+            color: var(--accent-cyan);
+            background: rgba(6, 182, 212, 0.15);
+        }
+
+        .flow-badge {
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+
+        .flow-card b {
+            font: 700 0.92rem/1.25 var(--font-display);
+            color: var(--text-main);
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .flow-card span {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            line-height: 1.3;
+            display: block;
+        }
+
+        /* Flow Arrow */
+        .flow-card:not(:last-child)::after {
+            content: "→";
+            position: absolute;
+            right: -10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--border);
+            font-size: 14px;
+            font-weight: bold;
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        .flow-card.done:not(:last-child)::after {
+            color: var(--accent-green);
+        }
+
+        /* Stage Detail Panel */
+        .panel {
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 28px;
+            box-shadow: 0 12px 36px rgba(0, 0, 0, 0.3);
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .panel::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-cyan), var(--accent-green), var(--accent-purple));
+        }
+
+        .panel-top {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 18px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .panel-title-area h2 {
+            font: 700 1.55rem/1.2 var(--font-display);
+            letter-spacing: -0.01em;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-bottom: 4px;
+        }
+
+        .panel-subtitle {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+        }
+
+        .meta-tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .meta-tag {
+            font-size: 0.78rem;
+            font-family: var(--font-mono);
+            padding: 3px 8px;
+            border-radius: var(--radius-sm);
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: var(--text-main);
+        }
+
+        .panel-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        @media (max-width: 900px) {
+            .panel-grid {
+                grid-template-columns: 1fr;
             }
         }
 
-        button:focus-visible,
-        .node:focus-visible {
-            outline: 3px solid var(--active);
-            outline-offset: 2px
+        .panel-text h3 {
+            font: 600 0.82rem var(--font-mono);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--accent-cyan);
+            margin-bottom: 10px;
         }
 
-        .hint {
-            color: var(--muted);
-            font-size: 14px
+        .panel-text p {
+            color: var(--text-muted);
+            line-height: 1.7;
+            font-size: 0.95rem;
+            margin-bottom: 16px;
         }
 
-        .flow {
-            display: grid;
-            grid-template-columns: repeat(7, 1fr);
-            gap: 0;
-            margin-bottom: 22px
+        .guarantee-box {
+            background: rgba(6, 182, 212, 0.06);
+            border-left: 3px solid var(--accent-cyan);
+            padding: 12px 14px;
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            font-size: 0.88rem;
+            color: var(--text-main);
         }
 
-        .node {
+        .guarantee-box b {
+            color: var(--accent-cyan);
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .panel-code-box {
             position: relative;
-            background: var(--surface);
-            border: 2px solid var(--line);
-            border-radius: 10px;
-            padding: 12px 8px;
-            text-align: left;
-            cursor: pointer;
-            color: var(--ink);
-            font: inherit;
-            min-height: 92px;
-            margin-right: 14px
         }
 
-        .node:last-child {
-            margin-right: 0
-        }
-
-        .node:not(:last-child)::after {
-            content: "";
-            position: absolute;
-            right: -14px;
-            top: 50%;
-            width: 14px;
-            border-top: 2px solid var(--line)
-        }
-
-        .node b {
-            display: block;
-            font: 700 14px/1.2 "Bricolage Grotesque", system-ui, sans-serif
-        }
-
-        .node span {
-            display: block;
-            font-size: 12px;
-            color: var(--muted);
-            margin-top: 4px;
-            line-height: 1.35
-        }
-
-        .node.on {
-            border-color: var(--active);
-            box-shadow: 0 0 0 3px color-mix(in srgb, var(--active) 35%, transparent)
-        }
-
-        .node.done {
-            border-color: var(--pitch)
-        }
-
-        .panel {
-            background: var(--surface);
-            border: 2px solid var(--line);
-            border-radius: 12px;
-            padding: 22px
-        }
-
-        .panel h2 {
-            font: 700 1.5rem/1.2 "Bricolage Grotesque", system-ui, sans-serif;
-            margin: 0 0 6px
-        }
-
-        .panel p {
-            margin: 0 0 14px;
-            max-width: 70ch
-        }
-
-        .tech {
-            color: var(--muted);
-            font-size: 14px;
-            margin-bottom: 12px
+        .code-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #0d1518;
+            border: 1px solid var(--border);
+            border-bottom: 0;
+            border-radius: var(--radius-md) var(--radius-md) 0 0;
+            padding: 8px 14px;
+            font: 500 0.75rem var(--font-mono);
+            color: var(--text-dim);
         }
 
         pre {
-            margin: 0;
-            background: var(--code);
-            color: var(--code-ink);
-            border-radius: 8px;
-            padding: 14px 16px;
-            overflow-x: auto;
-            font: 13px/1.5 ui-monospace, Menlo, Consolas, monospace
-        }
-
-        .loop {
-            margin-top: 18px;
-            color: var(--muted);
-            font-size: 14px;
-            max-width: 70ch
-        }
-
-        @media (max-width:760px) {
-            .flow {
-                grid-template-columns: 1fr;
-                gap: 14px
-            }
-
-            .node {
-                margin-right: 0;
-                min-height: 0
-            }
-
-            .node:not(:last-child)::after {
-                right: auto;
-                left: 50%;
-                top: auto;
-                bottom: -14px;
-                width: 0;
-                height: 14px;
-                border-top: 0;
-                border-left: 2px solid var(--line)
-            }
-        }
-
-        @media (prefers-reduced-motion:reduce) {
-            * {
-                transition: none !important
-            }
-        }
-
-        .node {
-            transition: border-color .3s, box-shadow .3s
-        }
-
-        .status {
-            margin-top: 40px
-        }
-
-        .status h2 {
-            font: 700 1.5rem/1.2 "Bricolage Grotesque", system-ui, sans-serif;
-            margin: 0 0 6px
-        }
-
-        .status select {
-            font: inherit;
-            color: var(--ink);
-            background: var(--surface);
-            border: 2px solid var(--line);
-            border-radius: 8px;
-            padding: 6px 10px;
-            margin: 8px 0 14px
-        }
-
-        .tablewrap {
-            overflow-x: auto;
-            background: var(--surface);
-            border: 2px solid var(--line);
-            border-radius: 12px
-        }
-
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            min-width: 560px
-        }
-
-        th,
-        td {
-            text-align: left;
-            padding: 10px 14px;
-            border-bottom: 1px solid var(--line);
-            font-size: 15px
-        }
-
-        th {
-            font-weight: 500;
-            color: var(--muted)
-        }
-
-        tr:last-child td {
-            border-bottom: 0
-        }
-
-        td.num {
-            font-variant-numeric: tabular-nums
-        }
-
-        .msg {
+            background: var(--code-bg);
+            border: 1px solid var(--border);
+            border-radius: 0 0 var(--radius-md) var(--radius-md);
             padding: 16px;
-            color: var(--muted)
+            overflow-x: auto;
+            color: var(--code-ink);
+            font: 400 12.8px/1.55 var(--font-mono);
+            max-height: 300px;
+        }
+
+        /* Architecture Loop Card */
+        .loop-card {
+            background: linear-gradient(135deg, rgba(18, 28, 33, 0.8), rgba(24, 37, 44, 0.6));
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 22px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+
+        .loop-content {
+            max-width: 780px;
+        }
+
+        .loop-content h4 {
+            font: 700 1.1rem/1.2 var(--font-display);
+            color: #fff;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .loop-content p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        .btn-ghost-hub {
+            color: var(--accent-cyan);
+            border: 1px solid var(--border);
+            padding: 8px 16px;
+            border-radius: var(--radius-sm);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.85rem;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+
+        .btn-ghost-hub:hover {
+            border-color: var(--accent-cyan);
+            background: rgba(6, 182, 212, 0.1);
+        }
+
+        /* Responsive Layout */
+        @media (max-width: 1100px) {
+            .flow-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+            .flow-card:not(:last-child)::after {
+                display: none;
+            }
+        }
+
+        @media (max-width: 650px) {
+            .flow-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .header-inner {
+                flex-direction: column;
+                align-items: flex-start;
+            }
         }
     </style>
 </head>
 
 <body>
-    <main>
-        <h1>One match, from the web to the database</h1>
-        <p class="lead">A pipeline that crawls football fixtures, streams them through Kafka, cleans them and stores
-            them in PostgreSQL. Press the button to follow a single match through every stage, or click any stage to
-            read what it does.</p>
-        <div class="bar">
-            <button id="run" type="button">Send a match through</button>
-            <span class="hint" id="hint">Bayern München vs Wolfsburg, 2010-2011</span>
-        </div>
-        <div class="flow" id="flow" role="list"></div>
-        <section class="panel" id="panel" aria-live="polite"></section>
-        <section class="status">
-            <h2>Crawl status by league</h2>
-            <p class="hint">Live from the API. A league is crawled again when its next group of matches has finished, or
-                after 7 days.</p>
-            <label class="hint" for="season">Season</label><br>
-            <select id="season">
-                <option>2026-2027</option>
-                <option>2025-2026</option>
-            </select>
-            <div class="tablewrap" id="tablewrap">
-                <div class="msg">Loading…</div>
+    <header>
+        <div class="header-inner">
+            <a href="/" class="brand-group">
+                <div class="brand-badge">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                    </svg>
+                </div>
+                <div class="brand-text">
+                    <h1>Football ETL Pipeline</h1>
+                    <p>Event-Driven Architecture & Stream Observatory</p>
+                </div>
+            </a>
+            <div class="header-actions">
+                <a href="/data" class="btn-observatory">
+                    <span>Live Match Center & Hub</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M7 17l10-10M7 7h10v10"></path>
+                    </svg>
+                </a>
             </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero">
+            <div class="hero-badge">Architecture Blueprint • Event-Driven Stream</div>
+            <h2 class="hero-title">From Web Fixture to Analytics Warehouse</h2>
+            <p class="hero-desc">
+                An event-driven football ETL pipeline. GitHub Actions schedules crawls, FastAPI acts as an authenticated ingestion gateway, Apache Kafka buffers raw and cleansed event streams, Python microservices transform fixtures, and PostgreSQL stores analytical models.
+            </p>
+        </div>
+
+        <div class="control-bar">
+            <div class="control-left">
+                <button id="run" type="button" class="btn-sim">
+                    <span id="run-icon">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                    </span>
+                    <span id="run-text">Run Pipeline Simulation</span>
+                </button>
+                <div class="sim-hint" style="display:inline-flex; align-items:center; gap:8px;">
+                    <span>Sample event:</span>
+                    <span style="display:inline-flex; align-items:center; gap:5px;">
+                        <img src="/images/teams/9825.png" alt="Arsenal" style="width:20px; height:20px; object-fit:contain;" onerror="this.style.display='none';">
+                        <b>Arsenal</b>
+                    </span>
+                    <span style="color:var(--text-dim); font-size:12px;">vs</span>
+                    <span style="display:inline-flex; align-items:center; gap:5px;">
+                        <img src="/images/teams/8455.png" alt="Chelsea" style="width:20px; height:20px; object-fit:contain;" onerror="this.style.display='none';">
+                        <b>Chelsea</b>
+                    </span>
+                    <span style="display:inline-flex; align-items:center; gap:4px; padding:2px 8px; background:rgba(255,255,255,0.06); border-radius:4px; font-size:12px;">
+                        <img src="/images/leagues/47.png" alt="Premier League" style="width:16px; height:16px; object-fit:contain;" onerror="this.style.display='none';">
+                        <span>Premier League</span>
+                    </span>
+                </div>
+            </div>
+            <div class="legend-pills">
+                <span class="pill extract">Extract</span>
+                <span class="pill gateway">Gateway</span>
+                <span class="pill queue">Kafka</span>
+                <span class="pill transform">Transform</span>
+                <span class="pill load">Load / DB</span>
+            </div>
+        </div>
+
+        <section class="flow-container" aria-label="Pipeline Stages">
+            <div class="flow-grid" id="flow" role="list"></div>
         </section>
-        <p class="loop">The scheduler does not touch the database. Before crawling it asks the API which leagues are
-            due, and the load step records when each league must be crawled again.</p>
+
+        <section class="panel" id="panel" aria-live="polite">
+            <!-- Dynamic Stage Content -->
+        </section>
+
+        <section class="loop-card">
+            <div class="loop-content">
+                <h4>🔄 Self-Healing Closed-Loop Intelligence</h4>
+                <p>
+                    The scheduler never directly connects to PostgreSQL. Before crawling, it calls <code>GET /crawl-state</code> on FastAPI to ask which leagues are due. When fixtures finish, the Loader recalculates <code>next_recrawl_at = max(kickoff) + 3h</code>, ensuring zero redundant crawls and zero missed match results.
+                </p>
+            </div>
+            <a href="/data" class="btn-ghost-hub">Open Match Center (/data) ↗</a>
+        </section>
     </main>
+
     <script>
-        const steps = [
+        const stages = [
             {
-                n: "Scheduler", s: "GitHub Actions, hourly", t: "Python, requests",
-                d: "Runs every hour. It asks the API which leagues are due, crawls FotMob for those leagues and publishes each league’s fixtures to Kafka as one message.",
-                p: '{\n  "id": "856874",\n  "round": "1",\n  "home": {"name": "Bayern München", "id": "9823"},\n  "away": {"name": "Wolfsburg", "id": "8721"},\n  "status": {"utcTime": "2010-08-20T18:35:00Z",\n             "finished": true, "scoreStr": "2 - 1"}\n}'
+                id: 1,
+                name: "Scheduler & Crawler",
+                sub: "GitHub Actions • Hourly",
+                badge: "Extract",
+                badgeClass: "extract",
+                tech: ["Python 3.12", "Requests", "FotMob API", "Cron Hourly"],
+                desc: "Runs every hour in GitHub Actions. Queries the API to check which tournaments are due for a crawl (either 7 days since last run, or a recent match group has finished). For due leagues, extracts fresh raw fixture JSON directly from the FotMob provider.",
+                guarantee: "Zero Direct DB Access • Stateless runner querying central state via REST API.",
+                sampleTitle: "HTTP GET & Crawl Extraction",
+                code: `// 1. Check which leagues are due:
+GET https://football-etl.duckdns.org/crawl-state?season=2025-2026
+Headers: Authorization: Bearer <SECURE_API_TOKEN>
+
+Response:
+[
+  {
+    "league_id": 47,
+    "league_name": "Premier League",
+    "due_reason": "match_group_finished",
+    "next_recrawl_at": "2025-10-24T22:00:00+00:00"
+  }
+]`
             },
             {
-                n: "Kafka: raw", s: "topic raw-fixtures", t: "Apache Kafka 3.9",
-                d: "Holds the raw crawl results. The crawler and the cleaner never talk to each other directly, so either side can be slow or restart without losing messages.",
-                p: 'topic:  raw-fixtures\nkey:    league_id\nvalue:  all fixtures of one league and season'
+                id: 2,
+                name: "API Ingestion Gateway",
+                sub: "FastAPI • /ingest",
+                badge: "Gateway",
+                badgeClass: "gateway",
+                tech: ["FastAPI", "Uvicorn", "Bearer Auth", "Kafka Producer"],
+                desc: "FastAPI acts as the single entry point. It receives the external payload over HTTPS, verifies the Bearer authentication token, validates batch schemas, and immediately pushes the raw message onto Kafka's raw-fixtures topic.",
+                guarantee: "Security Boundary • Keeps Kafka & PostgreSQL isolated inside private internal Docker network.",
+                sampleTitle: "POST /ingest Payload",
+                code: `POST /ingest HTTP/1.1
+Host: football-etl.duckdns.org
+Authorization: Bearer ************************
+Content-Type: application/json
+
+{
+  "league_id": 47,
+  "season": "2025-2026",
+  "trigger_reason": "match_group_finished",
+  "crawled_at": "2025-10-24T22:05:00+00:00",
+  "fixtures": [
+    {
+      "id": "4589214",
+      "round": "9",
+      "home": { "name": "Arsenal", "id": "9825" },
+      "away": { "name": "Chelsea", "id": "8455" },
+      "status": {
+        "utcTime": "2025-10-24T19:00:00Z",
+        "finished": true,
+        "scoreStr": "2 - 1"
+      }
+    }
+  ]
+}`
             },
             {
-                n: "Transform", s: "consumer container", t: "Python, confluent-kafka",
-                d: "Reads raw messages and standardises them: team names, round and stage, UTC date and time, final score, result and points. Duplicate match ids are dropped.",
-                p: '{\n  "match_id": "856874",\n  "utc_time": "2010-08-20T18:35:00Z",\n  "home_team": "Bayern München",\n  "away_team": "Wolfsburg",\n  "status": "FINISHED",\n  "score": "2 - 1",\n  "match_result": "H",\n  "home_points": 3,\n  "away_points": 0\n}'
+                id: 3,
+                name: "Kafka: Raw Stream",
+                sub: "Topic: raw-fixtures",
+                badge: "Queue",
+                badgeClass: "queue",
+                tech: ["Apache Kafka 3.9", "Partition Key: league_id", "7-Day Retention"],
+                desc: "Holds uncleaned, raw crawled JSON batches. Partitioned by league_id to preserve ordering per tournament. Completely decouples extraction spikes from processing bottlenecks.",
+                guarantee: "At-Least-Once Delivery • Producers and consumers operate asynchronously with buffer safety.",
+                sampleTitle: "Kafka Broker Message (raw-fixtures)",
+                code: `Topic: raw-fixtures
+Key:   "47"
+Partition: 1, Offset: 14285
+Headers: { "producer": "fastapi-gateway", "timestamp": 1761343500 }
+Value:
+{
+  "league_id": 47,
+  "season": "2025-2026",
+  "count": 380,
+  "fixtures": [ ...raw fixtures array... ]
+}`
             },
             {
-                n: "Kafka: clean", s: "topic transformed-fixtures", t: "Apache Kafka 3.9",
-                d: "The second hand-off. Cleaned fixtures wait here until the loader is ready to write them.",
-                p: 'topic:  transformed-fixtures\nvalue:  {league_id, season, fixtures[], count}'
+                id: 4,
+                name: "Transform Worker",
+                sub: "fixture-transform Container",
+                badge: "Transform",
+                badgeClass: "transform",
+                tech: ["Python Stream Consumer", "confluent-kafka", "Data Cleaning"],
+                desc: "Continuously reads from raw-fixtures. Standardizes team aliases (e.g. resolving 'Bayern München' or 'Man Utd'), parses round names into integers, normalizes UTC timestamps, validates scores, computes match result (H/D/A) and points, and discards duplicates.",
+                guarantee: "Idempotent Transformation • Deterministic parsing output regardless of input format shifts.",
+                sampleTitle: "Standardized Fixture Record",
+                code: `// Clean transformed record
+{
+  "match_id": "4589214",
+  "league_id": 47,
+  "season": "2025-2026",
+  "round": 9,
+  "home_team": "Arsenal",
+  "away_team": "Chelsea",
+  "utc_time": "2025-10-24T19:00:00Z",
+  "status": "FINISHED",
+  "score": "2 - 1",
+  "home_score": 2,
+  "away_score": 1,
+  "match_result": "H",
+  "home_points": 3,
+  "away_points": 0
+}`
             },
             {
-                n: "Load", s: "consumer container", t: "SQLAlchemy",
-                d: "Upserts every match, so running the same crawl twice never creates duplicates. In the same transaction it records the crawl and computes when the league needs its next crawl.",
-                p: 'fact_matches        upsert 380 rows\ncrawl_state_log     status=SUCCESS\n                    next_recrawl_at = last kickoff of the\n                    next match group + 3 hours'
+                id: 5,
+                name: "Kafka: Clean Stream",
+                sub: "Topic: transformed-fixtures",
+                badge: "Queue",
+                badgeClass: "queue",
+                tech: ["Apache Kafka 3.9", "Validated Event Queue"],
+                desc: "The clean hand-off queue. Transformed batches await database persistence. If the PostgreSQL database undergoes maintenance or heavy reads, messages safely queue here without loss.",
+                guarantee: "Decoupled Persistence • Zero data loss during database downtime or scale events.",
+                sampleTitle: "Kafka Broker Message (transformed-fixtures)",
+                code: `Topic: transformed-fixtures
+Key:   "47"
+Partition: 1, Offset: 8940
+Value:
+{
+  "league_id": 47,
+  "season": "2025-2026",
+  "count": 380,
+  "trigger_reason": "match_group_finished",
+  "crawled_at": "2025-10-24T22:05:00+00:00",
+  "fixtures": [ ...cleaned fixture array... ]
+}`
             },
             {
-                n: "PostgreSQL", s: "Docker volume", t: "PostgreSQL 16",
-                d: "Stores leagues, matches and the crawl history. Data lives in a named volume, so recreating the container keeps it.",
-                p: 'match_id | home_team      | away_team | score | status\n856874   | Bayern München | Wolfsburg | 2 - 1 | FINISHED'
+                id: 6,
+                name: "Load Worker",
+                sub: "fixture-load Container",
+                badge: "Load",
+                badgeClass: "load",
+                tech: ["Python Stream Consumer", "SQLAlchemy 2.0", "ACID Transaction"],
+                desc: "Consumes transformed-fixtures messages. Performs batch UPSERT into fact_matches. In the exact same database transaction, it inspects remaining fixtures to calculate next_recrawl_at (last kickoff + 3 hours) and writes an audit log in crawl_state_log.",
+                guarantee: "ACID Atomicity • Fixture upsert and next_recrawl_at calculation succeed or rollback together.",
+                sampleTitle: "Transactional DB Execution",
+                code: `-- 1. Upsert match records
+INSERT INTO fact_matches (match_id, league_id, season, home_team, away_team, status, score, ...)
+VALUES ('4589214', 47, '2025-2026', 'Arsenal', 'Chelsea', 'FINISHED', '2 - 1', ...)
+ON CONFLICT (match_id) DO UPDATE SET
+  score = EXCLUDED.score,
+  status = EXCLUDED.status,
+  updated_at = NOW();
+
+-- 2. Compute recrawl window and record crawl state
+INSERT INTO crawl_state_log (league_id, season, status, trigger_reason, fixtures_count, next_recrawl_at, crawled_at)
+VALUES (47, '2025-2026', 'SUCCESS', 'match_group_finished', 380, '2025-10-27T23:00:00+00:00', NOW());`
             },
             {
-                n: "API", s: "FastAPI behind nginx", t: "FastAPI, HTTPS, bearer token",
-                d: "Gives the scheduler the latest crawl state of every league, so the scheduler can decide what is due without a database connection. Requests are served over HTTPS and need a token.",
-                p: 'GET /crawl-state?season=2025-2026\n\n[{"league_id": 47,\n  "crawled_at": "2026-10-21T05:57:37+00:00",\n  "next_recrawl_at": "2026-10-24T22:15:00+00:00"}]'
+                id: 7,
+                name: "PostgreSQL Warehouse",
+                sub: "Database • pgdata volume",
+                badge: "Warehouse",
+                badgeClass: "load",
+                tech: ["PostgreSQL 16 Alpine", "B-Tree Indexes", "Named Volume"],
+                desc: "The single analytical source of truth. Stores dimensional league info, relational match facts, and crawl history. Indexed on (league_id, season, round) to ensure sub-millisecond query latency for web applications and BI tools.",
+                guarantee: "Persistence & Integrity • Foreign keys, unique constraints, and volume persistence.",
+                sampleTitle: "Warehouse Relational Tables",
+                code: `Tables in PostgreSQL:
+* dim_leagues:
+    (id PK, name, country, tier, logo_url)
+* fact_matches:
+    (match_id PK, league_id FK, season, round, home_team, away_team, score, status, utc_time)
+* crawl_state_log:
+    (id PK, league_id FK, season, status, fixtures_count, next_recrawl_at, crawled_at)
+
+Indexes:
+  CREATE INDEX idx_matches_league_season ON fact_matches (league_id, season);
+  CREATE INDEX idx_crawl_state_lookup ON crawl_state_log (league_id, season, crawled_at DESC);`
+            },
+            {
+                id: 8,
+                name: "Observatory & Hub",
+                sub: "Web Dashboard • /data",
+                badge: "Observatory",
+                badgeClass: "gateway",
+                tech: ["FastAPI Public Endpoints", "Responsive Vanilla UI", "Live Countdown Timers"],
+                desc: "Serves end users with real-time analytics. Features a live Match Center with round filters, live recalculated league standings (P, W, D, L, GD, PTS), countdown timers to upcoming crawls, and full audit logs.",
+                guarantee: "Real-time Visibility • Accessible via public HTTPS at /data with sub-second API responses.",
+                sampleTitle: "Public Read API Responses",
+                code: `GET /public/crawl-overview HTTP/1.1
+Response:
+{
+  "active_season": "2025-2026",
+  "total_matches": 1940,
+  "leagues_monitored": 8,
+  "health": "OPTIMAL",
+  "leagues": [
+    { "name": "Premier League", "last_crawled": "2026-01-31", "next_crawl": "2026-02-03" },
+    { "name": "La Liga", "last_crawled": "2026-01-31", "next_crawl": "2026-02-04" }
+  ]
+}`
             }
         ];
-        const flow = document.getElementById('flow'), panel = document.getElementById('panel'), run = document.getElementById('run');
-        let cur = 0, timer = null;
-        steps.forEach((x, i) => {
-            const b = document.createElement('button');
-            b.type = 'button'; b.className = 'node'; b.setAttribute('role', 'listitem');
-            b.innerHTML = '<b></b><span></span>';
-            b.firstChild.textContent = x.n; b.lastChild.textContent = x.s;
-            b.addEventListener('click', () => { stop(); show(i, false) });
-            flow.appendChild(b);
-        });
-        function show(i, mark) {
-            cur = i;
-            [...flow.children].forEach((n, k) => { n.classList.toggle('on', k === i); n.classList.toggle('done', mark && k < i) });
-            const x = steps[i];
-            panel.innerHTML = '<h2></h2><div class="tech"></div><p></p><pre></pre>';
-            panel.children[0].textContent = x.n;
-            panel.children[1].textContent = x.t;
-            panel.children[2].textContent = x.d;
-            panel.children[3].textContent = x.p;
-        }
-        function stop() { if (timer) { clearInterval(timer); timer = null } run.textContent = 'Send a match through' }
-        run.addEventListener('click', () => {
-            if (timer) { stop(); return }
-            let i = 0; run.textContent = 'Stop'; show(0, true);
-            timer = setInterval(() => {
-                i++;
-                if (i >= steps.length) { stop(); return }
-                show(i, true);
-            }, 2200);
-        });
-        show(0, false);
 
-        const wrap = document.getElementById('tablewrap'), seasonSel = document.getElementById('season');
-        const fmt = s => s ? new Date(s).toLocaleString([], { dateStyle: 'medium', timeStyle: 'short' }) : 'No upcoming matches';
-        function say(t) { wrap.innerHTML = '<div class="msg"></div>'; wrap.firstChild.textContent = t }
-        async function loadStatus() {
-            say('Loading…');
-            try {
-                const r = await fetch('/public/crawl-state?season=' + encodeURIComponent(seasonSel.value));
-                if (!r.ok) throw new Error('HTTP ' + r.status);
-                const rows = await r.json();
-                if (!rows.length) { say('No crawl recorded for this season yet.'); return }
-                rows.sort((a, b) => a.league.localeCompare(b.league));
-                const t = document.createElement('table');
-                t.innerHTML = '<thead><tr><th>League</th><th>Matches</th><th>Last crawled</th><th>Next crawl</th></tr></thead><tbody></tbody>';
-                rows.forEach(x => {
-                    const tr = document.createElement('tr');
-                    [x.league, x.fixtures_count, fmt(x.crawled_at), fmt(x.next_recrawl_at)].forEach((v, i) => {
-                        const td = document.createElement('td'); td.textContent = v; if (i === 1) td.className = 'num'; tr.appendChild(td)
-                    });
-                    t.tBodies[0].appendChild(tr);
-                });
-                wrap.replaceChildren(t);
-            } catch (e) { say('Could not load the crawl status (' + e.message + '). This table only works when the page is served next to the API.') }
+        const flowEl = document.getElementById("flow");
+        const panelEl = document.getElementById("panel");
+        const runBtn = document.getElementById("run");
+        const runIcon = document.getElementById("run-icon");
+        const runText = document.getElementById("run-text");
+
+        let curIndex = 0;
+        let simInterval = null;
+
+        const PLAY_SVG = `<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>`;
+        const PAUSE_SVG = `<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>`;
+
+        // Render Flow Nodes
+        stages.forEach((st, idx) => {
+            const card = document.createElement("button");
+            card.type = "button";
+            card.className = "flow-card";
+            card.setAttribute("role", "listitem");
+            card.innerHTML = `
+                <div>
+                    <div class="flow-card-header">
+                        <span class="step-num">0${st.id}</span>
+                        <span class="flow-badge ${st.badgeClass}">${st.badge}</span>
+                    </div>
+                    <b>${st.name}</b>
+                </div>
+                <span>${st.sub}</span>
+            `;
+            card.addEventListener("click", () => {
+                stopSim();
+                showStage(idx, false);
+            });
+            flowEl.appendChild(card);
+        });
+
+        function showStage(idx, isProgressing) {
+            curIndex = idx;
+            const cards = flowEl.children;
+            for (let i = 0; i < cards.length; i++) {
+                cards[i].classList.toggle("on", i === idx);
+                cards[i].classList.toggle("done", isProgressing && i < idx);
+            }
+
+            const st = stages[idx];
+            panelEl.innerHTML = `
+                <div class="panel-top">
+                    <div class="panel-title-area">
+                        <h2>
+                            <span>0${st.id}. ${st.name}</span>
+                            <span class="pill ${st.badgeClass}">${st.badge}</span>
+                        </h2>
+                        <div class="panel-subtitle">${st.sub}</div>
+                    </div>
+                    <div class="meta-tags">
+                        ${st.tech.map(t => `<span class="meta-tag">${t}</span>`).join("")}
+                    </div>
+                </div>
+
+                <div class="panel-grid">
+                    <div class="panel-text">
+                        <h3>Stage Purpose & Execution</h3>
+                        <p>${st.desc}</p>
+                        <div class="guarantee-box">
+                            <b>Architectural Guarantee</b>
+                            ${st.guarantee}
+                        </div>
+                    </div>
+
+                    <div class="panel-code-box">
+                        <div class="code-header">
+                            <span>${st.sampleTitle}</span>
+                            <span>STAGE 0${st.id} / 08</span>
+                        </div>
+                        <pre><code>${escapeHtml(st.code)}</code></pre>
+                    </div>
+                </div>
+            `;
         }
-        seasonSel.addEventListener('change', loadStatus);
-        loadStatus();
+
+        function escapeHtml(str) {
+            return str
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;");
+        }
+
+        function stopSim() {
+            if (simInterval) {
+                clearInterval(simInterval);
+                simInterval = null;
+            }
+            runBtn.classList.remove("running");
+            runIcon.innerHTML = PLAY_SVG;
+            runText.textContent = "Run Pipeline Simulation";
+        }
+
+        runBtn.addEventListener("click", () => {
+            if (simInterval) {
+                stopSim();
+                return;
+            }
+
+            let step = 0;
+            runBtn.classList.add("running");
+            runIcon.innerHTML = PAUSE_SVG;
+            runText.textContent = "Stop Simulation";
+            showStage(0, true);
+
+            simInterval = setInterval(() => {
+                step++;
+                if (step >= stages.length) {
+                    stopSim();
+                    return;
+                }
+                showStage(step, true);
+            }, 2600);
+        });
+
+        // Initialize at Stage 1
+        showStage(0, false);
     </script>
 </body>
 
