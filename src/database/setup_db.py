@@ -28,6 +28,7 @@ def main() -> None:
     parser.add_argument("--yes", action="store_true", help="Skip the confirmation prompt for --reset")
     parser.add_argument("--skip-import", action="store_true", help="Do not import historical data")
     parser.add_argument("--data-dir", default="data/raw")
+    parser.add_argument("--max-season", default="2025-2026", help="Maximum season to import")
     args = parser.parse_args()
     setup_logging(log_level=LOG_LEVEL)
 
@@ -47,7 +48,7 @@ def main() -> None:
         logger.info("Skipping history import.")
         return
 
-    ok, failed = import_history(Path(args.data_dir))
+    ok, failed = import_history(Path(args.data_dir), max_season=args.max_season)
     logger.info("History import finished: files ok=%d, failed=%d", ok, failed)
 
 

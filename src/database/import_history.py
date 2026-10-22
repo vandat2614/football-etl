@@ -26,6 +26,7 @@ from src.database import (
 logger = logging.getLogger("import_raw")
 
 ALIASES = {"champon_league": "champions_league"}
+MAX_SEASON = "2025-2026" 
 
 
 def _stem_of(name: str) -> str:
@@ -38,13 +39,16 @@ def load_league_map() -> dict[str, int]:
     return {_stem_of(lg["name"]): int(lg["id"]) for lg in leagues}
 
 
-def import_history(root: Path) -> tuple[int, int]:
-    """Import every <season>/<league>.json under root. Returns (files_ok, files_failed)."""
+def import_history(root: Path, max_season: str = MAX_SEASON) -> tuple[int, int]:
+    """Import every <season>/<league>.json under root up to max_season. Returns (files_ok, files_failed)."""
     league_map = load_league_map()
     ok = failed = 0
 
     for season_dir in sorted(p for p in root.iterdir() if p.is_dir()):
         season = season_dir.name.replace("_", "-")  # 2010_2011 -> 2010-2011
+        if max_season and season > max_season:
+            logger.info("Skip season %s (beyond %s)", season, max_season)
+            continue
         for file in sorted(season_dir.glob("*.json")):
             stem = ALIASES.get(file.stem, file.stem)
             league_id = league_map.get(stem)
@@ -65,7 +69,23 @@ def import_history(root: Path) -> tuple[int, int]:
                     ]
                     if finished:
                         last_kickoff = datetime.fromisoformat(max(finished).replace("Z", "+00:00"))
-                        crawled_at = min(last_kickoff + timedelta(days=1), datetime.now(timezone.utc))
+                        ref_time = min(last_kickoff + timedelta(days=1), datetime.now(timezone.utc))
+
+                        # Bounded between Oct 2025 and Jan 2026 with variation based on kickoff timeline
+                        base_crawl = datetime(2025, 10, 1, 0, 0, 0, tzinfo=timezone.utc)
+                        max_crawl = datetime(2026, 1, 31, 23, 59, 59, tzinfo=timezone.utc)
+                        window_seconds = (max_crawl - base_crawl).total_seconds()
+                        start_ref = datetime(2010, 1, 1, tzinfo=timezone.utc)
+                        end_ref = datetime(2026, 6, 30, tzinfo=timezone.utc)
+                        ratio = max(
+                            0.0,
+                            min(
+                                1.0,
+                                (ref_time - start_ref).total_seconds()
+                                / (end_ref - start_ref).total_seconds(),
+                            ),
+                        )
+                        crawled_at = min(base_crawl + timedelta(seconds=ratio * window_seconds), max_crawl)
                         CrawlStateRepository(session).record_crawl(
                             league_id=league_id,
                             season=season,
@@ -83,14 +103,17 @@ def import_history(root: Path) -> tuple[int, int]:
                 failed += 1
 
     logger.info("Done. files ok=%d, failed=%d", ok, failed)
+    return ok, failed
 
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dir", default="data/raw")
+    parser.add_argument("--max-season", default=MAX_SEASON, help="Maximum season to import (e.g. 2025-2026)")
     args = parser.parse_args()
     setup_logging(log_level=LOG_LEVEL)
-    ok, failed = import_history(Path(args.dir))
+    ok, failed = import_history(Path(args.dir), max_season=args.max_season)
     logger.info("Done. files ok=%d, failed=%d", ok, failed)
+    return ok, failed
 
 if __name__ == "__main__":
     main()
