@@ -376,15 +376,199 @@ def public_standings(league_id: int = Query(...), season: str = Query(...)):
         return table
 
 
+@app.get("/", response_class=HTMLResponse)
 @app.get("/data", response_class=HTMLResponse)
 @app.get("/explorer", response_class=HTMLResponse)
 @app.get("/matches", response_class=HTMLResponse)
 def serve_data_explorer():
-    """Serve the interactive football data explorer web page."""
+    """Serve the interactive football data explorer web page as main application."""
     html_file = WEB_DIR / "data.html"
+    if not html_file.exists():
+        html_file = WEB_DIR / "index.html"
     if html_file.exists():
         return FileResponse(html_file, media_type="text/html")
     return HTMLResponse("<h2>Data explorer interface not found</h2>", status_code=404)
+
+
+@app.get("/architecture", response_class=HTMLResponse)
+def serve_architecture():
+    """Serve the architecture blueprint and event-driven pipeline visualizer."""
+    html_file = WEB_DIR / "architecture.html"
+    if not html_file.exists():
+        html_file = WEB_DIR / "index.html"
+    if html_file.exists():
+        return FileResponse(html_file, media_type="text/html")
+    return HTMLResponse("<h2>Architecture blueprint not found</h2>", status_code=404)
+
+
+@app.get("/public/teams")
+def public_teams(
+    query: Optional[str] = Query(None),
+    league_id: Optional[int] = Query(None),
+    limit: int = Query(300, ge=1, le=1000),
+):
+    """List available clubs with optional search or league filter for H2H."""
+    with get_session() as session:
+        stmt = select(DimTeam)
+        if league_id:
+            stmt = stmt.where(
+                DimTeam.team_id.in_(
+                    select(FactMatch.home_team_id)
+                    .where(FactMatch.league_id == league_id)
+                    .distinct()
+                )
+            )
+        if query:
+            stmt = stmt.where(DimTeam.team_name.ilike(f"%{query.strip()}%"))
+        stmt = stmt.order_by(DimTeam.team_name.asc()).limit(limit)
+        teams = session.scalars(stmt).all()
+        return [{"team_id": t.team_id, "team_name": t.team_name} for t in teams]
+
+
+@app.get("/public/h2h")
+def public_h2h(
+    team1: str = Query(..., description="First team ID or name"),
+    team2: str = Query(..., description="Second team ID or name"),
+):
+    """
+    Head-to-Head (H2H) comparison between two clubs across all seasons and leagues.
+    Calculates aggregate records (wins, draws, goals) and returns chronological matches.
+    """
+    HomeTeam = aliased(DimTeam)
+    AwayTeam = aliased(DimTeam)
+
+    with get_session() as session:
+        # Resolve team 1 (ID -> exact name -> substring match)
+        t1 = session.scalar(
+            select(DimTeam).where(
+                (DimTeam.team_id == team1) | (DimTeam.team_name.ilike(team1.strip()))
+            )
+        )
+        if not t1:
+            t1 = session.scalar(
+                select(DimTeam).where(DimTeam.team_name.ilike(chr(37) + team1.strip() + chr(37)))
+            )
+
+        # Resolve team 2 (ID -> exact name -> substring match)
+        t2 = session.scalar(
+            select(DimTeam).where(
+                (DimTeam.team_id == team2) | (DimTeam.team_name.ilike(team2.strip()))
+            )
+        )
+        if not t2:
+            t2 = session.scalar(
+                select(DimTeam).where(DimTeam.team_name.ilike(chr(37) + team2.strip() + chr(37)))
+            )
+
+        if not t1 or not t2:
+            raise HTTPException(
+                status_code=404,
+                detail=f"One or both teams not found (team1: '{team1}', team2: '{team2}')",
+            )
+
+        t1_id, t2_id = t1.team_id, t2.team_id
+
+        # Query all matches between t1 and t2
+        stmt = (
+            select(
+                FactMatch,
+                DimLeague.league_name,
+                HomeTeam.team_name.label("home_name"),
+                AwayTeam.team_name.label("away_name"),
+            )
+            .join(DimLeague, FactMatch.league_id == DimLeague.league_id)
+            .join(HomeTeam, FactMatch.home_team_id == HomeTeam.team_id)
+            .join(AwayTeam, FactMatch.away_team_id == AwayTeam.team_id)
+            .where(
+                ((FactMatch.home_team_id == t1_id) & (FactMatch.away_team_id == t2_id))
+                | ((FactMatch.home_team_id == t2_id) & (FactMatch.away_team_id == t1_id))
+            )
+            .order_by(
+                FactMatch.match_date.desc().nullslast(),
+                FactMatch.match_time.desc().nullslast(),
+            )
+        )
+
+        rows = session.execute(stmt).all()
+
+        t1_wins = 0
+        t2_wins = 0
+        draws = 0
+        t1_goals = 0
+        t2_goals = 0
+        matches_list = []
+
+        for match, l_name, h_name, a_name in rows:
+            is_finished = match.status == "FINISHED"
+            is_t1_home = match.home_team_id == t1_id
+
+            h_score = match.home_score if match.home_score is not None else 0
+            a_score = match.away_score if match.away_score is not None else 0
+
+            if is_finished:
+                if is_t1_home:
+                    t1_goals += h_score
+                    t2_goals += a_score
+                    if h_score > a_score:
+                        t1_wins += 1
+                        winner = t1_id
+                    elif a_score > h_score:
+                        t2_wins += 1
+                        winner = t2_id
+                    else:
+                        draws += 1
+                        winner = "DRAW"
+                else:
+                    t1_goals += a_score
+                    t2_goals += h_score
+                    if a_score > h_score:
+                        t1_wins += 1
+                        winner = t1_id
+                    elif h_score > a_score:
+                        t2_wins += 1
+                        winner = t2_id
+                    else:
+                        draws += 1
+                        winner = "DRAW"
+            else:
+                winner = None
+
+            matches_list.append({
+                "match_id": match.match_id,
+                "league_id": match.league_id,
+                "league_name": l_name,
+                "season": match.season,
+                "round": match.round,
+                "round_name": match.round_name,
+                "match_date": match.match_date.isoformat() if match.match_date else None,
+                "match_time": match.match_time,
+                "home_team_id": match.home_team_id,
+                "home_team": h_name or match.home_team_id,
+                "away_team_id": match.away_team_id,
+                "away_team": a_name or match.away_team_id,
+                "home_score": match.home_score,
+                "away_score": match.away_score,
+                "score": match.score,
+                "status": match.status,
+                "winner": winner,
+            })
+
+        total_played = t1_wins + t2_wins + draws
+
+        return {
+            "team1": {"team_id": t1.team_id, "team_name": t1.team_name},
+            "team2": {"team_id": t2.team_id, "team_name": t2.team_name},
+            "summary": {
+                "total_matches": len(matches_list),
+                "total_finished": total_played,
+                "team1_wins": t1_wins,
+                "team2_wins": t2_wins,
+                "draws": draws,
+                "team1_goals": t1_goals,
+                "team2_goals": t2_goals,
+            },
+            "matches": matches_list,
+        }
 
 # ---------------------------------------------------------------------------
 # Crawl Observability & Monitoring Endpoints

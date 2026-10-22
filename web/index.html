@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Football ETL Pipeline - Architectural Blueprint</title>
+  <title>Football Data Hub & Crawl Observatory</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Sans+Condensed:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Sans+Condensed:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
     rel="stylesheet">
 
   <style>
@@ -16,32 +16,32 @@
       --bg-dark: #f3e3d8;
       --bg-surface: #f9eee6;
       --bg-card: #efd9cb;
-      --bg-card-hover: #e6cdbd;
+      --bg-card-hover: #efd9cb;
       --border: #cdb5a5;
       --border-focus: #1b1613;
       --primary: #1b1613;
-      --ink: #1b1613;
-      --red: #b3261e;
+      --primary-glow: rgba(27, 22, 19, .15);
+      --accent-blue: #1b1613;
+      --accent-amber: #b3261e;
+      --accent-rose: #b3261e;
+      --accent-purple: #1b1613;
       --text-main: #1b1613;
       --text-muted: #5f524a;
       --text-dim: #7d6e64;
-      --code-bg: #1b1613;
-      --code-ink: #f5eae1;
-      --code-gold: #e5a93b;
-      --code-red: #e05248;
+      --ink: #1b1613;
+      --red: #b3261e;
       --radius-sm: 0;
       --radius-md: 0;
       --radius-lg: 0;
-      --transition: background .15s ease, color .15s ease, border-color .15s ease;
+      --transition: background .15s, color .15s;
       --display: 'Abril Fatface', Georgia, serif;
       --ui: 'IBM Plex Sans Condensed', 'Arial Narrow', sans-serif;
-      --mono: 'JetBrains Mono', Consolas, monospace;
     }
 
     * {
       box-sizing: border-box;
       margin: 0;
-      padding: 0;
+      padding: 0
     }
 
     body {
@@ -50,14 +50,26 @@
       font: 400 15px/1.5 var(--ui);
       min-height: 100vh;
       display: flex;
-      flex-direction: column;
+      flex-direction: column
     }
 
-    /* Masthead Header */
+    body::before,
+    body::after {
+      display: none
+    }
+
+    .brand-icon,
+    .state-icon,
+    .mode-btn>span:first-child,
+    .section-heading>span:first-child {
+      display: none
+    }
+
+    /* Masthead */
     header {
       background: transparent;
       border-bottom: 3px double var(--ink);
-      padding: 18px 28px 12px;
+      padding: 18px 28px 12px
     }
 
     .header-inner {
@@ -67,12 +79,12 @@
       align-items: flex-end;
       justify-content: space-between;
       gap: 20px;
-      flex-wrap: wrap;
+      flex-wrap: wrap
     }
 
     .brand {
       text-decoration: none;
-      color: inherit;
+      color: inherit
     }
 
     .brand-title {
@@ -80,28 +92,28 @@
       display: flex;
       align-items: center;
       gap: 12px;
-      flex-wrap: wrap;
+      flex-wrap: wrap
     }
 
     .brand-badge {
       font: 600 .68rem var(--ui);
       text-transform: uppercase;
       letter-spacing: .12em;
-      padding: 3px 8px;
+      padding: 3px 7px;
       background: var(--red);
-      color: #fff;
+      color: #fff
     }
 
     .brand-subtitle {
       font: italic 400 .9rem Georgia, serif;
       color: var(--text-muted);
-      margin-top: 4px;
+      margin-top: 4px
     }
 
     .header-actions {
       display: flex;
       align-items: center;
-      gap: 14px;
+      gap: 14px
     }
 
     .status-pill {
@@ -110,25 +122,28 @@
       gap: 8px;
       font: 600 .75rem var(--ui);
       text-transform: uppercase;
-      letter-spacing: .08em;
+      letter-spacing: .08em
     }
 
     .pulse-dot {
       width: 8px;
       height: 8px;
       background: var(--red);
-      animation: pulse 2s infinite;
+      animation: pulse 2s infinite
     }
 
     @keyframes pulse {
-      50% { opacity: .25; }
+      50% {
+        opacity: .25
+      }
     }
 
-    .nav-btn {
+    .nav-btn,
+    .page-btn {
       font: 600 .75rem var(--ui);
       text-transform: uppercase;
       letter-spacing: .08em;
-      padding: 8px 16px;
+      padding: 8px 14px;
       border: 1px solid var(--ink);
       background: transparent;
       color: var(--ink);
@@ -137,187 +152,102 @@
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      transition: var(--transition);
+      transition: var(--transition)
     }
 
-    .nav-btn:hover {
+    .nav-btn:hover,
+    .page-btn:hover:not(:disabled) {
       background: var(--ink);
-      color: var(--bg-dark);
+      color: var(--bg-dark)
     }
 
-    .nav-btn.primary {
-      background: var(--ink);
-      color: var(--bg-dark);
+    .page-btn:disabled {
+      opacity: .35;
+      cursor: not-allowed
     }
 
-    .nav-btn.primary:hover {
-      background: var(--red);
-      border-color: var(--red);
-      color: #fff;
-    }
-
-    /* Main Container */
+    /* Layout and section nav */
     main {
       flex: 1;
       max-width: 1440px;
       width: 100%;
       margin: 0 auto;
-      padding: 28px 28px 64px;
+      padding: 20px 28px 60px
     }
 
-    /* Headline Section */
-    .hero {
-      margin-bottom: 24px;
-    }
-
-    .hero-meta {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      margin-bottom: 8px;
-    }
-
-    .hero-edition {
-      font: 600 .75rem var(--ui);
-      text-transform: uppercase;
-      letter-spacing: .12em;
-      color: var(--red);
-    }
-
-    .hero-title {
-      font: 400 clamp(2rem, 5vw, 3.2rem)/1.05 var(--display);
-      margin-bottom: 10px;
-      letter-spacing: -0.01em;
-    }
-
-    .hero-sub {
-      font: italic 1.05rem Georgia, serif;
-      color: var(--text-muted);
-      max-width: 80ch;
-      line-height: 1.5;
-    }
-
-    /* Architectural Highlights Strip */
-    .kpi-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      border-top: 3px solid var(--ink);
-      border-bottom: 1px solid var(--ink);
-      margin-bottom: 28px;
-    }
-
-    .kpi-card {
-      padding: 12px 18px;
-      border-left: 1px solid var(--border);
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-    }
-
-    .kpi-card:first-child {
-      border-left: 0;
-      padding-left: 0;
-    }
-
-    .kpi-label {
-      font: 600 .7rem var(--ui);
-      text-transform: uppercase;
-      letter-spacing: .1em;
-      color: var(--text-muted);
-    }
-
-    .kpi-val {
-      font: 400 1.8rem/1.1 var(--display);
-    }
-
-    .kpi-sub {
-      font: italic .82rem Georgia, serif;
-      color: var(--text-muted);
-    }
-
-    /* Controls & Simulation Bar */
-    .control-panel {
-      border: 1px solid var(--ink);
-      background: var(--bg-surface);
-      padding: 14px 20px;
-      margin-bottom: 24px;
+    .view-mode-bar {
       display: flex;
       align-items: center;
       justify-content: space-between;
       gap: 16px;
+      margin-bottom: 24px;
       flex-wrap: wrap;
+      border-bottom: 1px solid var(--ink);
+      padding-bottom: 10px
     }
 
-    .control-left {
+    .mode-nav {
       display: flex;
-      align-items: center;
-      gap: 16px;
-      flex-wrap: wrap;
+      gap: 4px;
+      flex-wrap: wrap
     }
 
-    .btn-sim {
-      font: 700 .75rem var(--ui);
+    .mode-btn {
+      font: 600 .85rem var(--ui);
       text-transform: uppercase;
       letter-spacing: .1em;
-      padding: 9px 18px;
-      border: 1px solid var(--ink);
-      background: var(--ink);
-      color: var(--bg-dark);
+      padding: 8px 14px;
+      border: 0;
+      background: transparent;
+      color: var(--text-muted);
       cursor: pointer;
       display: inline-flex;
       align-items: center;
-      gap: 8px;
-      transition: var(--transition);
+      gap: 8px
     }
 
-    .btn-sim:hover {
-      background: var(--red);
-      border-color: var(--red);
-      color: #fff;
+    .mode-btn:hover {
+      color: var(--ink)
     }
 
-    .btn-sim.running {
-      background: var(--red);
-      border-color: var(--red);
-      color: #fff;
+    .mode-btn.active {
+      background: var(--ink);
+      color: var(--bg-dark)
     }
 
-    .sim-sample-card {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      padding: 4px 12px;
-      border: 1px dotted var(--ink);
-      background: var(--bg-card);
-      font-size: .88rem;
+    .badge-count {
+      font-size: .65rem;
+      padding: 1px 6px;
+      border: 1px solid currentColor
     }
 
-    .sim-team-tag {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      font-weight: 600;
+    #clock-utc {
+      font: 500 .8rem 'JetBrains Mono', monospace;
+      color: var(--text-muted)
     }
 
-    .legend-row {
-      display: flex;
-      gap: 8px;
-      align-items: center;
-      flex-wrap: wrap;
+    .main-view {
+      display: none
     }
 
-    .legend-tag {
-      font: 600 .68rem var(--mono);
-      text-transform: uppercase;
-      letter-spacing: .08em;
-      padding: 3px 6px;
-      border: 1px dotted var(--ink);
-      color: var(--ink);
+    .main-view.active {
+      display: block;
+      animation: fadeIn .2s ease-out
     }
 
-    /* Flow Grid */
-    .flow-section {
-      margin-bottom: 28px;
+    @keyframes fadeIn {
+      from {
+        opacity: 0
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    /* Section headings and KPI strip */
+    .radar-section {
+      margin-bottom: 30px
     }
 
     .section-title-row {
@@ -325,715 +255,1720 @@
       align-items: flex-end;
       justify-content: space-between;
       gap: 12px;
-      margin-bottom: 12px;
+      margin-bottom: 14px
     }
 
     .section-heading {
-      font: 400 1.4rem/1.1 var(--display);
+      font: 400 1.5rem/1.1 var(--display)
     }
 
     .section-sub {
       font: italic .85rem Georgia, serif;
-      color: var(--text-muted);
+      color: var(--text-muted)
     }
 
-    .flow-grid {
+    .kpi-grid {
       display: grid;
-      grid-template-columns: repeat(8, 1fr);
-      border: 1px solid var(--ink);
-      background: var(--bg-surface);
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      border-top: 3px solid var(--ink);
+      border-bottom: 1px solid var(--ink);
+      margin-bottom: 28px
     }
 
-    .flow-card {
-      padding: 16px 14px;
-      border-right: 1px solid var(--border);
-      background: var(--bg-surface);
-      cursor: pointer;
-      text-align: left;
+    .kpi-card {
+      padding: 14px 18px;
+      border-left: 1px solid var(--border);
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      min-height: 140px;
-      transition: var(--transition);
-      position: relative;
+      gap: 2px
     }
 
-    .flow-card:last-child {
-      border-right: 0;
+    .kpi-card:first-child {
+      border-left: 0;
+      padding-left: 0
     }
 
-    .flow-card:hover {
-      background: var(--bg-card);
-    }
-
-    .flow-card.on {
-      background: var(--ink);
-      color: var(--bg-dark);
-      border-color: var(--ink);
-    }
-
-    .flow-card.done {
-      border-left: 4px solid var(--red);
-    }
-
-    .flow-card.on .flow-badge {
-      background: var(--red);
-      color: #fff;
-      border-color: var(--red);
-    }
-
-    .flow-card.on .step-num {
-      color: var(--bg-dark);
-    }
-
-    .flow-card.on .flow-card-sub {
-      color: #cdb5a5;
-    }
-
-    .flow-top {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 8px;
-    }
-
-    .step-num {
-      font: 400 1.35rem/1 var(--display);
-      color: var(--ink);
-    }
-
-    .flow-badge {
-      font: 600 .62rem var(--mono);
+    .kpi-label {
+      font: 600 .7rem var(--ui);
       text-transform: uppercase;
-      padding: 2px 5px;
+      letter-spacing: .1em;
+      color: var(--text-muted)
+    }
+
+    .kpi-val {
+      font: 400 2.4rem/1.1 var(--display);
+      font-variant-numeric: tabular-nums
+    }
+
+    .kpi-sub {
+      font: italic .82rem Georgia, serif;
+      color: var(--text-muted)
+    }
+
+    /* Scheduler radar */
+    .radar-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      border-top: 1px solid var(--ink)
+    }
+
+    .radar-card {
+      padding: 16px 18px;
+      border-bottom: 1px solid var(--ink);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      gap: 10px
+    }
+
+    .radar-card:hover {
+      background: var(--bg-surface)
+    }
+
+    .radar-top {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 10px
+    }
+
+    .radar-league {
+      font: 400 1.2rem var(--display)
+    }
+
+    .radar-countdown {
+      font: 600 .85rem 'JetBrains Mono', monospace;
+      color: var(--red);
+      white-space: nowrap
+    }
+
+    .radar-details {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      font-size: .85rem;
+      color: var(--text-muted)
+    }
+
+    .radar-detail-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      border-bottom: 1px dotted var(--border);
+      padding-bottom: 3px
+    }
+
+    .radar-detail-val {
+      font-weight: 600;
+      color: var(--ink)
+    }
+
+    .trigger-tag {
+      font: 500 .7rem 'JetBrains Mono', monospace;
+      padding: 2px 6px;
+      border: 1px dotted var(--ink);
+      color: var(--ink);
+      max-width: 200px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap
+    }
+
+    /* Filters */
+    .controls-panel {
+      padding: 14px 0;
+      margin-bottom: 20px;
+      border-top: 1px solid var(--ink);
+      display: flex;
+      flex-direction: column;
+      gap: 14px
+    }
+
+    .controls-top,
+    .filter-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      gap: 14px
+    }
+
+    .controls-top {
+      justify-content: space-between
+    }
+
+    .select-wrap {
+      min-width: 170px
+    }
+
+    .select-label {
+      font: 600 .68rem var(--ui);
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+      display: block
+    }
+
+    select,
+    input[type=text] {
+      width: 100%;
+      background: var(--bg-surface);
       border: 1px solid var(--ink);
+      color: var(--ink);
+      padding: 9px 12px;
+      font: 400 .9rem var(--ui);
+      outline: none;
+      border-radius: 0
+    }
+
+    select:focus,
+    input[type=text]:focus {
+      box-shadow: 3px 3px 0 var(--ink)
+    }
+
+    .search-box {
+      flex: 1;
+      min-width: 240px
+    }
+
+    input[type=text].search-input {
+      padding-left: 36px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%231b1613'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: 11px center;
+      background-size: 16px
+    }
+
+    .controls-bottom {
+      padding-top: 12px;
+      border-top: 1px dotted var(--ink)
+    }
+
+    .tabs-wrapper {
+      display: inline-flex;
+      border: 1px solid var(--ink)
+    }
+
+    .tab-btn {
+      font: 600 .78rem var(--ui);
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      padding: 7px 14px;
+      border: 0;
       background: transparent;
       color: var(--ink);
+      cursor: pointer
     }
 
-    .flow-card-title {
-      font: 700 1.05rem/1.2 var(--ui);
-      margin-bottom: 4px;
-      display: block;
+    .tab-btn.active {
+      background: var(--ink);
+      color: var(--bg-dark)
     }
 
-    .flow-card-sub {
-      font: italic .75rem Georgia, serif;
+    /* Tables */
+    .table-card {
+      overflow-x: auto;
+      border-top: 3px solid var(--ink);
+      border-bottom: 1px solid var(--ink)
+    }
+
+    .custom-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left
+    }
+
+    .custom-table th {
+      font: 600 .7rem var(--ui);
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      color: var(--ink);
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--ink);
+      white-space: nowrap
+    }
+
+    .custom-table td {
+      padding: 11px 14px;
+      font-size: .92rem;
+      border-bottom: 1px dotted var(--border)
+    }
+
+    .custom-table tr:hover td {
+      background: var(--bg-surface)
+    }
+
+    .custom-table td.num,
+    .custom-table th.num {
+      text-align: center;
+      font-variant-numeric: tabular-nums
+    }
+
+    .code-font {
+      font: 400 .8rem 'JetBrains Mono', monospace
+    }
+
+    .badge {
+      font: 700 .66rem var(--ui);
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      padding: 2px 7px;
+      border: 1px solid var(--ink);
+      display: inline-flex;
+      align-items: center;
+      gap: 4px
+    }
+
+    .badge-success,
+    .badge-manual {
+      background: transparent;
+      color: var(--ink)
+    }
+
+    .badge-failed {
+      background: var(--red);
+      border-color: var(--red);
+      color: #fff
+    }
+
+    .badge-scheduled {
+      border-style: dashed;
       color: var(--text-muted);
-      line-height: 1.3;
-      display: block;
+      border-color: var(--text-muted)
     }
 
-    /* Stage Detail Panel */
-    .panel {
-      border: 2px solid var(--ink);
-      background: var(--bg-surface);
-      padding: 28px;
-      margin-bottom: 30px;
-    }
-
-    .panel-header {
+    /* Matches */
+    .matches-list {
       display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 16px;
-      flex-wrap: wrap;
-      padding-bottom: 18px;
-      border-bottom: 1px solid var(--border);
-      margin-bottom: 22px;
+      flex-direction: column
     }
 
-    .panel-headline h3 {
-      font: 400 1.85rem/1.1 var(--display);
+    .date-header {
+      font: 400 1.15rem var(--display);
+      padding: 18px 0 6px;
+      border-bottom: 1px solid var(--ink)
+    }
+
+    .match-card {
+      display: grid;
+      grid-template-columns: 110px 1fr auto 1fr 140px;
+      align-items: center;
+      gap: 18px;
+      padding: 12px 4px;
+      border-bottom: 1px dotted var(--border)
+    }
+
+    .match-card:hover {
+      background: var(--bg-surface)
+    }
+
+    .match-meta {
+      font-size: .78rem;
+      color: var(--text-muted)
+    }
+
+    .match-time {
+      font: 600 .9rem var(--ui);
+      color: var(--ink)
+    }
+
+    .team-cell {
       display: flex;
       align-items: center;
       gap: 12px;
-      flex-wrap: wrap;
+      font: 600 1.02rem var(--ui)
     }
 
-    .panel-headline p {
-      font: italic .95rem Georgia, serif;
-      color: var(--text-muted);
-      margin-top: 4px;
+    .team-cell.home {
+      justify-content: flex-end;
+      text-align: right
     }
 
-    .tech-stack-row {
-      display: flex;
-      gap: 6px;
-      flex-wrap: wrap;
+    .team-cell.away {
+      justify-content: flex-start;
+      text-align: left
+    }
+
+    .team-badge-wrap {
+      display: inline-flex;
       align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      position: relative;
     }
 
-    .tech-tag {
-      font: 600 .7rem var(--mono);
-      padding: 3px 8px;
+    .team-logo-img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      filter: drop-shadow(0 1px 2px rgba(0,0,0,0.18));
+      transition: transform 0.15s ease;
+    }
+
+    .team-logo-img:hover {
+      transform: scale(1.15);
+    }
+
+    .team-avatar.fallback-avatar {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.72rem;
+      flex-shrink: 0;
+      border: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .league-logo-img {
+      display: inline-block;
+      object-fit: contain;
+      vertical-align: middle;
+      filter: drop-shadow(0 1px 2px rgba(0,0,0,0.12));
+    }
+
+    .score-cell {
+      min-width: 90px;
+      text-align: center
+    }
+
+    .score-badge {
+      display: inline-block;
+      padding: 3px 14px;
+      font: 400 1.5rem var(--display);
+      border: 1px solid var(--ink);
+      font-variant-numeric: tabular-nums
+    }
+
+    .score-badge.finished {
+      background: var(--ink);
+      color: var(--bg-dark)
+    }
+
+    .score-badge.scheduled {
+      border-style: dashed;
+      font: 600 .8rem var(--ui);
+      padding: 7px 12px;
+      color: var(--text-muted)
+    }
+
+    .status-cell {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 8px
+    }
+
+    /* Standings */
+    .standings-table td.pts {
+      font: 400 1.2rem var(--display);
+      text-align: center
+    }
+
+    .rank-cell {
+      width: 40px;
+      text-align: center;
+      font-weight: 700;
+      color: var(--text-muted);
+      position: relative
+    }
+
+    .rank-cell.top-4::before,
+    .rank-cell.relegation::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 8px;
+      bottom: 8px;
+      width: 4px;
+      background: var(--ink)
+    }
+
+    .rank-cell.relegation::before {
+      background: var(--red)
+    }
+
+    .form-pills {
+      display: inline-flex;
+      gap: 3px
+    }
+
+    .form-dot {
+      width: 20px;
+      height: 20px;
+      font: 700 .65rem var(--ui);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--ink)
+    }
+
+    .form-w {
+      background: var(--ink);
+      color: var(--bg-dark)
+    }
+
+    .form-d {
+      background: transparent;
+      color: var(--ink)
+    }
+
+    .form-l {
+      background: var(--red);
+      border-color: var(--red);
+      color: #fff
+    }
+
+    /* Pagination and empty states */
+    .pagination-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
+      gap: 12px;
+      flex-wrap: wrap
+    }
+
+    .page-info {
+      font: italic .85rem Georgia, serif;
+      color: var(--text-muted)
+    }
+
+    .page-btns {
+      display: flex;
+      gap: 8px
+    }
+
+    .state-box {
+      text-align: center;
+      padding: 48px 20px;
+      border: 1px dashed var(--ink);
+      margin: 20px 0
+    }
+
+    .state-title {
+      font: 400 1.4rem var(--display);
+      margin-bottom: 6px
+    }
+
+    .state-desc {
+      font-size: .9rem;
+      color: var(--text-muted);
+      max-width: 480px;
+      margin: 0 auto
+    }
+
+    /* Neon greens and pinks hard-coded in the JS and HTML are unreadable on paper */
+    [style*="#34d399"] {
+      color: #1d6b3a !important
+    }
+
+    [style*="#fb7185"] {
+      color: var(--red) !important
+    }
+
+    @media(max-width:900px) {
+      .match-card {
+        grid-template-columns: 1fr;
+        gap: 8px;
+        text-align: center
+      }
+
+      .team-cell.home,
+      .team-cell.away,
+      .status-cell {
+        justify-content: center
+      }
+
+      .kpi-card:first-child {
+        padding-left: 18px
+      }
+    }
+
+    /* Head-to-Head (H2H) Styles */
+    .h2h-quick-derby {
+      font: 600 .72rem var(--ui);
+      padding: 4px 10px;
       border: 1px dotted var(--ink);
       background: var(--bg-card);
       color: var(--ink);
+      cursor: pointer;
+      transition: var(--transition);
+      white-space: nowrap;
     }
-
-    .panel-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 28px;
-    }
-
-    @media (max-width: 960px) {
-      .panel-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    .panel-col-desc h4 {
-      font: 600 .75rem var(--ui);
-      text-transform: uppercase;
-      letter-spacing: .12em;
-      color: var(--red);
-      margin-bottom: 8px;
-    }
-
-    .panel-col-desc p {
-      font-size: 1.02rem;
-      line-height: 1.6;
-      color: var(--ink);
-      margin-bottom: 18px;
-    }
-
-    .guarantee-box {
-      border: 1px solid var(--ink);
-      border-left: 5px solid var(--red);
-      background: var(--bg-card);
-      padding: 14px 16px;
-    }
-
-    .guarantee-box b {
-      font: 700 .72rem var(--ui);
-      text-transform: uppercase;
-      letter-spacing: .1em;
-      color: var(--red);
-      display: block;
-      margin-bottom: 4px;
-    }
-
-    .guarantee-box span {
-      font-size: .92rem;
-      line-height: 1.5;
-      display: block;
-    }
-
-    .panel-col-code {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .code-top {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 6px 12px;
+    .h2h-quick-derby:hover {
       background: var(--ink);
       color: var(--bg-dark);
-      font: 600 .7rem var(--mono);
-      text-transform: uppercase;
-      letter-spacing: .08em;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     }
-
-    pre {
-      background: var(--code-bg);
-      color: var(--code-ink);
-      padding: 16px;
-      font: 400 12.8px/1.55 var(--mono);
-      overflow-x: auto;
-      max-height: 320px;
-      border: 1px solid var(--ink);
-      border-top: 0;
+    .h2h-scoreboard {
+      border: 2px solid var(--ink);
+      background: var(--bg-surface);
+      padding: 24px;
+      margin-bottom: 24px;
     }
-
-    /* Broadsheet Footer Loop Note */
-    .broadsheet-footer {
-      border-top: 3px double var(--ink);
-      border-bottom: 1px solid var(--ink);
-      padding: 22px 0;
-      margin-top: 20px;
-      display: flex;
+    .h2h-clash-header {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
       align-items: center;
-      justify-content: space-between;
-      gap: 24px;
-      flex-wrap: wrap;
+      gap: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 20px;
     }
-
-    .footer-desc {
-      max-width: 800px;
-    }
-
-    .footer-desc h4 {
-      font: 400 1.25rem var(--display);
-      margin-bottom: 6px;
-    }
-
-    .footer-desc p {
-      font: italic .92rem Georgia, serif;
-      color: var(--text-muted);
-      line-height: 1.6;
-    }
-
-    /* Responsive */
-    @media (max-width: 1200px) {
-      .flow-grid {
-        grid-template-columns: repeat(4, 1fr);
-      }
-      .flow-card {
-        border-bottom: 1px solid var(--border);
+    @media (max-width: 760px) {
+      .h2h-clash-header {
+        grid-template-columns: 1fr;
+        gap: 14px;
       }
     }
-
-    @media (max-width: 680px) {
-      .flow-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-      main {
-        padding: 20px 16px 40px;
-      }
-      header {
-        padding: 14px 16px 10px;
-      }
+    .h2h-team-col {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .h2h-team-col.team1 {
+      align-items: flex-end;
+      text-align: right;
+    }
+    .h2h-team-col.team2 {
+      align-items: flex-start;
+      text-align: left;
+    }
+    .h2h-team-name {
+      font: 400 clamp(1.4rem, 3.2vw, 2.2rem)/1.1 var(--display);
+    }
+    .h2h-win-count {
+      font: 400 3.2rem/1 var(--display);
+      color: var(--red);
+    }
+    .h2h-center-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      min-width: 140px;
+      text-align: center;
+    }
+    .h2h-draws-val {
+      font: 400 1.8rem/1 var(--display);
+      color: var(--ink);
+    }
+    .h2h-goals-bar-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+    .h2h-bar-track {
+      height: 12px;
+      background: var(--bg-card);
+      border: 1px solid var(--ink);
+      display: flex;
+      overflow: hidden;
+    }
+    .h2h-bar-fill-t1 {
+      background: var(--ink);
+      height: 100%;
+    }
+    .h2h-bar-fill-t2 {
+      background: var(--red);
+      height: 100%;
     }
   </style>
+
+
+
 </head>
 
 <body>
+
+  <!-- Top Header -->
   <header>
     <div class="header-inner">
       <a href="/" class="brand">
-        <div class="brand-title">
-          Football ETL Pipeline
-          <span class="brand-badge">Architectural Gazette</span>
+        <div class="brand-icon">⚡</div>
+        <div>
+          <div class="brand-title">
+            Football Pipeline Observatory
+            <span class="brand-badge">Live Monitor</span>
+          </div>
+          <div class="brand-subtitle">Automated Event-Driven Crawl State & Match Hub</div>
         </div>
-        <div class="brand-subtitle">Automated Event-Driven Stream • Web Fixture to Relational Warehouse</div>
       </a>
+
       <div class="header-actions">
         <div class="status-pill">
           <span class="pulse-dot"></span>
-          <span>Stream Active</span>
+          <span id="api-status-text">Connecting API...</span>
         </div>
-        <a href="/data" class="nav-btn primary">
-          <span>Match Hub & Observatory</span> →
+        <a href="/architecture" class="nav-btn" title="View ETL Pipeline Architecture Blueprint">
+          <span>Architecture Blueprint</span> ↗
         </a>
       </div>
     </div>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero-meta">
-        <span class="hero-edition">★ System Specification & Dataflow Blueprint</span>
-      </div>
-      <h2 class="hero-title">From Web Fixture to Analytics Warehouse</h2>
-      <p class="hero-sub">
-        An event-driven football ETL pipeline. GitHub Actions schedules crawls, FastAPI acts as an authenticated ingestion gateway, Apache Kafka buffers raw and cleansed event streams, Python microservices transform fixtures, and PostgreSQL stores analytical models.
-      </p>
-    </section>
-
-    <div class="kpi-grid">
-      <div class="kpi-card">
-        <span class="kpi-label">Stage 01 • Orchestration</span>
-        <div class="kpi-val">GitHub Actions</div>
-        <span class="kpi-sub">Hourly cron schedule & dispatch</span>
-      </div>
-      <div class="kpi-card">
-        <span class="kpi-label">Stage 02 • Ingestion Gateway</span>
-        <div class="kpi-val">FastAPI REST</div>
-        <span class="kpi-sub">Bearer auth & Kafka publisher</span>
-      </div>
-      <div class="kpi-card">
-        <span class="kpi-label">Stages 03–05 • Event Streaming</span>
-        <div class="kpi-val">Apache Kafka</div>
-        <span class="kpi-sub">Dual-topic buffer & backpressure</span>
-      </div>
-      <div class="kpi-card">
-        <span class="kpi-label">Stages 06–07 • Persistence</span>
-        <div class="kpi-val">PostgreSQL 16</div>
-        <span class="kpi-sub">Relational warehouse & crawl logs</span>
-      </div>
-    </div>
-
-    <!-- Interactive Simulation & Match Card -->
-    <div class="control-panel">
-      <div class="control-left">
-        <button id="run" type="button" class="btn-sim">
-          <span id="run-icon">▶</span>
-          <span id="run-text">Run Pipeline Simulation</span>
+    <!-- Top Mode Switcher -->
+    <div class="view-mode-bar">
+      <div class="mode-nav">
+        <button type="button" class="mode-btn active" data-target="view-observatory">
+          <span>📡</span> Crawl Logs & Scheduler Radar
+          <span class="badge-count" id="mode-logs-count">Live</span>
         </button>
-
-        <div class="sim-sample-card">
-          <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-muted);">Tracing Event:</span>
-          <span class="sim-team-tag">
-            <img src="/images/teams/9825.png" alt="Arsenal" width="20" height="20" style="object-fit:contain;" onerror="this.style.display='none';">
-            Arsenal
-          </span>
-          <span style="font-size:0.8rem; color:var(--text-dim); font-weight:bold;">vs</span>
-          <span class="sim-team-tag">
-            <img src="/images/teams/8455.png" alt="Chelsea" width="20" height="20" style="object-fit:contain;" onerror="this.style.display='none';">
-            Chelsea
-          </span>
-          <span style="display:inline-flex; align-items:center; gap:4px; margin-left:6px; font-size:0.78rem; color:var(--text-muted);">
-            <img src="/images/leagues/47.png" alt="PL" width="16" height="16" style="object-fit:contain;" onerror="this.style.display='none';">
-            Premier League
-          </span>
-        </div>
+        <button type="button" class="mode-btn" data-target="view-matches-hub">
+          <span>📅</span> Fixtures & Match Center
+        </button>
+        <button type="button" class="mode-btn" data-target="view-standings-hub">
+          <span>🏆</span> League Standings Table
+        </button>
+        <button type="button" class="mode-btn" data-target="view-h2h-hub">
+          <span>⚔️</span> Head-to-Head (H2H)
+        </button>
       </div>
 
-      <div class="legend-row">
-        <span class="legend-tag">Extract</span>
-        <span class="legend-tag">Gateway</span>
-        <span class="legend-tag">Kafka</span>
-        <span class="legend-tag">Transform</span>
-        <span class="legend-tag">Load</span>
-        <span class="legend-tag">Warehouse</span>
+      <div style="font-size: 0.85rem; color: var(--text-dim);" id="clock-utc">
+        UTC: --:--:--
       </div>
     </div>
 
-    <!-- 8 Stages Grid -->
-    <section class="flow-section">
-      <div class="section-title-row">
-        <div>
-          <div class="section-heading">Pipeline Event Sequence</div>
-          <div class="section-sub">Click any node to inspect data contracts, guarantees, and message payloads</div>
+    <!-- ============================================================ -->
+    <!-- VIEW 1: PIPELINE & CRAWL OBSERVATORY (The Requested Feature) -->
+    <!-- ============================================================ -->
+    <div id="view-observatory" class="main-view active">
+
+      <!-- KPI Summary Ribbon -->
+      <section class="kpi-grid">
+        <div class="kpi-card">
+          <span class="kpi-label">Total Crawl Executions</span>
+          <div class="kpi-val" id="kpi-obs-total">--</div>
+          <span class="kpi-sub" id="kpi-obs-total-sub">All-time pipeline runs</span>
+        </div>
+
+        <div class="kpi-card">
+          <span class="kpi-label">Next Scheduled Ingestion</span>
+          <div class="kpi-val" id="kpi-obs-next-countdown" style="font-size: 1.35rem; color: var(--accent-amber);">--
+          </div>
+          <span class="kpi-sub" id="kpi-obs-next-target">Checking schedule queue...</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">Total Matches Ingested</span>
+          <div class="kpi-val" id="kpi-obs-matches">--</div>
+          <span class="kpi-sub">Cleaned & loaded in database</span>
+        </div>
+      </section>
+
+      <!-- Live Scheduler Radar (League Status & Recrawl Queues) -->
+      <section class="radar-section">
+        <div class="section-title-row">
+          <div>
+            <div class="section-heading"><span>🎯</span> Dynamic Scheduler Radar</div>
+            <div class="section-sub">Next crawl triggers automatically when a match group finishes (+3h buffer) or after
+              7 days</div>
+          </div>
+          <button type="button" class="nav-btn" onclick="fetchObservatoryData()">🔄 Refresh Queue</button>
+        </div>
+
+        <div class="radar-grid" id="radar-container">
+          <div class="radar-card">
+            <div class="radar-top">
+              <span class="radar-league">Loading radar state...</span>
+            </div>
+            <div class="radar-details">Connecting to crawl state repository...</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Crawl Audit Logs Table -->
+      <section class="controls-panel">
+        <div class="section-title-row" style="margin-bottom: 0;">
+          <div class="section-heading"><span>📋</span> Execution History & Crawl Audit Trail</div>
+        </div>
+
+        <div class="controls-top" style="margin-top: 10px;">
+          <div class="filter-group">
+            <div class="select-wrap">
+              <label class="select-label" for="filter-log-league">Filter Tournament</label>
+              <select id="filter-log-league">
+                <option value="">All Tournaments</option>
+              </select>
+            </div>
+            <div class="select-wrap" style="min-width: 140px;">
+              <label class="select-label" for="filter-log-status">Status</label>
+              <select id="filter-log-status">
+                <option value="">All Statuses</option>
+                <option value="SUCCESS">Success Only</option>
+                <option value="FAILED">Failed Only</option>
+              </select>
+            </div>
+            <div class="select-wrap" style="min-width: 160px;">
+              <label class="select-label" for="filter-log-trigger">Trigger Type</label>
+              <select id="filter-log-trigger">
+                <option value="">All Triggers</option>
+                <option value="periodic_refresh">Periodic Refresh</option>
+                <option value="match_group_finished">Match Group Finished</option>
+                <option value="manual">Manual Dispatch</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="table-card">
+        <table class="custom-table">
+          <thead>
+            <tr>
+              <th class="num">ID</th>
+              <th>Execution Time (VN / UTC)</th>
+              <th>Tournament & Season</th>
+              <th>Trigger Reason</th>
+              <th>Fixtures</th>
+              <th>Status</th>
+              <th>Next Target Crawl</th>
+              <th>Diagnostic</th>
+            </tr>
+          </thead>
+          <tbody id="logs-table-body">
+            <tr>
+              <td colspan="8" style="text-align: center; padding: 40px; color: var(--text-muted);">
+                Loading crawl execution history...
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="pagination-bar" id="log-pagination" style="display: none;">
+        <span class="page-info" id="log-page-info">Showing logs</span>
+        <div class="page-btns">
+          <button type="button" class="page-btn" id="btn-log-prev" disabled>← Previous</button>
+          <button type="button" class="page-btn" id="btn-log-next">Next →</button>
         </div>
       </div>
-      <div class="flow-grid" id="flow" role="list"></div>
-    </section>
+    </div>
 
-    <!-- Detailed Inspection Panel -->
-    <section class="panel" id="panel" aria-live="polite">
-      <!-- Injected dynamically -->
-    </section>
+    <!-- ============================================================ -->
+    <!-- VIEW 2: FIXTURES & MATCH CENTER -->
+    <!-- ============================================================ -->
+    <div id="view-matches-hub" class="main-view">
+      <section class="controls-panel">
+        <div class="controls-top">
+          <div class="filter-group">
+            <div class="select-wrap">
+              <label class="select-label" for="sel-match-league">Tournament</label>
+              <select id="sel-match-league">
+                <option value="">All Tournaments</option>
+              </select>
+            </div>
+            <div class="select-wrap" style="min-width: 130px;">
+              <label class="select-label" for="sel-match-season">Season</label>
+              <select id="sel-match-season">
+                <option value="2026-2027">2026-2027</option>
+                <option value="2025-2026" selected>2025-2026</option>
+                <option value="2024-2025">2024-2025</option>
+              </select>
+            </div>
+            <div class="select-wrap" style="min-width: 130px;">
+              <label class="select-label" for="sel-match-round">Round</label>
+              <select id="sel-match-round">
+                <option value="">All Rounds</option>
+              </select>
+            </div>
+          </div>
+          <div class="search-box">
+            <label class="select-label" for="search-match-input">Search Clubs</label>
+            <input type="text" id="search-match-input" class="search-input"
+              placeholder="Search team (e.g. Arsenal, Real Madrid, Swansea)...">
+          </div>
+        </div>
 
-    <!-- Closed-loop Intelligence Footer -->
-    <div class="broadsheet-footer">
-      <div class="footer-desc">
-        <h4>The Closed-Loop Feedback Cycle</h4>
-        <p>
-          The scheduler never directly touches PostgreSQL. Before crawling, it queries <code>GET /crawl-state</code> from the API to check which tournaments are due. When fixtures finish, the Loader recalculates <code>next_recrawl_at = max(kickoff) + 3h</code>, ensuring zero redundant requests and zero missed match results.
-        </p>
+        <div class="controls-bottom">
+          <div class="tabs-wrapper" id="match-status-tabs">
+            <button type="button" class="tab-btn active" data-mstatus="">All Matches</button>
+            <button type="button" class="tab-btn" data-mstatus="FINISHED">Finished (Results)</button>
+            <button type="button" class="tab-btn" data-mstatus="SCHEDULED">Scheduled (Upcoming)</button>
+          </div>
+        </div>
+      </section>
+
+      <div id="matches-container" class="matches-list">
+        <div class="state-box">
+          <div class="state-icon">⏳</div>
+          <div class="state-title">Loading Fixtures...</div>
+        </div>
       </div>
-      <a href="/data" class="nav-btn primary">Open Live Match Center (/data) →</a>
+
+      <div class="pagination-bar" id="match-pagination" style="display: none;">
+        <span class="page-info" id="match-page-info">Showing matches</span>
+        <div class="page-btns">
+          <button type="button" class="page-btn" id="btn-match-prev" disabled>← Previous</button>
+          <button type="button" class="page-btn" id="btn-match-next">Next →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- VIEW 3: LEAGUE STANDINGS TABLE -->
+    <!-- ============================================================ -->
+    <div id="view-standings-hub" class="main-view">
+      <section class="controls-panel">
+        <div class="controls-top">
+          <div class="filter-group">
+            <div class="select-wrap">
+              <label class="select-label" for="sel-stand-league">Tournament</label>
+              <select id="sel-stand-league"></select>
+            </div>
+            <div class="select-wrap" style="min-width: 130px;">
+              <label class="select-label" for="sel-stand-season">Season</label>
+              <select id="sel-stand-season">
+                <option value="2026-2027">2026-2027</option>
+                <option value="2025-2026" selected>2025-2026</option>
+                <option value="2024-2025">2024-2025</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="table-card">
+        <table class="custom-table standings-table">
+          <thead>
+            <tr>
+              <th class="num">#</th>
+              <th>Club</th>
+              <th class="num">MP</th>
+              <th class="num">W</th>
+              <th class="num">D</th>
+              <th class="num">L</th>
+              <th class="num">GF</th>
+              <th class="num">GA</th>
+              <th class="num">GD</th>
+              <th class="num">PTS</th>
+              <th>Recent 5 Matches Form</th>
+            </tr>
+          </thead>
+          <tbody id="standings-body">
+            <tr>
+              <td colspan="11" style="text-align: center; padding: 40px; color: var(--text-muted);">
+                Select tournament above to view table standings.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- VIEW 4: HEAD-TO-HEAD (H2H) CLASH -->
+    <!-- ============================================================ -->
+    <div id="view-h2h-hub" class="main-view">
+      <section class="controls-panel">
+        <div class="section-title-row">
+          <div>
+            <div class="section-heading">Head-to-Head (H2H) Club Comparison</div>
+            <div class="section-sub">Analyze all-time historical encounters, head-to-head records, and goal statistics between any two clubs.</div>
+          </div>
+        </div>
+
+        <!-- Club Pickers & Compare Button -->
+        <div class="controls-top" style="margin-top: 14px;">
+          <div class="filter-group" style="width: 100%; flex-wrap: wrap; align-items: flex-end; gap: 14px;">
+            <div class="select-wrap" style="flex: 1; min-width: 220px;">
+              <label class="select-label" for="h2h-team1-sel">First Club (Team 1)</label>
+              <select id="h2h-team1-sel">
+                <option value="">Select Club 1...</option>
+              </select>
+            </div>
+
+            <div style="font: 400 1.6rem var(--display); padding-bottom: 6px; color: var(--red);">
+              VS
+            </div>
+
+            <div class="select-wrap" style="flex: 1; min-width: 220px;">
+              <label class="select-label" for="h2h-team2-sel">Second Club (Team 2)</label>
+              <select id="h2h-team2-sel">
+                <option value="">Select Club 2...</option>
+              </select>
+            </div>
+
+            <button type="button" class="nav-btn primary" id="btn-run-h2h" style="padding: 10px 22px;">
+              Compare Head-to-Head →
+            </button>
+          </div>
+        </div>
+
+        <!-- Quick Derbies Shortcuts -->
+        <div style="margin-top: 14px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+          <span style="font: 600 0.72rem var(--ui); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-dim);">
+            Popular Derbies:
+          </span>
+          <button type="button" class="h2h-quick-derby" data-t1="Real Madrid" data-t2="Barcelona">🇪🇸 El Clásico</button>
+          <button type="button" class="h2h-quick-derby" data-t1="Arsenal" data-t2="Chelsea">🏴󠁧󠁢󠁥󠁮󠁧󠁿 Arsenal vs Chelsea</button>
+          <button type="button" class="h2h-quick-derby" data-t1="Manchester City" data-t2="Manchester United">🏴󠁧󠁢󠁥󠁮󠁧󠁿 Manchester Derby</button>
+          <button type="button" class="h2h-quick-derby" data-t1="Liverpool" data-t2="Arsenal">🏴󠁧󠁢󠁥󠁮󠁧󠁿 Liverpool vs Arsenal</button>
+          <button type="button" class="h2h-quick-derby" data-t1="Bayern München" data-t2="Borussia Dortmund">🇩🇪 Der Klassiker</button>
+          <button type="button" class="h2h-quick-derby" data-t1="Inter" data-t2="Juventus">🇮🇹 Derby d'Italia</button>
+          <button type="button" class="h2h-quick-derby" data-t1="Paris Saint-Germain" data-t2="Marseille">🇫🇷 Le Classique</button>
+        </div>
+      </section>
+
+      <!-- H2H Scoreboard Container -->
+      <div id="h2h-results-container">
+        <div class="state-box">
+          <div class="state-title">Select two clubs above to view Head-to-Head analytics</div>
+          <div class="state-desc">Choose any two clubs or pick a popular derby above to load their complete historical head-to-head match records.</div>
+        </div>
+      </div>
     </div>
   </main>
 
   <script>
-    const stages = [
-      {
-        id: 1,
-        name: "Scheduler & Crawler",
-        sub: "GitHub Actions • Hourly Cron",
-        badge: "Extract",
-        tech: ["Python 3.12", "Requests", "FotMob API", "Cron Hourly"],
-        desc: "Runs every hour in GitHub Actions. Queries the API to check which tournaments are due for a crawl (either 7 days since last run, or a recent match group has finished). For due leagues, extracts fresh raw fixture JSON directly from the FotMob provider.",
-        guarantee: "Zero Direct DB Access • Stateless runner querying central state via REST API.",
-        sampleTitle: "HTTP GET & Crawl Extraction",
-        code: `// 1. Check which leagues are due:
-GET https://football-etl.duckdns.org/crawl-state?season=2025-2026
-Headers: Authorization: Bearer <SECURE_API_TOKEN>
+    // State
+    const appState = {
+      leagues: [],
+      obsPage: 1,
+      obsPageSize: 20,
+      obsTotalPages: 1,
+      matchPage: 1,
+      matchPageSize: 50,
+      matchTotalPages: 1,
+      matchStatus: '',
+      matchSearch: '',
+      matchDebounce: null,
+      radarInterval: null,
+      radarData: []
+    };
 
-Response:
-[
-  {
-    "league_id": 47,
-    "league_name": "Premier League",
-    "due_reason": "match_group_finished",
-    "next_recrawl_at": "2025-10-24T22:00:00+00:00"
-  }
-]`
-      },
-      {
-        id: 2,
-        name: "API Ingestion Gateway",
-        sub: "FastAPI • /ingest",
-        badge: "Gateway",
-        tech: ["FastAPI", "Uvicorn", "Bearer Auth", "Kafka Producer"],
-        desc: "FastAPI acts as the single entry point. It receives the external payload over HTTPS, verifies the Bearer authentication token, validates batch schemas, and immediately pushes the raw message onto Kafka's raw-fixtures topic.",
-        guarantee: "Security Boundary • Keeps Kafka & PostgreSQL isolated inside private internal Docker network.",
-        sampleTitle: "POST /ingest Payload",
-        code: `POST /ingest HTTP/1.1
-Host: football-etl.duckdns.org
-Authorization: Bearer ************************
-Content-Type: application/json
-
-{
-  "league_id": 47,
-  "season": "2025-2026",
-  "trigger_reason": "match_group_finished",
-  "crawled_at": "2025-10-24T22:05:00+00:00",
-  "fixtures": [
-    {
-      "id": "4589214",
-      "round": "9",
-      "home": { "name": "Arsenal", "id": "9825" },
-      "away": { "name": "Chelsea", "id": "8455" },
-      "status": {
-        "utcTime": "2025-10-24T19:00:00Z",
-        "finished": true,
-        "scoreStr": "2 - 1"
-      }
+    // Helper functions
+    function fmtDate(isoStr) {
+      if (!isoStr) return '--';
+      try {
+        const d = new Date(isoStr);
+        const vnTime = d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
+        const vnDate = d.toLocaleDateString([], { day: '2-digit', month: 'short', year: 'numeric' });
+        return `${vnTime} (VN) · ${vnDate}`;
+      } catch (e) { return isoStr; }
     }
-  ]
-}`
-      },
-      {
-        id: 3,
-        name: "Kafka: Raw Stream",
-        sub: "Topic: raw-fixtures",
-        badge: "Queue",
-        tech: ["Apache Kafka 3.9", "Partition Key: league_id", "7-Day Retention"],
-        desc: "Holds uncleaned, raw crawled JSON batches. Partitioned by league_id to preserve ordering per tournament. Completely decouples extraction spikes from processing bottlenecks.",
-        guarantee: "At-Least-Once Delivery • Producers and consumers operate asynchronously with buffer safety.",
-        sampleTitle: "Kafka Broker Message (raw-fixtures)",
-        code: `Topic: raw-fixtures
-Key:   "47"
-Partition: 1, Offset: 14285
-Headers: { "producer": "fastapi-gateway", "timestamp": 1761343500 }
-Value:
-{
-  "league_id": 47,
-  "season": "2025-2026",
-  "count": 380,
-  "fixtures": [ ...raw fixtures array... ]
-}`
-      },
-      {
-        id: 4,
-        name: "Transform Worker",
-        sub: "fixture-transform Container",
-        badge: "Transform",
-        tech: ["Python Stream Consumer", "confluent-kafka", "Data Cleaning"],
-        desc: "Continuously reads from raw-fixtures. Standardizes team aliases (e.g. resolving 'Bayern München' or 'Man Utd'), parses round names into integers, normalizes UTC timestamps, validates scores, computes match result (H/D/A) and points, and discards duplicates.",
-        guarantee: "Idempotent Transformation • Deterministic parsing output regardless of input format shifts.",
-        sampleTitle: "Standardized Fixture Record",
-        code: `// Clean transformed record
-{
-  "match_id": "4589214",
-  "league_id": 47,
-  "season": "2025-2026",
-  "round": 9,
-  "home_team": "Arsenal",
-  "away_team": "Chelsea",
-  "utc_time": "2025-10-24T19:00:00Z",
-  "status": "FINISHED",
-  "score": "2 - 1",
-  "home_score": 2,
-  "away_score": 1,
-  "match_result": "H",
-  "home_points": 3,
-  "away_points": 0
-}`
-      },
-      {
-        id: 5,
-        name: "Kafka: Clean Stream",
-        sub: "Topic: transformed-fixtures",
-        badge: "Queue",
-        tech: ["Apache Kafka 3.9", "Validated Event Queue"],
-        desc: "The clean hand-off queue. Transformed batches await database persistence. If the PostgreSQL database undergoes maintenance or heavy reads, messages safely queue here without loss.",
-        guarantee: "Decoupled Persistence • Zero data loss during database downtime or scale events.",
-        sampleTitle: "Kafka Broker Message (transformed-fixtures)",
-        code: `Topic: transformed-fixtures
-Key:   "47"
-Partition: 1, Offset: 8940
-Value:
-{
-  "league_id": 47,
-  "season": "2025-2026",
-  "count": 380,
-  "trigger_reason": "match_group_finished",
-  "crawled_at": "2025-10-24T22:05:00+00:00",
-  "fixtures": [ ...cleaned fixture array... ]
-}`
-      },
-      {
-        id: 6,
-        name: "Load Worker",
-        sub: "fixture-load Container",
-        badge: "Load",
-        tech: ["Python Stream Consumer", "SQLAlchemy 2.0", "ACID Transaction"],
-        desc: "Consumes transformed-fixtures messages. Performs batch UPSERT into fact_matches. In the exact same database transaction, it inspects remaining fixtures to calculate next_recrawl_at (last kickoff + 3 hours) and writes an audit log in crawl_state_log.",
-        guarantee: "ACID Atomicity • Fixture upsert and next_recrawl_at calculation succeed or rollback together.",
-        sampleTitle: "Transactional DB Execution",
-        code: `-- 1. Upsert match records
-INSERT INTO fact_matches (match_id, league_id, season, home_team, away_team, status, score, ...)
-VALUES ('4589214', 47, '2025-2026', 'Arsenal', 'Chelsea', 'FINISHED', '2 - 1', ...)
-ON CONFLICT (match_id) DO UPDATE SET
-  score = EXCLUDED.score,
-  status = EXCLUDED.status,
-  updated_at = NOW();
 
--- 2. Compute recrawl window and record crawl state
-INSERT INTO crawl_state_log (league_id, season, status, trigger_reason, fixtures_count, next_recrawl_at, crawled_at)
-VALUES (47, '2025-2026', 'SUCCESS', 'match_group_finished', 380, '2025-10-27T23:00:00+00:00', NOW());`
-      },
-      {
-        id: 7,
-        name: "PostgreSQL Warehouse",
-        sub: "Database • pgdata volume",
-        badge: "Warehouse",
-        tech: ["PostgreSQL 16 Alpine", "B-Tree Indexes", "Named Volume"],
-        desc: "The single analytical source of truth. Stores dimensional league info, relational match facts, and crawl history. Indexed on (league_id, season, round) to ensure sub-millisecond query latency for web applications and BI tools.",
-        guarantee: "Persistence & Integrity • Foreign keys, unique constraints, and volume persistence.",
-        sampleTitle: "Warehouse Relational Tables",
-        code: `Tables in PostgreSQL:
-* dim_leagues:
-    (id PK, name, country, tier, logo_url)
-* fact_matches:
-    (match_id PK, league_id FK, season, round, home_team, away_team, score, status, utc_time)
-* crawl_state_log:
-    (id PK, league_id FK, season, status, fixtures_count, next_recrawl_at, crawled_at)
+    function timeAgo(isoStr) {
+      if (!isoStr) return 'Never';
+      try {
+        const diff = (Date.now() - new Date(isoStr).getTime()) / 1000;
+        if (diff < 60) return `${Math.floor(diff)}s ago`;
+        if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
+        if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
+        return `${Math.floor(diff / 86400)}d ago`;
+      } catch (e) { return isoStr; }
+    }
 
-Indexes:
-  CREATE INDEX idx_matches_league_season ON fact_matches (league_id, season);
-  CREATE INDEX idx_crawl_state_lookup ON crawl_state_log (league_id, season, crawled_at DESC);`
-      },
-      {
-        id: 8,
-        name: "Observatory & Hub",
-        sub: "Web Dashboard • /data",
-        badge: "Observatory",
-        tech: ["FastAPI Public Endpoints", "Responsive Vanilla UI", "Live Countdown Timers"],
-        desc: "Serves end users with real-time analytics. Features a live Match Center with round filters, live recalculated league standings (P, W, D, L, GD, PTS), countdown timers to upcoming crawls, and full audit logs.",
-        guarantee: "Real-time Visibility • Accessible via public HTTPS at /data with sub-second API responses.",
-        sampleTitle: "Public Read API Responses",
-        code: `GET /public/crawl-overview HTTP/1.1
-Response:
-{
-  "active_season": "2025-2026",
-  "total_matches": 1940,
-  "leagues_monitored": 8,
-  "health": "OPTIMAL",
-  "leagues": [
-    { "name": "Premier League", "last_crawled": "2026-01-31", "next_crawl": "2026-02-03" },
-    { "name": "La Liga", "last_crawled": "2026-01-31", "next_crawl": "2026-02-04" }
-  ]
-}`
+    function countdown(isoStr) {
+      if (!isoStr) return 'Not scheduled';
+      const target = new Date(isoStr).getTime();
+      const now = Date.now();
+      const diff = Math.floor((target - now) / 1000);
+      if (diff <= 0) return 'Due now';
+      const d = Math.floor(diff / 86400);
+      const h = Math.floor((diff % 86400) / 3600);
+      const m = Math.floor((diff % 3600) / 60);
+      const s = diff % 60;
+      if (d > 0) {
+        return `${d}d ${String(h).padStart(2, '0')}h ${String(m).padStart(2, '0')}m ${String(s).padStart(2, '0')}s`;
       }
-    ];
+      return `${String(h).padStart(2, '0')}h ${String(m).padStart(2, '0')}m ${String(s).padStart(2, '0')}s`;
+    }
 
-    const flowEl = document.getElementById("flow");
-    const panelEl = document.getElementById("panel");
-    const runBtn = document.getElementById("run");
-    const runIcon = document.getElementById("run-icon");
-    const runText = document.getElementById("run-text");
+    function triggerBadge(trigger) {
+      if (!trigger) return '<span class="trigger-tag">--</span>';
+      const labels = {
+        periodic_refresh: 'periodic refresh',
+        manual: 'manual',
+      };
+      if (trigger.startsWith('match_group_finished')) {
+        const t = trigger.split(':').slice(1).join(':').replace('T', ' ').replace('Z', '');
+        return `<span class="trigger-tag" title="${trigger}">match group finished${t ? ' (' + t + ')' : ''}</span>`;
+      }
+      return `<span class="trigger-tag" title="${trigger}">${labels[trigger] || trigger}</span>`;
+    }
 
-    let curIndex = 0;
-    let simInterval = null;
+    // Avatar colors
+    const AVATAR_COLORS = ['#3b82f6', '#10b981', '#f59e0b', '#ec4899', '#8b5cf6', '#06b6d4', '#e11d48'];
+    function getAvatarColor(name) {
+      let hash = 0;
+      for (let i = 0; i < (name || '').length; i++) hash = name.charCodeAt(i) + ((hash << 5) - hash);
+      return AVATAR_COLORS[Math.abs(hash) % AVATAR_COLORS.length];
+    }
+    function getInitials(name) {
+      if (!name) return 'FC';
+      const p = name.split(' ').filter(x => x.length > 0);
+      return p.length === 1 ? p[0].substring(0, 2).toUpperCase() : (p[0][0] + p[p.length - 1][0]).toUpperCase();
+    }
 
-    // Render 8-stage nodes
-    stages.forEach((st, idx) => {
-      const card = document.createElement("button");
-      card.type = "button";
-      card.className = "flow-card";
-      card.setAttribute("role", "listitem");
-      card.innerHTML = `
-        <div class="flow-top">
-          <span class="step-num">0${st.id}</span>
-          <span class="flow-badge">${st.badge}</span>
-        </div>
-        <div>
-          <span class="flow-card-title">${st.name}</span>
-          <span class="flow-card-sub">${st.sub}</span>
-        </div>
+    function renderTeamBadge(teamId, teamName, size = 28) {
+      const avatarColor = getAvatarColor(teamName);
+      const initials = getInitials(teamName);
+      if (!teamId) {
+        return `<span class="team-avatar fallback-avatar" style="width:${size}px; height:${size}px; background:${avatarColor};">${initials}</span>`;
+      }
+      return `
+        <span class="team-badge-wrap" style="width:${size}px; height:${size}px;" title="${teamName || ''}">
+          <img class="team-logo-img" src="/images/teams/${teamId}.png" alt="${teamName || ''}" 
+               onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='inline-flex';" 
+               loading="lazy">
+          <span class="team-avatar fallback-avatar" style="display:none; width:${size}px; height:${size}px; background:${avatarColor};">
+            ${initials}
+          </span>
+        </span>
       `;
-      card.addEventListener("click", () => {
-        stopSim();
-        showStage(idx, false);
+    }
+
+    function renderLeagueBadge(leagueId, leagueName, size = 22) {
+      if (!leagueId) return '';
+      return `
+        <img class="league-logo-img" src="/images/leagues/${leagueId}.png" alt="${leagueName || ''}" 
+             title="${leagueName || ''}"
+             onerror="this.style.display='none';" 
+             style="width:${size}px; height:${size}px; object-fit:contain; vertical-align:middle;" 
+             loading="lazy">
+      `;
+    }
+
+    // Initialization
+    async function init() {
+      setupNavigation();
+      startUtcClock();
+      await fetchObservatoryData();
+      await fetchCrawlLogs();
+      await loadLeaguesAndSeasons();
+
+      // Tick count-down timers every second
+      setInterval(updateRadarCountdowns, 1000);
+    }
+
+    function startUtcClock() {
+      function tick() {
+        const now = new Date();
+        document.getElementById('clock-utc').textContent = 'UTC: ' + now.toISOString().substring(11, 19);
+      }
+      tick();
+      setInterval(tick, 1000);
+    }
+
+    function setupNavigation() {
+      document.querySelectorAll('.mode-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const target = btn.dataset.target;
+          document.querySelectorAll('.main-view').forEach(v => v.classList.remove('active'));
+          document.getElementById(target).classList.add('active');
+
+          if (target === 'view-matches-hub') loadMatches();
+          if (target === 'view-standings-hub') loadStandings();
+          if (target === 'view-h2h-hub') loadAllTeamsForH2H();
+        });
       });
-      flowEl.appendChild(card);
-    });
 
-    function showStage(idx, isProgressing) {
-      curIndex = idx;
-      const cards = flowEl.children;
-      for (let i = 0; i < cards.length; i++) {
-        cards[i].classList.toggle("on", i === idx);
-        cards[i].classList.toggle("done", isProgressing && i < idx);
+      // Log Filters
+      document.getElementById('filter-log-league').addEventListener('change', () => { appState.obsPage = 1; fetchCrawlLogs(); });
+      document.getElementById('filter-log-status').addEventListener('change', () => { appState.obsPage = 1; fetchCrawlLogs(); });
+      document.getElementById('filter-log-trigger').addEventListener('change', () => { appState.obsPage = 1; fetchCrawlLogs(); });
+      document.getElementById('btn-log-prev').addEventListener('click', () => { if (appState.obsPage > 1) { appState.obsPage--; fetchCrawlLogs(); } });
+      document.getElementById('btn-log-next').addEventListener('click', () => { if (appState.obsPage < appState.obsTotalPages) { appState.obsPage++; fetchCrawlLogs(); } });
+
+      // Match Filters
+      document.getElementById('sel-match-league').addEventListener('change', () => { appState.matchPage = 1; loadRounds(); loadMatches(); });
+      document.getElementById('sel-match-season').addEventListener('change', () => { appState.matchPage = 1; loadRounds(); loadMatches(); });
+      document.getElementById('sel-match-round').addEventListener('change', () => { appState.matchPage = 1; loadMatches(); });
+      document.getElementById('search-match-input').addEventListener('input', (e) => {
+        clearTimeout(appState.matchDebounce);
+        appState.matchDebounce = setTimeout(() => {
+          appState.matchSearch = e.target.value.trim();
+          appState.matchPage = 1;
+          loadMatches();
+        }, 300);
+      });
+      document.querySelectorAll('#match-status-tabs .tab-btn').forEach(b => {
+        b.addEventListener('click', () => {
+          document.querySelectorAll('#match-status-tabs .tab-btn').forEach(x => x.classList.remove('active'));
+          b.classList.add('active');
+          appState.matchStatus = b.dataset.mstatus;
+          appState.matchPage = 1;
+          loadMatches();
+        });
+      });
+      document.getElementById('btn-match-prev').addEventListener('click', () => { if (appState.matchPage > 1) { appState.matchPage--; loadMatches(); } });
+      document.getElementById('btn-match-next').addEventListener('click', () => { if (appState.matchPage < appState.matchTotalPages) { appState.matchPage++; loadMatches(); } });
+
+      // Standings Filters
+      document.getElementById('sel-stand-league').addEventListener('change', loadStandings);
+      document.getElementById('sel-stand-season').addEventListener('change', loadStandings);
+    }
+
+    // 1. Fetch Observatory & Radar Queue
+    async function fetchObservatoryData() {
+      try {
+        const [overviewRes, statsRes] = await Promise.all([
+          fetch('/public/crawl-overview'),
+          fetch('/public/stats')
+        ]);
+
+        if (overviewRes.ok) {
+          const overview = await overviewRes.json();
+          document.getElementById('kpi-obs-total').textContent = overview.total_runs.toLocaleString();
+
+          if (overview.next_upcoming_run) {
+            document.getElementById('kpi-obs-next-target').textContent = `${overview.next_upcoming_run.league_name}`;
+            document.getElementById('kpi-obs-next-countdown').dataset.targetTime = overview.next_upcoming_run.next_recrawl_at;
+          } else {
+            document.getElementById('kpi-obs-next-countdown').textContent = 'All in sync';
+            document.getElementById('kpi-obs-next-target').textContent = 'No pending match groups';
+          }
+
+          appState.radarData = overview.leagues_status || [];
+          renderRadar(appState.radarData);
+          document.getElementById('api-status-text').textContent = 'API Live';
+        }
+
+        if (statsRes.ok) {
+          const stats = await statsRes.json();
+          document.getElementById('kpi-obs-matches').textContent = (stats.total_matches || 0).toLocaleString();
+        }
+      } catch (err) {
+        document.getElementById('api-status-text').textContent = 'API Disconnected';
       }
-
-      const st = stages[idx];
-      panelEl.innerHTML = `
-        <div class="panel-header">
-          <div class="panel-headline">
-            <h3>
-              <span>0${st.id}. ${st.name}</span>
-              <span class="brand-badge">${st.badge}</span>
-            </h3>
-            <p>${st.sub}</p>
-          </div>
-          <div class="tech-stack-row">
-            ${st.tech.map(t => `<span class="tech-tag">${t}</span>`).join("")}
-          </div>
-        </div>
-
-        <div class="panel-grid">
-          <div class="panel-col-desc">
-            <h4>Stage Specification & Execution</h4>
-            <p>${st.desc}</p>
-            <div class="guarantee-box">
-              <b>Architectural Guarantee</b>
-              <span>${st.guarantee}</span>
-            </div>
-          </div>
-
-          <div class="panel-col-code">
-            <div class="code-top">
-              <span>${st.sampleTitle}</span>
-              <span>STAGE 0${st.id} / 08</span>
-            </div>
-            <pre><code>${escapeHtml(st.code)}</code></pre>
-          </div>
-        </div>
-      `;
     }
 
-    function escapeHtml(str) {
-      return str
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;");
-    }
-
-    function stopSim() {
-      if (simInterval) {
-        clearInterval(simInterval);
-        simInterval = null;
-      }
-      runBtn.classList.remove("running");
-      runIcon.textContent = "▶";
-      runText.textContent = "Run Pipeline Simulation";
-    }
-
-    runBtn.addEventListener("click", () => {
-      if (simInterval) {
-        stopSim();
+    function renderRadar(leagues) {
+      const container = document.getElementById('radar-container');
+      if (!leagues || leagues.length === 0) {
+        container.innerHTML = `
+          <div class="state-box" style="grid-column: 1 / -1; padding: 30px;">
+            <div class="state-icon">📡</div>
+            <div class="state-title">No Crawl Records Yet</div>
+            <div class="state-desc">Run scheduler or test crawler to populate crawl state log.</div>
+          </div>`;
         return;
       }
 
-      let step = 0;
-      runBtn.classList.add("running");
-      runIcon.textContent = "⏸";
-      runText.textContent = "Stop Simulation";
-      showStage(0, true);
+      container.innerHTML = leagues.map(item => {
+        const isSuccess = (item.status === 'SUCCESS');
+        return `
+          <div class="radar-card">
+            <div class="radar-top">
+              <div style="display:flex; align-items:center; gap:8px;">
+                ${renderLeagueBadge(item.league_id, item.league_name, 26)}
+                <span class="radar-league">${item.league_name}</span>
+              </div>
+              <span class="radar-countdown" data-countdown-time="${item.next_recrawl_at || ''}">${countdown(item.next_recrawl_at)}</span>
+            </div>
+            <div class="radar-details">
+              <div class="radar-detail-row">
+                <span>Last Run Status:</span>
+                <span class="badge ${isSuccess ? 'badge-success' : 'badge-failed'}">
+                  ${isSuccess ? '● SUCCESS' : '✖ FAILED'}
+                </span>
+              </div>
+              <div class="radar-detail-row">
+                <span>Last Crawled:</span>
+                <span class="radar-detail-val" title="${item.crawled_at || ''}">${timeAgo(item.crawled_at)}</span>
+              </div>
+              <div class="radar-detail-row">
+                <span>Fixtures in Sync:</span>
+                <span class="radar-detail-val">${item.fixtures_count.toLocaleString()} matches</span>
+              </div>
+              <div class="radar-detail-row">
+                <span>Last Trigger Event:</span>
+                ${triggerBadge(item.trigger)}
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
 
-      simInterval = setInterval(() => {
-        step++;
-        if (step >= stages.length) {
-          stopSim();
+    function updateRadarCountdowns() {
+      document.querySelectorAll('[data-countdown-time]').forEach(el => {
+        const target = el.dataset.countdownTime;
+        if (target) el.textContent = countdown(target);
+      });
+      const topNext = document.getElementById('kpi-obs-next-countdown');
+      if (topNext && topNext.dataset.targetTime) {
+        topNext.textContent = countdown(topNext.dataset.targetTime);
+      }
+    }
+
+    // 2. Fetch Crawl Audit Logs Table
+    async function fetchCrawlLogs() {
+      const tbody = document.getElementById('logs-table-body');
+      tbody.innerHTML = '<tr><td colspan="8" style="text-align:center; padding:30px; color:var(--text-muted);">Loading logs...</td></tr>';
+
+      const params = new URLSearchParams({
+        page: appState.obsPage,
+        page_size: appState.obsPageSize
+      });
+      const league = document.getElementById('filter-log-league').value;
+      const status = document.getElementById('filter-log-status').value;
+      const trigger = document.getElementById('filter-log-trigger').value;
+
+      if (league) params.append('league_id', league);
+      if (status) params.append('status', status);
+      if (trigger) params.append('trigger', trigger);
+
+      try {
+        const res = await fetch(`/public/crawl-logs?${params.toString()}`);
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+
+        appState.obsTotalPages = data.total_pages || 1;
+        updateLogPagination(data.total);
+
+        if (!data.logs || data.logs.length === 0) {
+          tbody.innerHTML = '<tr><td colspan="8" style="text-align:center; padding:30px; color:var(--text-muted);">No crawl logs found matching criteria.</td></tr>';
           return;
         }
-        showStage(step, true);
-      }, 2600);
-    });
 
-    // Initialize at Stage 1
-    showStage(0, false);
+        tbody.innerHTML = data.logs.map(log => {
+          const isSuccess = log.status === 'SUCCESS';
+          return `
+            <tr>
+              <td class="num code-font" style="color:var(--text-dim);">${log.id}</td>
+              <td class="code-font">${fmtDate(log.crawled_at)}</td>
+              <td>
+                <div style="display:flex; align-items:center; gap:8px;">
+                  ${renderLeagueBadge(log.league_id, log.league_name, 22)}
+                  <div>
+                    <strong>${log.league_name}</strong>
+                    <span style="font-size:0.75rem; color:var(--text-dim); display:block;">${log.season}</span>
+                  </div>
+                </div>
+              </td>
+              <td>${triggerBadge(log.trigger)}</td>
+              <td class="num font-bold">${log.fixtures_count != null ? log.fixtures_count.toLocaleString() : '--'}</td>
+              <td>
+                <span class="badge ${isSuccess ? 'badge-success' : 'badge-failed'}">
+                  ${isSuccess ? 'SUCCESS' : 'FAILED'}
+                </span>
+              </td>
+              <td class="code-font" style="color:var(--text-muted);">${log.next_recrawl_at ? fmtDate(log.next_recrawl_at) : '--'}</td>
+              <td>
+                ${log.error ? `<span style="color:#fb7185; font-size:0.75rem;" title="${log.error}">⚠️ ${log.error.substring(0, 30)}...</span>` : '<span style="color:#34d399; font-size:0.8rem;">✓ Clean</span>'}
+              </td>
+            </tr>
+          `;
+        }).join('');
+      } catch (err) {
+        tbody.innerHTML = `<tr><td colspan="8" style="text-align:center; padding:30px; color:#fb7185;">Error loading crawl logs: ${err.message}</td></tr>`;
+      }
+    }
+
+    function updateLogPagination(total) {
+      const bar = document.getElementById('log-pagination');
+      if (total > appState.obsPageSize) {
+        bar.style.display = 'flex';
+        const start = (appState.obsPage - 1) * appState.obsPageSize + 1;
+        const end = Math.min(appState.obsPage * appState.obsPageSize, total);
+        document.getElementById('log-page-info').textContent = `Showing logs ${start}-${end} of ${total} (Page ${appState.obsPage}/${appState.obsTotalPages})`;
+        document.getElementById('btn-log-prev').disabled = (appState.obsPage <= 1);
+        document.getElementById('btn-log-next').disabled = (appState.obsPage >= appState.obsTotalPages);
+      } else {
+        bar.style.display = 'none';
+      }
+    }
+
+    // 3. Match Center
+    async function loadLeaguesAndSeasons() {
+      try {
+        const res = await fetch('/public/leagues');
+        if (res.ok) {
+          appState.leagues = await res.json();
+          const selM = document.getElementById('sel-match-league');
+          const selS = document.getElementById('sel-stand-league');
+          const selL = document.getElementById('filter-log-league');
+
+          selM.innerHTML = '<option value="">All Tournaments</option>';
+          selS.innerHTML = '';
+          selL.innerHTML = '<option value="">All Tournaments</option>';
+
+          appState.leagues.forEach(lg => {
+            const opt1 = document.createElement('option');
+            opt1.value = lg.league_id; opt1.textContent = `${lg.league_name} (${lg.country_code})`;
+            selM.appendChild(opt1);
+
+            const opt2 = document.createElement('option');
+            opt2.value = lg.league_id; opt2.textContent = `${lg.league_name} (${lg.country_code})`;
+            selS.appendChild(opt2);
+
+            const opt3 = document.createElement('option');
+            opt3.value = lg.league_id; opt3.textContent = lg.league_name;
+            selL.appendChild(opt3);
+          });
+        }
+      } catch (e) { }
+    }
+
+    async function loadRounds() {
+      const lid = document.getElementById('sel-match-league').value;
+      const season = document.getElementById('sel-match-season').value;
+      const selR = document.getElementById('sel-match-round');
+      if (!lid) { selR.innerHTML = '<option value="">All Rounds</option>'; return; }
+
+      try {
+        const res = await fetch(`/public/rounds?league_id=${lid}&season=${encodeURIComponent(season)}`);
+        if (res.ok) {
+          const rounds = await res.json();
+          selR.innerHTML = '<option value="">All Rounds</option>';
+          rounds.forEach(r => {
+            const opt = document.createElement('option');
+            opt.value = r; opt.textContent = 'Round ' + r;
+            selR.appendChild(opt);
+          });
+        }
+      } catch (e) { }
+    }
+
+    async function loadMatches() {
+      const container = document.getElementById('matches-container');
+      container.innerHTML = '<div class="state-box"><div class="state-icon">⏳</div><div class="state-title">Loading Fixtures...</div></div>';
+
+      const params = new URLSearchParams({
+        page: appState.matchPage,
+        page_size: appState.matchPageSize,
+        season: document.getElementById('sel-match-season').value
+      });
+      const lid = document.getElementById('sel-match-league').value;
+      const round = document.getElementById('sel-match-round').value;
+      if (lid) params.append('league_id', lid);
+      if (round) params.append('round', round);
+      if (appState.matchStatus) params.append('status', appState.matchStatus);
+      if (appState.matchSearch) params.append('team', appState.matchSearch);
+
+      try {
+        const res = await fetch(`/public/matches?${params.toString()}`);
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+
+        appState.matchTotalPages = data.total_pages || 1;
+        updateMatchPagination(data.total);
+
+        if (!data.matches || data.matches.length === 0) {
+          container.innerHTML = '<div class="state-box"><div class="state-icon">📭</div><div class="state-title">No Matches Found</div><div class="state-desc">Try resetting your search or tournament filter.</div></div>';
+          return;
+        }
+
+        renderMatches(data.matches);
+      } catch (err) {
+        container.innerHTML = `<div class="state-box"><div class="state-icon">⚠️</div><div class="state-title">Could not load matches</div><div class="state-desc">${err.message}</div></div>`;
+      }
+    }
+
+    function renderMatches(matches) {
+      const container = document.getElementById('matches-container');
+      container.innerHTML = '';
+      let currentDate = '';
+
+      matches.forEach(m => {
+        let kickTime = m.match_time ? m.match_time.substring(0, 5) : '--:--';
+        let matchDateStr = m.match_date || 'TBD';
+
+        if (m.utc_time) {
+          try {
+            const d = new Date(m.utc_time);
+            kickTime = d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: false }) + ' (VN)';
+            matchDateStr = d.toLocaleDateString([], { weekday: 'short', day: '2-digit', month: 'short', year: 'numeric' });
+          } catch (e) { }
+        }
+
+        if (matchDateStr !== currentDate) {
+          currentDate = matchDateStr;
+          const h = document.createElement('div');
+          h.className = 'date-header';
+          h.innerHTML = `<span>${currentDate}</span>`;
+          container.appendChild(h);
+        }
+
+        const isFinished = (m.status === 'FINISHED');
+        const card = document.createElement('div');
+        card.className = 'match-card';
+        card.innerHTML = `
+          <div class="match-meta">
+            <div class="match-time">${kickTime}</div>
+            <div>${m.round_name || ('Round ' + m.round)}</div>
+          </div>
+          <div class="team-cell home">
+            <span class="team-name">${m.home_team}</span>
+            ${renderTeamBadge(m.home_team_id, m.home_team, 30)}
+          </div>
+          <div class="score-cell">
+            ${isFinished ?
+            `<div class="score-badge finished">${m.home_score} - ${m.away_score}</div>` :
+            `<div class="score-badge scheduled">${kickTime}</div>`
+          }
+          </div>
+          <div class="team-cell away">
+            ${renderTeamBadge(m.away_team_id, m.away_team, 30)}
+            <span class="team-name">${m.away_team}</span>
+          </div>
+          <div class="status-cell">
+            <span class="badge ${isFinished ? 'badge-success' : 'badge-scheduled'}">${m.status}</span>
+            ${m.match_url ? `<a href="${m.match_url}" target="_blank" rel="noopener" style="color:var(--text-dim); text-decoration:none;">↗</a>` : ''}
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    function updateMatchPagination(total) {
+      const bar = document.getElementById('match-pagination');
+      if (total > appState.matchPageSize) {
+        bar.style.display = 'flex';
+        const start = (appState.matchPage - 1) * appState.matchPageSize + 1;
+        const end = Math.min(appState.matchPage * appState.matchPageSize, total);
+        document.getElementById('match-page-info').textContent = `Showing matches ${start}-${end} of ${total} (Page ${appState.matchPage}/${appState.matchTotalPages})`;
+        document.getElementById('btn-match-prev').disabled = (appState.matchPage <= 1);
+        document.getElementById('btn-match-next').disabled = (appState.matchPage >= appState.matchTotalPages);
+      } else {
+        bar.style.display = 'none';
+      }
+    }
+
+    // 4. Standings
+    async function loadStandings() {
+      const tbody = document.getElementById('standings-body');
+      const lid = document.getElementById('sel-stand-league').value;
+      const season = document.getElementById('sel-stand-season').value;
+      if (!lid) return;
+
+      tbody.innerHTML = '<tr><td colspan="11" style="text-align:center; padding:30px; color:var(--text-muted);">Calculating standings table...</td></tr>';
+
+      try {
+        const res = await fetch(`/public/standings?league_id=${lid}&season=${encodeURIComponent(season)}`);
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const table = await res.json();
+
+        if (!table || table.length === 0) {
+          tbody.innerHTML = '<tr><td colspan="11" style="text-align:center; padding:30px; color:var(--text-muted);">No completed matches recorded yet for this league.</td></tr>';
+          return;
+        }
+
+        tbody.innerHTML = table.map(r => {
+          const form = (r.form || []).map(f => `<span class="form-dot ${f === 'W' ? 'form-w' : (f === 'D' ? 'form-d' : 'form-l')}">${f}</span>`).join('');
+          const isTop4 = r.rank <= 4;
+          const isRel = r.rank >= table.length - 2 && table.length >= 10;
+          return `
+            <tr>
+              <td class="rank-cell ${isTop4 ? 'top-4' : (isRel ? 'relegation' : '')}">${r.rank}</td>
+              <td>
+                <div style="display:flex; align-items:center; gap:10px;">
+                  ${renderTeamBadge(r.team_id, r.team_name, 26)}
+                  <strong style="font-size:0.95rem;">${r.team_name}</strong>
+                </div>
+              </td>
+              <td class="num">${r.played}</td>
+              <td class="num">${r.won}</td>
+              <td class="num">${r.drawn}</td>
+              <td class="num">${r.lost}</td>
+              <td class="num">${r.gf}</td>
+              <td class="num">${r.ga}</td>
+              <td class="num" style="font-weight:600; color:${r.gd > 0 ? '#34d399' : (r.gd < 0 ? '#fb7185' : 'inherit')}">
+                ${r.gd > 0 ? '+' + r.gd : r.gd}
+              </td>
+              <td class="pts">${r.points}</td>
+              <td><div class="form-pills">${form || '--'}</div></td>
+            </tr>
+          `;
+        }).join('');
+      } catch (err) {
+        tbody.innerHTML = `<tr><td colspan="11" style="text-align:center; padding:30px; color:#fb7185;">Could not calculate standings: ${err.message}</td></tr>`;
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', init);
+
+    // 5. Head-to-Head (H2H) Logic
+    let h2hTeamsLoaded = false;
+    async function loadAllTeamsForH2H() {
+      if (h2hTeamsLoaded) return;
+      try {
+        const res = await fetch('/public/teams?limit=500');
+        if (!res.ok) return;
+        const teams = await res.json();
+        const sel1 = document.getElementById('h2h-team1-sel');
+        const sel2 = document.getElementById('h2h-team2-sel');
+        sel1.innerHTML = '<option value="">Select Club 1...</option>';
+        sel2.innerHTML = '<option value="">Select Club 2...</option>';
+        teams.forEach(t => {
+          const opt1 = document.createElement('option');
+          opt1.value = t.team_id;
+          opt1.textContent = t.team_name;
+          sel1.appendChild(opt1);
+
+          const opt2 = document.createElement('option');
+          opt2.value = t.team_id;
+          opt2.textContent = t.team_name;
+          sel2.appendChild(opt2);
+        });
+        h2hTeamsLoaded = true;
+      } catch (e) {
+        console.error('Failed to load teams for H2H:', e);
+      }
+    }
+
+    async function executeH2H(team1, team2) {
+      if (!team1 || !team2) {
+        alert('Please select both clubs to compare.');
+        return;
+      }
+      if (team1 === team2) {
+        alert('Please select two different clubs.');
+        return;
+      }
+
+      const container = document.getElementById('h2h-results-container');
+      container.innerHTML = '<div class="state-box"><div class="state-title">Analyzing all-time Head-to-Head records...</div></div>';
+
+      try {
+        const res = await fetch(`/public/h2h?team1=${encodeURIComponent(team1)}&team2=${encodeURIComponent(team2)}`);
+        if (!res.ok) {
+          const err = await res.json().catch(() => ({}));
+          container.innerHTML = `<div class="state-box"><div class="state-title">Comparison unavailable</div><div class="state-desc">${err.detail || 'Could not find matches for selected clubs'}</div></div>`;
+          return;
+        }
+
+        const data = await res.json();
+        renderH2HResults(data);
+      } catch (e) {
+        container.innerHTML = `<div class="state-box"><div class="state-title">Error loading H2H</div><div class="state-desc">${e.message}</div></div>`;
+      }
+    }
+
+    function renderH2HResults(data) {
+      const container = document.getElementById('h2h-results-container');
+      const s = data.summary;
+      const t1 = data.team1;
+      const t2 = data.team2;
+
+      const totalGoals = (s.team1_goals + s.team2_goals) || 1;
+      const t1GoalPct = Math.round((s.team1_goals / totalGoals) * 100);
+      const t2GoalPct = 100 - t1GoalPct;
+
+      container.innerHTML = `
+        <div class="h2h-scoreboard">
+          <div class="h2h-clash-header">
+            <div class="h2h-team-col team1">
+              <div style="display:flex; align-items:center; gap:12px;">
+                <span class="h2h-team-name">${t1.team_name}</span>
+                ${renderTeamBadge(t1.team_id, t1.team_name, 48)}
+              </div>
+              <div class="h2h-win-count">${s.team1_wins}</div>
+              <span style="font: 600 .72rem var(--ui); text-transform: uppercase; letter-spacing: .08em; color: var(--text-dim);">Victories</span>
+            </div>
+
+            <div class="h2h-center-col">
+              <div style="font: 700 .75rem var(--ui); text-transform: uppercase; letter-spacing: .12em; color: var(--red);">Head-to-Head</div>
+              <div style="font: 400 1.85rem var(--display); color: var(--ink);">${s.total_finished} Played</div>
+              <div class="h2h-draws-val">${s.draws} Draws</div>
+              <div style="font-size: 0.8rem; color: var(--text-muted);">${s.team1_goals} - ${s.team2_goals} Goals</div>
+            </div>
+
+            <div class="h2h-team-col team2">
+              <div style="display:flex; align-items:center; gap:12px;">
+                ${renderTeamBadge(t2.team_id, t2.team_name, 48)}
+                <span class="h2h-team-name">${t2.team_name}</span>
+              </div>
+              <div class="h2h-win-count">${s.team2_wins}</div>
+              <span style="font: 600 .72rem var(--ui); text-transform: uppercase; letter-spacing: .08em; color: var(--text-dim);">Victories</span>
+            </div>
+          </div>
+
+          <!-- Goals Ratio Bar -->
+          <div class="h2h-goals-bar-wrap">
+            <div style="display:flex; justify-content:space-between; font: 600 .72rem var(--ui); text-transform: uppercase;">
+              <span>${t1.team_name}: ${s.team1_goals} goals (${t1GoalPct}%)</span>
+              <span>${t2.team_name}: ${s.team2_goals} goals (${t2GoalPct}%)</span>
+            </div>
+            <div class="h2h-bar-track">
+              <div class="h2h-bar-fill-t1" style="width: ${t1GoalPct}%;"></div>
+              <div class="h2h-bar-fill-t2" style="width: ${t2GoalPct}%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-title-row" style="margin-top: 24px;">
+          <div>
+            <div class="section-heading">Historical Encounters (${data.matches.length})</div>
+            <div class="section-sub">Chronological list of all matches recorded in database</div>
+          </div>
+        </div>
+
+        <div class="matches-list">
+          ${data.matches.map(m => {
+            const isFinished = (m.status === 'FINISHED');
+            const kickTime = m.match_date ? m.match_date : (m.match_time || 'Scheduled');
+            let outcomeTag = '<span class="badge badge-scheduled">Scheduled</span>';
+            if (isFinished) {
+              if (m.winner === t1.team_id) {
+                outcomeTag = `<span class="badge" style="background:var(--ink); color:#fff;">${t1.team_name} Win</span>`;
+              } else if (m.winner === t2.team_id) {
+                outcomeTag = `<span class="badge" style="background:var(--red); color:#fff;">${t2.team_name} Win</span>`;
+              } else {
+                outcomeTag = `<span class="badge" style="border:1px solid var(--ink); background:transparent; color:var(--ink);">Draw</span>`;
+              }
+            }
+            return `
+              <div class="match-card">
+                <div class="match-meta">
+                  <div class="match-time">${kickTime}</div>
+                  <div style="display:flex; align-items:center; gap:6px;">
+                    ${renderLeagueBadge(m.league_id, m.league_name, 16)}
+                    <span>${m.league_name} (${m.season})</span>
+                  </div>
+                </div>
+                <div class="team-cell home">
+                  <span class="team-name">${m.home_team}</span>
+                  ${renderTeamBadge(m.home_team_id, m.home_team, 28)}
+                </div>
+                <div class="score-cell">
+                  ${isFinished ?
+                  `<div class="score-badge finished">${m.home_score} - ${m.away_score}</div>` :
+                  `<div class="score-badge scheduled">${kickTime}</div>`
+                }
+                </div>
+                <div class="team-cell away">
+                  ${renderTeamBadge(m.away_team_id, m.away_team, 28)}
+                  <span class="team-name">${m.away_team}</span>
+                </div>
+                <div class="status-cell">
+                  ${outcomeTag}
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      `;
+    }
+
+    // Attach H2H Button Listeners
+    document.addEventListener('DOMContentLoaded', () => {
+      const btnCompare = document.getElementById('btn-run-h2h');
+      if (btnCompare) {
+        btnCompare.addEventListener('click', () => {
+          const t1 = document.getElementById('h2h-team1-sel').value;
+          const t2 = document.getElementById('h2h-team2-sel').value;
+          executeH2H(t1, t2);
+        });
+      }
+
+      document.querySelectorAll('.h2h-quick-derby').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const t1 = btn.dataset.t1;
+          const t2 = btn.dataset.t2;
+          executeH2H(t1, t2);
+        });
+      });
+    });
   </script>
 </body>
 

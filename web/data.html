@@ -786,6 +786,97 @@
         padding-left: 18px
       }
     }
+
+    /* Head-to-Head (H2H) Styles */
+    .h2h-quick-derby {
+      font: 600 .72rem var(--ui);
+      padding: 4px 10px;
+      border: 1px dotted var(--ink);
+      background: var(--bg-card);
+      color: var(--ink);
+      cursor: pointer;
+      transition: var(--transition);
+      white-space: nowrap;
+    }
+    .h2h-quick-derby:hover {
+      background: var(--ink);
+      color: var(--bg-dark);
+    }
+    .h2h-scoreboard {
+      border: 2px solid var(--ink);
+      background: var(--bg-surface);
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+    .h2h-clash-header {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      gap: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 20px;
+    }
+    @media (max-width: 760px) {
+      .h2h-clash-header {
+        grid-template-columns: 1fr;
+        gap: 14px;
+      }
+    }
+    .h2h-team-col {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .h2h-team-col.team1 {
+      align-items: flex-end;
+      text-align: right;
+    }
+    .h2h-team-col.team2 {
+      align-items: flex-start;
+      text-align: left;
+    }
+    .h2h-team-name {
+      font: 400 clamp(1.4rem, 3.2vw, 2.2rem)/1.1 var(--display);
+    }
+    .h2h-win-count {
+      font: 400 3.2rem/1 var(--display);
+      color: var(--red);
+    }
+    .h2h-center-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      min-width: 140px;
+      text-align: center;
+    }
+    .h2h-draws-val {
+      font: 400 1.8rem/1 var(--display);
+      color: var(--ink);
+    }
+    .h2h-goals-bar-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+    .h2h-bar-track {
+      height: 12px;
+      background: var(--bg-card);
+      border: 1px solid var(--ink);
+      display: flex;
+      overflow: hidden;
+    }
+    .h2h-bar-fill-t1 {
+      background: var(--ink);
+      height: 100%;
+    }
+    .h2h-bar-fill-t2 {
+      background: var(--red);
+      height: 100%;
+    }
   </style>
 
 
@@ -797,7 +888,7 @@
   <!-- Top Header -->
   <header>
     <div class="header-inner">
-      <a href="/data" class="brand">
+      <a href="/" class="brand">
         <div class="brand-icon">⚡</div>
         <div>
           <div class="brand-title">
@@ -813,8 +904,8 @@
           <span class="pulse-dot"></span>
           <span id="api-status-text">Connecting API...</span>
         </div>
-        <a href="/" class="nav-btn" title="View ETL Pipeline Architecture">
-          <span>Architecture Flow</span> ↗
+        <a href="/architecture" class="nav-btn" title="View ETL Pipeline Architecture Blueprint">
+          <span>Architecture Blueprint</span> ↗
         </a>
       </div>
     </div>
@@ -833,6 +924,9 @@
         </button>
         <button type="button" class="mode-btn" data-target="view-standings-hub">
           <span>🏆</span> League Standings Table
+        </button>
+        <button type="button" class="mode-btn" data-target="view-h2h-hub">
+          <span>⚔️</span> Head-to-Head (H2H)
         </button>
       </div>
 
@@ -853,11 +947,7 @@
           <div class="kpi-val" id="kpi-obs-total">--</div>
           <span class="kpi-sub" id="kpi-obs-total-sub">All-time pipeline runs</span>
         </div>
-        <div class="kpi-card">
-          <span class="kpi-label">Pipeline Success Rate</span>
-          <div class="kpi-val" id="kpi-obs-rate" style="color: #34d399;">--%</div>
-          <span class="kpi-sub" id="kpi-obs-fail-count">0 failed runs</span>
-        </div>
+
         <div class="kpi-card">
           <span class="kpi-label">Next Scheduled Ingestion</span>
           <div class="kpi-val" id="kpi-obs-next-countdown" style="font-size: 1.35rem; color: var(--accent-amber);">--
@@ -1070,6 +1160,69 @@
         </table>
       </div>
     </div>
+
+    <!-- ============================================================ -->
+    <!-- VIEW 4: HEAD-TO-HEAD (H2H) CLASH -->
+    <!-- ============================================================ -->
+    <div id="view-h2h-hub" class="main-view">
+      <section class="controls-panel">
+        <div class="section-title-row">
+          <div>
+            <div class="section-heading">Head-to-Head (H2H) Club Comparison</div>
+            <div class="section-sub">Analyze all-time historical encounters, head-to-head records, and goal statistics between any two clubs.</div>
+          </div>
+        </div>
+
+        <!-- Club Pickers & Compare Button -->
+        <div class="controls-top" style="margin-top: 14px;">
+          <div class="filter-group" style="width: 100%; flex-wrap: wrap; align-items: flex-end; gap: 14px;">
+            <div class="select-wrap" style="flex: 1; min-width: 220px;">
+              <label class="select-label" for="h2h-team1-sel">First Club (Team 1)</label>
+              <select id="h2h-team1-sel">
+                <option value="">Select Club 1...</option>
+              </select>
+            </div>
+
+            <div style="font: 400 1.6rem var(--display); padding-bottom: 6px; color: var(--red);">
+              VS
+            </div>
+
+            <div class="select-wrap" style="flex: 1; min-width: 220px;">
+              <label class="select-label" for="h2h-team2-sel">Second Club (Team 2)</label>
+              <select id="h2h-team2-sel">
+                <option value="">Select Club 2...</option>
+              </select>
+            </div>
+
+            <button type="button" class="nav-btn primary" id="btn-run-h2h" style="padding: 10px 22px;">
+              Compare Head-to-Head →
+            </button>
+          </div>
+        </div>
+
+        <!-- Quick Derbies Shortcuts -->
+        <div style="margin-top: 14px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+          <span style="font: 600 0.72rem var(--ui); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-dim);">
+            Popular Derbies:
+          </span>
+          <button type="button" class="h2h-quick-derby" data-t1="Real Madrid" data-t2="Barcelona">🇪🇸 El Clásico</button>
+          <button type="button" class="h2h-quick-derby" data-t1="Arsenal" data-t2="Chelsea">🏴󠁧󠁢󠁥󠁮󠁧󠁿 Arsenal vs Chelsea</button>
+          <button type="button" class="h2h-quick-derby" data-t1="Manchester City" data-t2="Manchester United">🏴󠁧󠁢󠁥󠁮󠁧󠁿 Manchester Derby</button>
+          <button type="button" class="h2h-quick-derby" data-t1="Liverpool" data-t2="Arsenal">🏴󠁧󠁢󠁥󠁮󠁧󠁿 Liverpool vs Arsenal</button>
+          <button type="button" class="h2h-quick-derby" data-t1="Bayern München" data-t2="Borussia Dortmund">🇩🇪 Der Klassiker</button>
+          <button type="button" class="h2h-quick-derby" data-t1="Inter" data-t2="Juventus">🇮🇹 Derby d'Italia</button>
+          <button type="button" class="h2h-quick-derby" data-t1="Paris Saint-Germain" data-t2="Marseille">🇫🇷 Le Classique</button>
+        </div>
+      </section>
+
+      <!-- H2H Scoreboard Container -->
+      <div id="h2h-results-container">
+        <div class="state-box">
+          <div class="state-title">Select two clubs above to view Head-to-Head analytics</div>
+          <div class="state-desc">Choose any two clubs or pick a popular derby above to load their complete historical head-to-head match records.</div>
+        </div>
+      </div>
+    </div>
   </main>
 
   <script>
@@ -1214,6 +1367,7 @@
 
           if (target === 'view-matches-hub') loadMatches();
           if (target === 'view-standings-hub') loadStandings();
+          if (target === 'view-h2h-hub') loadAllTeamsForH2H();
         });
       });
 
@@ -1264,8 +1418,6 @@
         if (overviewRes.ok) {
           const overview = await overviewRes.json();
           document.getElementById('kpi-obs-total').textContent = overview.total_runs.toLocaleString();
-          document.getElementById('kpi-obs-rate').textContent = overview.success_rate + '%';
-          document.getElementById('kpi-obs-fail-count').textContent = `${overview.failed_runs} failed run(s)`;
 
           if (overview.next_upcoming_run) {
             document.getElementById('kpi-obs-next-target').textContent = `${overview.next_upcoming_run.league_name}`;
@@ -1634,6 +1786,189 @@
     }
 
     window.addEventListener('DOMContentLoaded', init);
+
+    // 5. Head-to-Head (H2H) Logic
+    let h2hTeamsLoaded = false;
+    async function loadAllTeamsForH2H() {
+      if (h2hTeamsLoaded) return;
+      try {
+        const res = await fetch('/public/teams?limit=500');
+        if (!res.ok) return;
+        const teams = await res.json();
+        const sel1 = document.getElementById('h2h-team1-sel');
+        const sel2 = document.getElementById('h2h-team2-sel');
+        sel1.innerHTML = '<option value="">Select Club 1...</option>';
+        sel2.innerHTML = '<option value="">Select Club 2...</option>';
+        teams.forEach(t => {
+          const opt1 = document.createElement('option');
+          opt1.value = t.team_id;
+          opt1.textContent = t.team_name;
+          sel1.appendChild(opt1);
+
+          const opt2 = document.createElement('option');
+          opt2.value = t.team_id;
+          opt2.textContent = t.team_name;
+          sel2.appendChild(opt2);
+        });
+        h2hTeamsLoaded = true;
+      } catch (e) {
+        console.error('Failed to load teams for H2H:', e);
+      }
+    }
+
+    async function executeH2H(team1, team2) {
+      if (!team1 || !team2) {
+        alert('Please select both clubs to compare.');
+        return;
+      }
+      if (team1 === team2) {
+        alert('Please select two different clubs.');
+        return;
+      }
+
+      const container = document.getElementById('h2h-results-container');
+      container.innerHTML = '<div class="state-box"><div class="state-title">Analyzing all-time Head-to-Head records...</div></div>';
+
+      try {
+        const res = await fetch(`/public/h2h?team1=${encodeURIComponent(team1)}&team2=${encodeURIComponent(team2)}`);
+        if (!res.ok) {
+          const err = await res.json().catch(() => ({}));
+          container.innerHTML = `<div class="state-box"><div class="state-title">Comparison unavailable</div><div class="state-desc">${err.detail || 'Could not find matches for selected clubs'}</div></div>`;
+          return;
+        }
+
+        const data = await res.json();
+        renderH2HResults(data);
+      } catch (e) {
+        container.innerHTML = `<div class="state-box"><div class="state-title">Error loading H2H</div><div class="state-desc">${e.message}</div></div>`;
+      }
+    }
+
+    function renderH2HResults(data) {
+      const container = document.getElementById('h2h-results-container');
+      const s = data.summary;
+      const t1 = data.team1;
+      const t2 = data.team2;
+
+      const totalGoals = (s.team1_goals + s.team2_goals) || 1;
+      const t1GoalPct = Math.round((s.team1_goals / totalGoals) * 100);
+      const t2GoalPct = 100 - t1GoalPct;
+
+      container.innerHTML = `
+        <div class="h2h-scoreboard">
+          <div class="h2h-clash-header">
+            <div class="h2h-team-col team1">
+              <div style="display:flex; align-items:center; gap:12px;">
+                <span class="h2h-team-name">${t1.team_name}</span>
+                ${renderTeamBadge(t1.team_id, t1.team_name, 48)}
+              </div>
+              <div class="h2h-win-count">${s.team1_wins}</div>
+              <span style="font: 600 .72rem var(--ui); text-transform: uppercase; letter-spacing: .08em; color: var(--text-dim);">Victories</span>
+            </div>
+
+            <div class="h2h-center-col">
+              <div style="font: 700 .75rem var(--ui); text-transform: uppercase; letter-spacing: .12em; color: var(--red);">Head-to-Head</div>
+              <div style="font: 400 1.85rem var(--display); color: var(--ink);">${s.total_finished} Played</div>
+              <div class="h2h-draws-val">${s.draws} Draws</div>
+              <div style="font-size: 0.8rem; color: var(--text-muted);">${s.team1_goals} - ${s.team2_goals} Goals</div>
+            </div>
+
+            <div class="h2h-team-col team2">
+              <div style="display:flex; align-items:center; gap:12px;">
+                ${renderTeamBadge(t2.team_id, t2.team_name, 48)}
+                <span class="h2h-team-name">${t2.team_name}</span>
+              </div>
+              <div class="h2h-win-count">${s.team2_wins}</div>
+              <span style="font: 600 .72rem var(--ui); text-transform: uppercase; letter-spacing: .08em; color: var(--text-dim);">Victories</span>
+            </div>
+          </div>
+
+          <!-- Goals Ratio Bar -->
+          <div class="h2h-goals-bar-wrap">
+            <div style="display:flex; justify-content:space-between; font: 600 .72rem var(--ui); text-transform: uppercase;">
+              <span>${t1.team_name}: ${s.team1_goals} goals (${t1GoalPct}%)</span>
+              <span>${t2.team_name}: ${s.team2_goals} goals (${t2GoalPct}%)</span>
+            </div>
+            <div class="h2h-bar-track">
+              <div class="h2h-bar-fill-t1" style="width: ${t1GoalPct}%;"></div>
+              <div class="h2h-bar-fill-t2" style="width: ${t2GoalPct}%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-title-row" style="margin-top: 24px;">
+          <div>
+            <div class="section-heading">Historical Encounters (${data.matches.length})</div>
+            <div class="section-sub">Chronological list of all matches recorded in database</div>
+          </div>
+        </div>
+
+        <div class="matches-list">
+          ${data.matches.map(m => {
+            const isFinished = (m.status === 'FINISHED');
+            const kickTime = m.match_date ? m.match_date : (m.match_time || 'Scheduled');
+            let outcomeTag = '<span class="badge badge-scheduled">Scheduled</span>';
+            if (isFinished) {
+              if (m.winner === t1.team_id) {
+                outcomeTag = `<span class="badge" style="background:var(--ink); color:#fff;">${t1.team_name} Win</span>`;
+              } else if (m.winner === t2.team_id) {
+                outcomeTag = `<span class="badge" style="background:var(--red); color:#fff;">${t2.team_name} Win</span>`;
+              } else {
+                outcomeTag = `<span class="badge" style="border:1px solid var(--ink); background:transparent; color:var(--ink);">Draw</span>`;
+              }
+            }
+            return `
+              <div class="match-card">
+                <div class="match-meta">
+                  <div class="match-time">${kickTime}</div>
+                  <div style="display:flex; align-items:center; gap:6px;">
+                    ${renderLeagueBadge(m.league_id, m.league_name, 16)}
+                    <span>${m.league_name} (${m.season})</span>
+                  </div>
+                </div>
+                <div class="team-cell home">
+                  <span class="team-name">${m.home_team}</span>
+                  ${renderTeamBadge(m.home_team_id, m.home_team, 28)}
+                </div>
+                <div class="score-cell">
+                  ${isFinished ?
+                  `<div class="score-badge finished">${m.home_score} - ${m.away_score}</div>` :
+                  `<div class="score-badge scheduled">${kickTime}</div>`
+                }
+                </div>
+                <div class="team-cell away">
+                  ${renderTeamBadge(m.away_team_id, m.away_team, 28)}
+                  <span class="team-name">${m.away_team}</span>
+                </div>
+                <div class="status-cell">
+                  ${outcomeTag}
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      `;
+    }
+
+    // Attach H2H Button Listeners
+    document.addEventListener('DOMContentLoaded', () => {
+      const btnCompare = document.getElementById('btn-run-h2h');
+      if (btnCompare) {
+        btnCompare.addEventListener('click', () => {
+          const t1 = document.getElementById('h2h-team1-sel').value;
+          const t2 = document.getElementById('h2h-team2-sel').value;
+          executeH2H(t1, t2);
+        });
+      }
+
+      document.querySelectorAll('.h2h-quick-derby').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const t1 = btn.dataset.t1;
+          const t2 = btn.dataset.t2;
+          executeH2H(t1, t2);
+        });
+      });
+    });
   </script>
 </body>
 
