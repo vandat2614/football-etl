@@ -389,6 +389,7 @@ def public_crawl_logs(
     status: Optional[str] = Query(None),
     page: int = Query(1, ge=1),
     page_size: int = Query(50, ge=1, le=200),
+    trigger: Optional[str] = Query(None),
 ):
     """Query crawl execution history and audit logs with pagination and filters."""
     stmt = (
@@ -406,6 +407,9 @@ def public_crawl_logs(
     if status:
         stmt = stmt.where(CrawlStateLog.status == status.upper())
         count_stmt = count_stmt.where(CrawlStateLog.status == status.upper())
+    if trigger:
+        stmt = stmt.where(CrawlStateLog.trigger_reason.startswith(trigger))
+        count_stmt = count_stmt.where(CrawlStateLog.trigger_reason.startswith(trigger))
 
     with get_session() as session:
         total = session.scalar(count_stmt) or 0
@@ -425,6 +429,7 @@ def public_crawl_logs(
                 "fixtures_count": log.fixtures_count,
                 "next_recrawl_at": log.next_recrawl_at.isoformat() if log.next_recrawl_at else None,
                 "error": log.error,
+                "trigger": log.trigger_reason,
             })
 
         return {
@@ -475,6 +480,7 @@ def public_crawl_overview(season: Optional[str] = Query(None)):
                 "next_recrawl_at": log.next_recrawl_at.isoformat() if log.next_recrawl_at else None,
                 "fixtures_count": log.fixtures_count or 0,
                 "error": log.error,
+                "trigger": log.trigger_reason,
             })
 
         total_runs = session.scalar(select(func.count()).select_from(CrawlStateLog)) or 0
@@ -486,21 +492,21 @@ def public_crawl_overview(season: Optional[str] = Query(None)):
         ) or 0
 
         now_utc = datetime.now(timezone.utc)
-        upcoming_stmt = (
-            select(CrawlStateLog, DimLeague.league_name)
-            .outerjoin(DimLeague, CrawlStateLog.league_id == DimLeague.league_id)
-            .where(CrawlStateLog.next_recrawl_at > now_utc)
-            .order_by(CrawlStateLog.next_recrawl_at.asc())
-            .limit(1)
+        upcoming = sorted(
+            (
+                x for x in leagues_status
+                if x["next_recrawl_at"]
+                and datetime.fromisoformat(x["next_recrawl_at"]) > now_utc
+            ),
+            key=lambda x: datetime.fromisoformat(x["next_recrawl_at"]),
         )
-        next_up = session.execute(upcoming_stmt).first()
         next_run_info = None
-        if next_up:
-            n_log, n_name = next_up
+        if upcoming:
+            n = upcoming[0]
             next_run_info = {
-                "league_id": n_log.league_id,
-                "league_name": n_name or str(n_log.league_id),
-                "next_recrawl_at": n_log.next_recrawl_at.isoformat() if n_log.next_recrawl_at else None,
+                "league_id": n["league_id"],
+                "league_name": n["league_name"],
+                "next_recrawl_at": n["next_recrawl_at"],
             }
 
         return {
