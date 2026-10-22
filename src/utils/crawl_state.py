@@ -98,9 +98,7 @@ def due_reason(
 
     last_crawl_at and next_recrawl_at come from the latest SUCCESS row of crawl_state_log.
     """
-    if last_crawl_at is None:
-        return "first_crawl"
-    if now - _aware(last_crawl_at) >= REFRESH:
+    if last_crawl_at is None or now - _aware(last_crawl_at) >= REFRESH:
         return "periodic_refresh"
     if next_recrawl_at is not None and _aware(next_recrawl_at) <= now:
         return f"match_group_finished:{_iso(_aware(next_recrawl_at) - BUFFER)}"

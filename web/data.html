@@ -883,7 +883,6 @@
               <label class="select-label" for="filter-log-trigger">Trigger Type</label>
               <select id="filter-log-trigger">
                 <option value="">All Triggers</option>
-                <option value="first_crawl">First Crawl</option>
                 <option value="periodic_refresh">Periodic Refresh</option>
                 <option value="match_group_finished">Match Group Finished</option>
                 <option value="manual">Manual Dispatch</option>
@@ -1092,7 +1091,6 @@
     function triggerBadge(trigger) {
       if (!trigger) return '<span class="trigger-tag">--</span>';
       const labels = {
-        first_crawl: 'first crawl',
         periodic_refresh: 'periodic refresh',
         manual: 'manual',
       };
