@@ -1,0 +1,6501 @@
+[
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/maccabi-tel-aviv-vs-besiktas/2ox6yh#1104845",
+    "id": "1104845",
+    "home": {
+      "name": "Beşiktaş",
+      "shortName": "Beşiktaş",
+      "id": "10188"
+    },
+    "away": {
+      "name": "Maccabi Tel Aviv",
+      "shortName": "Maccabi Tel Aviv",
+      "id": "7855"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2011-09-15T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/dynamo-kyiv-vs-stoke-city/2y5843#1104844",
+    "id": "1104844",
+    "home": {
+      "name": "Dynamo Kyiv",
+      "shortName": "Dynamo Kyiv",
+      "id": "8688"
+    },
+    "away": {
+      "name": "Stoke City",
+      "shortName": "Stoke",
+      "id": "10194"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2011-09-15T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/vorskla-vs-fc-kobenhavn/yhz4l#1104805",
+    "id": "1104805",
+    "home": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "away": {
+      "name": "Vorskla",
+      "shortName": "Vorskla",
+      "id": "2373"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2011-09-15T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/sporting-cp-vs-fc-zurich/3b7u1m#1104842",
+    "id": "1104842",
+    "home": {
+      "name": "FC Zürich",
+      "shortName": "FC Zürich",
+      "id": "10243"
+    },
+    "away": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2011-09-15T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/hannover-96-vs-standard-liege/39ro5m#1104804",
+    "id": "1104804",
+    "home": {
+      "name": "Hannover 96",
+      "shortName": "Hannover 96",
+      "id": "9904"
+    },
+    "away": {
+      "name": "Standard Liège",
+      "shortName": "Standard Liège",
+      "id": "9985"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2011-09-15T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/rapid-bucuresti-vs-hapoel-tel-aviv/3a4gpu#1104806",
+    "id": "1104806",
+    "home": {
+      "name": "Hapoel Tel Aviv",
+      "shortName": "Hapoel Tel Aviv",
+      "id": "10181"
+    },
+    "away": {
+      "name": "Rapid București",
+      "shortName": "Rapid București",
+      "id": "9738"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2011-09-15T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/lazio-vs-fc-vaslui/2ri9wy#1104843",
+    "id": "1104843",
+    "home": {
+      "name": "Lazio",
+      "shortName": "Lazio",
+      "id": "8543"
+    },
+    "away": {
+      "name": "FC Vaslui",
+      "shortName": "FC Vaslui",
+      "id": "9739"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2011-09-15T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/tottenham-hotspur-vs-paok-thessaloniki/2g4ngi#1104802",
+    "id": "1104802",
+    "home": {
+      "name": "PAOK Thessaloniki",
+      "shortName": "PAOK Thessaloniki",
+      "id": "8619"
+    },
+    "away": {
+      "name": "Tottenham Hotspur",
+      "shortName": "Tottenham",
+      "id": "8586"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2011-09-15T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/paris-saint-germain-vs-salzburg/39fbbd#1104847",
+    "id": "1104847",
+    "home": {
+      "name": "Paris Saint-Germain",
+      "shortName": "PSG",
+      "id": "9847"
+    },
+    "away": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2011-09-15T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/psv-eindhoven-vs-legia-warszawa/2h8lsi#1104807",
+    "id": "1104807",
+    "home": {
+      "name": "PSV Eindhoven",
+      "shortName": "PSV Eindhoven",
+      "id": "8640"
+    },
+    "away": {
+      "name": "Legia Warszawa",
+      "shortName": "Legia Warszawa",
+      "id": "8673"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2011-09-15T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/shamrock-rovers-vs-rubin-kazan/1cvzv8#1104803",
+    "id": "1104803",
+    "home": {
+      "name": "Shamrock Rovers",
+      "shortName": "Shamrock Rovers",
+      "id": "4131"
+    },
+    "away": {
+      "name": "Rubin Kazan",
+      "shortName": "Rubin",
+      "id": "8683"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2011-09-15T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/slovan-bratislava-vs-athletic-club/1p68ak#1104846",
+    "id": "1104846",
+    "home": {
+      "name": "Slovan Bratislava",
+      "shortName": "Slovan Bratislava",
+      "id": "6019"
+    },
+    "away": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2011-09-15T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/aek-athens-vs-anderlecht/2g22k4#1104878",
+    "id": "1104878",
+    "home": {
+      "name": "Anderlecht",
+      "shortName": "Anderlecht",
+      "id": "8635"
+    },
+    "away": {
+      "name": "AEK Athens",
+      "shortName": "AEK Athens",
+      "id": "8563"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2011-09-15T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/atletico-madrid-vs-celtic/392zah#1104971",
+    "id": "1104971",
+    "home": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "away": {
+      "name": "Celtic",
+      "shortName": "Celtic",
+      "id": "9925"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2011-09-15T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/metalist-kharkiv-vs-austria-wien/386qf6#1104964",
+    "id": "1104964",
+    "home": {
+      "name": "Austria Wien",
+      "shortName": "Austria Wien",
+      "id": "10011"
+    },
+    "away": {
+      "name": "Metalist Kharkiv",
+      "shortName": "Metalist Kharkiv",
+      "id": "9744"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2011-09-15T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/az-alkmaar-vs-malmo-ff/3gp7x4#1104962",
+    "id": "1104962",
+    "home": {
+      "name": "AZ Alkmaar",
+      "shortName": "AZ Alkmaar",
+      "id": "10229"
+    },
+    "away": {
+      "name": "Malmö FF",
+      "shortName": "Malmö FF",
+      "id": "10237"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2011-09-15T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/birmingham-city-vs-braga/2ylfi1#1104966",
+    "id": "1104966",
+    "home": {
+      "name": "Birmingham City",
+      "shortName": "Birmingham",
+      "id": "8658"
+    },
+    "away": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2011-09-15T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/maribor-vs-club-brugge/2aupi5#1104965",
+    "id": "1104965",
+    "home": {
+      "name": "Club Brugge",
+      "shortName": "Club Brugge",
+      "id": "8342"
+    },
+    "away": {
+      "name": "Maribor",
+      "shortName": "Maribor",
+      "id": "8340"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2011-09-15T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/fcsb-vs-schalke-04/3a1h4v#1104815",
+    "id": "1104815",
+    "home": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "away": {
+      "name": "Schalke 04",
+      "shortName": "Schalke 04",
+      "id": "10189"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2011-09-15T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/fc-twente-vs-fulham/2ts8xy#1104868",
+    "id": "1104868",
+    "home": {
+      "name": "Fulham",
+      "shortName": "Fulham",
+      "id": "9879"
+    },
+    "away": {
+      "name": "FC Twente",
+      "shortName": "FC Twente",
+      "id": "8611"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2011-09-15T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/aek-larnaca-vs-maccabi-haifa/2o9n2u#1104813",
+    "id": "1104813",
+    "home": {
+      "name": "Maccabi Haifa",
+      "shortName": "Maccabi Haifa",
+      "id": "10185"
+    },
+    "away": {
+      "name": "AEK Larnaca",
+      "shortName": "AEK Larnaca",
+      "id": "7797"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2011-09-15T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/udinese-vs-rennes/2tct2x#1104969",
+    "id": "1104969",
+    "home": {
+      "name": "Udinese",
+      "shortName": "Udinese",
+      "id": "8600"
+    },
+    "away": {
+      "name": "Rennes",
+      "shortName": "Rennes",
+      "id": "9851"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2011-09-15T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/ob-vs-wisa-krakow/2vvi4i#1104867",
+    "id": "1104867",
+    "home": {
+      "name": "Wisła Kraków",
+      "shortName": "Wisła Kraków",
+      "id": "10265"
+    },
+    "away": {
+      "name": "OB",
+      "shortName": "OB",
+      "id": "8414"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2011-09-15T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/lokomotiv-moscow-vs-sturm-graz/2wdjq8#1104874",
+    "id": "1104874",
+    "home": {
+      "name": "Sturm Graz",
+      "shortName": "Sturm Graz",
+      "id": "10014"
+    },
+    "away": {
+      "name": "Lokomotiv Moscow",
+      "shortName": "Lokomotiv",
+      "id": "8710"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2011-09-15T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/paok-thessaloniki-vs-rubin-kazan/2h4iw8#1104808",
+    "id": "1104808",
+    "home": {
+      "name": "Rubin Kazan",
+      "shortName": "Rubin",
+      "id": "8683"
+    },
+    "away": {
+      "name": "PAOK Thessaloniki",
+      "shortName": "PAOK Thessaloniki",
+      "id": "8619"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2011-09-29T15:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/anderlecht-vs-lokomotiv-moscow/2hkhpj#1104890",
+    "id": "1104890",
+    "home": {
+      "name": "Lokomotiv Moscow",
+      "shortName": "Lokomotiv",
+      "id": "8710"
+    },
+    "away": {
+      "name": "Anderlecht",
+      "shortName": "Anderlecht",
+      "id": "8635"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2011-09-29T16:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/aek-athens-vs-sturm-graz/2uqs3w#1104889",
+    "id": "1104889",
+    "home": {
+      "name": "AEK Athens",
+      "shortName": "AEK Athens",
+      "id": "8563"
+    },
+    "away": {
+      "name": "Sturm Graz",
+      "shortName": "Sturm Graz",
+      "id": "10014"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2011-09-29T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/aek-larnaca-vs-fcsb/2jdwhf#1104865",
+    "id": "1104865",
+    "home": {
+      "name": "AEK Larnaca",
+      "shortName": "AEK Larnaca",
+      "id": "7797"
+    },
+    "away": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2011-09-29T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/club-brugge-vs-braga/2v2byn#1104979",
+    "id": "1104979",
+    "home": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "away": {
+      "name": "Club Brugge",
+      "shortName": "Club Brugge",
+      "id": "8342"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2011-09-29T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/udinese-vs-celtic/2u64t4#1104981",
+    "id": "1104981",
+    "home": {
+      "name": "Celtic",
+      "shortName": "Celtic",
+      "id": "9925"
+    },
+    "away": {
+      "name": "Udinese",
+      "shortName": "Udinese",
+      "id": "8600"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2011-09-29T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/fc-twente-vs-wisa-krakow/2y2snd#1104870",
+    "id": "1104870",
+    "home": {
+      "name": "FC Twente",
+      "shortName": "FC Twente",
+      "id": "8611"
+    },
+    "away": {
+      "name": "Wisła Kraków",
+      "shortName": "Wisła Kraków",
+      "id": "10265"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2011-09-29T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/austria-wien-vs-malmo-ff/3e23l5#1104977",
+    "id": "1104977",
+    "home": {
+      "name": "Malmö FF",
+      "shortName": "Malmö FF",
+      "id": "10237"
+    },
+    "away": {
+      "name": "Austria Wien",
+      "shortName": "Austria Wien",
+      "id": "10011"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2011-09-29T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/maribor-vs-birmingham-city/2e0rx3#1104980",
+    "id": "1104980",
+    "home": {
+      "name": "Maribor",
+      "shortName": "Maribor",
+      "id": "8340"
+    },
+    "away": {
+      "name": "Birmingham City",
+      "shortName": "Birmingham",
+      "id": "8658"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2011-09-29T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/metalist-kharkiv-vs-az-alkmaar/3arjtr#1104974",
+    "id": "1104974",
+    "home": {
+      "name": "Metalist Kharkiv",
+      "shortName": "Metalist Kharkiv",
+      "id": "9744"
+    },
+    "away": {
+      "name": "AZ Alkmaar",
+      "shortName": "AZ Alkmaar",
+      "id": "10229"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2011-09-29T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/ob-vs-fulham/2rml8u#1104872",
+    "id": "1104872",
+    "home": {
+      "name": "OB",
+      "shortName": "OB",
+      "id": "8414"
+    },
+    "away": {
+      "name": "Fulham",
+      "shortName": "Fulham",
+      "id": "9879"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2011-09-29T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/rennes-vs-atletico-madrid/387l19#1104982",
+    "id": "1104982",
+    "home": {
+      "name": "Rennes",
+      "shortName": "Rennes",
+      "id": "9851"
+    },
+    "away": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2011-09-29T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/maccabi-haifa-vs-schalke-04/3fkya2#1104864",
+    "id": "1104864",
+    "home": {
+      "name": "Schalke 04",
+      "shortName": "Schalke 04",
+      "id": "10189"
+    },
+    "away": {
+      "name": "Maccabi Haifa",
+      "shortName": "Maccabi Haifa",
+      "id": "10185"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2011-09-29T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/athletic-club-vs-paris-saint-germain/2q7eqa#1104853",
+    "id": "1104853",
+    "home": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "away": {
+      "name": "Paris Saint-Germain",
+      "shortName": "PSG",
+      "id": "9847"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2011-09-29T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/fc-vaslui-vs-fc-zurich/3avek4#1104848",
+    "id": "1104848",
+    "home": {
+      "name": "FC Vaslui",
+      "shortName": "FC Vaslui",
+      "id": "9739"
+    },
+    "away": {
+      "name": "FC Zürich",
+      "shortName": "FC Zürich",
+      "id": "10243"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2011-09-29T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/legia-warszawa-vs-hapoel-tel-aviv/2xtwg6#1104812",
+    "id": "1104812",
+    "home": {
+      "name": "Legia Warszawa",
+      "shortName": "Legia Warszawa",
+      "id": "8673"
+    },
+    "away": {
+      "name": "Hapoel Tel Aviv",
+      "shortName": "Hapoel Tel Aviv",
+      "id": "10181"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2011-09-29T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/maccabi-tel-aviv-vs-dynamo-kyiv/29h7z4#1104850",
+    "id": "1104850",
+    "home": {
+      "name": "Maccabi Tel Aviv",
+      "shortName": "Maccabi Tel Aviv",
+      "id": "7855"
+    },
+    "away": {
+      "name": "Dynamo Kyiv",
+      "shortName": "Dynamo Kyiv",
+      "id": "8688"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2011-09-29T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/psv-eindhoven-vs-rapid-bucuresti/2sjzq9#1104814",
+    "id": "1104814",
+    "home": {
+      "name": "Rapid București",
+      "shortName": "Rapid București",
+      "id": "9738"
+    },
+    "away": {
+      "name": "PSV Eindhoven",
+      "shortName": "PSV Eindhoven",
+      "id": "8640"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2011-09-29T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/slovan-bratislava-vs-salzburg/24irpv#1104852",
+    "id": "1104852",
+    "home": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "away": {
+      "name": "Slovan Bratislava",
+      "shortName": "Slovan Bratislava",
+      "id": "6019"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2011-09-29T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/lazio-vs-sporting-cp/2rtnd0#1104849",
+    "id": "1104849",
+    "home": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "away": {
+      "name": "Lazio",
+      "shortName": "Lazio",
+      "id": "8543"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2011-09-29T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/fc-kobenhavn-vs-standard-liege/2sj7k5#1104811",
+    "id": "1104811",
+    "home": {
+      "name": "Standard Liège",
+      "shortName": "Standard Liège",
+      "id": "9985"
+    },
+    "away": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2011-09-29T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/besiktas-vs-stoke-city/3fog2r#1104851",
+    "id": "1104851",
+    "home": {
+      "name": "Stoke City",
+      "shortName": "Stoke",
+      "id": "10194"
+    },
+    "away": {
+      "name": "Beşiktaş",
+      "shortName": "Beşiktaş",
+      "id": "10188"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2011-09-29T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/shamrock-rovers-vs-tottenham-hotspur/1c5gb9#1104809",
+    "id": "1104809",
+    "home": {
+      "name": "Tottenham Hotspur",
+      "shortName": "Tottenham",
+      "id": "8586"
+    },
+    "away": {
+      "name": "Shamrock Rovers",
+      "shortName": "Shamrock Rovers",
+      "id": "4131"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2011-09-29T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/vorskla-vs-hannover-96/18vmcn#1104810",
+    "id": "1104810",
+    "home": {
+      "name": "Vorskla",
+      "shortName": "Vorskla",
+      "id": "2373"
+    },
+    "away": {
+      "name": "Hannover 96",
+      "shortName": "Hannover 96",
+      "id": "9904"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2011-09-29T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/aek-athens-vs-lokomotiv-moscow/2gts2j#1104931",
+    "id": "1104931",
+    "home": {
+      "name": "Lokomotiv Moscow",
+      "shortName": "Lokomotiv",
+      "id": "8710"
+    },
+    "away": {
+      "name": "AEK Athens",
+      "shortName": "AEK Athens",
+      "id": "8563"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2011-10-20T16:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/aek-larnaca-vs-schalke-04/2ob6l4#1104891",
+    "id": "1104891",
+    "home": {
+      "name": "AEK Larnaca",
+      "shortName": "AEK Larnaca",
+      "id": "7797"
+    },
+    "away": {
+      "name": "Schalke 04",
+      "shortName": "Schalke 04",
+      "id": "10189"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2011-10-20T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 5",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/austria-wien-vs-az-alkmaar/3dymm5#1104984",
+    "id": "1104984",
+    "home": {
+      "name": "AZ Alkmaar",
+      "shortName": "AZ Alkmaar",
+      "id": "10229"
+    },
+    "away": {
+      "name": "Austria Wien",
+      "shortName": "Austria Wien",
+      "id": "10011"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2011-10-20T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/club-brugge-vs-birmingham-city/2e1i5i#1104986",
+    "id": "1104986",
+    "home": {
+      "name": "Club Brugge",
+      "shortName": "Club Brugge",
+      "id": "8342"
+    },
+    "away": {
+      "name": "Birmingham City",
+      "shortName": "Birmingham",
+      "id": "8658"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2011-10-20T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/fcsb-vs-maccabi-haifa/39zrol#1104902",
+    "id": "1104902",
+    "home": {
+      "name": "Maccabi Haifa",
+      "shortName": "Maccabi Haifa",
+      "id": "10185"
+    },
+    "away": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2011-10-20T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/metalist-kharkiv-vs-malmo-ff/3auz57#1104983",
+    "id": "1104983",
+    "home": {
+      "name": "Malmö FF",
+      "shortName": "Malmö FF",
+      "id": "10237"
+    },
+    "away": {
+      "name": "Metalist Kharkiv",
+      "shortName": "Metalist Kharkiv",
+      "id": "9744"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2011-10-20T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 4",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/maribor-vs-braga/2v1j8y#1104985",
+    "id": "1104985",
+    "home": {
+      "name": "Maribor",
+      "shortName": "Maribor",
+      "id": "8340"
+    },
+    "away": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2011-10-20T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/ob-vs-fc-twente/2eamas#1104915",
+    "id": "1104915",
+    "home": {
+      "name": "OB",
+      "shortName": "OB",
+      "id": "8414"
+    },
+    "away": {
+      "name": "FC Twente",
+      "shortName": "FC Twente",
+      "id": "8611"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2011-10-20T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 4",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/rennes-vs-celtic/38fmud#1105107",
+    "id": "1105107",
+    "home": {
+      "name": "Rennes",
+      "shortName": "Rennes",
+      "id": "9851"
+    },
+    "away": {
+      "name": "Celtic",
+      "shortName": "Celtic",
+      "id": "9925"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2011-10-20T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/anderlecht-vs-sturm-graz/2vji8w#1104933",
+    "id": "1104933",
+    "home": {
+      "name": "Sturm Graz",
+      "shortName": "Sturm Graz",
+      "id": "10014"
+    },
+    "away": {
+      "name": "Anderlecht",
+      "shortName": "Anderlecht",
+      "id": "8635"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2011-10-20T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/udinese-vs-atletico-madrid/2tylc9#1105108",
+    "id": "1105108",
+    "home": {
+      "name": "Udinese",
+      "shortName": "Udinese",
+      "id": "8600"
+    },
+    "away": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2011-10-20T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/fulham-vs-wisa-krakow/3ct2lr#1104916",
+    "id": "1104916",
+    "home": {
+      "name": "Wisła Kraków",
+      "shortName": "Wisła Kraków",
+      "id": "10265"
+    },
+    "away": {
+      "name": "Fulham",
+      "shortName": "Fulham",
+      "id": "9879"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2011-10-20T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/athletic-club-vs-salzburg/2s0ajr#1104858",
+    "id": "1104858",
+    "home": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "away": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2011-10-20T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/dynamo-kyiv-vs-besiktas/2y2spi#1104857",
+    "id": "1104857",
+    "home": {
+      "name": "Dynamo Kyiv",
+      "shortName": "Dynamo Kyiv",
+      "id": "8688"
+    },
+    "away": {
+      "name": "Beşiktaş",
+      "shortName": "Beşiktaş",
+      "id": "10188"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2011-10-20T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/lazio-vs-fc-zurich/2x2guq#1104855",
+    "id": "1104855",
+    "home": {
+      "name": "FC Zürich",
+      "shortName": "FC Zürich",
+      "id": "10243"
+    },
+    "away": {
+      "name": "Lazio",
+      "shortName": "Lazio",
+      "id": "8543"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2011-10-20T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/fc-kobenhavn-vs-hannover-96/2rndhw#1104821",
+    "id": "1104821",
+    "home": {
+      "name": "Hannover 96",
+      "shortName": "Hannover 96",
+      "id": "9904"
+    },
+    "away": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2011-10-20T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/psv-eindhoven-vs-hapoel-tel-aviv/2xgkr3#1104823",
+    "id": "1104823",
+    "home": {
+      "name": "Hapoel Tel Aviv",
+      "shortName": "Hapoel Tel Aviv",
+      "id": "10181"
+    },
+    "away": {
+      "name": "PSV Eindhoven",
+      "shortName": "PSV Eindhoven",
+      "id": "8640"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2011-10-20T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/shamrock-rovers-vs-paok-thessaloniki/1cegl0#1104819",
+    "id": "1104819",
+    "home": {
+      "name": "PAOK Thessaloniki",
+      "shortName": "PAOK Thessaloniki",
+      "id": "8619"
+    },
+    "away": {
+      "name": "Shamrock Rovers",
+      "shortName": "Shamrock Rovers",
+      "id": "4131"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2011-10-20T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/legia-warszawa-vs-rapid-bucuresti/2sx04c#1104822",
+    "id": "1104822",
+    "home": {
+      "name": "Rapid București",
+      "shortName": "Rapid București",
+      "id": "9738"
+    },
+    "away": {
+      "name": "Legia Warszawa",
+      "shortName": "Legia Warszawa",
+      "id": "8673"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2011-10-20T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/slovan-bratislava-vs-paris-saint-germain/22y3ra#1104859",
+    "id": "1104859",
+    "home": {
+      "name": "Slovan Bratislava",
+      "shortName": "Slovan Bratislava",
+      "id": "6019"
+    },
+    "away": {
+      "name": "Paris Saint-Germain",
+      "shortName": "PSG",
+      "id": "9847"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2011-10-20T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/fc-vaslui-vs-sporting-cp/35adsm#1104854",
+    "id": "1104854",
+    "home": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "away": {
+      "name": "FC Vaslui",
+      "shortName": "FC Vaslui",
+      "id": "9739"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2011-10-20T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/vorskla-vs-standard-liege/19h0ae#1104820",
+    "id": "1104820",
+    "home": {
+      "name": "Standard Liège",
+      "shortName": "Standard Liège",
+      "id": "9985"
+    },
+    "away": {
+      "name": "Vorskla",
+      "shortName": "Vorskla",
+      "id": "2373"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2011-10-20T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/maccabi-tel-aviv-vs-stoke-city/2ozii8#1104856",
+    "id": "1104856",
+    "home": {
+      "name": "Stoke City",
+      "shortName": "Stoke",
+      "id": "10194"
+    },
+    "away": {
+      "name": "Maccabi Tel Aviv",
+      "shortName": "Maccabi Tel Aviv",
+      "id": "7855"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2011-10-20T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/tottenham-hotspur-vs-rubin-kazan/2gsaqq#1104818",
+    "id": "1104818",
+    "home": {
+      "name": "Tottenham Hotspur",
+      "shortName": "Tottenham",
+      "id": "8586"
+    },
+    "away": {
+      "name": "Rubin Kazan",
+      "shortName": "Rubin",
+      "id": "8683"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2011-10-20T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/tottenham-hotspur-vs-rubin-kazan/2gsaqq#1104824",
+    "id": "1104824",
+    "home": {
+      "name": "Rubin Kazan",
+      "shortName": "Rubin",
+      "id": "8683"
+    },
+    "away": {
+      "name": "Tottenham Hotspur",
+      "shortName": "Tottenham",
+      "id": "8586"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2011-11-03T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/dynamo-kyiv-vs-besiktas/2y2spi#1104863",
+    "id": "1104863",
+    "home": {
+      "name": "Beşiktaş",
+      "shortName": "Beşiktaş",
+      "id": "10188"
+    },
+    "away": {
+      "name": "Dynamo Kyiv",
+      "shortName": "Dynamo Kyiv",
+      "id": "8688"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2011-11-03T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/fc-kobenhavn-vs-hannover-96/2rndhw#1104827",
+    "id": "1104827",
+    "home": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "away": {
+      "name": "Hannover 96",
+      "shortName": "Hannover 96",
+      "id": "9904"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2011-11-03T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/fc-vaslui-vs-sporting-cp/35adsm#1104860",
+    "id": "1104860",
+    "home": {
+      "name": "FC Vaslui",
+      "shortName": "FC Vaslui",
+      "id": "9739"
+    },
+    "away": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2011-11-03T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/lazio-vs-fc-zurich/2x2guq#1104861",
+    "id": "1104861",
+    "home": {
+      "name": "Lazio",
+      "shortName": "Lazio",
+      "id": "8543"
+    },
+    "away": {
+      "name": "FC Zürich",
+      "shortName": "FC Zürich",
+      "id": "10243"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2011-11-03T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/legia-warszawa-vs-rapid-bucuresti/2sx04c#1104828",
+    "id": "1104828",
+    "home": {
+      "name": "Legia Warszawa",
+      "shortName": "Legia Warszawa",
+      "id": "8673"
+    },
+    "away": {
+      "name": "Rapid București",
+      "shortName": "Rapid București",
+      "id": "9738"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2011-11-03T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/maccabi-tel-aviv-vs-stoke-city/2ozii8#1104862",
+    "id": "1104862",
+    "home": {
+      "name": "Maccabi Tel Aviv",
+      "shortName": "Maccabi Tel Aviv",
+      "id": "7855"
+    },
+    "away": {
+      "name": "Stoke City",
+      "shortName": "Stoke",
+      "id": "10194"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2011-11-03T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/slovan-bratislava-vs-paris-saint-germain/22y3ra#1104866",
+    "id": "1104866",
+    "home": {
+      "name": "Paris Saint-Germain",
+      "shortName": "PSG",
+      "id": "9847"
+    },
+    "away": {
+      "name": "Slovan Bratislava",
+      "shortName": "Slovan Bratislava",
+      "id": "6019"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2011-11-03T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/psv-eindhoven-vs-hapoel-tel-aviv/2xgkr3#1104829",
+    "id": "1104829",
+    "home": {
+      "name": "PSV Eindhoven",
+      "shortName": "PSV Eindhoven",
+      "id": "8640"
+    },
+    "away": {
+      "name": "Hapoel Tel Aviv",
+      "shortName": "Hapoel Tel Aviv",
+      "id": "10181"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2011-11-03T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/athletic-club-vs-salzburg/2s0ajr#1104869",
+    "id": "1104869",
+    "home": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "away": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2011-11-03T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/shamrock-rovers-vs-paok-thessaloniki/1cegl0#1104825",
+    "id": "1104825",
+    "home": {
+      "name": "Shamrock Rovers",
+      "shortName": "Shamrock Rovers",
+      "id": "4131"
+    },
+    "away": {
+      "name": "PAOK Thessaloniki",
+      "shortName": "PAOK Thessaloniki",
+      "id": "8619"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2011-11-03T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/vorskla-vs-standard-liege/19h0ae#1104826",
+    "id": "1104826",
+    "home": {
+      "name": "Vorskla",
+      "shortName": "Vorskla",
+      "id": "2373"
+    },
+    "away": {
+      "name": "Standard Liège",
+      "shortName": "Standard Liège",
+      "id": "9985"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2011-11-03T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/aek-athens-vs-lokomotiv-moscow/2gts2j#1104945",
+    "id": "1104945",
+    "home": {
+      "name": "AEK Athens",
+      "shortName": "AEK Athens",
+      "id": "8563"
+    },
+    "away": {
+      "name": "Lokomotiv Moscow",
+      "shortName": "Lokomotiv",
+      "id": "8710"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2011-11-03T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/anderlecht-vs-sturm-graz/2vji8w#1104947",
+    "id": "1104947",
+    "home": {
+      "name": "Anderlecht",
+      "shortName": "Anderlecht",
+      "id": "8635"
+    },
+    "away": {
+      "name": "Sturm Graz",
+      "shortName": "Sturm Graz",
+      "id": "10014"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2011-11-03T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/udinese-vs-atletico-madrid/2tylc9#1105012",
+    "id": "1105012",
+    "home": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "away": {
+      "name": "Udinese",
+      "shortName": "Udinese",
+      "id": "8600"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2011-11-03T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/austria-wien-vs-az-alkmaar/3dymm5#1104988",
+    "id": "1104988",
+    "home": {
+      "name": "Austria Wien",
+      "shortName": "Austria Wien",
+      "id": "10011"
+    },
+    "away": {
+      "name": "AZ Alkmaar",
+      "shortName": "AZ Alkmaar",
+      "id": "10229"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2011-11-03T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/club-brugge-vs-birmingham-city/2e1i5i#1105000",
+    "id": "1105000",
+    "home": {
+      "name": "Birmingham City",
+      "shortName": "Birmingham",
+      "id": "8658"
+    },
+    "away": {
+      "name": "Club Brugge",
+      "shortName": "Club Brugge",
+      "id": "8342"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2011-11-03T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/maribor-vs-braga/2v1j8y#1104999",
+    "id": "1104999",
+    "home": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "away": {
+      "name": "Maribor",
+      "shortName": "Maribor",
+      "id": "8340"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2011-11-03T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/rennes-vs-celtic/38fmud#1105011",
+    "id": "1105011",
+    "home": {
+      "name": "Celtic",
+      "shortName": "Celtic",
+      "id": "9925"
+    },
+    "away": {
+      "name": "Rennes",
+      "shortName": "Rennes",
+      "id": "9851"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2011-11-03T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/fcsb-vs-maccabi-haifa/39zrol#1104904",
+    "id": "1104904",
+    "home": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "away": {
+      "name": "Maccabi Haifa",
+      "shortName": "Maccabi Haifa",
+      "id": "10185"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2011-11-03T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/ob-vs-fc-twente/2eamas#1104927",
+    "id": "1104927",
+    "home": {
+      "name": "FC Twente",
+      "shortName": "FC Twente",
+      "id": "8611"
+    },
+    "away": {
+      "name": "OB",
+      "shortName": "OB",
+      "id": "8414"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2011-11-03T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/fulham-vs-wisa-krakow/3ct2lr#1104929",
+    "id": "1104929",
+    "home": {
+      "name": "Fulham",
+      "shortName": "Fulham",
+      "id": "9879"
+    },
+    "away": {
+      "name": "Wisła Kraków",
+      "shortName": "Wisła Kraków",
+      "id": "10265"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2011-11-03T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/metalist-kharkiv-vs-malmo-ff/3auz57#1104987",
+    "id": "1104987",
+    "home": {
+      "name": "Metalist Kharkiv",
+      "shortName": "Metalist Kharkiv",
+      "id": "9744"
+    },
+    "away": {
+      "name": "Malmö FF",
+      "shortName": "Malmö FF",
+      "id": "10237"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2011-11-03T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/aek-larnaca-vs-schalke-04/2ob6l4#1104903",
+    "id": "1104903",
+    "home": {
+      "name": "Schalke 04",
+      "shortName": "Schalke 04",
+      "id": "10189"
+    },
+    "away": {
+      "name": "AEK Larnaca",
+      "shortName": "AEK Larnaca",
+      "id": "7797"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2011-11-03T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/shamrock-rovers-vs-rubin-kazan/1cvzv8#1104831",
+    "id": "1104831",
+    "home": {
+      "name": "Rubin Kazan",
+      "shortName": "Rubin",
+      "id": "8683"
+    },
+    "away": {
+      "name": "Shamrock Rovers",
+      "shortName": "Shamrock Rovers",
+      "id": "4131"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2011-11-30T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/birmingham-city-vs-braga/2ylfi1#1105026",
+    "id": "1105026",
+    "home": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "away": {
+      "name": "Birmingham City",
+      "shortName": "Birmingham",
+      "id": "8658"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2011-11-30T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/atletico-madrid-vs-celtic/392zah#1105028",
+    "id": "1105028",
+    "home": {
+      "name": "Celtic",
+      "shortName": "Celtic",
+      "id": "9925"
+    },
+    "away": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2011-11-30T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/az-alkmaar-vs-malmo-ff/3gp7x4#1105023",
+    "id": "1105023",
+    "home": {
+      "name": "Malmö FF",
+      "shortName": "Malmö FF",
+      "id": "10237"
+    },
+    "away": {
+      "name": "AZ Alkmaar",
+      "shortName": "AZ Alkmaar",
+      "id": "10229"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2011-11-30T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/maribor-vs-club-brugge/2aupi5#1105025",
+    "id": "1105025",
+    "home": {
+      "name": "Maribor",
+      "shortName": "Maribor",
+      "id": "8340"
+    },
+    "away": {
+      "name": "Club Brugge",
+      "shortName": "Club Brugge",
+      "id": "8342"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2011-11-30T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 4",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/metalist-kharkiv-vs-austria-wien/386qf6#1105024",
+    "id": "1105024",
+    "home": {
+      "name": "Metalist Kharkiv",
+      "shortName": "Metalist Kharkiv",
+      "id": "9744"
+    },
+    "away": {
+      "name": "Austria Wien",
+      "shortName": "Austria Wien",
+      "id": "10011"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2011-11-30T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/udinese-vs-rennes/2tct2x#1105027",
+    "id": "1105027",
+    "home": {
+      "name": "Rennes",
+      "shortName": "Rennes",
+      "id": "9851"
+    },
+    "away": {
+      "name": "Udinese",
+      "shortName": "Udinese",
+      "id": "8600"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2011-11-30T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/psv-eindhoven-vs-legia-warszawa/2h8lsi#1104835",
+    "id": "1104835",
+    "home": {
+      "name": "Legia Warszawa",
+      "shortName": "Legia Warszawa",
+      "id": "8673"
+    },
+    "away": {
+      "name": "PSV Eindhoven",
+      "shortName": "PSV Eindhoven",
+      "id": "8640"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2011-11-30T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/rapid-bucuresti-vs-hapoel-tel-aviv/3a4gpu#1104834",
+    "id": "1104834",
+    "home": {
+      "name": "Rapid București",
+      "shortName": "Rapid București",
+      "id": "9738"
+    },
+    "away": {
+      "name": "Hapoel Tel Aviv",
+      "shortName": "Hapoel Tel Aviv",
+      "id": "10181"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2011-11-30T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/hannover-96-vs-standard-liege/39ro5m#1104832",
+    "id": "1104832",
+    "home": {
+      "name": "Standard Liège",
+      "shortName": "Standard Liège",
+      "id": "9985"
+    },
+    "away": {
+      "name": "Hannover 96",
+      "shortName": "Hannover 96",
+      "id": "9904"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2011-11-30T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/tottenham-hotspur-vs-paok-thessaloniki/2g4ngi#1104830",
+    "id": "1104830",
+    "home": {
+      "name": "Tottenham Hotspur",
+      "shortName": "Tottenham",
+      "id": "8586"
+    },
+    "away": {
+      "name": "PAOK Thessaloniki",
+      "shortName": "PAOK Thessaloniki",
+      "id": "8619"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2011-11-30T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/vorskla-vs-fc-kobenhavn/yhz4l#1104833",
+    "id": "1104833",
+    "home": {
+      "name": "Vorskla",
+      "shortName": "Vorskla",
+      "id": "2373"
+    },
+    "away": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2011-11-30T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/lokomotiv-moscow-vs-sturm-graz/2wdjq8#1104973",
+    "id": "1104973",
+    "home": {
+      "name": "Lokomotiv Moscow",
+      "shortName": "Lokomotiv",
+      "id": "8710"
+    },
+    "away": {
+      "name": "Sturm Graz",
+      "shortName": "Sturm Graz",
+      "id": "10014"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2011-12-01T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/aek-athens-vs-anderlecht/2g22k4#1104975",
+    "id": "1104975",
+    "home": {
+      "name": "AEK Athens",
+      "shortName": "AEK Athens",
+      "id": "8563"
+    },
+    "away": {
+      "name": "Anderlecht",
+      "shortName": "Anderlecht",
+      "id": "8635"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2011-12-01T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/aek-larnaca-vs-maccabi-haifa/2o9n2u#1104949",
+    "id": "1104949",
+    "home": {
+      "name": "AEK Larnaca",
+      "shortName": "AEK Larnaca",
+      "id": "7797"
+    },
+    "away": {
+      "name": "Maccabi Haifa",
+      "shortName": "Maccabi Haifa",
+      "id": "10185"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2011-12-01T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/fc-twente-vs-fulham/2ts8xy#1104968",
+    "id": "1104968",
+    "home": {
+      "name": "FC Twente",
+      "shortName": "FC Twente",
+      "id": "8611"
+    },
+    "away": {
+      "name": "Fulham",
+      "shortName": "Fulham",
+      "id": "9879"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2011-12-01T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/ob-vs-wisa-krakow/2vvi4i#1104967",
+    "id": "1104967",
+    "home": {
+      "name": "OB",
+      "shortName": "OB",
+      "id": "8414"
+    },
+    "away": {
+      "name": "Wisła Kraków",
+      "shortName": "Wisła Kraków",
+      "id": "10265"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2011-12-01T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/fcsb-vs-schalke-04/3a1h4v#1104950",
+    "id": "1104950",
+    "home": {
+      "name": "Schalke 04",
+      "shortName": "Schalke 04",
+      "id": "10189"
+    },
+    "away": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2011-12-01T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/slovan-bratislava-vs-athletic-club/1p68ak#1105045",
+    "id": "1105045",
+    "home": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "away": {
+      "name": "Slovan Bratislava",
+      "shortName": "Slovan Bratislava",
+      "id": "6019"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2011-12-01T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/lazio-vs-fc-vaslui/2ri9wy#1104873",
+    "id": "1104873",
+    "home": {
+      "name": "FC Vaslui",
+      "shortName": "FC Vaslui",
+      "id": "9739"
+    },
+    "away": {
+      "name": "Lazio",
+      "shortName": "Lazio",
+      "id": "8543"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2011-12-01T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/maccabi-tel-aviv-vs-besiktas/2ox6yh#1104877",
+    "id": "1104877",
+    "home": {
+      "name": "Maccabi Tel Aviv",
+      "shortName": "Maccabi Tel Aviv",
+      "id": "7855"
+    },
+    "away": {
+      "name": "Beşiktaş",
+      "shortName": "Beşiktaş",
+      "id": "10188"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2011-12-01T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/paris-saint-germain-vs-salzburg/39fbbd#1105046",
+    "id": "1105046",
+    "home": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "away": {
+      "name": "Paris Saint-Germain",
+      "shortName": "PSG",
+      "id": "9847"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2011-12-01T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/sporting-cp-vs-fc-zurich/3b7u1m#1104871",
+    "id": "1104871",
+    "home": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "away": {
+      "name": "FC Zürich",
+      "shortName": "FC Zürich",
+      "id": "10243"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2011-12-01T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/dynamo-kyiv-vs-stoke-city/2y5843#1104875",
+    "id": "1104875",
+    "home": {
+      "name": "Stoke City",
+      "shortName": "Stoke",
+      "id": "10194"
+    },
+    "away": {
+      "name": "Dynamo Kyiv",
+      "shortName": "Dynamo Kyiv",
+      "id": "8688"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2011-12-01T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/besiktas-vs-stoke-city/3fog2r#1104934",
+    "id": "1104934",
+    "home": {
+      "name": "Beşiktaş",
+      "shortName": "Beşiktaş",
+      "id": "10188"
+    },
+    "away": {
+      "name": "Stoke City",
+      "shortName": "Stoke",
+      "id": "10194"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2011-12-14T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/maccabi-tel-aviv-vs-dynamo-kyiv/29h7z4#1104932",
+    "id": "1104932",
+    "home": {
+      "name": "Dynamo Kyiv",
+      "shortName": "Dynamo Kyiv",
+      "id": "8688"
+    },
+    "away": {
+      "name": "Maccabi Tel Aviv",
+      "shortName": "Maccabi Tel Aviv",
+      "id": "7855"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2011-12-14T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/fc-vaslui-vs-fc-zurich/3avek4#1104928",
+    "id": "1104928",
+    "home": {
+      "name": "FC Zürich",
+      "shortName": "FC Zürich",
+      "id": "10243"
+    },
+    "away": {
+      "name": "FC Vaslui",
+      "shortName": "FC Vaslui",
+      "id": "9739"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2011-12-14T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/lazio-vs-sporting-cp/2rtnd0#1104930",
+    "id": "1104930",
+    "home": {
+      "name": "Lazio",
+      "shortName": "Lazio",
+      "id": "8543"
+    },
+    "away": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2011-12-14T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/athletic-club-vs-paris-saint-germain/2q7eqa#1104948",
+    "id": "1104948",
+    "home": {
+      "name": "Paris Saint-Germain",
+      "shortName": "PSG",
+      "id": "9847"
+    },
+    "away": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2011-12-14T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/slovan-bratislava-vs-salzburg/24irpv#1104946",
+    "id": "1104946",
+    "home": {
+      "name": "Slovan Bratislava",
+      "shortName": "Slovan Bratislava",
+      "id": "6019"
+    },
+    "away": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2011-12-14T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/anderlecht-vs-lokomotiv-moscow/2hkhpj#1104978",
+    "id": "1104978",
+    "home": {
+      "name": "Anderlecht",
+      "shortName": "Anderlecht",
+      "id": "8635"
+    },
+    "away": {
+      "name": "Lokomotiv Moscow",
+      "shortName": "Lokomotiv",
+      "id": "8710"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2011-12-14T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/aek-larnaca-vs-fcsb/2jdwhf#1104963",
+    "id": "1104963",
+    "home": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "away": {
+      "name": "AEK Larnaca",
+      "shortName": "AEK Larnaca",
+      "id": "7797"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2011-12-14T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/ob-vs-fulham/2rml8u#1104970",
+    "id": "1104970",
+    "home": {
+      "name": "Fulham",
+      "shortName": "Fulham",
+      "id": "9879"
+    },
+    "away": {
+      "name": "OB",
+      "shortName": "OB",
+      "id": "8414"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2011-12-14T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/maccabi-haifa-vs-schalke-04/3fkya2#1104951",
+    "id": "1104951",
+    "home": {
+      "name": "Maccabi Haifa",
+      "shortName": "Maccabi Haifa",
+      "id": "10185"
+    },
+    "away": {
+      "name": "Schalke 04",
+      "shortName": "Schalke 04",
+      "id": "10189"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2011-12-14T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/aek-athens-vs-sturm-graz/2uqs3w#1104976",
+    "id": "1104976",
+    "home": {
+      "name": "Sturm Graz",
+      "shortName": "Sturm Graz",
+      "id": "10014"
+    },
+    "away": {
+      "name": "AEK Athens",
+      "shortName": "AEK Athens",
+      "id": "8563"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2011-12-14T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/fc-twente-vs-wisa-krakow/2y2snd#1104972",
+    "id": "1104972",
+    "home": {
+      "name": "Wisła Kraków",
+      "shortName": "Wisła Kraków",
+      "id": "10265"
+    },
+    "away": {
+      "name": "FC Twente",
+      "shortName": "FC Twente",
+      "id": "8611"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2011-12-14T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/fc-kobenhavn-vs-standard-liege/2sj7k5#1104839",
+    "id": "1104839",
+    "home": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "away": {
+      "name": "Standard Liège",
+      "shortName": "Standard Liège",
+      "id": "9985"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2011-12-15T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/vorskla-vs-hannover-96/18vmcn#1104838",
+    "id": "1104838",
+    "home": {
+      "name": "Hannover 96",
+      "shortName": "Hannover 96",
+      "id": "9904"
+    },
+    "away": {
+      "name": "Vorskla",
+      "shortName": "Vorskla",
+      "id": "2373"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2011-12-15T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/legia-warszawa-vs-hapoel-tel-aviv/2xtwg6#1104840",
+    "id": "1104840",
+    "home": {
+      "name": "Hapoel Tel Aviv",
+      "shortName": "Hapoel Tel Aviv",
+      "id": "10181"
+    },
+    "away": {
+      "name": "Legia Warszawa",
+      "shortName": "Legia Warszawa",
+      "id": "8673"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2011-12-15T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/paok-thessaloniki-vs-rubin-kazan/2h4iw8#1104836",
+    "id": "1104836",
+    "home": {
+      "name": "PAOK Thessaloniki",
+      "shortName": "PAOK Thessaloniki",
+      "id": "8619"
+    },
+    "away": {
+      "name": "Rubin Kazan",
+      "shortName": "Rubin",
+      "id": "8683"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2011-12-15T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/psv-eindhoven-vs-rapid-bucuresti/2sjzq9#1104841",
+    "id": "1104841",
+    "home": {
+      "name": "PSV Eindhoven",
+      "shortName": "PSV Eindhoven",
+      "id": "8640"
+    },
+    "away": {
+      "name": "Rapid București",
+      "shortName": "Rapid București",
+      "id": "9738"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2011-12-15T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/shamrock-rovers-vs-tottenham-hotspur/1c5gb9#1104837",
+    "id": "1104837",
+    "home": {
+      "name": "Shamrock Rovers",
+      "shortName": "Shamrock Rovers",
+      "id": "4131"
+    },
+    "away": {
+      "name": "Tottenham Hotspur",
+      "shortName": "Tottenham",
+      "id": "8586"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2011-12-15T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 4",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/rennes-vs-atletico-madrid/387l19#1105044",
+    "id": "1105044",
+    "home": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "away": {
+      "name": "Rennes",
+      "shortName": "Rennes",
+      "id": "9851"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2011-12-15T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/austria-wien-vs-malmo-ff/3e23l5#1105040",
+    "id": "1105040",
+    "home": {
+      "name": "Austria Wien",
+      "shortName": "Austria Wien",
+      "id": "10011"
+    },
+    "away": {
+      "name": "Malmö FF",
+      "shortName": "Malmö FF",
+      "id": "10237"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2011-12-15T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/metalist-kharkiv-vs-az-alkmaar/3arjtr#1105039",
+    "id": "1105039",
+    "home": {
+      "name": "AZ Alkmaar",
+      "shortName": "AZ Alkmaar",
+      "id": "10229"
+    },
+    "away": {
+      "name": "Metalist Kharkiv",
+      "shortName": "Metalist Kharkiv",
+      "id": "9744"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2011-12-15T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/maribor-vs-birmingham-city/2e0rx3#1105042",
+    "id": "1105042",
+    "home": {
+      "name": "Birmingham City",
+      "shortName": "Birmingham",
+      "id": "8658"
+    },
+    "away": {
+      "name": "Maribor",
+      "shortName": "Maribor",
+      "id": "8340"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2011-12-15T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/club-brugge-vs-braga/2v2byn#1105041",
+    "id": "1105041",
+    "home": {
+      "name": "Club Brugge",
+      "shortName": "Club Brugge",
+      "id": "8342"
+    },
+    "away": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2011-12-15T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/udinese-vs-celtic/2u64t4#1105043",
+    "id": "1105043",
+    "home": {
+      "name": "Udinese",
+      "shortName": "Udinese",
+      "id": "8600"
+    },
+    "away": {
+      "name": "Celtic",
+      "shortName": "Celtic",
+      "id": "9925"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2011-12-15T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/olympiacos-vs-rubin-kazan/2hbkp4#1145162",
+    "id": "1145162",
+    "home": {
+      "name": "Rubin Kazan",
+      "shortName": "Rubin",
+      "id": "8683"
+    },
+    "away": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "status": {
+      "utcTime": "2012-02-14T11:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/besiktas-vs-braga/3gj2xe#1145182",
+    "id": "1145182",
+    "home": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "away": {
+      "name": "Beşiktaş",
+      "shortName": "Beşiktaş",
+      "id": "10188"
+    },
+    "status": {
+      "utcTime": "2012-02-14T17:30:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/athletic-club-vs-lokomotiv-moscow/2eamdj#1145132",
+    "id": "1145132",
+    "home": {
+      "name": "Lokomotiv Moscow",
+      "shortName": "Lokomotiv",
+      "id": "8710"
+    },
+    "away": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "status": {
+      "utcTime": "2012-02-16T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/ajax-vs-manchester-united/2xthu8#1145120",
+    "id": "1145120",
+    "home": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "away": {
+      "name": "Manchester United",
+      "shortName": "Man United",
+      "id": "10260"
+    },
+    "status": {
+      "utcTime": "2012-02-16T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/anderlecht-vs-az-alkmaar/2xxxxv#1145165",
+    "id": "1145165",
+    "home": {
+      "name": "AZ Alkmaar",
+      "shortName": "AZ Alkmaar",
+      "id": "10229"
+    },
+    "away": {
+      "name": "Anderlecht",
+      "shortName": "Anderlecht",
+      "id": "8635"
+    },
+    "status": {
+      "utcTime": "2012-02-16T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/lazio-vs-atletico-madrid/2tc0nf#1145171",
+    "id": "1145171",
+    "home": {
+      "name": "Lazio",
+      "shortName": "Lazio",
+      "id": "8543"
+    },
+    "away": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "status": {
+      "utcTime": "2012-02-16T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/legia-warszawa-vs-sporting-cp/2t8uol#1145187",
+    "id": "1145187",
+    "home": {
+      "name": "Legia Warszawa",
+      "shortName": "Legia Warszawa",
+      "id": "8673"
+    },
+    "away": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "status": {
+      "utcTime": "2012-02-16T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/metalist-kharkiv-vs-salzburg/387kwr#1145146",
+    "id": "1145146",
+    "home": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "away": {
+      "name": "Metalist Kharkiv",
+      "shortName": "Metalist Kharkiv",
+      "id": "9744"
+    },
+    "status": {
+      "utcTime": "2012-02-16T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 4",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/viktoria-plzen-vs-schalke-04/26cg3m#1145180",
+    "id": "1145180",
+    "home": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "away": {
+      "name": "Schalke 04",
+      "shortName": "Schalke 04",
+      "id": "10189"
+    },
+    "status": {
+      "utcTime": "2012-02-16T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/fc-twente-vs-fcsb/2s2oi4#1145177",
+    "id": "1145177",
+    "home": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "away": {
+      "name": "FC Twente",
+      "shortName": "FC Twente",
+      "id": "8611"
+    },
+    "status": {
+      "utcTime": "2012-02-16T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/manchester-city-vs-fc-porto/2qxjd0#1145115",
+    "id": "1145115",
+    "home": {
+      "name": "FC Porto",
+      "shortName": "FC Porto",
+      "id": "9773"
+    },
+    "away": {
+      "name": "Manchester City",
+      "shortName": "Man City",
+      "id": "8456"
+    },
+    "status": {
+      "utcTime": "2012-02-16T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/club-brugge-vs-hannover-96/2r46p1#1145186",
+    "id": "1145186",
+    "home": {
+      "name": "Hannover 96",
+      "shortName": "Hannover 96",
+      "id": "9904"
+    },
+    "away": {
+      "name": "Club Brugge",
+      "shortName": "Club Brugge",
+      "id": "8342"
+    },
+    "status": {
+      "utcTime": "2012-02-16T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/stoke-city-vs-valencia/3gn0zq#1145155",
+    "id": "1145155",
+    "home": {
+      "name": "Stoke City",
+      "shortName": "Stoke",
+      "id": "10194"
+    },
+    "away": {
+      "name": "Valencia",
+      "shortName": "Valencia",
+      "id": "10267"
+    },
+    "status": {
+      "utcTime": "2012-02-16T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/psv-eindhoven-vs-trabzonspor/2spick#1145185",
+    "id": "1145185",
+    "home": {
+      "name": "Trabzonspor",
+      "shortName": "Trabzonspor",
+      "id": "9752"
+    },
+    "away": {
+      "name": "PSV Eindhoven",
+      "shortName": "PSV Eindhoven",
+      "id": "8640"
+    },
+    "status": {
+      "utcTime": "2012-02-16T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/udinese-vs-paok-thessaloniki/2g9te9#1145184",
+    "id": "1145184",
+    "home": {
+      "name": "Udinese",
+      "shortName": "Udinese",
+      "id": "8600"
+    },
+    "away": {
+      "name": "PAOK Thessaloniki",
+      "shortName": "PAOK Thessaloniki",
+      "id": "8619"
+    },
+    "status": {
+      "utcTime": "2012-02-16T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/standard-liege-vs-wisa-krakow/3e2yn4#1145181",
+    "id": "1145181",
+    "home": {
+      "name": "Wisła Kraków",
+      "shortName": "Wisła Kraków",
+      "id": "10265"
+    },
+    "away": {
+      "name": "Standard Liège",
+      "shortName": "Standard Liège",
+      "id": "9985"
+    },
+    "status": {
+      "utcTime": "2012-02-16T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/manchester-city-vs-fc-porto/2qxjd0#1145188",
+    "id": "1145188",
+    "home": {
+      "name": "Manchester City",
+      "shortName": "Man City",
+      "id": "8456"
+    },
+    "away": {
+      "name": "FC Porto",
+      "shortName": "FC Porto",
+      "id": "9773"
+    },
+    "status": {
+      "utcTime": "2012-02-22T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/athletic-club-vs-lokomotiv-moscow/2eamdj#1145190",
+    "id": "1145190",
+    "home": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "away": {
+      "name": "Lokomotiv Moscow",
+      "shortName": "Lokomotiv",
+      "id": "8710"
+    },
+    "status": {
+      "utcTime": "2012-02-23T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/club-brugge-vs-hannover-96/2r46p1#1145202",
+    "id": "1145202",
+    "home": {
+      "name": "Club Brugge",
+      "shortName": "Club Brugge",
+      "id": "8342"
+    },
+    "away": {
+      "name": "Hannover 96",
+      "shortName": "Hannover 96",
+      "id": "9904"
+    },
+    "status": {
+      "utcTime": "2012-02-23T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/fc-twente-vs-fcsb/2s2oi4#1145196",
+    "id": "1145196",
+    "home": {
+      "name": "FC Twente",
+      "shortName": "FC Twente",
+      "id": "8611"
+    },
+    "away": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "status": {
+      "utcTime": "2012-02-23T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/udinese-vs-paok-thessaloniki/2g9te9#1145200",
+    "id": "1145200",
+    "home": {
+      "name": "PAOK Thessaloniki",
+      "shortName": "PAOK Thessaloniki",
+      "id": "8619"
+    },
+    "away": {
+      "name": "Udinese",
+      "shortName": "Udinese",
+      "id": "8600"
+    },
+    "status": {
+      "utcTime": "2012-02-23T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/psv-eindhoven-vs-trabzonspor/2spick#1145201",
+    "id": "1145201",
+    "home": {
+      "name": "PSV Eindhoven",
+      "shortName": "PSV Eindhoven",
+      "id": "8640"
+    },
+    "away": {
+      "name": "Trabzonspor",
+      "shortName": "Trabzonspor",
+      "id": "9752"
+    },
+    "status": {
+      "utcTime": "2012-02-23T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/standard-liege-vs-wisa-krakow/3e2yn4#1145198",
+    "id": "1145198",
+    "home": {
+      "name": "Standard Liège",
+      "shortName": "Standard Liège",
+      "id": "9985"
+    },
+    "away": {
+      "name": "Wisła Kraków",
+      "shortName": "Wisła Kraków",
+      "id": "10265"
+    },
+    "status": {
+      "utcTime": "2012-02-23T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/stoke-city-vs-valencia/3gn0zq#1145192",
+    "id": "1145192",
+    "home": {
+      "name": "Valencia",
+      "shortName": "Valencia",
+      "id": "10267"
+    },
+    "away": {
+      "name": "Stoke City",
+      "shortName": "Stoke",
+      "id": "10194"
+    },
+    "status": {
+      "utcTime": "2012-02-23T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/anderlecht-vs-az-alkmaar/2xxxxv#1145194",
+    "id": "1145194",
+    "home": {
+      "name": "Anderlecht",
+      "shortName": "Anderlecht",
+      "id": "8635"
+    },
+    "away": {
+      "name": "AZ Alkmaar",
+      "shortName": "AZ Alkmaar",
+      "id": "10229"
+    },
+    "status": {
+      "utcTime": "2012-02-23T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/lazio-vs-atletico-madrid/2tc0nf#1145195",
+    "id": "1145195",
+    "home": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "away": {
+      "name": "Lazio",
+      "shortName": "Lazio",
+      "id": "8543"
+    },
+    "status": {
+      "utcTime": "2012-02-23T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/besiktas-vs-braga/3gj2xe#1145199",
+    "id": "1145199",
+    "home": {
+      "name": "Beşiktaş",
+      "shortName": "Beşiktaş",
+      "id": "10188"
+    },
+    "away": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "status": {
+      "utcTime": "2012-02-23T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/ajax-vs-manchester-united/2xthu8#1145189",
+    "id": "1145189",
+    "home": {
+      "name": "Manchester United",
+      "shortName": "Man United",
+      "id": "10260"
+    },
+    "away": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "status": {
+      "utcTime": "2012-02-23T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/metalist-kharkiv-vs-salzburg/387kwr#1145191",
+    "id": "1145191",
+    "home": {
+      "name": "Metalist Kharkiv",
+      "shortName": "Metalist Kharkiv",
+      "id": "9744"
+    },
+    "away": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "status": {
+      "utcTime": "2012-02-23T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/olympiacos-vs-rubin-kazan/2hbkp4#1145193",
+    "id": "1145193",
+    "home": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "away": {
+      "name": "Rubin Kazan",
+      "shortName": "Rubin",
+      "id": "8683"
+    },
+    "status": {
+      "utcTime": "2012-02-23T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/viktoria-plzen-vs-schalke-04/26cg3m#1145197",
+    "id": "1145197",
+    "home": {
+      "name": "Schalke 04",
+      "shortName": "Schalke 04",
+      "id": "10189"
+    },
+    "away": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "status": {
+      "utcTime": "2012-02-23T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "AET",
+        "shortKey": "afterextratime_short",
+        "long": "After extra time",
+        "longKey": "afterextra"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/legia-warszawa-vs-sporting-cp/2t8uol#1145203",
+    "id": "1145203",
+    "home": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "away": {
+      "name": "Legia Warszawa",
+      "shortName": "Legia Warszawa",
+      "id": "8673"
+    },
+    "status": {
+      "utcTime": "2012-02-23T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/atletico-madrid-vs-besiktas/3c7ier#1146759",
+    "id": "1146759",
+    "home": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "away": {
+      "name": "Beşiktaş",
+      "shortName": "Beşiktaş",
+      "id": "10188"
+    },
+    "status": {
+      "utcTime": "2012-03-08T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/fc-twente-vs-schalke-04/2x83x7#1146751",
+    "id": "1146751",
+    "home": {
+      "name": "FC Twente",
+      "shortName": "FC Twente",
+      "id": "8611"
+    },
+    "away": {
+      "name": "Schalke 04",
+      "shortName": "Schalke 04",
+      "id": "10189"
+    },
+    "status": {
+      "utcTime": "2012-03-08T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/olympiacos-vs-metalist-kharkiv/2slkgp#1146747",
+    "id": "1146747",
+    "home": {
+      "name": "Metalist Kharkiv",
+      "shortName": "Metalist Kharkiv",
+      "id": "9744"
+    },
+    "away": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "status": {
+      "utcTime": "2012-03-08T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/manchester-city-vs-sporting-cp/2qvl1c#1146749",
+    "id": "1146749",
+    "home": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "away": {
+      "name": "Manchester City",
+      "shortName": "Man City",
+      "id": "8456"
+    },
+    "status": {
+      "utcTime": "2012-03-08T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/udinese-vs-az-alkmaar/2xjsxf#1146757",
+    "id": "1146757",
+    "home": {
+      "name": "AZ Alkmaar",
+      "shortName": "AZ Alkmaar",
+      "id": "10229"
+    },
+    "away": {
+      "name": "Udinese",
+      "shortName": "Udinese",
+      "id": "8600"
+    },
+    "status": {
+      "utcTime": "2012-03-08T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/athletic-club-vs-manchester-united/2upz8z#1146762",
+    "id": "1146762",
+    "home": {
+      "name": "Manchester United",
+      "shortName": "Man United",
+      "id": "10260"
+    },
+    "away": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "status": {
+      "utcTime": "2012-03-08T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/hannover-96-vs-standard-liege/39ro5m#1146753",
+    "id": "1146753",
+    "home": {
+      "name": "Standard Liège",
+      "shortName": "Standard Liège",
+      "id": "9985"
+    },
+    "away": {
+      "name": "Hannover 96",
+      "shortName": "Hannover 96",
+      "id": "9904"
+    },
+    "status": {
+      "utcTime": "2012-03-08T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/psv-eindhoven-vs-valencia/2yfcka#1146756",
+    "id": "1146756",
+    "home": {
+      "name": "Valencia",
+      "shortName": "Valencia",
+      "id": "10267"
+    },
+    "away": {
+      "name": "PSV Eindhoven",
+      "shortName": "PSV Eindhoven",
+      "id": "8640"
+    },
+    "status": {
+      "utcTime": "2012-03-08T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/athletic-club-vs-manchester-united/2upz8z#1146761",
+    "id": "1146761",
+    "home": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "away": {
+      "name": "Manchester United",
+      "shortName": "Man United",
+      "id": "10260"
+    },
+    "status": {
+      "utcTime": "2012-03-15T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/hannover-96-vs-standard-liege/39ro5m#1146754",
+    "id": "1146754",
+    "home": {
+      "name": "Hannover 96",
+      "shortName": "Hannover 96",
+      "id": "9904"
+    },
+    "away": {
+      "name": "Standard Liège",
+      "shortName": "Standard Liège",
+      "id": "9985"
+    },
+    "status": {
+      "utcTime": "2012-03-15T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/psv-eindhoven-vs-valencia/2yfcka#1146755",
+    "id": "1146755",
+    "home": {
+      "name": "PSV Eindhoven",
+      "shortName": "PSV Eindhoven",
+      "id": "8640"
+    },
+    "away": {
+      "name": "Valencia",
+      "shortName": "Valencia",
+      "id": "10267"
+    },
+    "status": {
+      "utcTime": "2012-03-15T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/udinese-vs-az-alkmaar/2xjsxf#1146758",
+    "id": "1146758",
+    "home": {
+      "name": "Udinese",
+      "shortName": "Udinese",
+      "id": "8600"
+    },
+    "away": {
+      "name": "AZ Alkmaar",
+      "shortName": "AZ Alkmaar",
+      "id": "10229"
+    },
+    "status": {
+      "utcTime": "2012-03-15T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/atletico-madrid-vs-besiktas/3c7ier#1146760",
+    "id": "1146760",
+    "home": {
+      "name": "Beşiktaş",
+      "shortName": "Beşiktaş",
+      "id": "10188"
+    },
+    "away": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "status": {
+      "utcTime": "2012-03-15T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/manchester-city-vs-sporting-cp/2qvl1c#1146750",
+    "id": "1146750",
+    "home": {
+      "name": "Manchester City",
+      "shortName": "Man City",
+      "id": "8456"
+    },
+    "away": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "status": {
+      "utcTime": "2012-03-15T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/olympiacos-vs-metalist-kharkiv/2slkgp#1146748",
+    "id": "1146748",
+    "home": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "away": {
+      "name": "Metalist Kharkiv",
+      "shortName": "Metalist Kharkiv",
+      "id": "9744"
+    },
+    "status": {
+      "utcTime": "2012-03-15T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/fc-twente-vs-schalke-04/2x83x7#1146752",
+    "id": "1146752",
+    "home": {
+      "name": "Schalke 04",
+      "shortName": "Schalke 04",
+      "id": "10189"
+    },
+    "away": {
+      "name": "FC Twente",
+      "shortName": "FC Twente",
+      "id": "8611"
+    },
+    "status": {
+      "utcTime": "2012-03-15T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/hannover-96-vs-atletico-madrid/38u23p#1183868",
+    "id": "1183868",
+    "home": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "away": {
+      "name": "Hannover 96",
+      "shortName": "Hannover 96",
+      "id": "9904"
+    },
+    "status": {
+      "utcTime": "2012-03-29T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/az-alkmaar-vs-valencia/3h2e1v#1183865",
+    "id": "1183865",
+    "home": {
+      "name": "AZ Alkmaar",
+      "shortName": "AZ Alkmaar",
+      "id": "10229"
+    },
+    "away": {
+      "name": "Valencia",
+      "shortName": "Valencia",
+      "id": "10267"
+    },
+    "status": {
+      "utcTime": "2012-03-29T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/athletic-club-vs-schalke-04/2txrjz#1183866",
+    "id": "1183866",
+    "home": {
+      "name": "Schalke 04",
+      "shortName": "Schalke 04",
+      "id": "10189"
+    },
+    "away": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "status": {
+      "utcTime": "2012-03-29T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 4",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/metalist-kharkiv-vs-sporting-cp/35ch2c#1183867",
+    "id": "1183867",
+    "home": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "away": {
+      "name": "Metalist Kharkiv",
+      "shortName": "Metalist Kharkiv",
+      "id": "9744"
+    },
+    "status": {
+      "utcTime": "2012-03-29T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/athletic-club-vs-schalke-04/2txrjz#1183870",
+    "id": "1183870",
+    "home": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "away": {
+      "name": "Schalke 04",
+      "shortName": "Schalke 04",
+      "id": "10189"
+    },
+    "status": {
+      "utcTime": "2012-04-05T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/hannover-96-vs-atletico-madrid/38u23p#1183872",
+    "id": "1183872",
+    "home": {
+      "name": "Hannover 96",
+      "shortName": "Hannover 96",
+      "id": "9904"
+    },
+    "away": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "status": {
+      "utcTime": "2012-04-05T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/metalist-kharkiv-vs-sporting-cp/35ch2c#1183871",
+    "id": "1183871",
+    "home": {
+      "name": "Metalist Kharkiv",
+      "shortName": "Metalist Kharkiv",
+      "id": "9744"
+    },
+    "away": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "status": {
+      "utcTime": "2012-04-05T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/az-alkmaar-vs-valencia/3h2e1v#1183869",
+    "id": "1183869",
+    "home": {
+      "name": "Valencia",
+      "shortName": "Valencia",
+      "id": "10267"
+    },
+    "away": {
+      "name": "AZ Alkmaar",
+      "shortName": "AZ Alkmaar",
+      "id": "10229"
+    },
+    "status": {
+      "utcTime": "2012-04-05T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/2",
+    "roundName": "Semi-Finals",
+    "pageUrl": "/matches/atletico-madrid-vs-valencia/3d5lpp#1183873",
+    "id": "1183873",
+    "home": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "away": {
+      "name": "Valencia",
+      "shortName": "Valencia",
+      "id": "10267"
+    },
+    "status": {
+      "utcTime": "2012-04-19T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/2",
+    "roundName": "Semi-Finals",
+    "pageUrl": "/matches/athletic-club-vs-sporting-cp/2pcpy6#1183875",
+    "id": "1183875",
+    "home": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "away": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "status": {
+      "utcTime": "2012-04-19T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/2",
+    "roundName": "Semi-Finals",
+    "pageUrl": "/matches/athletic-club-vs-sporting-cp/2pcpy6#1183876",
+    "id": "1183876",
+    "home": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "away": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "status": {
+      "utcTime": "2012-04-26T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/2",
+    "roundName": "Semi-Finals",
+    "pageUrl": "/matches/atletico-madrid-vs-valencia/3d5lpp#1183874",
+    "id": "1183874",
+    "home": {
+      "name": "Valencia",
+      "shortName": "Valencia",
+      "id": "10267"
+    },
+    "away": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "status": {
+      "utcTime": "2012-04-26T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "final",
+    "roundName": "Final",
+    "pageUrl": "/matches/athletic-club-vs-atletico-madrid/2queyl#1183877",
+    "id": "1183877",
+    "home": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "away": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "status": {
+      "utcTime": "2012-05-09T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  }
+]

@@ -1,0 +1,4469 @@
+[
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/bayer-leverkusen-vs-hacken/2a3li5#4315153",
+    "id": "4315153",
+    "home": {
+      "name": "Bayer Leverkusen",
+      "shortName": "Leverkusen",
+      "id": "8178"
+    },
+    "away": {
+      "name": "Häcken",
+      "shortName": "Häcken",
+      "id": "8428"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-09-21T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/roma-vs-fc-sheriff/2syky1#4315105",
+    "id": "4315105",
+    "home": {
+      "name": "FC Sheriff",
+      "shortName": "FC Sheriff",
+      "id": "9729"
+    },
+    "away": {
+      "name": "Roma",
+      "shortName": "Roma",
+      "id": "8686"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-09-21T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/liverpool-vs-lask/2vaqvz#4315081",
+    "id": "4315081",
+    "home": {
+      "name": "LASK",
+      "shortName": "LASK",
+      "id": "9977"
+    },
+    "away": {
+      "name": "Liverpool",
+      "shortName": "Liverpool",
+      "id": "8650"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-09-21T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/panathinaikos-vs-villarreal/3fyi0k#4315142",
+    "id": "4315142",
+    "home": {
+      "name": "Panathinaikos",
+      "shortName": "Panathinaikos",
+      "id": "10200"
+    },
+    "away": {
+      "name": "Villarreal",
+      "shortName": "Villarreal",
+      "id": "10205"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-09-21T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/qarabag-fk-vs-molde/2nddwk#4315154",
+    "id": "4315154",
+    "home": {
+      "name": "Qarabağ FK",
+      "shortName": "Qarabağ FK",
+      "id": "7981"
+    },
+    "away": {
+      "name": "Molde",
+      "shortName": "Molde",
+      "id": "9917"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-09-21T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/rennes-vs-maccabi-haifa/3bikdh#4315141",
+    "id": "4315141",
+    "home": {
+      "name": "Rennes",
+      "shortName": "Rennes",
+      "id": "9851"
+    },
+    "away": {
+      "name": "Maccabi Haifa",
+      "shortName": "Maccabi Haifa",
+      "id": "10185"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-09-21T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/slavia-prague-vs-servette/2jug3r#4315106",
+    "id": "4315106",
+    "home": {
+      "name": "Servette",
+      "shortName": "Servette",
+      "id": "9777"
+    },
+    "away": {
+      "name": "Slavia Prague",
+      "shortName": "Slavia Prague",
+      "id": "7787"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-09-21T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/union-stgilloise-vs-toulouse/2nlg45#4315082",
+    "id": "4315082",
+    "home": {
+      "name": "Union St.Gilloise",
+      "shortName": "Union St.Gilloise",
+      "id": "7978"
+    },
+    "away": {
+      "name": "Toulouse",
+      "shortName": "Toulouse",
+      "id": "9941"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-09-21T16:55:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/marseille-vs-ajax/2fxa2q#4315093",
+    "id": "4315093",
+    "home": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "away": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-09-21T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/rakow-czestochowa-vs-atalanta/1avowm#4315117",
+    "id": "4315117",
+    "home": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "away": {
+      "name": "Raków Częstochowa",
+      "shortName": "Raków Częstochowa",
+      "id": "4024"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-09-21T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/aek-athens-vs-brighton-hove-albion/2wutl7#4315094",
+    "id": "4315094",
+    "home": {
+      "name": "Brighton & Hove Albion",
+      "shortName": "Brighton",
+      "id": "10204"
+    },
+    "away": {
+      "name": "AEK Athens",
+      "shortName": "AEK Athens",
+      "id": "8563"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-09-21T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/freiburg-vs-olympiacos/2e01o8#4315070",
+    "id": "4315070",
+    "home": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "away": {
+      "name": "Freiburg",
+      "shortName": "Freiburg",
+      "id": "8358"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-09-21T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/rangers-vs-real-betis/2fkrob#4315130",
+    "id": "4315130",
+    "home": {
+      "name": "Rangers",
+      "shortName": "Rangers",
+      "id": "8548"
+    },
+    "away": {
+      "name": "Real Betis",
+      "shortName": "Real Betis",
+      "id": "8603"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-09-21T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/aris-limassol-vs-sparta-prague/19ngvc#4315129",
+    "id": "4315129",
+    "home": {
+      "name": "Sparta Prague",
+      "shortName": "Sparta Prague",
+      "id": "10247"
+    },
+    "away": {
+      "name": "Aris Limassol",
+      "shortName": "Aris Limassol",
+      "id": "2136"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-09-21T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/sporting-cp-vs-sturm-graz/38i6al#4315118",
+    "id": "4315118",
+    "home": {
+      "name": "Sturm Graz",
+      "shortName": "Sturm Graz",
+      "id": "10014"
+    },
+    "away": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-09-21T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/west-ham-united-vs-tsc-backa-topola/2zpqflnh#4315069",
+    "id": "4315069",
+    "home": {
+      "name": "West Ham United",
+      "shortName": "West Ham",
+      "id": "8654"
+    },
+    "away": {
+      "name": "TSC Bačka Topola",
+      "shortName": "TSC Bačka Topola",
+      "id": "676140"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-09-21T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/aek-athens-vs-ajax/2fmluj#4315096",
+    "id": "4315096",
+    "home": {
+      "name": "AEK Athens",
+      "shortName": "AEK Athens",
+      "id": "8563"
+    },
+    "away": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-10-05T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/aris-limassol-vs-rangers/xzl8q#4315132",
+    "id": "4315132",
+    "home": {
+      "name": "Aris Limassol",
+      "shortName": "Aris Limassol",
+      "id": "2136"
+    },
+    "away": {
+      "name": "Rangers",
+      "shortName": "Rangers",
+      "id": "8548"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-10-05T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/freiburg-vs-west-ham-united/2e5vm8#4315071",
+    "id": "4315071",
+    "home": {
+      "name": "Freiburg",
+      "shortName": "Freiburg",
+      "id": "8358"
+    },
+    "away": {
+      "name": "West Ham United",
+      "shortName": "West Ham",
+      "id": "8654"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-10-05T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/marseille-vs-brighton-hove-albion/2x6hvy#4315095",
+    "id": "4315095",
+    "home": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "away": {
+      "name": "Brighton & Hove Albion",
+      "shortName": "Brighton",
+      "id": "10204"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-10-05T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/rakow-czestochowa-vs-sturm-graz/1mo4ut#4315120",
+    "id": "4315120",
+    "home": {
+      "name": "Raków Częstochowa",
+      "shortName": "Raków Częstochowa",
+      "id": "4024"
+    },
+    "away": {
+      "name": "Sturm Graz",
+      "shortName": "Sturm Graz",
+      "id": "10014"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-10-05T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/real-betis-vs-sparta-prague/2xsa7i#4315131",
+    "id": "4315131",
+    "home": {
+      "name": "Real Betis",
+      "shortName": "Real Betis",
+      "id": "8603"
+    },
+    "away": {
+      "name": "Sparta Prague",
+      "shortName": "Sparta Prague",
+      "id": "10247"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-10-05T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/atalanta-vs-sporting-cp/2rm71m#4315119",
+    "id": "4315119",
+    "home": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "away": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-10-05T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/olympiacos-vs-tsc-backa-topola/2zpjwrhh#4315072",
+    "id": "4315072",
+    "home": {
+      "name": "TSC Bačka Topola",
+      "shortName": "TSC Bačka Topola",
+      "id": "676140"
+    },
+    "away": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-10-05T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/qarabag-fk-vs-hacken/285w6p#4315156",
+    "id": "4315156",
+    "home": {
+      "name": "Häcken",
+      "shortName": "Häcken",
+      "id": "8428"
+    },
+    "away": {
+      "name": "Qarabağ FK",
+      "shortName": "Qarabağ FK",
+      "id": "7981"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-10-05T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/union-stgilloise-vs-liverpool/2abfrg#4315083",
+    "id": "4315083",
+    "home": {
+      "name": "Liverpool",
+      "shortName": "Liverpool",
+      "id": "8650"
+    },
+    "away": {
+      "name": "Union St.Gilloise",
+      "shortName": "Union St.Gilloise",
+      "id": "7978"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-10-05T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/maccabi-haifa-vs-panathinaikos/3fpr9l#4315144",
+    "id": "4315144",
+    "home": {
+      "name": "Maccabi Haifa",
+      "shortName": "Maccabi Haifa",
+      "id": "10185"
+    },
+    "away": {
+      "name": "Panathinaikos",
+      "shortName": "Panathinaikos",
+      "id": "10200"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-10-05T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/bayer-leverkusen-vs-molde/2phdk5#4315155",
+    "id": "4315155",
+    "home": {
+      "name": "Molde",
+      "shortName": "Molde",
+      "id": "9917"
+    },
+    "away": {
+      "name": "Bayer Leverkusen",
+      "shortName": "Leverkusen",
+      "id": "8178"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-10-05T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/roma-vs-servette/2thjxd#4315107",
+    "id": "4315107",
+    "home": {
+      "name": "Roma",
+      "shortName": "Roma",
+      "id": "8686"
+    },
+    "away": {
+      "name": "Servette",
+      "shortName": "Servette",
+      "id": "9777"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-10-05T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/slavia-prague-vs-fc-sheriff/2jcef3#4315108",
+    "id": "4315108",
+    "home": {
+      "name": "Slavia Prague",
+      "shortName": "Slavia Prague",
+      "id": "7787"
+    },
+    "away": {
+      "name": "FC Sheriff",
+      "shortName": "FC Sheriff",
+      "id": "9729"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-10-05T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "6 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/toulouse-vs-lask/3a41j6#4315084",
+    "id": "4315084",
+    "home": {
+      "name": "Toulouse",
+      "shortName": "Toulouse",
+      "id": "9941"
+    },
+    "away": {
+      "name": "LASK",
+      "shortName": "LASK",
+      "id": "9977"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-10-05T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/rennes-vs-villarreal/3br5qf#4315143",
+    "id": "4315143",
+    "home": {
+      "name": "Villarreal",
+      "shortName": "Villarreal",
+      "id": "10205"
+    },
+    "away": {
+      "name": "Rennes",
+      "shortName": "Rennes",
+      "id": "9851"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-10-05T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/aris-limassol-vs-real-betis/yc7vt#4315134",
+    "id": "4315134",
+    "home": {
+      "name": "Aris Limassol",
+      "shortName": "Aris Limassol",
+      "id": "2136"
+    },
+    "away": {
+      "name": "Real Betis",
+      "shortName": "Real Betis",
+      "id": "8603"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-10-26T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/aek-athens-vs-marseille/2fm8ly#4315097",
+    "id": "4315097",
+    "home": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "away": {
+      "name": "AEK Athens",
+      "shortName": "AEK Athens",
+      "id": "8563"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-10-26T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/hacken-vs-molde/2s70be#4315157",
+    "id": "4315157",
+    "home": {
+      "name": "Molde",
+      "shortName": "Molde",
+      "id": "9917"
+    },
+    "away": {
+      "name": "Häcken",
+      "shortName": "Häcken",
+      "id": "8428"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-10-26T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/olympiacos-vs-west-ham-united/2h0tek#4315073",
+    "id": "4315073",
+    "home": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "away": {
+      "name": "West Ham United",
+      "shortName": "West Ham",
+      "id": "8654"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-10-26T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/rakow-czestochowa-vs-sporting-cp/1kmvx4#4315121",
+    "id": "4315121",
+    "home": {
+      "name": "Raków Częstochowa",
+      "shortName": "Raków Częstochowa",
+      "id": "4024"
+    },
+    "away": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-10-26T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/rangers-vs-sparta-prague/2x63cm#4315133",
+    "id": "4315133",
+    "home": {
+      "name": "Sparta Prague",
+      "shortName": "Sparta Prague",
+      "id": "10247"
+    },
+    "away": {
+      "name": "Rangers",
+      "shortName": "Rangers",
+      "id": "8548"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-10-26T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/atalanta-vs-sturm-graz/2ub9mb#4315122",
+    "id": "4315122",
+    "home": {
+      "name": "Sturm Graz",
+      "shortName": "Sturm Graz",
+      "id": "10014"
+    },
+    "away": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-10-26T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/freiburg-vs-tsc-backa-topola/2zmdrzjl#4315074",
+    "id": "4315074",
+    "home": {
+      "name": "TSC Bačka Topola",
+      "shortName": "TSC Bačka Topola",
+      "id": "676140"
+    },
+    "away": {
+      "name": "Freiburg",
+      "shortName": "Freiburg",
+      "id": "8358"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-10-26T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/qarabag-fk-vs-bayer-leverkusen/25qmoy#4315158",
+    "id": "4315158",
+    "home": {
+      "name": "Bayer Leverkusen",
+      "shortName": "Leverkusen",
+      "id": "8178"
+    },
+    "away": {
+      "name": "Qarabağ FK",
+      "shortName": "Qarabağ FK",
+      "id": "7981"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-10-26T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/ajax-vs-brighton-hove-albion/2x6we4#4315098",
+    "id": "4315098",
+    "home": {
+      "name": "Brighton & Hove Albion",
+      "shortName": "Brighton",
+      "id": "10204"
+    },
+    "away": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-10-26T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/fc-sheriff-vs-servette/359yr0#4315110",
+    "id": "4315110",
+    "home": {
+      "name": "FC Sheriff",
+      "shortName": "FC Sheriff",
+      "id": "9729"
+    },
+    "away": {
+      "name": "Servette",
+      "shortName": "Servette",
+      "id": "9777"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-10-26T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/liverpool-vs-toulouse/2uwdxh#4315086",
+    "id": "4315086",
+    "home": {
+      "name": "Liverpool",
+      "shortName": "Liverpool",
+      "id": "8650"
+    },
+    "away": {
+      "name": "Toulouse",
+      "shortName": "Toulouse",
+      "id": "9941"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-10-26T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/rennes-vs-panathinaikos/3bp0d5#4315145",
+    "id": "4315145",
+    "home": {
+      "name": "Panathinaikos",
+      "shortName": "Panathinaikos",
+      "id": "10200"
+    },
+    "away": {
+      "name": "Rennes",
+      "shortName": "Rennes",
+      "id": "9851"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-10-26T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/slavia-prague-vs-roma/28sgb7#4315109",
+    "id": "4315109",
+    "home": {
+      "name": "Roma",
+      "shortName": "Roma",
+      "id": "8686"
+    },
+    "away": {
+      "name": "Slavia Prague",
+      "shortName": "Slavia Prague",
+      "id": "7787"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-10-26T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/union-stgilloise-vs-lask/2nzaen#4315085",
+    "id": "4315085",
+    "home": {
+      "name": "Union St.Gilloise",
+      "shortName": "Union St.Gilloise",
+      "id": "7978"
+    },
+    "away": {
+      "name": "LASK",
+      "shortName": "LASK",
+      "id": "9977"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-10-26T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/ajax-vs-brighton-hove-albion/2x6we4#4315099",
+    "id": "4315099",
+    "home": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "away": {
+      "name": "Brighton & Hove Albion",
+      "shortName": "Brighton",
+      "id": "10204"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-11-09T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/union-stgilloise-vs-lask/2nzaen#4315087",
+    "id": "4315087",
+    "home": {
+      "name": "LASK",
+      "shortName": "LASK",
+      "id": "9977"
+    },
+    "away": {
+      "name": "Union St.Gilloise",
+      "shortName": "Union St.Gilloise",
+      "id": "7978"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-11-09T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/maccabi-haifa-vs-villarreal/3frxxe#4315148",
+    "id": "4315148",
+    "home": {
+      "name": "Maccabi Haifa",
+      "shortName": "Maccabi Haifa",
+      "id": "10185"
+    },
+    "away": {
+      "name": "Villarreal",
+      "shortName": "Villarreal",
+      "id": "10205"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-11-09T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/qarabag-fk-vs-bayer-leverkusen/25qmoy#4315159",
+    "id": "4315159",
+    "home": {
+      "name": "Qarabağ FK",
+      "shortName": "Qarabağ FK",
+      "id": "7981"
+    },
+    "away": {
+      "name": "Bayer Leverkusen",
+      "shortName": "Leverkusen",
+      "id": "8178"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-11-09T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/rennes-vs-panathinaikos/3bp0d5#4315147",
+    "id": "4315147",
+    "home": {
+      "name": "Rennes",
+      "shortName": "Rennes",
+      "id": "9851"
+    },
+    "away": {
+      "name": "Panathinaikos",
+      "shortName": "Panathinaikos",
+      "id": "10200"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-11-09T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/fc-sheriff-vs-servette/359yr0#4315111",
+    "id": "4315111",
+    "home": {
+      "name": "Servette",
+      "shortName": "Servette",
+      "id": "9777"
+    },
+    "away": {
+      "name": "FC Sheriff",
+      "shortName": "FC Sheriff",
+      "id": "9729"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-11-09T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/slavia-prague-vs-roma/28sgb7#4315112",
+    "id": "4315112",
+    "home": {
+      "name": "Slavia Prague",
+      "shortName": "Slavia Prague",
+      "id": "7787"
+    },
+    "away": {
+      "name": "Roma",
+      "shortName": "Roma",
+      "id": "8686"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-11-09T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/liverpool-vs-toulouse/2uwdxh#4315088",
+    "id": "4315088",
+    "home": {
+      "name": "Toulouse",
+      "shortName": "Toulouse",
+      "id": "9941"
+    },
+    "away": {
+      "name": "Liverpool",
+      "shortName": "Liverpool",
+      "id": "8650"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-11-09T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/aek-athens-vs-marseille/2fm8ly#4315100",
+    "id": "4315100",
+    "home": {
+      "name": "AEK Athens",
+      "shortName": "AEK Athens",
+      "id": "8563"
+    },
+    "away": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-11-09T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/atalanta-vs-sturm-graz/2ub9mb#4315123",
+    "id": "4315123",
+    "home": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "away": {
+      "name": "Sturm Graz",
+      "shortName": "Sturm Graz",
+      "id": "10014"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-11-09T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/freiburg-vs-tsc-backa-topola/2zmdrzjl#4315075",
+    "id": "4315075",
+    "home": {
+      "name": "Freiburg",
+      "shortName": "Freiburg",
+      "id": "8358"
+    },
+    "away": {
+      "name": "TSC Bačka Topola",
+      "shortName": "TSC Bačka Topola",
+      "id": "676140"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-11-09T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/hacken-vs-molde/2s70be#4315160",
+    "id": "4315160",
+    "home": {
+      "name": "Häcken",
+      "shortName": "Häcken",
+      "id": "8428"
+    },
+    "away": {
+      "name": "Molde",
+      "shortName": "Molde",
+      "id": "9917"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-11-09T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/rangers-vs-sparta-prague/2x63cm#4315136",
+    "id": "4315136",
+    "home": {
+      "name": "Rangers",
+      "shortName": "Rangers",
+      "id": "8548"
+    },
+    "away": {
+      "name": "Sparta Prague",
+      "shortName": "Sparta Prague",
+      "id": "10247"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-11-09T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/aris-limassol-vs-real-betis/yc7vt#4315135",
+    "id": "4315135",
+    "home": {
+      "name": "Real Betis",
+      "shortName": "Real Betis",
+      "id": "8603"
+    },
+    "away": {
+      "name": "Aris Limassol",
+      "shortName": "Aris Limassol",
+      "id": "2136"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-11-09T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/rakow-czestochowa-vs-sporting-cp/1kmvx4#4315124",
+    "id": "4315124",
+    "home": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "away": {
+      "name": "Raków Częstochowa",
+      "shortName": "Raków Częstochowa",
+      "id": "4024"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-11-09T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/olympiacos-vs-west-ham-united/2h0tek#4315076",
+    "id": "4315076",
+    "home": {
+      "name": "West Ham United",
+      "shortName": "West Ham",
+      "id": "8654"
+    },
+    "away": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-11-09T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/aek-athens-vs-brighton-hove-albion/2wutl7#4315101",
+    "id": "4315101",
+    "home": {
+      "name": "AEK Athens",
+      "shortName": "AEK Athens",
+      "id": "8563"
+    },
+    "away": {
+      "name": "Brighton & Hove Albion",
+      "shortName": "Brighton",
+      "id": "10204"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-11-30T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/atalanta-vs-sporting-cp/2rm71m#4315125",
+    "id": "4315125",
+    "home": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "away": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-11-30T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/freiburg-vs-olympiacos/2e01o8#4315077",
+    "id": "4315077",
+    "home": {
+      "name": "Freiburg",
+      "shortName": "Freiburg",
+      "id": "8358"
+    },
+    "away": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-11-30T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/rennes-vs-maccabi-haifa/3bikdh#4315149",
+    "id": "4315149",
+    "home": {
+      "name": "Maccabi Haifa",
+      "shortName": "Maccabi Haifa",
+      "id": "10185"
+    },
+    "away": {
+      "name": "Rennes",
+      "shortName": "Rennes",
+      "id": "9851"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-11-30T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/real-betis-vs-sparta-prague/2xsa7i#4315137",
+    "id": "4315137",
+    "home": {
+      "name": "Sparta Prague",
+      "shortName": "Sparta Prague",
+      "id": "10247"
+    },
+    "away": {
+      "name": "Real Betis",
+      "shortName": "Real Betis",
+      "id": "8603"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-11-30T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/rakow-czestochowa-vs-sturm-graz/1mo4ut#4315126",
+    "id": "4315126",
+    "home": {
+      "name": "Sturm Graz",
+      "shortName": "Sturm Graz",
+      "id": "10014"
+    },
+    "away": {
+      "name": "Raków Częstochowa",
+      "shortName": "Raków Częstochowa",
+      "id": "4024"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-11-30T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/west-ham-united-vs-tsc-backa-topola/2zpqflnh#4315078",
+    "id": "4315078",
+    "home": {
+      "name": "TSC Bačka Topola",
+      "shortName": "TSC Bačka Topola",
+      "id": "676140"
+    },
+    "away": {
+      "name": "West Ham United",
+      "shortName": "West Ham",
+      "id": "8654"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-11-30T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/slavia-prague-vs-fc-sheriff/2jcef3#4315114",
+    "id": "4315114",
+    "home": {
+      "name": "FC Sheriff",
+      "shortName": "FC Sheriff",
+      "id": "9729"
+    },
+    "away": {
+      "name": "Slavia Prague",
+      "shortName": "Slavia Prague",
+      "id": "7787"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-11-30T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/bayer-leverkusen-vs-hacken/2a3li5#4315162",
+    "id": "4315162",
+    "home": {
+      "name": "Häcken",
+      "shortName": "Häcken",
+      "id": "8428"
+    },
+    "away": {
+      "name": "Bayer Leverkusen",
+      "shortName": "Leverkusen",
+      "id": "8178"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-11-30T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/liverpool-vs-lask/2vaqvz#4315090",
+    "id": "4315090",
+    "home": {
+      "name": "Liverpool",
+      "shortName": "Liverpool",
+      "id": "8650"
+    },
+    "away": {
+      "name": "LASK",
+      "shortName": "LASK",
+      "id": "9977"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-11-30T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/marseille-vs-ajax/2fxa2q#4315102",
+    "id": "4315102",
+    "home": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "away": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-11-30T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/qarabag-fk-vs-molde/2nddwk#4315161",
+    "id": "4315161",
+    "home": {
+      "name": "Molde",
+      "shortName": "Molde",
+      "id": "9917"
+    },
+    "away": {
+      "name": "Qarabağ FK",
+      "shortName": "Qarabağ FK",
+      "id": "7981"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-11-30T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/aris-limassol-vs-rangers/xzl8q#4315138",
+    "id": "4315138",
+    "home": {
+      "name": "Rangers",
+      "shortName": "Rangers",
+      "id": "8548"
+    },
+    "away": {
+      "name": "Aris Limassol",
+      "shortName": "Aris Limassol",
+      "id": "2136"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-11-30T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/roma-vs-servette/2thjxd#4315113",
+    "id": "4315113",
+    "home": {
+      "name": "Servette",
+      "shortName": "Servette",
+      "id": "9777"
+    },
+    "away": {
+      "name": "Roma",
+      "shortName": "Roma",
+      "id": "8686"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-11-30T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/union-stgilloise-vs-toulouse/2nlg45#4315089",
+    "id": "4315089",
+    "home": {
+      "name": "Toulouse",
+      "shortName": "Toulouse",
+      "id": "9941"
+    },
+    "away": {
+      "name": "Union St.Gilloise",
+      "shortName": "Union St.Gilloise",
+      "id": "7978"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-11-30T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/panathinaikos-vs-villarreal/3fyi0k#4315150",
+    "id": "4315150",
+    "home": {
+      "name": "Villarreal",
+      "shortName": "Villarreal",
+      "id": "10205"
+    },
+    "away": {
+      "name": "Panathinaikos",
+      "shortName": "Panathinaikos",
+      "id": "10200"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-11-30T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/maccabi-haifa-vs-villarreal/3frxxe#4315146",
+    "id": "4315146",
+    "home": {
+      "name": "Villarreal",
+      "shortName": "Villarreal",
+      "id": "10205"
+    },
+    "away": {
+      "name": "Maccabi Haifa",
+      "shortName": "Maccabi Haifa",
+      "id": "10185"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-12-06T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/bayer-leverkusen-vs-molde/2phdk5#4315163",
+    "id": "4315163",
+    "home": {
+      "name": "Bayer Leverkusen",
+      "shortName": "Leverkusen",
+      "id": "8178"
+    },
+    "away": {
+      "name": "Molde",
+      "shortName": "Molde",
+      "id": "9917"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-12-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/toulouse-vs-lask/3a41j6#4315092",
+    "id": "4315092",
+    "home": {
+      "name": "LASK",
+      "shortName": "LASK",
+      "id": "9977"
+    },
+    "away": {
+      "name": "Toulouse",
+      "shortName": "Toulouse",
+      "id": "9941"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-12-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/maccabi-haifa-vs-panathinaikos/3fpr9l#4315152",
+    "id": "4315152",
+    "home": {
+      "name": "Panathinaikos",
+      "shortName": "Panathinaikos",
+      "id": "10200"
+    },
+    "away": {
+      "name": "Maccabi Haifa",
+      "shortName": "Maccabi Haifa",
+      "id": "10185"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-12-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/qarabag-fk-vs-hacken/285w6p#4315164",
+    "id": "4315164",
+    "home": {
+      "name": "Qarabağ FK",
+      "shortName": "Qarabağ FK",
+      "id": "7981"
+    },
+    "away": {
+      "name": "Häcken",
+      "shortName": "Häcken",
+      "id": "8428"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-12-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/rennes-vs-villarreal/3br5qf#4315151",
+    "id": "4315151",
+    "home": {
+      "name": "Rennes",
+      "shortName": "Rennes",
+      "id": "9851"
+    },
+    "away": {
+      "name": "Villarreal",
+      "shortName": "Villarreal",
+      "id": "10205"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-12-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/roma-vs-fc-sheriff/2syky1#4315115",
+    "id": "4315115",
+    "home": {
+      "name": "Roma",
+      "shortName": "Roma",
+      "id": "8686"
+    },
+    "away": {
+      "name": "FC Sheriff",
+      "shortName": "FC Sheriff",
+      "id": "9729"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-12-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/slavia-prague-vs-servette/2jug3r#4315116",
+    "id": "4315116",
+    "home": {
+      "name": "Slavia Prague",
+      "shortName": "Slavia Prague",
+      "id": "7787"
+    },
+    "away": {
+      "name": "Servette",
+      "shortName": "Servette",
+      "id": "9777"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-12-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/union-stgilloise-vs-liverpool/2abfrg#4315091",
+    "id": "4315091",
+    "home": {
+      "name": "Union St.Gilloise",
+      "shortName": "Union St.Gilloise",
+      "id": "7978"
+    },
+    "away": {
+      "name": "Liverpool",
+      "shortName": "Liverpool",
+      "id": "8650"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-12-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/aek-athens-vs-ajax/2fmluj#4315103",
+    "id": "4315103",
+    "home": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "away": {
+      "name": "AEK Athens",
+      "shortName": "AEK Athens",
+      "id": "8563"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-12-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/aris-limassol-vs-sparta-prague/19ngvc#4315140",
+    "id": "4315140",
+    "home": {
+      "name": "Aris Limassol",
+      "shortName": "Aris Limassol",
+      "id": "2136"
+    },
+    "away": {
+      "name": "Sparta Prague",
+      "shortName": "Sparta Prague",
+      "id": "10247"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-12-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/marseille-vs-brighton-hove-albion/2x6hvy#4315104",
+    "id": "4315104",
+    "home": {
+      "name": "Brighton & Hove Albion",
+      "shortName": "Brighton",
+      "id": "10204"
+    },
+    "away": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-12-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/olympiacos-vs-tsc-backa-topola/2zpjwrhh#4315080",
+    "id": "4315080",
+    "home": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "away": {
+      "name": "TSC Bačka Topola",
+      "shortName": "TSC Bačka Topola",
+      "id": "676140"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-12-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/rakow-czestochowa-vs-atalanta/1avowm#4315128",
+    "id": "4315128",
+    "home": {
+      "name": "Raków Częstochowa",
+      "shortName": "Raków Częstochowa",
+      "id": "4024"
+    },
+    "away": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-12-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 4",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/rangers-vs-real-betis/2fkrob#4315139",
+    "id": "4315139",
+    "home": {
+      "name": "Real Betis",
+      "shortName": "Real Betis",
+      "id": "8603"
+    },
+    "away": {
+      "name": "Rangers",
+      "shortName": "Rangers",
+      "id": "8548"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-12-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/sporting-cp-vs-sturm-graz/38i6al#4315127",
+    "id": "4315127",
+    "home": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "away": {
+      "name": "Sturm Graz",
+      "shortName": "Sturm Graz",
+      "id": "10014"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-12-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/freiburg-vs-west-ham-united/2e5vm8#4315079",
+    "id": "4315079",
+    "home": {
+      "name": "West Ham United",
+      "shortName": "West Ham",
+      "id": "8654"
+    },
+    "away": {
+      "name": "Freiburg",
+      "shortName": "Freiburg",
+      "id": "8358"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-12-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/roma-vs-feyenoord/2yl0x7#4384251",
+    "id": "4384251",
+    "home": {
+      "name": "Feyenoord",
+      "shortName": "Feyenoord",
+      "id": "10235"
+    },
+    "away": {
+      "name": "Roma",
+      "shortName": "Roma",
+      "id": "8686"
+    },
+    "status": {
+      "utcTime": "2024-02-15T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/galatasaray-vs-sparta-prague/2y617r#4384263",
+    "id": "4384263",
+    "home": {
+      "name": "Galatasaray",
+      "shortName": "Galatasaray",
+      "id": "8637"
+    },
+    "away": {
+      "name": "Sparta Prague",
+      "shortName": "Sparta Prague",
+      "id": "10247"
+    },
+    "status": {
+      "utcTime": "2024-02-15T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/marseille-vs-shakhtar-donetsk/2rx6iw#4384265",
+    "id": "4384265",
+    "home": {
+      "name": "Shakhtar Donetsk",
+      "shortName": "Shakhtar Donetsk",
+      "id": "9728"
+    },
+    "away": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "status": {
+      "utcTime": "2024-02-15T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/sporting-cp-vs-young-boys/3alzk4#4384257",
+    "id": "4384257",
+    "home": {
+      "name": "Young Boys",
+      "shortName": "Young Boys",
+      "id": "10192"
+    },
+    "away": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "status": {
+      "utcTime": "2024-02-15T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/milan-vs-rennes/2syl1f#4384253",
+    "id": "4384253",
+    "home": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "away": {
+      "name": "Rennes",
+      "shortName": "Rennes",
+      "id": "9851"
+    },
+    "status": {
+      "utcTime": "2024-02-15T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/benfica-vs-toulouse/37oz12#4384259",
+    "id": "4384259",
+    "home": {
+      "name": "Benfica",
+      "shortName": "Benfica",
+      "id": "9772"
+    },
+    "away": {
+      "name": "Toulouse",
+      "shortName": "Toulouse",
+      "id": "9941"
+    },
+    "status": {
+      "utcTime": "2024-02-15T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/qarabag-fk-vs-braga/2r3r4s#4384261",
+    "id": "4384261",
+    "home": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "away": {
+      "name": "Qarabağ FK",
+      "shortName": "Qarabağ FK",
+      "id": "7981"
+    },
+    "status": {
+      "utcTime": "2024-02-15T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 4",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/freiburg-vs-lens/2dhuvb#4384255",
+    "id": "4384255",
+    "home": {
+      "name": "Lens",
+      "shortName": "Lens",
+      "id": "8588"
+    },
+    "away": {
+      "name": "Freiburg",
+      "shortName": "Freiburg",
+      "id": "8358"
+    },
+    "status": {
+      "utcTime": "2024-02-15T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/freiburg-vs-lens/2dhuvb#4384256",
+    "id": "4384256",
+    "home": {
+      "name": "Freiburg",
+      "shortName": "Freiburg",
+      "id": "8358"
+    },
+    "away": {
+      "name": "Lens",
+      "shortName": "Lens",
+      "id": "8588"
+    },
+    "status": {
+      "utcTime": "2024-02-22T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "AET",
+        "shortKey": "afterextratime_short",
+        "long": "After extra time",
+        "longKey": "afterextra"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/qarabag-fk-vs-braga/2r3r4s#4384262",
+    "id": "4384262",
+    "home": {
+      "name": "Qarabağ FK",
+      "shortName": "Qarabağ FK",
+      "id": "7981"
+    },
+    "away": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "status": {
+      "utcTime": "2024-02-22T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 3",
+      "reason": {
+        "short": "AET",
+        "shortKey": "afterextratime_short",
+        "long": "After extra time",
+        "longKey": "afterextra"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/milan-vs-rennes/2syl1f#4384254",
+    "id": "4384254",
+    "home": {
+      "name": "Rennes",
+      "shortName": "Rennes",
+      "id": "9851"
+    },
+    "away": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "status": {
+      "utcTime": "2024-02-22T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/benfica-vs-toulouse/37oz12#4384260",
+    "id": "4384260",
+    "home": {
+      "name": "Toulouse",
+      "shortName": "Toulouse",
+      "id": "9941"
+    },
+    "away": {
+      "name": "Benfica",
+      "shortName": "Benfica",
+      "id": "9772"
+    },
+    "status": {
+      "utcTime": "2024-02-22T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/marseille-vs-shakhtar-donetsk/2rx6iw#4384266",
+    "id": "4384266",
+    "home": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "away": {
+      "name": "Shakhtar Donetsk",
+      "shortName": "Shakhtar Donetsk",
+      "id": "9728"
+    },
+    "status": {
+      "utcTime": "2024-02-22T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/roma-vs-feyenoord/2yl0x7#4384252",
+    "id": "4384252",
+    "home": {
+      "name": "Roma",
+      "shortName": "Roma",
+      "id": "8686"
+    },
+    "away": {
+      "name": "Feyenoord",
+      "shortName": "Feyenoord",
+      "id": "10235"
+    },
+    "status": {
+      "utcTime": "2024-02-22T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "Pen",
+        "shortKey": "penalties_short",
+        "long": "After penalties",
+        "longKey": "afterpenalties"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/galatasaray-vs-sparta-prague/2y617r#4384264",
+    "id": "4384264",
+    "home": {
+      "name": "Sparta Prague",
+      "shortName": "Sparta Prague",
+      "id": "10247"
+    },
+    "away": {
+      "name": "Galatasaray",
+      "shortName": "Galatasaray",
+      "id": "8637"
+    },
+    "status": {
+      "utcTime": "2024-02-22T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/sporting-cp-vs-young-boys/3alzk4#4384258",
+    "id": "4384258",
+    "home": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "away": {
+      "name": "Young Boys",
+      "shortName": "Young Boys",
+      "id": "10192"
+    },
+    "status": {
+      "utcTime": "2024-02-22T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/atalanta-vs-sporting-cp/2rm71m#4430808",
+    "id": "4430808",
+    "home": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "away": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "status": {
+      "utcTime": "2024-03-06T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/qarabag-fk-vs-bayer-leverkusen/25qmoy#4430813",
+    "id": "4430813",
+    "home": {
+      "name": "Qarabağ FK",
+      "shortName": "Qarabağ FK",
+      "id": "7981"
+    },
+    "away": {
+      "name": "Bayer Leverkusen",
+      "shortName": "Leverkusen",
+      "id": "8178"
+    },
+    "status": {
+      "utcTime": "2024-03-07T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/roma-vs-brighton-hove-albion/2y8gp1#4430800",
+    "id": "4430800",
+    "home": {
+      "name": "Roma",
+      "shortName": "Roma",
+      "id": "8686"
+    },
+    "away": {
+      "name": "Brighton & Hove Albion",
+      "shortName": "Brighton",
+      "id": "10204"
+    },
+    "status": {
+      "utcTime": "2024-03-07T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/liverpool-vs-sparta-prague/2ybapv#4430795",
+    "id": "4430795",
+    "home": {
+      "name": "Sparta Prague",
+      "shortName": "Sparta Prague",
+      "id": "10247"
+    },
+    "away": {
+      "name": "Liverpool",
+      "shortName": "Liverpool",
+      "id": "8650"
+    },
+    "status": {
+      "utcTime": "2024-03-07T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 5",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/slavia-prague-vs-milan/27lj7o#4430810",
+    "id": "4430810",
+    "home": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "away": {
+      "name": "Slavia Prague",
+      "shortName": "Slavia Prague",
+      "id": "7787"
+    },
+    "status": {
+      "utcTime": "2024-03-07T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/rangers-vs-benfica/2rx6k4#4430803",
+    "id": "4430803",
+    "home": {
+      "name": "Benfica",
+      "shortName": "Benfica",
+      "id": "9772"
+    },
+    "away": {
+      "name": "Rangers",
+      "shortName": "Rangers",
+      "id": "8548"
+    },
+    "status": {
+      "utcTime": "2024-03-07T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/freiburg-vs-west-ham-united/2e5vm8#4430806",
+    "id": "4430806",
+    "home": {
+      "name": "Freiburg",
+      "shortName": "Freiburg",
+      "id": "8358"
+    },
+    "away": {
+      "name": "West Ham United",
+      "shortName": "West Ham",
+      "id": "8654"
+    },
+    "status": {
+      "utcTime": "2024-03-07T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/marseille-vs-villarreal/2x6we3#4430798",
+    "id": "4430798",
+    "home": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "away": {
+      "name": "Villarreal",
+      "shortName": "Villarreal",
+      "id": "10205"
+    },
+    "status": {
+      "utcTime": "2024-03-07T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/rangers-vs-benfica/2rx6k4#4430804",
+    "id": "4430804",
+    "home": {
+      "name": "Rangers",
+      "shortName": "Rangers",
+      "id": "8548"
+    },
+    "away": {
+      "name": "Benfica",
+      "shortName": "Benfica",
+      "id": "9772"
+    },
+    "status": {
+      "utcTime": "2024-03-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/slavia-prague-vs-milan/27lj7o#4430812",
+    "id": "4430812",
+    "home": {
+      "name": "Slavia Prague",
+      "shortName": "Slavia Prague",
+      "id": "7787"
+    },
+    "away": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "status": {
+      "utcTime": "2024-03-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/marseille-vs-villarreal/2x6we3#4430799",
+    "id": "4430799",
+    "home": {
+      "name": "Villarreal",
+      "shortName": "Villarreal",
+      "id": "10205"
+    },
+    "away": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "status": {
+      "utcTime": "2024-03-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/freiburg-vs-west-ham-united/2e5vm8#4430807",
+    "id": "4430807",
+    "home": {
+      "name": "West Ham United",
+      "shortName": "West Ham",
+      "id": "8654"
+    },
+    "away": {
+      "name": "Freiburg",
+      "shortName": "Freiburg",
+      "id": "8358"
+    },
+    "status": {
+      "utcTime": "2024-03-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/atalanta-vs-sporting-cp/2rm71m#4430809",
+    "id": "4430809",
+    "home": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "away": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "status": {
+      "utcTime": "2024-03-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/qarabag-fk-vs-bayer-leverkusen/25qmoy#4430814",
+    "id": "4430814",
+    "home": {
+      "name": "Bayer Leverkusen",
+      "shortName": "Leverkusen",
+      "id": "8178"
+    },
+    "away": {
+      "name": "Qarabağ FK",
+      "shortName": "Qarabağ FK",
+      "id": "7981"
+    },
+    "status": {
+      "utcTime": "2024-03-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/roma-vs-brighton-hove-albion/2y8gp1#4430802",
+    "id": "4430802",
+    "home": {
+      "name": "Brighton & Hove Albion",
+      "shortName": "Brighton",
+      "id": "10204"
+    },
+    "away": {
+      "name": "Roma",
+      "shortName": "Roma",
+      "id": "8686"
+    },
+    "status": {
+      "utcTime": "2024-03-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/liverpool-vs-sparta-prague/2ybapv#4430797",
+    "id": "4430797",
+    "home": {
+      "name": "Liverpool",
+      "shortName": "Liverpool",
+      "id": "8650"
+    },
+    "away": {
+      "name": "Sparta Prague",
+      "shortName": "Sparta Prague",
+      "id": "10247"
+    },
+    "status": {
+      "utcTime": "2024-03-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "6 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/milan-vs-roma/2gl9pd#4446401",
+    "id": "4446401",
+    "home": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "away": {
+      "name": "Roma",
+      "shortName": "Roma",
+      "id": "8686"
+    },
+    "status": {
+      "utcTime": "2024-04-11T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/bayer-leverkusen-vs-west-ham-united/2ccl9q#4446405",
+    "id": "4446405",
+    "home": {
+      "name": "Bayer Leverkusen",
+      "shortName": "Leverkusen",
+      "id": "8178"
+    },
+    "away": {
+      "name": "West Ham United",
+      "shortName": "West Ham",
+      "id": "8654"
+    },
+    "status": {
+      "utcTime": "2024-04-11T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/marseille-vs-benfica/2sehaq#4446407",
+    "id": "4446407",
+    "home": {
+      "name": "Benfica",
+      "shortName": "Benfica",
+      "id": "9772"
+    },
+    "away": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "status": {
+      "utcTime": "2024-04-11T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/atalanta-vs-liverpool/2ft8av#4446403",
+    "id": "4446403",
+    "home": {
+      "name": "Liverpool",
+      "shortName": "Liverpool",
+      "id": "8650"
+    },
+    "away": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "status": {
+      "utcTime": "2024-04-11T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/atalanta-vs-liverpool/2ft8av#4446404",
+    "id": "4446404",
+    "home": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "away": {
+      "name": "Liverpool",
+      "shortName": "Liverpool",
+      "id": "8650"
+    },
+    "status": {
+      "utcTime": "2024-04-18T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/marseille-vs-benfica/2sehaq#4446408",
+    "id": "4446408",
+    "home": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "away": {
+      "name": "Benfica",
+      "shortName": "Benfica",
+      "id": "9772"
+    },
+    "status": {
+      "utcTime": "2024-04-18T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "Pen",
+        "shortKey": "penalties_short",
+        "long": "After penalties",
+        "longKey": "afterpenalties"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/milan-vs-roma/2gl9pd#4446402",
+    "id": "4446402",
+    "home": {
+      "name": "Roma",
+      "shortName": "Roma",
+      "id": "8686"
+    },
+    "away": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "status": {
+      "utcTime": "2024-04-18T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/bayer-leverkusen-vs-west-ham-united/2ccl9q#4446406",
+    "id": "4446406",
+    "home": {
+      "name": "West Ham United",
+      "shortName": "West Ham",
+      "id": "8654"
+    },
+    "away": {
+      "name": "Bayer Leverkusen",
+      "shortName": "Leverkusen",
+      "id": "8178"
+    },
+    "status": {
+      "utcTime": "2024-04-18T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/2",
+    "roundName": "Semi-Finals",
+    "pageUrl": "/matches/atalanta-vs-marseille/2f7wxy#4446409",
+    "id": "4446409",
+    "home": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "away": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "status": {
+      "utcTime": "2024-05-02T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/2",
+    "roundName": "Semi-Finals",
+    "pageUrl": "/matches/bayer-leverkusen-vs-roma/2co5b2#4446411",
+    "id": "4446411",
+    "home": {
+      "name": "Roma",
+      "shortName": "Roma",
+      "id": "8686"
+    },
+    "away": {
+      "name": "Bayer Leverkusen",
+      "shortName": "Leverkusen",
+      "id": "8178"
+    },
+    "status": {
+      "utcTime": "2024-05-02T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/2",
+    "roundName": "Semi-Finals",
+    "pageUrl": "/matches/atalanta-vs-marseille/2f7wxy#4446410",
+    "id": "4446410",
+    "home": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "away": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "status": {
+      "utcTime": "2024-05-09T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/2",
+    "roundName": "Semi-Finals",
+    "pageUrl": "/matches/bayer-leverkusen-vs-roma/2co5b2#4446412",
+    "id": "4446412",
+    "home": {
+      "name": "Bayer Leverkusen",
+      "shortName": "Leverkusen",
+      "id": "8178"
+    },
+    "away": {
+      "name": "Roma",
+      "shortName": "Roma",
+      "id": "8686"
+    },
+    "status": {
+      "utcTime": "2024-05-09T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "final",
+    "roundName": "Final",
+    "pageUrl": "/matches/bayer-leverkusen-vs-atalanta/2b1v8t#4446413",
+    "id": "4446413",
+    "home": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "away": {
+      "name": "Bayer Leverkusen",
+      "shortName": "Leverkusen",
+      "id": "8178"
+    },
+    "status": {
+      "utcTime": "2024-05-22T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  }
+]

@@ -33,7 +33,10 @@ class FixtureTransformService:
         try:
             league_id = payload.get("league_id")
             season = payload.get("season", "unknown")
+            
             raw_fixtures = payload.get("fixtures", [])
+            trigger_reason = payload.get("trigger_reason")
+            crawled_at = payload.get("crawled_at")
 
             self.logger.info(
                 "Received %d raw matches for league_id=%s, season='%s'.",
@@ -47,6 +50,8 @@ class FixtureTransformService:
                 "season": season,
                 "fixtures": cleaned_fixtures,
                 "count": len(cleaned_fixtures),
+                "trigger_reason": trigger_reason,
+                "crawled_at": crawled_at,
             }
             partition_key = str(key or league_id)
 

@@ -39,11 +39,17 @@ class FixtureLoadService:
                 len(fixtures), league_id, season,
             )
 
+            trigger_reason = payload.get("trigger_reason")
+            crawled_at = payload.get("crawled_at")
+
             result = load_fixtures(
                 fixtures=fixtures,
                 league_id=int(league_id) if league_id is not None else 0,
                 season=season,
+                trigger_reason=trigger_reason,
+                crawled_at=crawled_at,
             )
+            
             self.logger.info(
                 "Successfully persisted %d matches to DB.", result.get("loaded_matches", 0)
             )

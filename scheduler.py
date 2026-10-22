@@ -76,6 +76,7 @@ def crawl_league(
     league: Dict[str, Any],
     season: str,
     dry_run: bool = False,
+    trigger_reason: Optional[str] = None
 ) -> Optional[List[Dict[str, Any]]]:
     """
     Crawl fixtures for a single league and optionally publish to Kafka.
@@ -95,6 +96,7 @@ def crawl_league(
 
     try:
         fixtures = extract_fixtures(league=league, season=season)
+        crawled_at = datetime.now(timezone.utc).isoformat()
         logger.info("  -> Fetched %d matches.", len(fixtures))
 
         if not dry_run:
@@ -102,6 +104,8 @@ def crawl_league(
                 league_id=int(league_id),
                 season=season,
                 fixtures=fixtures,
+                trigger_reason=trigger_reason,
+                crawled_at=crawled_at,
             )
             logger.info("  -> Published to Kafka topic '%s'.", config.TOPIC_RAW_FIXTURES)
         else:
@@ -165,9 +169,9 @@ def main() -> None:
             logger.error("No league found with ID=%d in config.", args.league)
             raise SystemExit(1)
 
-    logger.info("Processing %d league(s)...", len(leagues))
-
+    logger.info("Processing %d league(s)...", len(leagues))    
     latest_success: Dict[int, Any] = {}
+    
     if args.only_due:
         latest_success = fetch_latest_success(args.season)
 
@@ -178,6 +182,8 @@ def main() -> None:
         league_id = league_id_of(league)
         league_name = league.get("name", f"League {league_id}")
 
+        trigger_reason = "manual"
+
         if args.only_due:
             last_at, next_at = latest_success.get(int(league_id), (None, None))
             reason = due_reason(last_at, next_at, datetime.now(timezone.utc))
@@ -185,14 +191,15 @@ def main() -> None:
                 logger.info("Skip [%s]: not due yet.", league_name)
                 results["skipped"] += 1
                 continue
+            trigger_reason = reason
             logger.info("[%s] is due: %s", league_name, reason)
 
         if crawled_any:
             time.sleep(args.delay)
         crawled_any = True
 
-        fixtures = crawl_league(league=league, season=args.season, dry_run=args.dry_run)
-
+        fixtures = crawl_league(league=league, season=args.season, dry_run=args.dry_run,
+                                trigger_reason=trigger_reason)
         if fixtures is None:
             results["failed"] += 1
             continue

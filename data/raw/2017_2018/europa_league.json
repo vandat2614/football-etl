@@ -1,0 +1,6501 @@
+[
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/apollon-limassol-vs-lyon/2lt7yg#2621504",
+    "id": "2621504",
+    "home": {
+      "name": "Apollon Limassol",
+      "shortName": "Apollon Limassol",
+      "id": "8003"
+    },
+    "away": {
+      "name": "Lyon",
+      "shortName": "Lyon",
+      "id": "9748"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2017-09-14T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/atalanta-vs-everton/2fzuz4#2621503",
+    "id": "2621503",
+    "home": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "away": {
+      "name": "Everton",
+      "shortName": "Everton",
+      "id": "8668"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2017-09-14T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/milan-vs-austria-wien/2upzfw#2621491",
+    "id": "2621491",
+    "home": {
+      "name": "Austria Wien",
+      "shortName": "Austria Wien",
+      "id": "10011"
+    },
+    "away": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2017-09-14T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 5",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/dynamo-kyiv-vs-skenderbeu/2wccdd#2621467",
+    "id": "2621467",
+    "home": {
+      "name": "Dynamo Kyiv",
+      "shortName": "Dynamo Kyiv",
+      "id": "8688"
+    },
+    "away": {
+      "name": "Skënderbeu",
+      "shortName": "Skënderbeu",
+      "id": "10033"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2017-09-14T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/fc-kobenhavn-vs-lokomotiv-moscow/2f2f0h#2621516",
+    "id": "2621516",
+    "home": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "away": {
+      "name": "Lokomotiv Moscow",
+      "shortName": "Lokomotiv",
+      "id": "8710"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2017-09-14T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/fc-zlin-vs-fc-sheriff/13zn5c#2621515",
+    "id": "2621515",
+    "home": {
+      "name": "FC Zlín",
+      "shortName": "FC Zlín",
+      "id": "1860"
+    },
+    "away": {
+      "name": "FC Sheriff",
+      "shortName": "FC Sheriff",
+      "id": "9729"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2017-09-14T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/hoffenheim-vs-braga/2ts7o1#2621479",
+    "id": "2621479",
+    "home": {
+      "name": "Hoffenheim",
+      "shortName": "Hoffenheim",
+      "id": "8226"
+    },
+    "away": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2017-09-14T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/basaksehir-vs-ludogorets-razgrad/ac0ti0k#2621480",
+    "id": "2621480",
+    "home": {
+      "name": "Başakşehir",
+      "shortName": "Başakşehir",
+      "id": "1933"
+    },
+    "away": {
+      "name": "Ludogorets Razgrad",
+      "shortName": "Ludogorets Razgrad",
+      "id": "210173"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2017-09-14T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/aek-athens-vs-rijeka/2wdy2a#2621492",
+    "id": "2621492",
+    "home": {
+      "name": "Rijeka",
+      "shortName": "Rijeka",
+      "id": "10162"
+    },
+    "away": {
+      "name": "AEK Athens",
+      "shortName": "AEK Athens",
+      "id": "8563"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2017-09-14T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/slavia-prague-vs-maccabi-tel-aviv/20uf7y#2621456",
+    "id": "2621456",
+    "home": {
+      "name": "Slavia Prague",
+      "shortName": "Slavia Prague",
+      "id": "7787"
+    },
+    "away": {
+      "name": "Maccabi Tel Aviv",
+      "shortName": "Maccabi Tel Aviv",
+      "id": "7855"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2017-09-14T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/villarreal-vs-fc-astana/779rop6#2621455",
+    "id": "2621455",
+    "home": {
+      "name": "Villarreal",
+      "shortName": "Villarreal",
+      "id": "10205"
+    },
+    "away": {
+      "name": "FC Astana",
+      "shortName": "FC Astana",
+      "id": "166865"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2017-09-14T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/partizan-beograd-vs-young-boys/2qia07#2621468",
+    "id": "2621468",
+    "home": {
+      "name": "Young Boys",
+      "shortName": "Young Boys",
+      "id": "10192"
+    },
+    "away": {
+      "name": "Partizan Beograd",
+      "shortName": "Partizan Beograd",
+      "id": "7998"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2017-09-14T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/viktoria-plzen-vs-fcsb/21wtmx#2621528",
+    "id": "2621528",
+    "home": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "away": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2017-09-14T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/fk-crvena-zvezda-vs-bate-borisov/2wnzm8#2621539",
+    "id": "2621539",
+    "home": {
+      "name": "FK Crvena Zvezda",
+      "shortName": "FK Crvena Zvezda",
+      "id": "8687"
+    },
+    "away": {
+      "name": "BATE Borisov",
+      "shortName": "BATE Borisov",
+      "id": "10063"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2017-09-14T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/fk-vardar-skopje-vs-zenit-st-petersburg/2bf4r4#2621587",
+    "id": "2621587",
+    "home": {
+      "name": "FK Vardar Skopje",
+      "shortName": "FK Vardar Skopje",
+      "id": "8041"
+    },
+    "away": {
+      "name": "Zenit St. Petersburg",
+      "shortName": "Zenit",
+      "id": "8698"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2017-09-14T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 5",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/lugano-vs-hapoel-beer-sheva/2kqwhh#2621527",
+    "id": "2621527",
+    "home": {
+      "name": "Hapoel Beer Sheva",
+      "shortName": "Hapoel Beer Sheva",
+      "id": "9754"
+    },
+    "away": {
+      "name": "Lugano",
+      "shortName": "Lugano",
+      "id": "7896"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2017-09-14T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/hertha-bsc-vs-athletic-club/28z5o9#2621564",
+    "id": "2621564",
+    "home": {
+      "name": "Hertha BSC",
+      "shortName": "Hertha BSC",
+      "id": "8177"
+    },
+    "away": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2017-09-14T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/marseille-vs-konyaspor/2g7yz3#2621551",
+    "id": "2621551",
+    "home": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "away": {
+      "name": "Konyaspor",
+      "shortName": "Konyaspor",
+      "id": "8622"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2017-09-14T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/rosenborg-vs-real-sociedad/2duy31#2621588",
+    "id": "2621588",
+    "home": {
+      "name": "Real Sociedad",
+      "shortName": "Real Sociedad",
+      "id": "8560"
+    },
+    "away": {
+      "name": "Rosenborg",
+      "shortName": "Rosenborg",
+      "id": "8422"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2017-09-14T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/vitesse-vs-lazio/2c89dt#2621576",
+    "id": "2621576",
+    "home": {
+      "name": "Vitesse",
+      "shortName": "Vitesse",
+      "id": "8277"
+    },
+    "away": {
+      "name": "Lazio",
+      "shortName": "Lazio",
+      "id": "8543"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2017-09-14T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/vitoria-de-guimaraes-vs-salzburg/2mxmpx#2621552",
+    "id": "2621552",
+    "home": {
+      "name": "Vitória de Guimarães",
+      "shortName": "Vitória de Guimarães",
+      "id": "7844"
+    },
+    "away": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2017-09-14T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/ostersunds-fk-vs-zorya/sg1w3#2621563",
+    "id": "2621563",
+    "home": {
+      "name": "Zorya",
+      "shortName": "Zorya",
+      "id": "7770"
+    },
+    "away": {
+      "name": "Östersunds FK",
+      "shortName": "Östersunds FK",
+      "id": "2004"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2017-09-14T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/nice-vs-zulte-waregem/392z7v#2621575",
+    "id": "2621575",
+    "home": {
+      "name": "Zulte Waregem",
+      "shortName": "Zulte Waregem",
+      "id": "10000"
+    },
+    "away": {
+      "name": "Nice",
+      "shortName": "Nice",
+      "id": "9831"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2017-09-14T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 5",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/1-fc-koln-vs-arsenal/2ueve7#2621540",
+    "id": "2621540",
+    "home": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "away": {
+      "name": "1. FC Köln",
+      "shortName": "Köln",
+      "id": "8722"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2017-09-14T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/slavia-prague-vs-fc-astana/708i1zl#2621458",
+    "id": "2621458",
+    "home": {
+      "name": "FC Astana",
+      "shortName": "FC Astana",
+      "id": "166865"
+    },
+    "away": {
+      "name": "Slavia Prague",
+      "shortName": "Slavia Prague",
+      "id": "7787"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2017-09-28T15:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/zorya-vs-athletic-club/251282#2621565",
+    "id": "2621565",
+    "home": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "away": {
+      "name": "Zorya",
+      "shortName": "Zorya",
+      "id": "7770"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2017-09-28T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/arsenal-vs-bate-borisov/39r8op#2621541",
+    "id": "2621541",
+    "home": {
+      "name": "BATE Borisov",
+      "shortName": "BATE Borisov",
+      "id": "10063"
+    },
+    "away": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2017-09-28T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 4",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/fk-crvena-zvezda-vs-1-fc-koln/2i8bv7#2621542",
+    "id": "2621542",
+    "home": {
+      "name": "1. FC Köln",
+      "shortName": "Köln",
+      "id": "8722"
+    },
+    "away": {
+      "name": "FK Crvena Zvezda",
+      "shortName": "FK Crvena Zvezda",
+      "id": "8687"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2017-09-28T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/vitoria-de-guimaraes-vs-konyaspor/28pzax#2621553",
+    "id": "2621553",
+    "home": {
+      "name": "Konyaspor",
+      "shortName": "Konyaspor",
+      "id": "8622"
+    },
+    "away": {
+      "name": "Vitória de Guimarães",
+      "shortName": "Vitória de Guimarães",
+      "id": "7844"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2017-09-28T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/lazio-vs-zulte-waregem/2ud95z#2621577",
+    "id": "2621577",
+    "home": {
+      "name": "Lazio",
+      "shortName": "Lazio",
+      "id": "8543"
+    },
+    "away": {
+      "name": "Zulte Waregem",
+      "shortName": "Zulte Waregem",
+      "id": "10000"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2017-09-28T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/lugano-vs-fcsb/2kf6mx#2621529",
+    "id": "2621529",
+    "home": {
+      "name": "Lugano",
+      "shortName": "Lugano",
+      "id": "7896"
+    },
+    "away": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2017-09-28T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/vitesse-vs-nice/2pmf2l#2621578",
+    "id": "2621578",
+    "home": {
+      "name": "Nice",
+      "shortName": "Nice",
+      "id": "9831"
+    },
+    "away": {
+      "name": "Vitesse",
+      "shortName": "Vitesse",
+      "id": "8277"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2017-09-28T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/ostersunds-fk-vs-hertha-bsc/uv3q8#2621566",
+    "id": "2621566",
+    "home": {
+      "name": "Östersunds FK",
+      "shortName": "Östersunds FK",
+      "id": "2004"
+    },
+    "away": {
+      "name": "Hertha BSC",
+      "shortName": "Hertha BSC",
+      "id": "8177"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2017-09-28T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/fk-vardar-skopje-vs-rosenborg/28ox1a#2621589",
+    "id": "2621589",
+    "home": {
+      "name": "Rosenborg",
+      "shortName": "Rosenborg",
+      "id": "8422"
+    },
+    "away": {
+      "name": "FK Vardar Skopje",
+      "shortName": "FK Vardar Skopje",
+      "id": "8041"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2017-09-28T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/marseille-vs-salzburg/2v1xsr#2621554",
+    "id": "2621554",
+    "home": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "away": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2017-09-28T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/viktoria-plzen-vs-hapoel-beer-sheva/227ax8#2621530",
+    "id": "2621530",
+    "home": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "away": {
+      "name": "Hapoel Beer Sheva",
+      "shortName": "Hapoel Beer Sheva",
+      "id": "9754"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2017-09-28T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/real-sociedad-vs-zenit-st-petersburg/2go881#2621590",
+    "id": "2621590",
+    "home": {
+      "name": "Zenit St. Petersburg",
+      "shortName": "Zenit",
+      "id": "8698"
+    },
+    "away": {
+      "name": "Real Sociedad",
+      "shortName": "Real Sociedad",
+      "id": "8560"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2017-09-28T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/milan-vs-rijeka/2wecih#2621494",
+    "id": "2621494",
+    "home": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "away": {
+      "name": "Rijeka",
+      "shortName": "Rijeka",
+      "id": "10162"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2017-09-28T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/aek-athens-vs-austria-wien/2upl3w#2621493",
+    "id": "2621493",
+    "home": {
+      "name": "AEK Athens",
+      "shortName": "AEK Athens",
+      "id": "8563"
+    },
+    "away": {
+      "name": "Austria Wien",
+      "shortName": "Austria Wien",
+      "id": "10011"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2017-09-28T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/basaksehir-vs-braga/18agss#2621482",
+    "id": "2621482",
+    "home": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "away": {
+      "name": "Başakşehir",
+      "shortName": "Başakşehir",
+      "id": "1933"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2017-09-28T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/apollon-limassol-vs-everton/2aqs7g#2621506",
+    "id": "2621506",
+    "home": {
+      "name": "Everton",
+      "shortName": "Everton",
+      "id": "8668"
+    },
+    "away": {
+      "name": "Apollon Limassol",
+      "shortName": "Apollon Limassol",
+      "id": "8003"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2017-09-28T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/fc-kobenhavn-vs-fc-sheriff/2pr2px#2621518",
+    "id": "2621518",
+    "home": {
+      "name": "FC Sheriff",
+      "shortName": "FC Sheriff",
+      "id": "9729"
+    },
+    "away": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2017-09-28T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/fc-zlin-vs-lokomotiv-moscow/x9mjh#2621517",
+    "id": "2621517",
+    "home": {
+      "name": "Lokomotiv Moscow",
+      "shortName": "Lokomotiv",
+      "id": "8710"
+    },
+    "away": {
+      "name": "FC Zlín",
+      "shortName": "FC Zlín",
+      "id": "1860"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2017-09-28T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/hoffenheim-vs-ludogorets-razgrad/ayf6ob6#2621481",
+    "id": "2621481",
+    "home": {
+      "name": "Ludogorets Razgrad",
+      "shortName": "Ludogorets Razgrad",
+      "id": "210173"
+    },
+    "away": {
+      "name": "Hoffenheim",
+      "shortName": "Hoffenheim",
+      "id": "8226"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2017-09-28T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/atalanta-vs-lyon/2recw4#2621505",
+    "id": "2621505",
+    "home": {
+      "name": "Lyon",
+      "shortName": "Lyon",
+      "id": "9748"
+    },
+    "away": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2017-09-28T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/maccabi-tel-aviv-vs-villarreal/2p3rr1#2621457",
+    "id": "2621457",
+    "home": {
+      "name": "Maccabi Tel Aviv",
+      "shortName": "Maccabi Tel Aviv",
+      "id": "7855"
+    },
+    "away": {
+      "name": "Villarreal",
+      "shortName": "Villarreal",
+      "id": "10205"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2017-09-28T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/partizan-beograd-vs-dynamo-kyiv/2aw59l#2621469",
+    "id": "2621469",
+    "home": {
+      "name": "Partizan Beograd",
+      "shortName": "Partizan Beograd",
+      "id": "7998"
+    },
+    "away": {
+      "name": "Dynamo Kyiv",
+      "shortName": "Dynamo Kyiv",
+      "id": "8688"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2017-09-28T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/skenderbeu-vs-young-boys/3ds4ep#2621470",
+    "id": "2621470",
+    "home": {
+      "name": "Skënderbeu",
+      "shortName": "Skënderbeu",
+      "id": "10033"
+    },
+    "away": {
+      "name": "Young Boys",
+      "shortName": "Young Boys",
+      "id": "10192"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2017-09-28T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/maccabi-tel-aviv-vs-fc-astana/70fknov#2621459",
+    "id": "2621459",
+    "home": {
+      "name": "FC Astana",
+      "shortName": "FC Astana",
+      "id": "166865"
+    },
+    "away": {
+      "name": "Maccabi Tel Aviv",
+      "shortName": "Maccabi Tel Aviv",
+      "id": "7855"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2017-10-19T15:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/1-fc-koln-vs-bate-borisov/2x22hv#2621543",
+    "id": "2621543",
+    "home": {
+      "name": "BATE Borisov",
+      "shortName": "BATE Borisov",
+      "id": "10063"
+    },
+    "away": {
+      "name": "1. FC Köln",
+      "shortName": "Köln",
+      "id": "8722"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2017-10-19T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/fk-crvena-zvezda-vs-arsenal/2u0yyx#2621544",
+    "id": "2621544",
+    "home": {
+      "name": "FK Crvena Zvezda",
+      "shortName": "FK Crvena Zvezda",
+      "id": "8687"
+    },
+    "away": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2017-10-19T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/fk-vardar-skopje-vs-real-sociedad/2a1tjp#2621592",
+    "id": "2621592",
+    "home": {
+      "name": "FK Vardar Skopje",
+      "shortName": "FK Vardar Skopje",
+      "id": "8041"
+    },
+    "away": {
+      "name": "Real Sociedad",
+      "shortName": "Real Sociedad",
+      "id": "8560"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2017-10-19T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 6",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/fcsb-vs-hapoel-beer-sheva/34xukh#2621532",
+    "id": "2621532",
+    "home": {
+      "name": "Hapoel Beer Sheva",
+      "shortName": "Hapoel Beer Sheva",
+      "id": "9754"
+    },
+    "away": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2017-10-19T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/konyaspor-vs-salzburg/2vdwuo#2621555",
+    "id": "2621555",
+    "home": {
+      "name": "Konyaspor",
+      "shortName": "Konyaspor",
+      "id": "8622"
+    },
+    "away": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2017-10-19T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/viktoria-plzen-vs-lugano/1lrjpx#2621531",
+    "id": "2621531",
+    "home": {
+      "name": "Lugano",
+      "shortName": "Lugano",
+      "id": "7896"
+    },
+    "away": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2017-10-19T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/vitoria-de-guimaraes-vs-marseille/28fegi#2621556",
+    "id": "2621556",
+    "home": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "away": {
+      "name": "Vitória de Guimarães",
+      "shortName": "Vitória de Guimarães",
+      "id": "7844"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2017-10-19T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/lazio-vs-nice/2sif30#2621579",
+    "id": "2621579",
+    "home": {
+      "name": "Nice",
+      "shortName": "Nice",
+      "id": "9831"
+    },
+    "away": {
+      "name": "Lazio",
+      "shortName": "Lazio",
+      "id": "8543"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2017-10-19T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/ostersunds-fk-vs-athletic-club/vpfbn#2621567",
+    "id": "2621567",
+    "home": {
+      "name": "Östersunds FK",
+      "shortName": "Östersunds FK",
+      "id": "2004"
+    },
+    "away": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2017-10-19T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/rosenborg-vs-zenit-st-petersburg/2f9duy#2621591",
+    "id": "2621591",
+    "home": {
+      "name": "Zenit St. Petersburg",
+      "shortName": "Zenit",
+      "id": "8698"
+    },
+    "away": {
+      "name": "Rosenborg",
+      "shortName": "Rosenborg",
+      "id": "8422"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2017-10-19T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/zorya-vs-hertha-bsc/23ponn#2621568",
+    "id": "2621568",
+    "home": {
+      "name": "Zorya",
+      "shortName": "Zorya",
+      "id": "7770"
+    },
+    "away": {
+      "name": "Hertha BSC",
+      "shortName": "Hertha BSC",
+      "id": "8177"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2017-10-19T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/vitesse-vs-zulte-waregem/2rga9g#2621580",
+    "id": "2621580",
+    "home": {
+      "name": "Zulte Waregem",
+      "shortName": "Zulte Waregem",
+      "id": "10000"
+    },
+    "away": {
+      "name": "Vitesse",
+      "shortName": "Vitesse",
+      "id": "8277"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2017-10-19T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/aek-athens-vs-milan/2fby8w#2621495",
+    "id": "2621495",
+    "home": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "away": {
+      "name": "AEK Athens",
+      "shortName": "AEK Athens",
+      "id": "8563"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2017-10-19T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/apollon-limassol-vs-atalanta/29bjpg#2621508",
+    "id": "2621508",
+    "home": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "away": {
+      "name": "Apollon Limassol",
+      "shortName": "Apollon Limassol",
+      "id": "8003"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2017-10-19T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/austria-wien-vs-rijeka/3d5lwt#2621496",
+    "id": "2621496",
+    "home": {
+      "name": "Austria Wien",
+      "shortName": "Austria Wien",
+      "id": "10011"
+    },
+    "away": {
+      "name": "Rijeka",
+      "shortName": "Rijeka",
+      "id": "10162"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2017-10-19T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/braga-vs-ludogorets-razgrad/b5tjihw#2621483",
+    "id": "2621483",
+    "home": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "away": {
+      "name": "Ludogorets Razgrad",
+      "shortName": "Ludogorets Razgrad",
+      "id": "210173"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2017-10-19T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/dynamo-kyiv-vs-young-boys/2y4ez4#2621472",
+    "id": "2621472",
+    "home": {
+      "name": "Dynamo Kyiv",
+      "shortName": "Dynamo Kyiv",
+      "id": "8688"
+    },
+    "away": {
+      "name": "Young Boys",
+      "shortName": "Young Boys",
+      "id": "10192"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2017-10-19T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/everton-vs-lyon/2syz64#2621507",
+    "id": "2621507",
+    "home": {
+      "name": "Everton",
+      "shortName": "Everton",
+      "id": "8668"
+    },
+    "away": {
+      "name": "Lyon",
+      "shortName": "Lyon",
+      "id": "9748"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2017-10-19T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/lokomotiv-moscow-vs-fc-sheriff/2t8271#2621519",
+    "id": "2621519",
+    "home": {
+      "name": "FC Sheriff",
+      "shortName": "FC Sheriff",
+      "id": "9729"
+    },
+    "away": {
+      "name": "Lokomotiv Moscow",
+      "shortName": "Lokomotiv",
+      "id": "8710"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2017-10-19T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/fc-zlin-vs-fc-kobenhavn/vafpl#2621520",
+    "id": "2621520",
+    "home": {
+      "name": "FC Zlín",
+      "shortName": "FC Zlín",
+      "id": "1860"
+    },
+    "away": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2017-10-19T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/basaksehir-vs-hoffenheim/uqb4a#2621484",
+    "id": "2621484",
+    "home": {
+      "name": "Hoffenheim",
+      "shortName": "Hoffenheim",
+      "id": "8226"
+    },
+    "away": {
+      "name": "Başakşehir",
+      "shortName": "Başakşehir",
+      "id": "1933"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2017-10-19T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/partizan-beograd-vs-skenderbeu/2osk1y#2621471",
+    "id": "2621471",
+    "home": {
+      "name": "Skënderbeu",
+      "shortName": "Skënderbeu",
+      "id": "10033"
+    },
+    "away": {
+      "name": "Partizan Beograd",
+      "shortName": "Partizan Beograd",
+      "id": "7998"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2017-10-19T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/slavia-prague-vs-villarreal/2odhv3#2621460",
+    "id": "2621460",
+    "home": {
+      "name": "Villarreal",
+      "shortName": "Villarreal",
+      "id": "10205"
+    },
+    "away": {
+      "name": "Slavia Prague",
+      "shortName": "Slavia Prague",
+      "id": "7787"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2017-10-19T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/aek-athens-vs-milan/2fby8w#2621497",
+    "id": "2621497",
+    "home": {
+      "name": "AEK Athens",
+      "shortName": "AEK Athens",
+      "id": "8563"
+    },
+    "away": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2017-11-02T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/apollon-limassol-vs-atalanta/29bjpg#2621510",
+    "id": "2621510",
+    "home": {
+      "name": "Apollon Limassol",
+      "shortName": "Apollon Limassol",
+      "id": "8003"
+    },
+    "away": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2017-11-02T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/fc-zlin-vs-fc-kobenhavn/vafpl#2621522",
+    "id": "2621522",
+    "home": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "away": {
+      "name": "FC Zlín",
+      "shortName": "FC Zlín",
+      "id": "1860"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2017-11-02T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/basaksehir-vs-hoffenheim/uqb4a#2621486",
+    "id": "2621486",
+    "home": {
+      "name": "Başakşehir",
+      "shortName": "Başakşehir",
+      "id": "1933"
+    },
+    "away": {
+      "name": "Hoffenheim",
+      "shortName": "Hoffenheim",
+      "id": "8226"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2017-11-02T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/lokomotiv-moscow-vs-fc-sheriff/2t8271#2621521",
+    "id": "2621521",
+    "home": {
+      "name": "Lokomotiv Moscow",
+      "shortName": "Lokomotiv",
+      "id": "8710"
+    },
+    "away": {
+      "name": "FC Sheriff",
+      "shortName": "FC Sheriff",
+      "id": "9729"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2017-11-02T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/braga-vs-ludogorets-razgrad/b5tjihw#2621485",
+    "id": "2621485",
+    "home": {
+      "name": "Ludogorets Razgrad",
+      "shortName": "Ludogorets Razgrad",
+      "id": "210173"
+    },
+    "away": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2017-11-02T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/everton-vs-lyon/2syz64#2621509",
+    "id": "2621509",
+    "home": {
+      "name": "Lyon",
+      "shortName": "Lyon",
+      "id": "9748"
+    },
+    "away": {
+      "name": "Everton",
+      "shortName": "Everton",
+      "id": "8668"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2017-11-02T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/maccabi-tel-aviv-vs-fc-astana/70fknov#2621461",
+    "id": "2621461",
+    "home": {
+      "name": "Maccabi Tel Aviv",
+      "shortName": "Maccabi Tel Aviv",
+      "id": "7855"
+    },
+    "away": {
+      "name": "FC Astana",
+      "shortName": "FC Astana",
+      "id": "166865"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2017-11-02T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/partizan-beograd-vs-skenderbeu/2osk1y#2621473",
+    "id": "2621473",
+    "home": {
+      "name": "Partizan Beograd",
+      "shortName": "Partizan Beograd",
+      "id": "7998"
+    },
+    "away": {
+      "name": "Skënderbeu",
+      "shortName": "Skënderbeu",
+      "id": "10033"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2017-11-02T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/austria-wien-vs-rijeka/3d5lwt#2621498",
+    "id": "2621498",
+    "home": {
+      "name": "Rijeka",
+      "shortName": "Rijeka",
+      "id": "10162"
+    },
+    "away": {
+      "name": "Austria Wien",
+      "shortName": "Austria Wien",
+      "id": "10011"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2017-11-02T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 4",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/slavia-prague-vs-villarreal/2odhv3#2621462",
+    "id": "2621462",
+    "home": {
+      "name": "Slavia Prague",
+      "shortName": "Slavia Prague",
+      "id": "7787"
+    },
+    "away": {
+      "name": "Villarreal",
+      "shortName": "Villarreal",
+      "id": "10205"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2017-11-02T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/dynamo-kyiv-vs-young-boys/2y4ez4#2621474",
+    "id": "2621474",
+    "home": {
+      "name": "Young Boys",
+      "shortName": "Young Boys",
+      "id": "10192"
+    },
+    "away": {
+      "name": "Dynamo Kyiv",
+      "shortName": "Dynamo Kyiv",
+      "id": "8688"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2017-11-02T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/fk-crvena-zvezda-vs-arsenal/2u0yyx#2621545",
+    "id": "2621545",
+    "home": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "away": {
+      "name": "FK Crvena Zvezda",
+      "shortName": "FK Crvena Zvezda",
+      "id": "8687"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2017-11-02T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/ostersunds-fk-vs-athletic-club/vpfbn#2621569",
+    "id": "2621569",
+    "home": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "away": {
+      "name": "Östersunds FK",
+      "shortName": "Östersunds FK",
+      "id": "2004"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2017-11-02T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/fcsb-vs-hapoel-beer-sheva/34xukh#2621533",
+    "id": "2621533",
+    "home": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "away": {
+      "name": "Hapoel Beer Sheva",
+      "shortName": "Hapoel Beer Sheva",
+      "id": "9754"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2017-11-02T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/1-fc-koln-vs-bate-borisov/2x22hv#2621546",
+    "id": "2621546",
+    "home": {
+      "name": "1. FC Köln",
+      "shortName": "Köln",
+      "id": "8722"
+    },
+    "away": {
+      "name": "BATE Borisov",
+      "shortName": "BATE Borisov",
+      "id": "10063"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2017-11-02T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/zorya-vs-hertha-bsc/23ponn#2621570",
+    "id": "2621570",
+    "home": {
+      "name": "Hertha BSC",
+      "shortName": "Hertha BSC",
+      "id": "8177"
+    },
+    "away": {
+      "name": "Zorya",
+      "shortName": "Zorya",
+      "id": "7770"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2017-11-02T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/lazio-vs-nice/2sif30#2621581",
+    "id": "2621581",
+    "home": {
+      "name": "Lazio",
+      "shortName": "Lazio",
+      "id": "8543"
+    },
+    "away": {
+      "name": "Nice",
+      "shortName": "Nice",
+      "id": "9831"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2017-11-02T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/fk-vardar-skopje-vs-real-sociedad/2a1tjp#2621594",
+    "id": "2621594",
+    "home": {
+      "name": "Real Sociedad",
+      "shortName": "Real Sociedad",
+      "id": "8560"
+    },
+    "away": {
+      "name": "FK Vardar Skopje",
+      "shortName": "FK Vardar Skopje",
+      "id": "8041"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2017-11-02T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/rosenborg-vs-zenit-st-petersburg/2f9duy#2621593",
+    "id": "2621593",
+    "home": {
+      "name": "Rosenborg",
+      "shortName": "Rosenborg",
+      "id": "8422"
+    },
+    "away": {
+      "name": "Zenit St. Petersburg",
+      "shortName": "Zenit",
+      "id": "8698"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2017-11-02T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/konyaspor-vs-salzburg/2vdwuo#2621558",
+    "id": "2621558",
+    "home": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "away": {
+      "name": "Konyaspor",
+      "shortName": "Konyaspor",
+      "id": "8622"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2017-11-02T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/viktoria-plzen-vs-lugano/1lrjpx#2621534",
+    "id": "2621534",
+    "home": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "away": {
+      "name": "Lugano",
+      "shortName": "Lugano",
+      "id": "7896"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2017-11-02T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/vitesse-vs-zulte-waregem/2rga9g#2621582",
+    "id": "2621582",
+    "home": {
+      "name": "Vitesse",
+      "shortName": "Vitesse",
+      "id": "8277"
+    },
+    "away": {
+      "name": "Zulte Waregem",
+      "shortName": "Zulte Waregem",
+      "id": "10000"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2017-11-02T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/vitoria-de-guimaraes-vs-marseille/28fegi#2621557",
+    "id": "2621557",
+    "home": {
+      "name": "Vitória de Guimarães",
+      "shortName": "Vitória de Guimarães",
+      "id": "7844"
+    },
+    "away": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2017-11-02T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/villarreal-vs-fc-astana/779rop6#2621463",
+    "id": "2621463",
+    "home": {
+      "name": "FC Astana",
+      "shortName": "FC Astana",
+      "id": "166865"
+    },
+    "away": {
+      "name": "Villarreal",
+      "shortName": "Villarreal",
+      "id": "10205"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2017-11-23T16:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/hertha-bsc-vs-athletic-club/28z5o9#2621572",
+    "id": "2621572",
+    "home": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "away": {
+      "name": "Hertha BSC",
+      "shortName": "Hertha BSC",
+      "id": "8177"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2017-11-23T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/fk-crvena-zvezda-vs-bate-borisov/2wnzm8#2621547",
+    "id": "2621547",
+    "home": {
+      "name": "BATE Borisov",
+      "shortName": "BATE Borisov",
+      "id": "10063"
+    },
+    "away": {
+      "name": "FK Crvena Zvezda",
+      "shortName": "FK Crvena Zvezda",
+      "id": "8687"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2017-11-23T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/1-fc-koln-vs-arsenal/2ueve7#2621548",
+    "id": "2621548",
+    "home": {
+      "name": "1. FC Köln",
+      "shortName": "Köln",
+      "id": "8722"
+    },
+    "away": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2017-11-23T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/marseille-vs-konyaspor/2g7yz3#2621559",
+    "id": "2621559",
+    "home": {
+      "name": "Konyaspor",
+      "shortName": "Konyaspor",
+      "id": "8622"
+    },
+    "away": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2017-11-23T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/vitesse-vs-lazio/2c89dt#2621584",
+    "id": "2621584",
+    "home": {
+      "name": "Lazio",
+      "shortName": "Lazio",
+      "id": "8543"
+    },
+    "away": {
+      "name": "Vitesse",
+      "shortName": "Vitesse",
+      "id": "8277"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2017-11-23T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/fc-kobenhavn-vs-lokomotiv-moscow/2f2f0h#2621524",
+    "id": "2621524",
+    "home": {
+      "name": "Lokomotiv Moscow",
+      "shortName": "Lokomotiv",
+      "id": "8710"
+    },
+    "away": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2017-11-23T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/lugano-vs-hapoel-beer-sheva/2kqwhh#2621535",
+    "id": "2621535",
+    "home": {
+      "name": "Lugano",
+      "shortName": "Lugano",
+      "id": "7896"
+    },
+    "away": {
+      "name": "Hapoel Beer Sheva",
+      "shortName": "Hapoel Beer Sheva",
+      "id": "9754"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2017-11-23T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/nice-vs-zulte-waregem/392z7v#2621583",
+    "id": "2621583",
+    "home": {
+      "name": "Nice",
+      "shortName": "Nice",
+      "id": "9831"
+    },
+    "away": {
+      "name": "Zulte Waregem",
+      "shortName": "Zulte Waregem",
+      "id": "10000"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2017-11-23T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/ostersunds-fk-vs-zorya/sg1w3#2621571",
+    "id": "2621571",
+    "home": {
+      "name": "Östersunds FK",
+      "shortName": "Östersunds FK",
+      "id": "2004"
+    },
+    "away": {
+      "name": "Zorya",
+      "shortName": "Zorya",
+      "id": "7770"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2017-11-23T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/rosenborg-vs-real-sociedad/2duy31#2621596",
+    "id": "2621596",
+    "home": {
+      "name": "Rosenborg",
+      "shortName": "Rosenborg",
+      "id": "8422"
+    },
+    "away": {
+      "name": "Real Sociedad",
+      "shortName": "Real Sociedad",
+      "id": "8560"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2017-11-23T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/vitoria-de-guimaraes-vs-salzburg/2mxmpx#2621560",
+    "id": "2621560",
+    "home": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "away": {
+      "name": "Vitória de Guimarães",
+      "shortName": "Vitória de Guimarães",
+      "id": "7844"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2017-11-23T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/viktoria-plzen-vs-fcsb/21wtmx#2621536",
+    "id": "2621536",
+    "home": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "away": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2017-11-23T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/fk-vardar-skopje-vs-zenit-st-petersburg/2bf4r4#2621595",
+    "id": "2621595",
+    "home": {
+      "name": "Zenit St. Petersburg",
+      "shortName": "Zenit",
+      "id": "8698"
+    },
+    "away": {
+      "name": "FK Vardar Skopje",
+      "shortName": "FK Vardar Skopje",
+      "id": "8041"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2017-11-23T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/milan-vs-austria-wien/2upzfw#2621499",
+    "id": "2621499",
+    "home": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "away": {
+      "name": "Austria Wien",
+      "shortName": "Austria Wien",
+      "id": "10011"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2017-11-23T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/aek-athens-vs-rijeka/2wdy2a#2621500",
+    "id": "2621500",
+    "home": {
+      "name": "AEK Athens",
+      "shortName": "AEK Athens",
+      "id": "8563"
+    },
+    "away": {
+      "name": "Rijeka",
+      "shortName": "Rijeka",
+      "id": "10162"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2017-11-23T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/hoffenheim-vs-braga/2ts7o1#2621487",
+    "id": "2621487",
+    "home": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "away": {
+      "name": "Hoffenheim",
+      "shortName": "Hoffenheim",
+      "id": "8226"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2017-11-23T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/atalanta-vs-everton/2fzuz4#2621511",
+    "id": "2621511",
+    "home": {
+      "name": "Everton",
+      "shortName": "Everton",
+      "id": "8668"
+    },
+    "away": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2017-11-23T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 5",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/fc-zlin-vs-fc-sheriff/13zn5c#2621523",
+    "id": "2621523",
+    "home": {
+      "name": "FC Sheriff",
+      "shortName": "FC Sheriff",
+      "id": "9729"
+    },
+    "away": {
+      "name": "FC Zlín",
+      "shortName": "FC Zlín",
+      "id": "1860"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2017-11-23T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/basaksehir-vs-ludogorets-razgrad/ac0ti0k#2621488",
+    "id": "2621488",
+    "home": {
+      "name": "Ludogorets Razgrad",
+      "shortName": "Ludogorets Razgrad",
+      "id": "210173"
+    },
+    "away": {
+      "name": "Başakşehir",
+      "shortName": "Başakşehir",
+      "id": "1933"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2017-11-23T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/apollon-limassol-vs-lyon/2lt7yg#2621512",
+    "id": "2621512",
+    "home": {
+      "name": "Lyon",
+      "shortName": "Lyon",
+      "id": "9748"
+    },
+    "away": {
+      "name": "Apollon Limassol",
+      "shortName": "Apollon Limassol",
+      "id": "8003"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2017-11-23T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/slavia-prague-vs-maccabi-tel-aviv/20uf7y#2621464",
+    "id": "2621464",
+    "home": {
+      "name": "Maccabi Tel Aviv",
+      "shortName": "Maccabi Tel Aviv",
+      "id": "7855"
+    },
+    "away": {
+      "name": "Slavia Prague",
+      "shortName": "Slavia Prague",
+      "id": "7787"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2017-11-23T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/partizan-beograd-vs-young-boys/2qia07#2621476",
+    "id": "2621476",
+    "home": {
+      "name": "Partizan Beograd",
+      "shortName": "Partizan Beograd",
+      "id": "7998"
+    },
+    "away": {
+      "name": "Young Boys",
+      "shortName": "Young Boys",
+      "id": "10192"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2017-11-23T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/dynamo-kyiv-vs-skenderbeu/2wccdd#2621475",
+    "id": "2621475",
+    "home": {
+      "name": "Skënderbeu",
+      "shortName": "Skënderbeu",
+      "id": "10033"
+    },
+    "away": {
+      "name": "Dynamo Kyiv",
+      "shortName": "Dynamo Kyiv",
+      "id": "8688"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2017-11-23T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/apollon-limassol-vs-everton/2aqs7g#2621514",
+    "id": "2621514",
+    "home": {
+      "name": "Apollon Limassol",
+      "shortName": "Apollon Limassol",
+      "id": "8003"
+    },
+    "away": {
+      "name": "Everton",
+      "shortName": "Everton",
+      "id": "8668"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2017-12-07T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/atalanta-vs-lyon/2recw4#2621513",
+    "id": "2621513",
+    "home": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "away": {
+      "name": "Lyon",
+      "shortName": "Lyon",
+      "id": "9748"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2017-12-07T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/aek-athens-vs-austria-wien/2upl3w#2621501",
+    "id": "2621501",
+    "home": {
+      "name": "Austria Wien",
+      "shortName": "Austria Wien",
+      "id": "10011"
+    },
+    "away": {
+      "name": "AEK Athens",
+      "shortName": "AEK Athens",
+      "id": "8563"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2017-12-07T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/partizan-beograd-vs-dynamo-kyiv/2aw59l#2621477",
+    "id": "2621477",
+    "home": {
+      "name": "Dynamo Kyiv",
+      "shortName": "Dynamo Kyiv",
+      "id": "8688"
+    },
+    "away": {
+      "name": "Partizan Beograd",
+      "shortName": "Partizan Beograd",
+      "id": "7998"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2017-12-07T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/fc-kobenhavn-vs-fc-sheriff/2pr2px#2621526",
+    "id": "2621526",
+    "home": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "away": {
+      "name": "FC Sheriff",
+      "shortName": "FC Sheriff",
+      "id": "9729"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2017-12-07T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/fc-zlin-vs-lokomotiv-moscow/x9mjh#2621525",
+    "id": "2621525",
+    "home": {
+      "name": "FC Zlín",
+      "shortName": "FC Zlín",
+      "id": "1860"
+    },
+    "away": {
+      "name": "Lokomotiv Moscow",
+      "shortName": "Lokomotiv",
+      "id": "8710"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2017-12-07T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/hoffenheim-vs-ludogorets-razgrad/ayf6ob6#2621489",
+    "id": "2621489",
+    "home": {
+      "name": "Hoffenheim",
+      "shortName": "Hoffenheim",
+      "id": "8226"
+    },
+    "away": {
+      "name": "Ludogorets Razgrad",
+      "shortName": "Ludogorets Razgrad",
+      "id": "210173"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2017-12-07T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/basaksehir-vs-braga/18agss#2621490",
+    "id": "2621490",
+    "home": {
+      "name": "Başakşehir",
+      "shortName": "Başakşehir",
+      "id": "1933"
+    },
+    "away": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2017-12-07T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/milan-vs-rijeka/2wecih#2621502",
+    "id": "2621502",
+    "home": {
+      "name": "Rijeka",
+      "shortName": "Rijeka",
+      "id": "10162"
+    },
+    "away": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2017-12-07T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/slavia-prague-vs-fc-astana/708i1zl#2621466",
+    "id": "2621466",
+    "home": {
+      "name": "Slavia Prague",
+      "shortName": "Slavia Prague",
+      "id": "7787"
+    },
+    "away": {
+      "name": "FC Astana",
+      "shortName": "FC Astana",
+      "id": "166865"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2017-12-07T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/maccabi-tel-aviv-vs-villarreal/2p3rr1#2621465",
+    "id": "2621465",
+    "home": {
+      "name": "Villarreal",
+      "shortName": "Villarreal",
+      "id": "10205"
+    },
+    "away": {
+      "name": "Maccabi Tel Aviv",
+      "shortName": "Maccabi Tel Aviv",
+      "id": "7855"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2017-12-07T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/skenderbeu-vs-young-boys/3ds4ep#2621478",
+    "id": "2621478",
+    "home": {
+      "name": "Young Boys",
+      "shortName": "Young Boys",
+      "id": "10192"
+    },
+    "away": {
+      "name": "Skënderbeu",
+      "shortName": "Skënderbeu",
+      "id": "10033"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2017-12-07T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/arsenal-vs-bate-borisov/39r8op#2621549",
+    "id": "2621549",
+    "home": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "away": {
+      "name": "BATE Borisov",
+      "shortName": "BATE Borisov",
+      "id": "10063"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2017-12-07T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "6 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/lugano-vs-fcsb/2kf6mx#2621538",
+    "id": "2621538",
+    "home": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "away": {
+      "name": "Lugano",
+      "shortName": "Lugano",
+      "id": "7896"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2017-12-07T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/fk-crvena-zvezda-vs-1-fc-koln/2i8bv7#2621550",
+    "id": "2621550",
+    "home": {
+      "name": "FK Crvena Zvezda",
+      "shortName": "FK Crvena Zvezda",
+      "id": "8687"
+    },
+    "away": {
+      "name": "1. FC Köln",
+      "shortName": "Köln",
+      "id": "8722"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2017-12-07T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/fk-vardar-skopje-vs-rosenborg/28ox1a#2621597",
+    "id": "2621597",
+    "home": {
+      "name": "FK Vardar Skopje",
+      "shortName": "FK Vardar Skopje",
+      "id": "8041"
+    },
+    "away": {
+      "name": "Rosenborg",
+      "shortName": "Rosenborg",
+      "id": "8422"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2017-12-07T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/viktoria-plzen-vs-hapoel-beer-sheva/227ax8#2621537",
+    "id": "2621537",
+    "home": {
+      "name": "Hapoel Beer Sheva",
+      "shortName": "Hapoel Beer Sheva",
+      "id": "9754"
+    },
+    "away": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2017-12-07T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/ostersunds-fk-vs-hertha-bsc/uv3q8#2621574",
+    "id": "2621574",
+    "home": {
+      "name": "Hertha BSC",
+      "shortName": "Hertha BSC",
+      "id": "8177"
+    },
+    "away": {
+      "name": "Östersunds FK",
+      "shortName": "Östersunds FK",
+      "id": "2004"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2017-12-07T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/marseille-vs-salzburg/2v1xsr#2621562",
+    "id": "2621562",
+    "home": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "away": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2017-12-07T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/real-sociedad-vs-zenit-st-petersburg/2go881#2621598",
+    "id": "2621598",
+    "home": {
+      "name": "Real Sociedad",
+      "shortName": "Real Sociedad",
+      "id": "8560"
+    },
+    "away": {
+      "name": "Zenit St. Petersburg",
+      "shortName": "Zenit",
+      "id": "8698"
+    },
+    "group": "L",
+    "status": {
+      "utcTime": "2017-12-07T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/vitesse-vs-nice/2pmf2l#2621586",
+    "id": "2621586",
+    "home": {
+      "name": "Vitesse",
+      "shortName": "Vitesse",
+      "id": "8277"
+    },
+    "away": {
+      "name": "Nice",
+      "shortName": "Nice",
+      "id": "9831"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2017-12-07T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/vitoria-de-guimaraes-vs-konyaspor/28pzax#2621561",
+    "id": "2621561",
+    "home": {
+      "name": "Vitória de Guimarães",
+      "shortName": "Vitória de Guimarães",
+      "id": "7844"
+    },
+    "away": {
+      "name": "Konyaspor",
+      "shortName": "Konyaspor",
+      "id": "8622"
+    },
+    "group": "I",
+    "status": {
+      "utcTime": "2017-12-07T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/zorya-vs-athletic-club/251282#2621573",
+    "id": "2621573",
+    "home": {
+      "name": "Zorya",
+      "shortName": "Zorya",
+      "id": "7770"
+    },
+    "away": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "group": "J",
+    "status": {
+      "utcTime": "2017-12-07T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/lazio-vs-zulte-waregem/2ud95z#2621585",
+    "id": "2621585",
+    "home": {
+      "name": "Zulte Waregem",
+      "shortName": "Zulte Waregem",
+      "id": "10000"
+    },
+    "away": {
+      "name": "Lazio",
+      "shortName": "Lazio",
+      "id": "8543"
+    },
+    "group": "K",
+    "status": {
+      "utcTime": "2017-12-07T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/fk-crvena-zvezda-vs-cska-moscow/2tb82g#2680988",
+    "id": "2680988",
+    "home": {
+      "name": "FK Crvena Zvezda",
+      "shortName": "FK Crvena Zvezda",
+      "id": "8687"
+    },
+    "away": {
+      "name": "CSKA Moscow",
+      "shortName": "CSKA",
+      "id": "9760"
+    },
+    "status": {
+      "utcTime": "2018-02-13T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/sporting-cp-vs-fc-astana/75znuil#2680994",
+    "id": "2680994",
+    "home": {
+      "name": "FC Astana",
+      "shortName": "FC Astana",
+      "id": "166865"
+    },
+    "away": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "status": {
+      "utcTime": "2018-02-15T16:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/atalanta-vs-borussia-dortmund/2rufmy#2680981",
+    "id": "2680981",
+    "home": {
+      "name": "Borussia Dortmund",
+      "shortName": "Dortmund",
+      "id": "9789"
+    },
+    "away": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "status": {
+      "utcTime": "2018-02-15T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/milan-vs-ludogorets-razgrad/azn63rx#2680993",
+    "id": "2680993",
+    "home": {
+      "name": "Ludogorets Razgrad",
+      "shortName": "Ludogorets Razgrad",
+      "id": "210173"
+    },
+    "away": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "status": {
+      "utcTime": "2018-02-15T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/marseille-vs-braga/2xuphg#2680996",
+    "id": "2680996",
+    "home": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "away": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "status": {
+      "utcTime": "2018-02-15T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/lokomotiv-moscow-vs-nice/2uchjm#2680982",
+    "id": "2680982",
+    "home": {
+      "name": "Nice",
+      "shortName": "Nice",
+      "id": "9831"
+    },
+    "away": {
+      "name": "Lokomotiv Moscow",
+      "shortName": "Lokomotiv",
+      "id": "8710"
+    },
+    "status": {
+      "utcTime": "2018-02-15T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/ostersunds-fk-vs-arsenal/15nvnc#2680995",
+    "id": "2680995",
+    "home": {
+      "name": "Östersunds FK",
+      "shortName": "Östersunds FK",
+      "id": "2004"
+    },
+    "away": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "status": {
+      "utcTime": "2018-02-15T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/real-sociedad-vs-salzburg/2up6rv#2680990",
+    "id": "2680990",
+    "home": {
+      "name": "Real Sociedad",
+      "shortName": "Real Sociedad",
+      "id": "8560"
+    },
+    "away": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "status": {
+      "utcTime": "2018-02-15T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/athletic-club-vs-spartak-moscow/2dm7vo#2680984",
+    "id": "2680984",
+    "home": {
+      "name": "Spartak Moscow",
+      "shortName": "Spartak",
+      "id": "8643"
+    },
+    "away": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "status": {
+      "utcTime": "2018-02-15T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/aek-athens-vs-dynamo-kyiv/2gln0m#2680985",
+    "id": "2680985",
+    "home": {
+      "name": "AEK Athens",
+      "shortName": "AEK Athens",
+      "id": "8563"
+    },
+    "away": {
+      "name": "Dynamo Kyiv",
+      "shortName": "Dynamo Kyiv",
+      "id": "8688"
+    },
+    "status": {
+      "utcTime": "2018-02-15T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/zenit-st-petersburg-vs-celtic/2v95d1#2680986",
+    "id": "2680986",
+    "home": {
+      "name": "Celtic",
+      "shortName": "Celtic",
+      "id": "9925"
+    },
+    "away": {
+      "name": "Zenit St. Petersburg",
+      "shortName": "Zenit",
+      "id": "8698"
+    },
+    "status": {
+      "utcTime": "2018-02-15T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/lazio-vs-fcsb/2rc0ai#2680992",
+    "id": "2680992",
+    "home": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "away": {
+      "name": "Lazio",
+      "shortName": "Lazio",
+      "id": "8543"
+    },
+    "status": {
+      "utcTime": "2018-02-15T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/fc-kobenhavn-vs-atletico-madrid/2ro5qf#2680983",
+    "id": "2680983",
+    "home": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "away": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "status": {
+      "utcTime": "2018-02-15T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 4",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/lyon-vs-villarreal/3aizr1#2680989",
+    "id": "2680989",
+    "home": {
+      "name": "Lyon",
+      "shortName": "Lyon",
+      "id": "9748"
+    },
+    "away": {
+      "name": "Villarreal",
+      "shortName": "Villarreal",
+      "id": "10205"
+    },
+    "status": {
+      "utcTime": "2018-02-15T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/viktoria-plzen-vs-partizan-beograd/1mm446#2680991",
+    "id": "2680991",
+    "home": {
+      "name": "Partizan Beograd",
+      "shortName": "Partizan Beograd",
+      "id": "7998"
+    },
+    "away": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "status": {
+      "utcTime": "2018-02-15T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/napoli-vs-rb-leipzig/85cq5mc#2680987",
+    "id": "2680987",
+    "home": {
+      "name": "Napoli",
+      "shortName": "Napoli",
+      "id": "9875"
+    },
+    "away": {
+      "name": "RB Leipzig",
+      "shortName": "RB Leipzig",
+      "id": "178475"
+    },
+    "status": {
+      "utcTime": "2018-02-15T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/fk-crvena-zvezda-vs-cska-moscow/2tb82g#2681004",
+    "id": "2681004",
+    "home": {
+      "name": "CSKA Moscow",
+      "shortName": "CSKA",
+      "id": "9760"
+    },
+    "away": {
+      "name": "FK Crvena Zvezda",
+      "shortName": "FK Crvena Zvezda",
+      "id": "8687"
+    },
+    "status": {
+      "utcTime": "2018-02-21T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/lokomotiv-moscow-vs-nice/2uchjm#2680998",
+    "id": "2680998",
+    "home": {
+      "name": "Lokomotiv Moscow",
+      "shortName": "Lokomotiv",
+      "id": "8710"
+    },
+    "away": {
+      "name": "Nice",
+      "shortName": "Nice",
+      "id": "9831"
+    },
+    "status": {
+      "utcTime": "2018-02-22T16:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/fc-kobenhavn-vs-atletico-madrid/2ro5qf#2680999",
+    "id": "2680999",
+    "home": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "away": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "status": {
+      "utcTime": "2018-02-22T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/aek-athens-vs-dynamo-kyiv/2gln0m#2681001",
+    "id": "2681001",
+    "home": {
+      "name": "Dynamo Kyiv",
+      "shortName": "Dynamo Kyiv",
+      "id": "8688"
+    },
+    "away": {
+      "name": "AEK Athens",
+      "shortName": "AEK Athens",
+      "id": "8563"
+    },
+    "status": {
+      "utcTime": "2018-02-22T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/lazio-vs-fcsb/2rc0ai#2681008",
+    "id": "2681008",
+    "home": {
+      "name": "Lazio",
+      "shortName": "Lazio",
+      "id": "8543"
+    },
+    "away": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "status": {
+      "utcTime": "2018-02-22T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/napoli-vs-rb-leipzig/85cq5mc#2681003",
+    "id": "2681003",
+    "home": {
+      "name": "RB Leipzig",
+      "shortName": "RB Leipzig",
+      "id": "178475"
+    },
+    "away": {
+      "name": "Napoli",
+      "shortName": "Napoli",
+      "id": "9875"
+    },
+    "status": {
+      "utcTime": "2018-02-22T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/sporting-cp-vs-fc-astana/75znuil#2681010",
+    "id": "2681010",
+    "home": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "away": {
+      "name": "FC Astana",
+      "shortName": "FC Astana",
+      "id": "166865"
+    },
+    "status": {
+      "utcTime": "2018-02-22T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/viktoria-plzen-vs-partizan-beograd/1mm446#2681007",
+    "id": "2681007",
+    "home": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "away": {
+      "name": "Partizan Beograd",
+      "shortName": "Partizan Beograd",
+      "id": "7998"
+    },
+    "status": {
+      "utcTime": "2018-02-22T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/lyon-vs-villarreal/3aizr1#2681005",
+    "id": "2681005",
+    "home": {
+      "name": "Villarreal",
+      "shortName": "Villarreal",
+      "id": "10205"
+    },
+    "away": {
+      "name": "Lyon",
+      "shortName": "Lyon",
+      "id": "9748"
+    },
+    "status": {
+      "utcTime": "2018-02-22T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/zenit-st-petersburg-vs-celtic/2v95d1#2681002",
+    "id": "2681002",
+    "home": {
+      "name": "Zenit St. Petersburg",
+      "shortName": "Zenit",
+      "id": "8698"
+    },
+    "away": {
+      "name": "Celtic",
+      "shortName": "Celtic",
+      "id": "9925"
+    },
+    "status": {
+      "utcTime": "2018-02-22T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/milan-vs-ludogorets-razgrad/azn63rx#2681009",
+    "id": "2681009",
+    "home": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "away": {
+      "name": "Ludogorets Razgrad",
+      "shortName": "Ludogorets Razgrad",
+      "id": "210173"
+    },
+    "status": {
+      "utcTime": "2018-02-22T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/ostersunds-fk-vs-arsenal/15nvnc#2681011",
+    "id": "2681011",
+    "home": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "away": {
+      "name": "Östersunds FK",
+      "shortName": "Östersunds FK",
+      "id": "2004"
+    },
+    "status": {
+      "utcTime": "2018-02-22T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/atalanta-vs-borussia-dortmund/2rufmy#2680997",
+    "id": "2680997",
+    "home": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "away": {
+      "name": "Borussia Dortmund",
+      "shortName": "Dortmund",
+      "id": "9789"
+    },
+    "status": {
+      "utcTime": "2018-02-22T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/athletic-club-vs-spartak-moscow/2dm7vo#2681000",
+    "id": "2681000",
+    "home": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "away": {
+      "name": "Spartak Moscow",
+      "shortName": "Spartak",
+      "id": "8643"
+    },
+    "status": {
+      "utcTime": "2018-02-22T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/marseille-vs-braga/2xuphg#2681012",
+    "id": "2681012",
+    "home": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "away": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "status": {
+      "utcTime": "2018-02-22T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/real-sociedad-vs-salzburg/2up6rv#2681006",
+    "id": "2681006",
+    "home": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "away": {
+      "name": "Real Sociedad",
+      "shortName": "Real Sociedad",
+      "id": "8560"
+    },
+    "status": {
+      "utcTime": "2018-02-22T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/milan-vs-arsenal/2sobu0#2726137",
+    "id": "2726137",
+    "home": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "away": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "status": {
+      "utcTime": "2018-03-08T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/lokomotiv-moscow-vs-atletico-madrid/2v6cry#2726127",
+    "id": "2726127",
+    "home": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "away": {
+      "name": "Lokomotiv Moscow",
+      "shortName": "Lokomotiv",
+      "id": "8710"
+    },
+    "status": {
+      "utcTime": "2018-03-08T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/borussia-dortmund-vs-salzburg/38qnr0#2726135",
+    "id": "2726135",
+    "home": {
+      "name": "Borussia Dortmund",
+      "shortName": "Dortmund",
+      "id": "9789"
+    },
+    "away": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "status": {
+      "utcTime": "2018-03-08T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/lyon-vs-cska-moscow/35asua#2726129",
+    "id": "2726129",
+    "home": {
+      "name": "CSKA Moscow",
+      "shortName": "CSKA",
+      "id": "9760"
+    },
+    "away": {
+      "name": "Lyon",
+      "shortName": "Lyon",
+      "id": "9748"
+    },
+    "status": {
+      "utcTime": "2018-03-08T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/lazio-vs-dynamo-kyiv/2ge8y0#2726123",
+    "id": "2726123",
+    "home": {
+      "name": "Lazio",
+      "shortName": "Lazio",
+      "id": "8543"
+    },
+    "away": {
+      "name": "Dynamo Kyiv",
+      "shortName": "Dynamo Kyiv",
+      "id": "8688"
+    },
+    "status": {
+      "utcTime": "2018-03-08T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/athletic-club-vs-marseille/2d3phu#2726131",
+    "id": "2726131",
+    "home": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "away": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "status": {
+      "utcTime": "2018-03-08T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/zenit-st-petersburg-vs-rb-leipzig/81p5f7d#2726125",
+    "id": "2726125",
+    "home": {
+      "name": "RB Leipzig",
+      "shortName": "RB Leipzig",
+      "id": "178475"
+    },
+    "away": {
+      "name": "Zenit St. Petersburg",
+      "shortName": "Zenit",
+      "id": "8698"
+    },
+    "status": {
+      "utcTime": "2018-03-08T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/viktoria-plzen-vs-sporting-cp/22c1jx#2726133",
+    "id": "2726133",
+    "home": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "away": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "status": {
+      "utcTime": "2018-03-08T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/lokomotiv-moscow-vs-atletico-madrid/2v6cry#2726128",
+    "id": "2726128",
+    "home": {
+      "name": "Lokomotiv Moscow",
+      "shortName": "Lokomotiv",
+      "id": "8710"
+    },
+    "away": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "status": {
+      "utcTime": "2018-03-15T16:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 5",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/athletic-club-vs-marseille/2d3phu#2726132",
+    "id": "2726132",
+    "home": {
+      "name": "Athletic Club",
+      "shortName": "Athletic Club",
+      "id": "8315"
+    },
+    "away": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "status": {
+      "utcTime": "2018-03-15T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/lazio-vs-dynamo-kyiv/2ge8y0#2726124",
+    "id": "2726124",
+    "home": {
+      "name": "Dynamo Kyiv",
+      "shortName": "Dynamo Kyiv",
+      "id": "8688"
+    },
+    "away": {
+      "name": "Lazio",
+      "shortName": "Lazio",
+      "id": "8543"
+    },
+    "status": {
+      "utcTime": "2018-03-15T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/viktoria-plzen-vs-sporting-cp/22c1jx#2726134",
+    "id": "2726134",
+    "home": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "away": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "status": {
+      "utcTime": "2018-03-15T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "AET",
+        "shortKey": "afterextratime_short",
+        "long": "After extra time",
+        "longKey": "afterextra"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/zenit-st-petersburg-vs-rb-leipzig/81p5f7d#2726126",
+    "id": "2726126",
+    "home": {
+      "name": "Zenit St. Petersburg",
+      "shortName": "Zenit",
+      "id": "8698"
+    },
+    "away": {
+      "name": "RB Leipzig",
+      "shortName": "RB Leipzig",
+      "id": "178475"
+    },
+    "status": {
+      "utcTime": "2018-03-15T18:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/milan-vs-arsenal/2sobu0#2726138",
+    "id": "2726138",
+    "home": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "away": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "status": {
+      "utcTime": "2018-03-15T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/lyon-vs-cska-moscow/35asua#2726130",
+    "id": "2726130",
+    "home": {
+      "name": "Lyon",
+      "shortName": "Lyon",
+      "id": "9748"
+    },
+    "away": {
+      "name": "CSKA Moscow",
+      "shortName": "CSKA",
+      "id": "9760"
+    },
+    "status": {
+      "utcTime": "2018-03-15T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/borussia-dortmund-vs-salzburg/38qnr0#2726136",
+    "id": "2726136",
+    "home": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "away": {
+      "name": "Borussia Dortmund",
+      "shortName": "Dortmund",
+      "id": "9789"
+    },
+    "status": {
+      "utcTime": "2018-03-15T20:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/cska-moscow-vs-arsenal/36728y#2736519",
+    "id": "2736519",
+    "home": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "away": {
+      "name": "CSKA Moscow",
+      "shortName": "CSKA",
+      "id": "9760"
+    },
+    "status": {
+      "utcTime": "2018-04-05T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/sporting-cp-vs-atletico-madrid/378icx#2736520",
+    "id": "2736520",
+    "home": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "away": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "status": {
+      "utcTime": "2018-04-05T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/lazio-vs-salzburg/2uif8l#2736521",
+    "id": "2736521",
+    "home": {
+      "name": "Lazio",
+      "shortName": "Lazio",
+      "id": "8543"
+    },
+    "away": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "status": {
+      "utcTime": "2018-04-05T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/marseille-vs-rb-leipzig/81dcaii#2736518",
+    "id": "2736518",
+    "home": {
+      "name": "RB Leipzig",
+      "shortName": "RB Leipzig",
+      "id": "178475"
+    },
+    "away": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "status": {
+      "utcTime": "2018-04-05T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/cska-moscow-vs-arsenal/36728y#2736523",
+    "id": "2736523",
+    "home": {
+      "name": "CSKA Moscow",
+      "shortName": "CSKA",
+      "id": "9760"
+    },
+    "away": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "status": {
+      "utcTime": "2018-04-12T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/marseille-vs-rb-leipzig/81dcaii#2736522",
+    "id": "2736522",
+    "home": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "away": {
+      "name": "RB Leipzig",
+      "shortName": "RB Leipzig",
+      "id": "178475"
+    },
+    "status": {
+      "utcTime": "2018-04-12T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/lazio-vs-salzburg/2uif8l#2736525",
+    "id": "2736525",
+    "home": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "away": {
+      "name": "Lazio",
+      "shortName": "Lazio",
+      "id": "8543"
+    },
+    "status": {
+      "utcTime": "2018-04-12T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/sporting-cp-vs-atletico-madrid/378icx#2736524",
+    "id": "2736524",
+    "home": {
+      "name": "Sporting CP",
+      "shortName": "Sporting CP",
+      "id": "9768"
+    },
+    "away": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "status": {
+      "utcTime": "2018-04-12T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/2",
+    "roundName": "Semi-Finals",
+    "pageUrl": "/matches/arsenal-vs-atletico-madrid/37wkxc#2747562",
+    "id": "2747562",
+    "home": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "away": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "status": {
+      "utcTime": "2018-04-26T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/2",
+    "roundName": "Semi-Finals",
+    "pageUrl": "/matches/marseille-vs-salzburg/2v1xsr#2747561",
+    "id": "2747561",
+    "home": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "away": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "status": {
+      "utcTime": "2018-04-26T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/2",
+    "roundName": "Semi-Finals",
+    "pageUrl": "/matches/arsenal-vs-atletico-madrid/37wkxc#2747564",
+    "id": "2747564",
+    "home": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "away": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "status": {
+      "utcTime": "2018-05-03T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/2",
+    "roundName": "Semi-Finals",
+    "pageUrl": "/matches/marseille-vs-salzburg/2v1xsr#2747563",
+    "id": "2747563",
+    "home": {
+      "name": "Salzburg",
+      "shortName": "Salzburg",
+      "id": "10013"
+    },
+    "away": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "status": {
+      "utcTime": "2018-05-03T19:05:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "AET",
+        "shortKey": "afterextratime_short",
+        "long": "After extra time",
+        "longKey": "afterextra"
+      }
+    }
+  },
+  {
+    "round": "final",
+    "roundName": "Final",
+    "pageUrl": "/matches/marseille-vs-atletico-madrid/2tvf4l#2747583",
+    "id": "2747583",
+    "home": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "away": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "status": {
+      "utcTime": "2018-05-16T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  }
+]

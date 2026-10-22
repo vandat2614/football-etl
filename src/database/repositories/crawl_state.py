@@ -33,6 +33,7 @@ class CrawlStateRepository(BaseRepository[CrawlStateLog]):
         next_recrawl_at: Optional[datetime] = None,
         error: Optional[str] = None,
         crawled_at: Optional[datetime] = None,
+        trigger_reason: Optional[str] = None
     ) -> CrawlStateLog:
         """
         Append one crawl run (successful or failed) to crawl_state_log.
@@ -57,6 +58,7 @@ class CrawlStateRepository(BaseRepository[CrawlStateLog]):
             fixtures_count=fixtures_count,
             next_recrawl_at=next_recrawl_at,
             error=error[:2000] if error else None,
+            trigger_reason=trigger_reason
         )
         self.session.add(row)
         self.session.flush()

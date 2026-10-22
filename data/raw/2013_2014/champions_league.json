@@ -1,0 +1,3973 @@
+[
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/cska-moscow-vs-bayern-munchen/36680v#1573702",
+    "id": "1573702",
+    "home": {
+      "name": "Bayern München",
+      "shortName": "Bayern München",
+      "id": "9823"
+    },
+    "away": {
+      "name": "CSKA Moscow",
+      "shortName": "CSKA",
+      "id": "9760"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2013-09-17T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/anderlecht-vs-benfica/2svfbs#1573724",
+    "id": "1573724",
+    "home": {
+      "name": "Benfica",
+      "shortName": "Benfica",
+      "id": "9772"
+    },
+    "away": {
+      "name": "Anderlecht",
+      "shortName": "Anderlecht",
+      "id": "8635"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2013-09-17T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/fc-kobenhavn-vs-juventus/2rfxef#1573685",
+    "id": "1573685",
+    "home": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "away": {
+      "name": "Juventus",
+      "shortName": "Juventus",
+      "id": "9885"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2013-09-17T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/real-madrid-vs-galatasaray/2gso16#1573686",
+    "id": "1573686",
+    "home": {
+      "name": "Galatasaray",
+      "shortName": "Galatasaray",
+      "id": "8637"
+    },
+    "away": {
+      "name": "Real Madrid",
+      "shortName": "Real Madrid",
+      "id": "8633"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2013-09-17T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 6",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/bayer-leverkusen-vs-manchester-united/2t7mrr#1573681",
+    "id": "1573681",
+    "home": {
+      "name": "Manchester United",
+      "shortName": "Man United",
+      "id": "10260"
+    },
+    "away": {
+      "name": "Bayer Leverkusen",
+      "shortName": "Leverkusen",
+      "id": "8178"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2013-09-17T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/olympiacos-vs-paris-saint-germain/2tq9la#1573723",
+    "id": "1573723",
+    "home": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "away": {
+      "name": "Paris Saint-Germain",
+      "shortName": "PSG",
+      "id": "9847"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2013-09-17T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 4",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/real-sociedad-vs-shakhtar-donetsk/2rkmk8#1573682",
+    "id": "1573682",
+    "home": {
+      "name": "Real Sociedad",
+      "shortName": "Real Sociedad",
+      "id": "8560"
+    },
+    "away": {
+      "name": "Shakhtar Donetsk",
+      "shortName": "Shakhtar Donetsk",
+      "id": "9728"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2013-09-17T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/viktoria-plzen-vs-manchester-city/1qi425#1573703",
+    "id": "1573703",
+    "home": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "away": {
+      "name": "Manchester City",
+      "shortName": "Man City",
+      "id": "8456"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2013-09-17T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/milan-vs-celtic/2trupm#1573768",
+    "id": "1573768",
+    "home": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "away": {
+      "name": "Celtic",
+      "shortName": "Celtic",
+      "id": "9925"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2013-09-18T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/zenit-st-petersburg-vs-atletico-madrid/2v1kgg#1573757",
+    "id": "1573757",
+    "home": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "away": {
+      "name": "Zenit St. Petersburg",
+      "shortName": "Zenit",
+      "id": "8698"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2013-09-18T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/fc-porto-vs-austria-wien/38j0tt#1573756",
+    "id": "1573756",
+    "home": {
+      "name": "Austria Wien",
+      "shortName": "Austria Wien",
+      "id": "10011"
+    },
+    "away": {
+      "name": "FC Porto",
+      "shortName": "FC Porto",
+      "id": "9773"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2013-09-18T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/ajax-vs-barcelona/2gcrq4#1573769",
+    "id": "1573769",
+    "home": {
+      "name": "Barcelona",
+      "shortName": "Barcelona",
+      "id": "8634"
+    },
+    "away": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2013-09-18T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/chelsea-vs-basel/2sn5cm#1573736",
+    "id": "1573736",
+    "home": {
+      "name": "Chelsea",
+      "shortName": "Chelsea",
+      "id": "8455"
+    },
+    "away": {
+      "name": "Basel",
+      "shortName": "Basel",
+      "id": "9931"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2013-09-18T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/marseille-vs-arsenal/2szdfu#1573718",
+    "id": "1573718",
+    "home": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "away": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2013-09-18T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/fcsb-vs-schalke-04/3a1h4v#1573735",
+    "id": "1573735",
+    "home": {
+      "name": "Schalke 04",
+      "shortName": "Schalke 04",
+      "id": "10189"
+    },
+    "away": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2013-09-18T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/borussia-dortmund-vs-napoli/374akb#1573719",
+    "id": "1573719",
+    "home": {
+      "name": "Napoli",
+      "shortName": "Napoli",
+      "id": "9875"
+    },
+    "away": {
+      "name": "Borussia Dortmund",
+      "shortName": "Dortmund",
+      "id": "9789"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2013-09-18T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/zenit-st-petersburg-vs-austria-wien/2w7j35#1573758",
+    "id": "1573758",
+    "home": {
+      "name": "Zenit St. Petersburg",
+      "shortName": "Zenit",
+      "id": "8698"
+    },
+    "away": {
+      "name": "Austria Wien",
+      "shortName": "Austria Wien",
+      "id": "10011"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2013-10-01T16:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/milan-vs-ajax/2fmz34#1573770",
+    "id": "1573770",
+    "home": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "away": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2013-10-01T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/arsenal-vs-napoli/37jhat#1573721",
+    "id": "1573721",
+    "home": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "away": {
+      "name": "Napoli",
+      "shortName": "Napoli",
+      "id": "9875"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2013-10-01T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/basel-vs-schalke-04/3ciptj#1573737",
+    "id": "1573737",
+    "home": {
+      "name": "Basel",
+      "shortName": "Basel",
+      "id": "9931"
+    },
+    "away": {
+      "name": "Schalke 04",
+      "shortName": "Schalke 04",
+      "id": "10189"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2013-10-01T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/marseille-vs-borussia-dortmund/2sl6bc#1573720",
+    "id": "1573720",
+    "home": {
+      "name": "Borussia Dortmund",
+      "shortName": "Dortmund",
+      "id": "9789"
+    },
+    "away": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2013-10-01T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/barcelona-vs-celtic/2ujn9h#1573771",
+    "id": "1573771",
+    "home": {
+      "name": "Celtic",
+      "shortName": "Celtic",
+      "id": "9925"
+    },
+    "away": {
+      "name": "Barcelona",
+      "shortName": "Barcelona",
+      "id": "8634"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2013-10-01T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/chelsea-vs-fcsb/2qdmym#1573738",
+    "id": "1573738",
+    "home": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "away": {
+      "name": "Chelsea",
+      "shortName": "Chelsea",
+      "id": "8455"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2013-10-01T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 4",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/fc-porto-vs-atletico-madrid/37am9u#1573759",
+    "id": "1573759",
+    "home": {
+      "name": "FC Porto",
+      "shortName": "FC Porto",
+      "id": "9773"
+    },
+    "away": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2013-10-01T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/viktoria-plzen-vs-cska-moscow/229c15#1573705",
+    "id": "1573705",
+    "home": {
+      "name": "CSKA Moscow",
+      "shortName": "CSKA",
+      "id": "9760"
+    },
+    "away": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2013-10-02T16:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/anderlecht-vs-olympiacos/2gts0j#1573726",
+    "id": "1573726",
+    "home": {
+      "name": "Anderlecht",
+      "shortName": "Anderlecht",
+      "id": "8635"
+    },
+    "away": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2013-10-02T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/bayer-leverkusen-vs-real-sociedad/2berqb#1573684",
+    "id": "1573684",
+    "home": {
+      "name": "Bayer Leverkusen",
+      "shortName": "Leverkusen",
+      "id": "8178"
+    },
+    "away": {
+      "name": "Real Sociedad",
+      "shortName": "Real Sociedad",
+      "id": "8560"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2013-10-02T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/galatasaray-vs-juventus/2u4xwc#1573687",
+    "id": "1573687",
+    "home": {
+      "name": "Juventus",
+      "shortName": "Juventus",
+      "id": "9885"
+    },
+    "away": {
+      "name": "Galatasaray",
+      "shortName": "Galatasaray",
+      "id": "8637"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2013-10-02T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/manchester-city-vs-bayern-munchen/2rh3nv#1573704",
+    "id": "1573704",
+    "home": {
+      "name": "Manchester City",
+      "shortName": "Man City",
+      "id": "8456"
+    },
+    "away": {
+      "name": "Bayern München",
+      "shortName": "Bayern München",
+      "id": "9823"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2013-10-02T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/benfica-vs-paris-saint-germain/36lcj1#1573725",
+    "id": "1573725",
+    "home": {
+      "name": "Paris Saint-Germain",
+      "shortName": "PSG",
+      "id": "9847"
+    },
+    "away": {
+      "name": "Benfica",
+      "shortName": "Benfica",
+      "id": "9772"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2013-10-02T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/fc-kobenhavn-vs-real-madrid/2ea96h#1573688",
+    "id": "1573688",
+    "home": {
+      "name": "Real Madrid",
+      "shortName": "Real Madrid",
+      "id": "8633"
+    },
+    "away": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2013-10-02T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/shakhtar-donetsk-vs-manchester-united/3axz2q#1573683",
+    "id": "1573683",
+    "home": {
+      "name": "Shakhtar Donetsk",
+      "shortName": "Shakhtar Donetsk",
+      "id": "9728"
+    },
+    "away": {
+      "name": "Manchester United",
+      "shortName": "Man United",
+      "id": "10260"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2013-10-02T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/milan-vs-barcelona/2g22k3#1573773",
+    "id": "1573773",
+    "home": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "away": {
+      "name": "Barcelona",
+      "shortName": "Barcelona",
+      "id": "8634"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2013-10-22T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/borussia-dortmund-vs-arsenal/36j8tu#1573747",
+    "id": "1573747",
+    "home": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "away": {
+      "name": "Borussia Dortmund",
+      "shortName": "Dortmund",
+      "id": "9789"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2013-10-22T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/atletico-madrid-vs-austria-wien/3a3m3x#1573761",
+    "id": "1573761",
+    "home": {
+      "name": "Austria Wien",
+      "shortName": "Austria Wien",
+      "id": "10011"
+    },
+    "away": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2013-10-22T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/ajax-vs-celtic/2u3crm#1573772",
+    "id": "1573772",
+    "home": {
+      "name": "Celtic",
+      "shortName": "Celtic",
+      "id": "9925"
+    },
+    "away": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2013-10-22T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/fcsb-vs-basel/3702ww#1573739",
+    "id": "1573739",
+    "home": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "away": {
+      "name": "Basel",
+      "shortName": "Basel",
+      "id": "9931"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2013-10-22T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/zenit-st-petersburg-vs-fc-porto/2tkpx5#1573760",
+    "id": "1573760",
+    "home": {
+      "name": "FC Porto",
+      "shortName": "FC Porto",
+      "id": "9773"
+    },
+    "away": {
+      "name": "Zenit St. Petersburg",
+      "shortName": "Zenit",
+      "id": "8698"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2013-10-22T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/marseille-vs-napoli/2tj4zt#1573748",
+    "id": "1573748",
+    "home": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "away": {
+      "name": "Napoli",
+      "shortName": "Napoli",
+      "id": "9875"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2013-10-22T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/chelsea-vs-schalke-04/2vhi61#1573740",
+    "id": "1573740",
+    "home": {
+      "name": "Schalke 04",
+      "shortName": "Schalke 04",
+      "id": "10189"
+    },
+    "away": {
+      "name": "Chelsea",
+      "shortName": "Chelsea",
+      "id": "8455"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2013-10-22T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/manchester-city-vs-cska-moscow/2qsgk4#1573706",
+    "id": "1573706",
+    "home": {
+      "name": "CSKA Moscow",
+      "shortName": "CSKA",
+      "id": "9760"
+    },
+    "away": {
+      "name": "Manchester City",
+      "shortName": "Man City",
+      "id": "8456"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2013-10-23T16:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/anderlecht-vs-paris-saint-germain/2tp2sy#1573727",
+    "id": "1573727",
+    "home": {
+      "name": "Anderlecht",
+      "shortName": "Anderlecht",
+      "id": "8635"
+    },
+    "away": {
+      "name": "Paris Saint-Germain",
+      "shortName": "PSG",
+      "id": "9847"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2013-10-23T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 5",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/bayer-leverkusen-vs-shakhtar-donetsk/2ngg9n#1573691",
+    "id": "1573691",
+    "home": {
+      "name": "Bayer Leverkusen",
+      "shortName": "Leverkusen",
+      "id": "8178"
+    },
+    "away": {
+      "name": "Shakhtar Donetsk",
+      "shortName": "Shakhtar Donetsk",
+      "id": "9728"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2013-10-23T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/viktoria-plzen-vs-bayern-munchen/22upcn#1573707",
+    "id": "1573707",
+    "home": {
+      "name": "Bayern München",
+      "shortName": "Bayern München",
+      "id": "9823"
+    },
+    "away": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2013-10-23T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/olympiacos-vs-benfica/2swlxv#1573728",
+    "id": "1573728",
+    "home": {
+      "name": "Benfica",
+      "shortName": "Benfica",
+      "id": "9772"
+    },
+    "away": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2013-10-23T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/fc-kobenhavn-vs-galatasaray/2ebpqf#1573690",
+    "id": "1573690",
+    "home": {
+      "name": "Galatasaray",
+      "shortName": "Galatasaray",
+      "id": "8637"
+    },
+    "away": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2013-10-23T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/real-sociedad-vs-manchester-united/2xg662#1573692",
+    "id": "1573692",
+    "home": {
+      "name": "Manchester United",
+      "shortName": "Man United",
+      "id": "10260"
+    },
+    "away": {
+      "name": "Real Sociedad",
+      "shortName": "Real Sociedad",
+      "id": "8560"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2013-10-23T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/real-madrid-vs-juventus/2u3cqi#1573689",
+    "id": "1573689",
+    "home": {
+      "name": "Real Madrid",
+      "shortName": "Real Madrid",
+      "id": "8633"
+    },
+    "away": {
+      "name": "Juventus",
+      "shortName": "Juventus",
+      "id": "9885"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2013-10-23T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/fc-kobenhavn-vs-galatasaray/2ebpqf#1573696",
+    "id": "1573696",
+    "home": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "away": {
+      "name": "Galatasaray",
+      "shortName": "Galatasaray",
+      "id": "8637"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2013-11-05T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/real-madrid-vs-juventus/2u3cqi#1573695",
+    "id": "1573695",
+    "home": {
+      "name": "Juventus",
+      "shortName": "Juventus",
+      "id": "9885"
+    },
+    "away": {
+      "name": "Real Madrid",
+      "shortName": "Real Madrid",
+      "id": "8633"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2013-11-05T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/manchester-city-vs-cska-moscow/2qsgk4#1573708",
+    "id": "1573708",
+    "home": {
+      "name": "Manchester City",
+      "shortName": "Man City",
+      "id": "8456"
+    },
+    "away": {
+      "name": "CSKA Moscow",
+      "shortName": "CSKA",
+      "id": "9760"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2013-11-05T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/olympiacos-vs-benfica/2swlxv#1573730",
+    "id": "1573730",
+    "home": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "away": {
+      "name": "Benfica",
+      "shortName": "Benfica",
+      "id": "9772"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2013-11-05T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/anderlecht-vs-paris-saint-germain/2tp2sy#1573729",
+    "id": "1573729",
+    "home": {
+      "name": "Paris Saint-Germain",
+      "shortName": "PSG",
+      "id": "9847"
+    },
+    "away": {
+      "name": "Anderlecht",
+      "shortName": "Anderlecht",
+      "id": "8635"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2013-11-05T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/real-sociedad-vs-manchester-united/2xg662#1573694",
+    "id": "1573694",
+    "home": {
+      "name": "Real Sociedad",
+      "shortName": "Real Sociedad",
+      "id": "8560"
+    },
+    "away": {
+      "name": "Manchester United",
+      "shortName": "Man United",
+      "id": "10260"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2013-11-05T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/bayer-leverkusen-vs-shakhtar-donetsk/2ngg9n#1573693",
+    "id": "1573693",
+    "home": {
+      "name": "Shakhtar Donetsk",
+      "shortName": "Shakhtar Donetsk",
+      "id": "9728"
+    },
+    "away": {
+      "name": "Bayer Leverkusen",
+      "shortName": "Leverkusen",
+      "id": "8178"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2013-11-05T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/viktoria-plzen-vs-bayern-munchen/22upcn#1573709",
+    "id": "1573709",
+    "home": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "away": {
+      "name": "Bayern München",
+      "shortName": "Bayern München",
+      "id": "9823"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2013-11-05T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/zenit-st-petersburg-vs-fc-porto/2tkpx5#1573762",
+    "id": "1573762",
+    "home": {
+      "name": "Zenit St. Petersburg",
+      "shortName": "Zenit",
+      "id": "8698"
+    },
+    "away": {
+      "name": "FC Porto",
+      "shortName": "FC Porto",
+      "id": "9773"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2013-11-06T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/ajax-vs-celtic/2u3crm#1573774",
+    "id": "1573774",
+    "home": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "away": {
+      "name": "Celtic",
+      "shortName": "Celtic",
+      "id": "9925"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2013-11-06T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/atletico-madrid-vs-austria-wien/3a3m3x#1573763",
+    "id": "1573763",
+    "home": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "away": {
+      "name": "Austria Wien",
+      "shortName": "Austria Wien",
+      "id": "10011"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2013-11-06T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/milan-vs-barcelona/2g22k3#1573775",
+    "id": "1573775",
+    "home": {
+      "name": "Barcelona",
+      "shortName": "Barcelona",
+      "id": "8634"
+    },
+    "away": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2013-11-06T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/fcsb-vs-basel/3702ww#1573741",
+    "id": "1573741",
+    "home": {
+      "name": "Basel",
+      "shortName": "Basel",
+      "id": "9931"
+    },
+    "away": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2013-11-06T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/borussia-dortmund-vs-arsenal/36j8tu#1573749",
+    "id": "1573749",
+    "home": {
+      "name": "Borussia Dortmund",
+      "shortName": "Dortmund",
+      "id": "9789"
+    },
+    "away": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2013-11-06T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/chelsea-vs-schalke-04/2vhi61#1573742",
+    "id": "1573742",
+    "home": {
+      "name": "Chelsea",
+      "shortName": "Chelsea",
+      "id": "8455"
+    },
+    "away": {
+      "name": "Schalke 04",
+      "shortName": "Schalke 04",
+      "id": "10189"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2013-11-06T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/marseille-vs-napoli/2tj4zt#1573750",
+    "id": "1573750",
+    "home": {
+      "name": "Napoli",
+      "shortName": "Napoli",
+      "id": "9875"
+    },
+    "away": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2013-11-06T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/zenit-st-petersburg-vs-atletico-madrid/2v1kgg#1573765",
+    "id": "1573765",
+    "home": {
+      "name": "Zenit St. Petersburg",
+      "shortName": "Zenit",
+      "id": "8698"
+    },
+    "away": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2013-11-26T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/ajax-vs-barcelona/2gcrq4#1573777",
+    "id": "1573777",
+    "home": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "away": {
+      "name": "Barcelona",
+      "shortName": "Barcelona",
+      "id": "8634"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2013-11-26T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/marseille-vs-arsenal/2szdfu#1573752",
+    "id": "1573752",
+    "home": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "away": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2013-11-26T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/chelsea-vs-basel/2sn5cm#1573744",
+    "id": "1573744",
+    "home": {
+      "name": "Basel",
+      "shortName": "Basel",
+      "id": "9931"
+    },
+    "away": {
+      "name": "Chelsea",
+      "shortName": "Chelsea",
+      "id": "8455"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2013-11-26T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/borussia-dortmund-vs-napoli/374akb#1573753",
+    "id": "1573753",
+    "home": {
+      "name": "Borussia Dortmund",
+      "shortName": "Dortmund",
+      "id": "9789"
+    },
+    "away": {
+      "name": "Napoli",
+      "shortName": "Napoli",
+      "id": "9875"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2013-11-26T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/milan-vs-celtic/2trupm#1573776",
+    "id": "1573776",
+    "home": {
+      "name": "Celtic",
+      "shortName": "Celtic",
+      "id": "9925"
+    },
+    "away": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2013-11-26T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/fcsb-vs-schalke-04/3a1h4v#1573743",
+    "id": "1573743",
+    "home": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "away": {
+      "name": "Schalke 04",
+      "shortName": "Schalke 04",
+      "id": "10189"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2013-11-26T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/fc-porto-vs-austria-wien/38j0tt#1573764",
+    "id": "1573764",
+    "home": {
+      "name": "FC Porto",
+      "shortName": "FC Porto",
+      "id": "9773"
+    },
+    "away": {
+      "name": "Austria Wien",
+      "shortName": "Austria Wien",
+      "id": "10011"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2013-11-26T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/cska-moscow-vs-bayern-munchen/36680v#1573710",
+    "id": "1573710",
+    "home": {
+      "name": "CSKA Moscow",
+      "shortName": "CSKA",
+      "id": "9760"
+    },
+    "away": {
+      "name": "Bayern München",
+      "shortName": "Bayern München",
+      "id": "9823"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2013-11-27T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/anderlecht-vs-benfica/2svfbs#1573731",
+    "id": "1573731",
+    "home": {
+      "name": "Anderlecht",
+      "shortName": "Anderlecht",
+      "id": "8635"
+    },
+    "away": {
+      "name": "Benfica",
+      "shortName": "Benfica",
+      "id": "9772"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2013-11-27T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/bayer-leverkusen-vs-manchester-united/2t7mrr#1573714",
+    "id": "1573714",
+    "home": {
+      "name": "Bayer Leverkusen",
+      "shortName": "Leverkusen",
+      "id": "8178"
+    },
+    "away": {
+      "name": "Manchester United",
+      "shortName": "Man United",
+      "id": "10260"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2013-11-27T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 5",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/fc-kobenhavn-vs-juventus/2rfxef#1573698",
+    "id": "1573698",
+    "home": {
+      "name": "Juventus",
+      "shortName": "Juventus",
+      "id": "9885"
+    },
+    "away": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2013-11-27T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/viktoria-plzen-vs-manchester-city/1qi425#1573711",
+    "id": "1573711",
+    "home": {
+      "name": "Manchester City",
+      "shortName": "Man City",
+      "id": "8456"
+    },
+    "away": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2013-11-27T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/olympiacos-vs-paris-saint-germain/2tq9la#1573732",
+    "id": "1573732",
+    "home": {
+      "name": "Paris Saint-Germain",
+      "shortName": "PSG",
+      "id": "9847"
+    },
+    "away": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2013-11-27T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/real-madrid-vs-galatasaray/2gso16#1573697",
+    "id": "1573697",
+    "home": {
+      "name": "Real Madrid",
+      "shortName": "Real Madrid",
+      "id": "8633"
+    },
+    "away": {
+      "name": "Galatasaray",
+      "shortName": "Galatasaray",
+      "id": "8637"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2013-11-27T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/real-sociedad-vs-shakhtar-donetsk/2rkmk8#1573715",
+    "id": "1573715",
+    "home": {
+      "name": "Shakhtar Donetsk",
+      "shortName": "Shakhtar Donetsk",
+      "id": "9728"
+    },
+    "away": {
+      "name": "Real Sociedad",
+      "shortName": "Real Sociedad",
+      "id": "8560"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2013-11-27T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/manchester-city-vs-bayern-munchen/2rh3nv#1573712",
+    "id": "1573712",
+    "home": {
+      "name": "Bayern München",
+      "shortName": "Bayern München",
+      "id": "9823"
+    },
+    "away": {
+      "name": "Manchester City",
+      "shortName": "Man City",
+      "id": "8456"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2013-12-10T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/benfica-vs-paris-saint-germain/36lcj1#1573733",
+    "id": "1573733",
+    "home": {
+      "name": "Benfica",
+      "shortName": "Benfica",
+      "id": "9772"
+    },
+    "away": {
+      "name": "Paris Saint-Germain",
+      "shortName": "PSG",
+      "id": "9847"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2013-12-10T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/fc-kobenhavn-vs-real-madrid/2ea96h#1573699",
+    "id": "1573699",
+    "home": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "away": {
+      "name": "Real Madrid",
+      "shortName": "Real Madrid",
+      "id": "8633"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2013-12-10T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/shakhtar-donetsk-vs-manchester-united/3axz2q#1573716",
+    "id": "1573716",
+    "home": {
+      "name": "Manchester United",
+      "shortName": "Man United",
+      "id": "10260"
+    },
+    "away": {
+      "name": "Shakhtar Donetsk",
+      "shortName": "Shakhtar Donetsk",
+      "id": "9728"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2013-12-10T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/anderlecht-vs-olympiacos/2gts0j#1573734",
+    "id": "1573734",
+    "home": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "away": {
+      "name": "Anderlecht",
+      "shortName": "Anderlecht",
+      "id": "8635"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2013-12-10T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/bayer-leverkusen-vs-real-sociedad/2berqb#1573717",
+    "id": "1573717",
+    "home": {
+      "name": "Real Sociedad",
+      "shortName": "Real Sociedad",
+      "id": "8560"
+    },
+    "away": {
+      "name": "Bayer Leverkusen",
+      "shortName": "Leverkusen",
+      "id": "8178"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2013-12-10T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/viktoria-plzen-vs-cska-moscow/229c15#1573713",
+    "id": "1573713",
+    "home": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "away": {
+      "name": "CSKA Moscow",
+      "shortName": "CSKA",
+      "id": "9760"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2013-12-10T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/galatasaray-vs-juventus/2u4xwc#1573700",
+    "id": "1573700",
+    "home": {
+      "name": "Galatasaray",
+      "shortName": "Galatasaray",
+      "id": "8637"
+    },
+    "away": {
+      "name": "Juventus",
+      "shortName": "Juventus",
+      "id": "9885"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2013-12-11T13:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/milan-vs-ajax/2fmz34#1573778",
+    "id": "1573778",
+    "home": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "away": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2013-12-11T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/fc-porto-vs-atletico-madrid/37am9u#1573767",
+    "id": "1573767",
+    "home": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "away": {
+      "name": "FC Porto",
+      "shortName": "FC Porto",
+      "id": "9773"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2013-12-11T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/zenit-st-petersburg-vs-austria-wien/2w7j35#1573766",
+    "id": "1573766",
+    "home": {
+      "name": "Austria Wien",
+      "shortName": "Austria Wien",
+      "id": "10011"
+    },
+    "away": {
+      "name": "Zenit St. Petersburg",
+      "shortName": "Zenit",
+      "id": "8698"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2013-12-11T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/barcelona-vs-celtic/2ujn9h#1573779",
+    "id": "1573779",
+    "home": {
+      "name": "Barcelona",
+      "shortName": "Barcelona",
+      "id": "8634"
+    },
+    "away": {
+      "name": "Celtic",
+      "shortName": "Celtic",
+      "id": "9925"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2013-12-11T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "6 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/chelsea-vs-fcsb/2qdmym#1573746",
+    "id": "1573746",
+    "home": {
+      "name": "Chelsea",
+      "shortName": "Chelsea",
+      "id": "8455"
+    },
+    "away": {
+      "name": "FCSB",
+      "shortName": "FCSB",
+      "id": "9723"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2013-12-11T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/marseille-vs-borussia-dortmund/2sl6bc#1573754",
+    "id": "1573754",
+    "home": {
+      "name": "Marseille",
+      "shortName": "Marseille",
+      "id": "8592"
+    },
+    "away": {
+      "name": "Borussia Dortmund",
+      "shortName": "Dortmund",
+      "id": "9789"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2013-12-11T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/basel-vs-schalke-04/3ciptj#1573745",
+    "id": "1573745",
+    "home": {
+      "name": "Schalke 04",
+      "shortName": "Schalke 04",
+      "id": "10189"
+    },
+    "away": {
+      "name": "Basel",
+      "shortName": "Basel",
+      "id": "9931"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2013-12-11T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/arsenal-vs-napoli/37jhat#1573755",
+    "id": "1573755",
+    "home": {
+      "name": "Napoli",
+      "shortName": "Napoli",
+      "id": "9875"
+    },
+    "away": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2013-12-11T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/bayer-leverkusen-vs-paris-saint-germain/2oqa0k#1625214",
+    "id": "1625214",
+    "home": {
+      "name": "Bayer Leverkusen",
+      "shortName": "Leverkusen",
+      "id": "8178"
+    },
+    "away": {
+      "name": "Paris Saint-Germain",
+      "shortName": "PSG",
+      "id": "9847"
+    },
+    "status": {
+      "utcTime": "2014-02-18T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 4",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/manchester-city-vs-barcelona/2eydul#1625211",
+    "id": "1625211",
+    "home": {
+      "name": "Manchester City",
+      "shortName": "Man City",
+      "id": "8456"
+    },
+    "away": {
+      "name": "Barcelona",
+      "shortName": "Barcelona",
+      "id": "8634"
+    },
+    "status": {
+      "utcTime": "2014-02-18T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/milan-vs-atletico-madrid/2tkbrr#1625213",
+    "id": "1625213",
+    "home": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "away": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "status": {
+      "utcTime": "2014-02-19T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/bayern-munchen-vs-arsenal/36xjup#1625223",
+    "id": "1625223",
+    "home": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "away": {
+      "name": "Bayern München",
+      "shortName": "Bayern München",
+      "id": "9823"
+    },
+    "status": {
+      "utcTime": "2014-02-19T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/zenit-st-petersburg-vs-borussia-dortmund/2tr22p#1625217",
+    "id": "1625217",
+    "home": {
+      "name": "Zenit St. Petersburg",
+      "shortName": "Zenit",
+      "id": "8698"
+    },
+    "away": {
+      "name": "Borussia Dortmund",
+      "shortName": "Dortmund",
+      "id": "9789"
+    },
+    "status": {
+      "utcTime": "2014-02-25T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 4",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/olympiacos-vs-manchester-united/2ybpah#1625212",
+    "id": "1625212",
+    "home": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "away": {
+      "name": "Manchester United",
+      "shortName": "Man United",
+      "id": "10260"
+    },
+    "status": {
+      "utcTime": "2014-02-25T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/chelsea-vs-galatasaray/2ez487#1625215",
+    "id": "1625215",
+    "home": {
+      "name": "Galatasaray",
+      "shortName": "Galatasaray",
+      "id": "8637"
+    },
+    "away": {
+      "name": "Chelsea",
+      "shortName": "Chelsea",
+      "id": "8455"
+    },
+    "status": {
+      "utcTime": "2014-02-26T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/real-madrid-vs-schalke-04/2xgz9q#1625216",
+    "id": "1625216",
+    "home": {
+      "name": "Schalke 04",
+      "shortName": "Schalke 04",
+      "id": "10189"
+    },
+    "away": {
+      "name": "Real Madrid",
+      "shortName": "Real Madrid",
+      "id": "8633"
+    },
+    "status": {
+      "utcTime": "2014-02-26T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 6",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/milan-vs-atletico-madrid/2tkbrr#1625220",
+    "id": "1625220",
+    "home": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "away": {
+      "name": "Milan",
+      "shortName": "Milan",
+      "id": "8564"
+    },
+    "status": {
+      "utcTime": "2014-03-11T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/bayern-munchen-vs-arsenal/36xjup#1625226",
+    "id": "1625226",
+    "home": {
+      "name": "Bayern München",
+      "shortName": "Bayern München",
+      "id": "9823"
+    },
+    "away": {
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "id": "9825"
+    },
+    "status": {
+      "utcTime": "2014-03-11T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/manchester-city-vs-barcelona/2eydul#1625218",
+    "id": "1625218",
+    "home": {
+      "name": "Barcelona",
+      "shortName": "Barcelona",
+      "id": "8634"
+    },
+    "away": {
+      "name": "Manchester City",
+      "shortName": "Man City",
+      "id": "8456"
+    },
+    "status": {
+      "utcTime": "2014-03-12T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/bayer-leverkusen-vs-paris-saint-germain/2oqa0k#1625221",
+    "id": "1625221",
+    "home": {
+      "name": "Paris Saint-Germain",
+      "shortName": "PSG",
+      "id": "9847"
+    },
+    "away": {
+      "name": "Bayer Leverkusen",
+      "shortName": "Leverkusen",
+      "id": "8178"
+    },
+    "status": {
+      "utcTime": "2014-03-12T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/chelsea-vs-galatasaray/2ez487#1625222",
+    "id": "1625222",
+    "home": {
+      "name": "Chelsea",
+      "shortName": "Chelsea",
+      "id": "8455"
+    },
+    "away": {
+      "name": "Galatasaray",
+      "shortName": "Galatasaray",
+      "id": "8637"
+    },
+    "status": {
+      "utcTime": "2014-03-18T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/real-madrid-vs-schalke-04/2xgz9q#1625224",
+    "id": "1625224",
+    "home": {
+      "name": "Real Madrid",
+      "shortName": "Real Madrid",
+      "id": "8633"
+    },
+    "away": {
+      "name": "Schalke 04",
+      "shortName": "Schalke 04",
+      "id": "10189"
+    },
+    "status": {
+      "utcTime": "2014-03-18T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/zenit-st-petersburg-vs-borussia-dortmund/2tr22p#1625225",
+    "id": "1625225",
+    "home": {
+      "name": "Borussia Dortmund",
+      "shortName": "Dortmund",
+      "id": "9789"
+    },
+    "away": {
+      "name": "Zenit St. Petersburg",
+      "shortName": "Zenit",
+      "id": "8698"
+    },
+    "status": {
+      "utcTime": "2014-03-19T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/olympiacos-vs-manchester-united/2ybpah#1625219",
+    "id": "1625219",
+    "home": {
+      "name": "Manchester United",
+      "shortName": "Man United",
+      "id": "10260"
+    },
+    "away": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "status": {
+      "utcTime": "2014-03-19T19:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/barcelona-vs-atletico-madrid/2uc3ao#1679338",
+    "id": "1679338",
+    "home": {
+      "name": "Barcelona",
+      "shortName": "Barcelona",
+      "id": "8634"
+    },
+    "away": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "status": {
+      "utcTime": "2014-04-01T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/bayern-munchen-vs-manchester-united/3c2ru5#1679352",
+    "id": "1679352",
+    "home": {
+      "name": "Manchester United",
+      "shortName": "Man United",
+      "id": "10260"
+    },
+    "away": {
+      "name": "Bayern München",
+      "shortName": "Bayern München",
+      "id": "9823"
+    },
+    "status": {
+      "utcTime": "2014-04-01T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/chelsea-vs-paris-saint-germain/2rq4ag#1679342",
+    "id": "1679342",
+    "home": {
+      "name": "Paris Saint-Germain",
+      "shortName": "PSG",
+      "id": "9847"
+    },
+    "away": {
+      "name": "Chelsea",
+      "shortName": "Chelsea",
+      "id": "8455"
+    },
+    "status": {
+      "utcTime": "2014-04-02T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/real-madrid-vs-borussia-dortmund/2t1ch6#1679340",
+    "id": "1679340",
+    "home": {
+      "name": "Real Madrid",
+      "shortName": "Real Madrid",
+      "id": "8633"
+    },
+    "away": {
+      "name": "Borussia Dortmund",
+      "shortName": "Dortmund",
+      "id": "9789"
+    },
+    "status": {
+      "utcTime": "2014-04-02T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/real-madrid-vs-borussia-dortmund/2t1ch6#1679341",
+    "id": "1679341",
+    "home": {
+      "name": "Borussia Dortmund",
+      "shortName": "Dortmund",
+      "id": "9789"
+    },
+    "away": {
+      "name": "Real Madrid",
+      "shortName": "Real Madrid",
+      "id": "8633"
+    },
+    "status": {
+      "utcTime": "2014-04-08T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/chelsea-vs-paris-saint-germain/2rq4ag#1679343",
+    "id": "1679343",
+    "home": {
+      "name": "Chelsea",
+      "shortName": "Chelsea",
+      "id": "8455"
+    },
+    "away": {
+      "name": "Paris Saint-Germain",
+      "shortName": "PSG",
+      "id": "9847"
+    },
+    "status": {
+      "utcTime": "2014-04-08T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/barcelona-vs-atletico-madrid/2uc3ao#1679339",
+    "id": "1679339",
+    "home": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "away": {
+      "name": "Barcelona",
+      "shortName": "Barcelona",
+      "id": "8634"
+    },
+    "status": {
+      "utcTime": "2014-04-09T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/bayern-munchen-vs-manchester-united/3c2ru5#1679353",
+    "id": "1679353",
+    "home": {
+      "name": "Bayern München",
+      "shortName": "Bayern München",
+      "id": "9823"
+    },
+    "away": {
+      "name": "Manchester United",
+      "shortName": "Man United",
+      "id": "10260"
+    },
+    "status": {
+      "utcTime": "2014-04-09T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/2",
+    "roundName": "Semi-Finals",
+    "pageUrl": "/matches/chelsea-vs-atletico-madrid/2sdaw7#1689204",
+    "id": "1689204",
+    "home": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "away": {
+      "name": "Chelsea",
+      "shortName": "Chelsea",
+      "id": "8455"
+    },
+    "status": {
+      "utcTime": "2014-04-22T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/2",
+    "roundName": "Semi-Finals",
+    "pageUrl": "/matches/real-madrid-vs-bayern-munchen/2tes97#1689202",
+    "id": "1689202",
+    "home": {
+      "name": "Real Madrid",
+      "shortName": "Real Madrid",
+      "id": "8633"
+    },
+    "away": {
+      "name": "Bayern München",
+      "shortName": "Bayern München",
+      "id": "9823"
+    },
+    "status": {
+      "utcTime": "2014-04-23T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/2",
+    "roundName": "Semi-Finals",
+    "pageUrl": "/matches/real-madrid-vs-bayern-munchen/2tes97#1689203",
+    "id": "1689203",
+    "home": {
+      "name": "Bayern München",
+      "shortName": "Bayern München",
+      "id": "9823"
+    },
+    "away": {
+      "name": "Real Madrid",
+      "shortName": "Real Madrid",
+      "id": "8633"
+    },
+    "status": {
+      "utcTime": "2014-04-29T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 4",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/2",
+    "roundName": "Semi-Finals",
+    "pageUrl": "/matches/chelsea-vs-atletico-madrid/2sdaw7#1689205",
+    "id": "1689205",
+    "home": {
+      "name": "Chelsea",
+      "shortName": "Chelsea",
+      "id": "8455"
+    },
+    "away": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "status": {
+      "utcTime": "2014-04-30T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "final",
+    "roundName": "Final",
+    "pageUrl": "/matches/real-madrid-vs-atletico-madrid/2ubozo#1689206",
+    "id": "1689206",
+    "home": {
+      "name": "Real Madrid",
+      "shortName": "Real Madrid",
+      "id": "8633"
+    },
+    "away": {
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "id": "9906"
+    },
+    "status": {
+      "utcTime": "2014-05-24T18:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 1",
+      "reason": {
+        "short": "AET",
+        "shortKey": "afterextratime_short",
+        "long": "After extra time",
+        "longKey": "afterextra"
+      }
+    }
+  }
+]

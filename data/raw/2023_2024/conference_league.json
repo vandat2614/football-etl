@@ -1,0 +1,4469 @@
+[
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/olimpija-ljubljana-vs-lille/295vun#4315343",
+    "id": "4315343",
+    "home": {
+      "name": "Lille",
+      "shortName": "Lille",
+      "id": "8639"
+    },
+    "away": {
+      "name": "Olimpija Ljubljana",
+      "shortName": "Olimpija Ljubljana",
+      "id": "7872"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-09-20T14:30:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/aberdeen-vs-eintracht-frankfurt/2rndfa#4315349",
+    "id": "4315349",
+    "home": {
+      "name": "Eintracht Frankfurt",
+      "shortName": "Frankfurt",
+      "id": "9810"
+    },
+    "away": {
+      "name": "Aberdeen",
+      "shortName": "Aberdeen",
+      "id": "8485"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-09-21T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/fenerbahce-vs-nordsjaelland/2ybar4#4315290",
+    "id": "4315290",
+    "home": {
+      "name": "Fenerbahçe",
+      "shortName": "Fenerbahçe",
+      "id": "8695"
+    },
+    "away": {
+      "name": "Nordsjælland",
+      "shortName": "Nordsjælland",
+      "id": "10202"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-09-21T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/cukaricki-vs-ferencvaros/1rfgko#4315337",
+    "id": "4315337",
+    "home": {
+      "name": "Ferencváros",
+      "shortName": "Ferencváros",
+      "id": "8222"
+    },
+    "away": {
+      "name": "Čukarički",
+      "shortName": "Čukarički",
+      "id": "6374"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-09-21T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/fiorentina-vs-genk/2u4xz6#4315320",
+    "id": "4315320",
+    "home": {
+      "name": "Genk",
+      "shortName": "Genk",
+      "id": "9987"
+    },
+    "away": {
+      "name": "Fiorentina",
+      "shortName": "Fiorentina",
+      "id": "8535"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-09-21T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/paok-thessaloniki-vs-hjk/2toaal#4315355",
+    "id": "4315355",
+    "home": {
+      "name": "HJK",
+      "shortName": "HJK",
+      "id": "9861"
+    },
+    "away": {
+      "name": "PAOK Thessaloniki",
+      "shortName": "PAOK Thessaloniki",
+      "id": "8619"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-09-21T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/legia-warszawa-vs-aston-villa/2ymnbg#4315332",
+    "id": "4315332",
+    "home": {
+      "name": "Legia Warszawa",
+      "shortName": "Legia Warszawa",
+      "id": "8673"
+    },
+    "away": {
+      "name": "Aston Villa",
+      "shortName": "Aston Villa",
+      "id": "10252"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-09-21T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/spartak-trnava-vs-ludogorets-razgrad/alnjffo#4315325",
+    "id": "4315325",
+    "home": {
+      "name": "Ludogorets Razgrad",
+      "shortName": "Ludogorets Razgrad",
+      "id": "210173"
+    },
+    "away": {
+      "name": "Spartak Trnava",
+      "shortName": "Spartak Trnava",
+      "id": "4662"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-09-21T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/zrinjski-mostar-vs-az-alkmaar/3f4dgt#4315319",
+    "id": "4315319",
+    "home": {
+      "name": "Zrinjski Mostar",
+      "shortName": "Zrinjski Mostar",
+      "id": "10107"
+    },
+    "away": {
+      "name": "AZ Alkmaar",
+      "shortName": "AZ Alkmaar",
+      "id": "10229"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-09-21T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/club-brugge-vs-besiktas/2u832h#4315317",
+    "id": "4315317",
+    "home": {
+      "name": "Club Brugge",
+      "shortName": "Club Brugge",
+      "id": "8342"
+    },
+    "away": {
+      "name": "Beşiktaş",
+      "shortName": "Beşiktaş",
+      "id": "10188"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-09-21T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/dinamo-zagreb-vs-fc-astana/774lqtw#4315297",
+    "id": "4315297",
+    "home": {
+      "name": "Dinamo Zagreb",
+      "shortName": "Dinamo Zagreb",
+      "id": "10156"
+    },
+    "away": {
+      "name": "FC Astana",
+      "shortName": "FC Astana",
+      "id": "166865"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-09-21T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/lugano-vs-bodoglimt/272zh5#4315286",
+    "id": "4315286",
+    "home": {
+      "name": "Lugano",
+      "shortName": "Lugano",
+      "id": "7896"
+    },
+    "away": {
+      "name": "Bodø/Glimt",
+      "shortName": "Bodø/Glimt",
+      "id": "8402"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-09-21T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/maccabi-tel-aviv-vs-breiablik/260c8m#4315272",
+    "id": "4315272",
+    "home": {
+      "name": "Maccabi Tel Aviv",
+      "shortName": "Maccabi Tel Aviv",
+      "id": "7855"
+    },
+    "away": {
+      "name": "Breiðablik",
+      "shortName": "Breiðablik",
+      "id": "8332"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-09-21T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/slovan-bratislava-vs-klaksvik/1nehbp#4315261",
+    "id": "4315261",
+    "home": {
+      "name": "Slovan Bratislava",
+      "shortName": "Slovan Bratislava",
+      "id": "6019"
+    },
+    "away": {
+      "name": "Klaksvik",
+      "shortName": "Klaksvik",
+      "id": "8106"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-09-21T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/viktoria-plzen-vs-ballkani/5v47blaf#4315266",
+    "id": "4315266",
+    "home": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "away": {
+      "name": "Ballkani",
+      "shortName": "Ballkani",
+      "id": "952668"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-09-21T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/zorya-vs-gent/2lx15k#4315277",
+    "id": "4315277",
+    "home": {
+      "name": "Zorya",
+      "shortName": "Zorya",
+      "id": "7770"
+    },
+    "away": {
+      "name": "Gent",
+      "shortName": "Gent",
+      "id": "9991"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-09-21T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/viktoria-plzen-vs-fc-astana/6v711qc#4315315",
+    "id": "4315315",
+    "home": {
+      "name": "FC Astana",
+      "shortName": "FC Astana",
+      "id": "166865"
+    },
+    "away": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-10-05T14:30:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/dinamo-zagreb-vs-ballkani/5wxpqeps#4315314",
+    "id": "4315314",
+    "home": {
+      "name": "Ballkani",
+      "shortName": "Ballkani",
+      "id": "952668"
+    },
+    "away": {
+      "name": "Dinamo Zagreb",
+      "shortName": "Dinamo Zagreb",
+      "id": "10156"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-10-05T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/lugano-vs-besiktas/2pd2gi#4315268",
+    "id": "4315268",
+    "home": {
+      "name": "Beşiktaş",
+      "shortName": "Beşiktaş",
+      "id": "10188"
+    },
+    "away": {
+      "name": "Lugano",
+      "shortName": "Lugano",
+      "id": "7896"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-10-05T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/club-brugge-vs-bodoglimt/2bgx46#4315307",
+    "id": "4315307",
+    "home": {
+      "name": "Bodø/Glimt",
+      "shortName": "Bodø/Glimt",
+      "id": "8402"
+    },
+    "away": {
+      "name": "Club Brugge",
+      "shortName": "Club Brugge",
+      "id": "8342"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-10-05T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/zorya-vs-breiablik/256xch#4315276",
+    "id": "4315276",
+    "home": {
+      "name": "Breiðablik",
+      "shortName": "Breiðablik",
+      "id": "8332"
+    },
+    "away": {
+      "name": "Zorya",
+      "shortName": "Zorya",
+      "id": "7770"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-10-05T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/maccabi-tel-aviv-vs-gent/2mtgus#4315282",
+    "id": "4315282",
+    "home": {
+      "name": "Gent",
+      "shortName": "Gent",
+      "id": "9991"
+    },
+    "away": {
+      "name": "Maccabi Tel Aviv",
+      "shortName": "Maccabi Tel Aviv",
+      "id": "7855"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-10-05T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/klaksvik-vs-lille/2bha7w#4315265",
+    "id": "4315265",
+    "home": {
+      "name": "Klaksvik",
+      "shortName": "Klaksvik",
+      "id": "8106"
+    },
+    "away": {
+      "name": "Lille",
+      "shortName": "Lille",
+      "id": "8639"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-10-05T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/slovan-bratislava-vs-olimpija-ljubljana/1lg7ty#4315283",
+    "id": "4315283",
+    "home": {
+      "name": "Olimpija Ljubljana",
+      "shortName": "Olimpija Ljubljana",
+      "id": "7872"
+    },
+    "away": {
+      "name": "Slovan Bratislava",
+      "shortName": "Slovan Bratislava",
+      "id": "6019"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-10-05T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/aberdeen-vs-hjk/2s7efg#4315352",
+    "id": "4315352",
+    "home": {
+      "name": "Aberdeen",
+      "shortName": "Aberdeen",
+      "id": "8485"
+    },
+    "away": {
+      "name": "HJK",
+      "shortName": "HJK",
+      "id": "9861"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-10-05T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/zrinjski-mostar-vs-aston-villa/3feelk#4315302",
+    "id": "4315302",
+    "home": {
+      "name": "Aston Villa",
+      "shortName": "Aston Villa",
+      "id": "10252"
+    },
+    "away": {
+      "name": "Zrinjski Mostar",
+      "shortName": "Zrinjski Mostar",
+      "id": "10107"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-10-05T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/legia-warszawa-vs-az-alkmaar/2ydbni#4315288",
+    "id": "4315288",
+    "home": {
+      "name": "AZ Alkmaar",
+      "shortName": "AZ Alkmaar",
+      "id": "10229"
+    },
+    "away": {
+      "name": "Legia Warszawa",
+      "shortName": "Legia Warszawa",
+      "id": "8673"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-10-05T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/cukaricki-vs-genk/27p2io#4315340",
+    "id": "4315340",
+    "home": {
+      "name": "Čukarički",
+      "shortName": "Čukarički",
+      "id": "6374"
+    },
+    "away": {
+      "name": "Genk",
+      "shortName": "Genk",
+      "id": "9987"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-10-05T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/nordsjaelland-vs-ludogorets-razgrad/b5lemcx#4315329",
+    "id": "4315329",
+    "home": {
+      "name": "Nordsjælland",
+      "shortName": "Nordsjælland",
+      "id": "10202"
+    },
+    "away": {
+      "name": "Ludogorets Razgrad",
+      "shortName": "Ludogorets Razgrad",
+      "id": "210173"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-10-05T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "7 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/ferencvaros-vs-fiorentina/2bll8u#4315339",
+    "id": "4315339",
+    "home": {
+      "name": "Fiorentina",
+      "shortName": "Fiorentina",
+      "id": "8535"
+    },
+    "away": {
+      "name": "Ferencváros",
+      "shortName": "Ferencváros",
+      "id": "8222"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-10-05T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/paok-thessaloniki-vs-eintracht-frankfurt/2t440l#4315351",
+    "id": "4315351",
+    "home": {
+      "name": "PAOK Thessaloniki",
+      "shortName": "PAOK Thessaloniki",
+      "id": "8619"
+    },
+    "away": {
+      "name": "Eintracht Frankfurt",
+      "shortName": "Frankfurt",
+      "id": "9810"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-10-05T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/spartak-trnava-vs-fenerbahce/1h4ao2#4315328",
+    "id": "4315328",
+    "home": {
+      "name": "Spartak Trnava",
+      "shortName": "Spartak Trnava",
+      "id": "4662"
+    },
+    "away": {
+      "name": "Fenerbahçe",
+      "shortName": "Fenerbahçe",
+      "id": "8695"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-10-05T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/az-alkmaar-vs-aston-villa/3gvswd#4315300",
+    "id": "4315300",
+    "home": {
+      "name": "AZ Alkmaar",
+      "shortName": "AZ Alkmaar",
+      "id": "10229"
+    },
+    "away": {
+      "name": "Aston Villa",
+      "shortName": "Aston Villa",
+      "id": "10252"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-10-26T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 4",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/fc-astana-vs-ballkani/7zw48w6f#4315312",
+    "id": "4315312",
+    "home": {
+      "name": "Ballkani",
+      "shortName": "Ballkani",
+      "id": "952668"
+    },
+    "away": {
+      "name": "FC Astana",
+      "shortName": "FC Astana",
+      "id": "166865"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-10-26T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/fenerbahce-vs-ludogorets-razgrad/b048gjd#4315321",
+    "id": "4315321",
+    "home": {
+      "name": "Fenerbahçe",
+      "shortName": "Fenerbahçe",
+      "id": "8695"
+    },
+    "away": {
+      "name": "Ludogorets Razgrad",
+      "shortName": "Ludogorets Razgrad",
+      "id": "210173"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-10-26T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/breiablik-vs-gent/2ryd51#4315273",
+    "id": "4315273",
+    "home": {
+      "name": "Gent",
+      "shortName": "Gent",
+      "id": "9991"
+    },
+    "away": {
+      "name": "Breiðablik",
+      "shortName": "Breiðablik",
+      "id": "8332"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-10-26T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/olimpija-ljubljana-vs-klaksvik/240afl#4315294",
+    "id": "4315294",
+    "home": {
+      "name": "Klaksvik",
+      "shortName": "Klaksvik",
+      "id": "8106"
+    },
+    "away": {
+      "name": "Olimpija Ljubljana",
+      "shortName": "Olimpija Ljubljana",
+      "id": "7872"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-10-26T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/slovan-bratislava-vs-lille/1rywo2#4315260",
+    "id": "4315260",
+    "home": {
+      "name": "Lille",
+      "shortName": "Lille",
+      "id": "8639"
+    },
+    "away": {
+      "name": "Slovan Bratislava",
+      "shortName": "Slovan Bratislava",
+      "id": "6019"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-10-26T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/lugano-vs-club-brugge/26i29b#4315299",
+    "id": "4315299",
+    "home": {
+      "name": "Lugano",
+      "shortName": "Lugano",
+      "id": "7896"
+    },
+    "away": {
+      "name": "Club Brugge",
+      "shortName": "Club Brugge",
+      "id": "8342"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-10-26T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/aberdeen-vs-paok-thessaloniki/2f3ij7#4315353",
+    "id": "4315353",
+    "home": {
+      "name": "Aberdeen",
+      "shortName": "Aberdeen",
+      "id": "8485"
+    },
+    "away": {
+      "name": "PAOK Thessaloniki",
+      "shortName": "PAOK Thessaloniki",
+      "id": "8619"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-10-26T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/bodoglimt-vs-besiktas/2uvyeb#4315284",
+    "id": "4315284",
+    "home": {
+      "name": "Bodø/Glimt",
+      "shortName": "Bodø/Glimt",
+      "id": "8402"
+    },
+    "away": {
+      "name": "Beşiktaş",
+      "shortName": "Beşiktaş",
+      "id": "10188"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-10-26T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/viktoria-plzen-vs-dinamo-zagreb/260zg4#4315281",
+    "id": "4315281",
+    "home": {
+      "name": "Dinamo Zagreb",
+      "shortName": "Dinamo Zagreb",
+      "id": "10156"
+    },
+    "away": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-10-26T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/eintracht-frankfurt-vs-hjk/3778s9#4315344",
+    "id": "4315344",
+    "home": {
+      "name": "Eintracht Frankfurt",
+      "shortName": "Frankfurt",
+      "id": "9810"
+    },
+    "away": {
+      "name": "HJK",
+      "shortName": "HJK",
+      "id": "9861"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-10-26T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "6 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/cukaricki-vs-fiorentina/1u6fui#4315336",
+    "id": "4315336",
+    "home": {
+      "name": "Fiorentina",
+      "shortName": "Fiorentina",
+      "id": "8535"
+    },
+    "away": {
+      "name": "Čukarički",
+      "shortName": "Čukarički",
+      "id": "6374"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-10-26T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "6 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/ferencvaros-vs-genk/2qpqd0#4315341",
+    "id": "4315341",
+    "home": {
+      "name": "Genk",
+      "shortName": "Genk",
+      "id": "9987"
+    },
+    "away": {
+      "name": "Ferencváros",
+      "shortName": "Ferencváros",
+      "id": "8222"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-10-26T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/spartak-trnava-vs-nordsjaelland/1trzy6#4315322",
+    "id": "4315322",
+    "home": {
+      "name": "Spartak Trnava",
+      "shortName": "Spartak Trnava",
+      "id": "4662"
+    },
+    "away": {
+      "name": "Nordsjælland",
+      "shortName": "Nordsjælland",
+      "id": "10202"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-10-26T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/legia-warszawa-vs-zrinjski-mostar/2x01zr#4315306",
+    "id": "4315306",
+    "home": {
+      "name": "Zrinjski Mostar",
+      "shortName": "Zrinjski Mostar",
+      "id": "10107"
+    },
+    "away": {
+      "name": "Legia Warszawa",
+      "shortName": "Legia Warszawa",
+      "id": "8673"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-10-26T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/fc-astana-vs-ballkani/7zw48w6f#4315296",
+    "id": "4315296",
+    "home": {
+      "name": "FC Astana",
+      "shortName": "FC Astana",
+      "id": "166865"
+    },
+    "away": {
+      "name": "Ballkani",
+      "shortName": "Ballkani",
+      "id": "952668"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-11-09T15:30:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/bodoglimt-vs-besiktas/2uvyeb#4315287",
+    "id": "4315287",
+    "home": {
+      "name": "Beşiktaş",
+      "shortName": "Beşiktaş",
+      "id": "10188"
+    },
+    "away": {
+      "name": "Bodø/Glimt",
+      "shortName": "Bodø/Glimt",
+      "id": "8402"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-11-09T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/cukaricki-vs-fiorentina/1u6fui#4315331",
+    "id": "4315331",
+    "home": {
+      "name": "Čukarički",
+      "shortName": "Čukarički",
+      "id": "6374"
+    },
+    "away": {
+      "name": "Fiorentina",
+      "shortName": "Fiorentina",
+      "id": "8535"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-11-09T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/spartak-trnava-vs-nordsjaelland/1trzy6#4315327",
+    "id": "4315327",
+    "home": {
+      "name": "Nordsjælland",
+      "shortName": "Nordsjælland",
+      "id": "10202"
+    },
+    "away": {
+      "name": "Spartak Trnava",
+      "shortName": "Spartak Trnava",
+      "id": "4662"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-11-09T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/ferencvaros-vs-genk/2qpqd0#4315335",
+    "id": "4315335",
+    "home": {
+      "name": "Ferencváros",
+      "shortName": "Ferencváros",
+      "id": "8222"
+    },
+    "away": {
+      "name": "Genk",
+      "shortName": "Genk",
+      "id": "9987"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-11-09T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/eintracht-frankfurt-vs-hjk/3778s9#4315345",
+    "id": "4315345",
+    "home": {
+      "name": "HJK",
+      "shortName": "HJK",
+      "id": "9861"
+    },
+    "away": {
+      "name": "Eintracht Frankfurt",
+      "shortName": "Frankfurt",
+      "id": "9810"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-11-09T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/legia-warszawa-vs-zrinjski-mostar/2x01zr#4315301",
+    "id": "4315301",
+    "home": {
+      "name": "Legia Warszawa",
+      "shortName": "Legia Warszawa",
+      "id": "8673"
+    },
+    "away": {
+      "name": "Zrinjski Mostar",
+      "shortName": "Zrinjski Mostar",
+      "id": "10107"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-11-09T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/aberdeen-vs-paok-thessaloniki/2f3ij7#4315348",
+    "id": "4315348",
+    "home": {
+      "name": "PAOK Thessaloniki",
+      "shortName": "PAOK Thessaloniki",
+      "id": "8619"
+    },
+    "away": {
+      "name": "Aberdeen",
+      "shortName": "Aberdeen",
+      "id": "8485"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-11-09T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/viktoria-plzen-vs-dinamo-zagreb/260zg4#4315311",
+    "id": "4315311",
+    "home": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "away": {
+      "name": "Dinamo Zagreb",
+      "shortName": "Dinamo Zagreb",
+      "id": "10156"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-11-09T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/az-alkmaar-vs-aston-villa/3gvswd#4315305",
+    "id": "4315305",
+    "home": {
+      "name": "Aston Villa",
+      "shortName": "Aston Villa",
+      "id": "10252"
+    },
+    "away": {
+      "name": "AZ Alkmaar",
+      "shortName": "AZ Alkmaar",
+      "id": "10229"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-11-09T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/breiablik-vs-gent/2ryd51#4315279",
+    "id": "4315279",
+    "home": {
+      "name": "Breiðablik",
+      "shortName": "Breiðablik",
+      "id": "8332"
+    },
+    "away": {
+      "name": "Gent",
+      "shortName": "Gent",
+      "id": "9991"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-11-09T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/lugano-vs-club-brugge/26i29b#4315308",
+    "id": "4315308",
+    "home": {
+      "name": "Club Brugge",
+      "shortName": "Club Brugge",
+      "id": "8342"
+    },
+    "away": {
+      "name": "Lugano",
+      "shortName": "Lugano",
+      "id": "7896"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-11-09T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/fenerbahce-vs-ludogorets-razgrad/b048gjd#4315326",
+    "id": "4315326",
+    "home": {
+      "name": "Ludogorets Razgrad",
+      "shortName": "Ludogorets Razgrad",
+      "id": "210173"
+    },
+    "away": {
+      "name": "Fenerbahçe",
+      "shortName": "Fenerbahçe",
+      "id": "8695"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-11-09T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/olimpija-ljubljana-vs-klaksvik/240afl#4315292",
+    "id": "4315292",
+    "home": {
+      "name": "Olimpija Ljubljana",
+      "shortName": "Olimpija Ljubljana",
+      "id": "7872"
+    },
+    "away": {
+      "name": "Klaksvik",
+      "shortName": "Klaksvik",
+      "id": "8106"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-11-09T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/slovan-bratislava-vs-lille/1rywo2#4315263",
+    "id": "4315263",
+    "home": {
+      "name": "Slovan Bratislava",
+      "shortName": "Slovan Bratislava",
+      "id": "6019"
+    },
+    "away": {
+      "name": "Lille",
+      "shortName": "Lille",
+      "id": "8639"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-11-09T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/zorya-vs-maccabi-tel-aviv/20oq58#4315280",
+    "id": "4315280",
+    "home": {
+      "name": "Zorya",
+      "shortName": "Zorya",
+      "id": "7770"
+    },
+    "away": {
+      "name": "Maccabi Tel Aviv",
+      "shortName": "Maccabi Tel Aviv",
+      "id": "7855"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-11-09T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/zorya-vs-maccabi-tel-aviv/20oq58#4315274",
+    "id": "4315274",
+    "home": {
+      "name": "Maccabi Tel Aviv",
+      "shortName": "Maccabi Tel Aviv",
+      "id": "7855"
+    },
+    "away": {
+      "name": "Zorya",
+      "shortName": "Zorya",
+      "id": "7770"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-11-25T15:30:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/maccabi-tel-aviv-vs-breiablik/260c8m#4315278",
+    "id": "4315278",
+    "home": {
+      "name": "Breiðablik",
+      "shortName": "Breiðablik",
+      "id": "8332"
+    },
+    "away": {
+      "name": "Maccabi Tel Aviv",
+      "shortName": "Maccabi Tel Aviv",
+      "id": "7855"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-11-30T13:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/dinamo-zagreb-vs-fc-astana/774lqtw#4315313",
+    "id": "4315313",
+    "home": {
+      "name": "FC Astana",
+      "shortName": "FC Astana",
+      "id": "166865"
+    },
+    "away": {
+      "name": "Dinamo Zagreb",
+      "shortName": "Dinamo Zagreb",
+      "id": "10156"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-11-30T15:30:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/zrinjski-mostar-vs-az-alkmaar/3f4dgt#4315303",
+    "id": "4315303",
+    "home": {
+      "name": "AZ Alkmaar",
+      "shortName": "AZ Alkmaar",
+      "id": "10229"
+    },
+    "away": {
+      "name": "Zrinjski Mostar",
+      "shortName": "Zrinjski Mostar",
+      "id": "10107"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-11-30T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/viktoria-plzen-vs-ballkani/5v47blaf#4315267",
+    "id": "4315267",
+    "home": {
+      "name": "Ballkani",
+      "shortName": "Ballkani",
+      "id": "952668"
+    },
+    "away": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-11-30T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/club-brugge-vs-besiktas/2u832h#4315298",
+    "id": "4315298",
+    "home": {
+      "name": "Beşiktaş",
+      "shortName": "Beşiktaş",
+      "id": "10188"
+    },
+    "away": {
+      "name": "Club Brugge",
+      "shortName": "Club Brugge",
+      "id": "8342"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-11-30T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 5",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/lugano-vs-bodoglimt/272zh5#4315269",
+    "id": "4315269",
+    "home": {
+      "name": "Bodø/Glimt",
+      "shortName": "Bodø/Glimt",
+      "id": "8402"
+    },
+    "away": {
+      "name": "Lugano",
+      "shortName": "Lugano",
+      "id": "7896"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-11-30T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/zorya-vs-gent/2lx15k#4315271",
+    "id": "4315271",
+    "home": {
+      "name": "Gent",
+      "shortName": "Gent",
+      "id": "9991"
+    },
+    "away": {
+      "name": "Zorya",
+      "shortName": "Zorya",
+      "id": "7770"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-11-30T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/aberdeen-vs-hjk/2s7efg#4315347",
+    "id": "4315347",
+    "home": {
+      "name": "HJK",
+      "shortName": "HJK",
+      "id": "9861"
+    },
+    "away": {
+      "name": "Aberdeen",
+      "shortName": "Aberdeen",
+      "id": "8485"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-11-30T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/slovan-bratislava-vs-klaksvik/1nehbp#4315264",
+    "id": "4315264",
+    "home": {
+      "name": "Klaksvik",
+      "shortName": "Klaksvik",
+      "id": "8106"
+    },
+    "away": {
+      "name": "Slovan Bratislava",
+      "shortName": "Slovan Bratislava",
+      "id": "6019"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-11-30T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/olimpija-ljubljana-vs-lille/295vun#4315295",
+    "id": "4315295",
+    "home": {
+      "name": "Olimpija Ljubljana",
+      "shortName": "Olimpija Ljubljana",
+      "id": "7872"
+    },
+    "away": {
+      "name": "Lille",
+      "shortName": "Lille",
+      "id": "8639"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-11-30T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/legia-warszawa-vs-aston-villa/2ymnbg#4315304",
+    "id": "4315304",
+    "home": {
+      "name": "Aston Villa",
+      "shortName": "Aston Villa",
+      "id": "10252"
+    },
+    "away": {
+      "name": "Legia Warszawa",
+      "shortName": "Legia Warszawa",
+      "id": "8673"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-11-30T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/cukaricki-vs-ferencvaros/1rfgko#4315330",
+    "id": "4315330",
+    "home": {
+      "name": "Čukarički",
+      "shortName": "Čukarički",
+      "id": "6374"
+    },
+    "away": {
+      "name": "Ferencváros",
+      "shortName": "Ferencváros",
+      "id": "8222"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-11-30T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/paok-thessaloniki-vs-eintracht-frankfurt/2t440l#4315346",
+    "id": "4315346",
+    "home": {
+      "name": "Eintracht Frankfurt",
+      "shortName": "Frankfurt",
+      "id": "9810"
+    },
+    "away": {
+      "name": "PAOK Thessaloniki",
+      "shortName": "PAOK Thessaloniki",
+      "id": "8619"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-11-30T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/fenerbahce-vs-nordsjaelland/2ybar4#4315291",
+    "id": "4315291",
+    "home": {
+      "name": "Nordsjælland",
+      "shortName": "Nordsjælland",
+      "id": "10202"
+    },
+    "away": {
+      "name": "Fenerbahçe",
+      "shortName": "Fenerbahçe",
+      "id": "8695"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-11-30T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "6 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/fiorentina-vs-genk/2u4xz6#4315338",
+    "id": "4315338",
+    "home": {
+      "name": "Fiorentina",
+      "shortName": "Fiorentina",
+      "id": "8535"
+    },
+    "away": {
+      "name": "Genk",
+      "shortName": "Genk",
+      "id": "9987"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-11-30T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/spartak-trnava-vs-ludogorets-razgrad/alnjffo#4315342",
+    "id": "4315342",
+    "home": {
+      "name": "Spartak Trnava",
+      "shortName": "Spartak Trnava",
+      "id": "4662"
+    },
+    "away": {
+      "name": "Ludogorets Razgrad",
+      "shortName": "Ludogorets Razgrad",
+      "id": "210173"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-11-30T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/aberdeen-vs-eintracht-frankfurt/2rndfa#4315354",
+    "id": "4315354",
+    "home": {
+      "name": "Aberdeen",
+      "shortName": "Aberdeen",
+      "id": "8485"
+    },
+    "away": {
+      "name": "Eintracht Frankfurt",
+      "shortName": "Frankfurt",
+      "id": "9810"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-12-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/spartak-trnava-vs-fenerbahce/1h4ao2#4315323",
+    "id": "4315323",
+    "home": {
+      "name": "Fenerbahçe",
+      "shortName": "Fenerbahçe",
+      "id": "8695"
+    },
+    "away": {
+      "name": "Spartak Trnava",
+      "shortName": "Spartak Trnava",
+      "id": "4662"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-12-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/ferencvaros-vs-fiorentina/2bll8u#4315333",
+    "id": "4315333",
+    "home": {
+      "name": "Ferencváros",
+      "shortName": "Ferencváros",
+      "id": "8222"
+    },
+    "away": {
+      "name": "Fiorentina",
+      "shortName": "Fiorentina",
+      "id": "8535"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-12-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/cukaricki-vs-genk/27p2io#4315334",
+    "id": "4315334",
+    "home": {
+      "name": "Genk",
+      "shortName": "Genk",
+      "id": "9987"
+    },
+    "away": {
+      "name": "Čukarički",
+      "shortName": "Čukarički",
+      "id": "6374"
+    },
+    "group": "F",
+    "status": {
+      "utcTime": "2023-12-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/legia-warszawa-vs-az-alkmaar/2ydbni#4315289",
+    "id": "4315289",
+    "home": {
+      "name": "Legia Warszawa",
+      "shortName": "Legia Warszawa",
+      "id": "8673"
+    },
+    "away": {
+      "name": "AZ Alkmaar",
+      "shortName": "AZ Alkmaar",
+      "id": "10229"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-12-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/nordsjaelland-vs-ludogorets-razgrad/b5lemcx#4315324",
+    "id": "4315324",
+    "home": {
+      "name": "Ludogorets Razgrad",
+      "shortName": "Ludogorets Razgrad",
+      "id": "210173"
+    },
+    "away": {
+      "name": "Nordsjælland",
+      "shortName": "Nordsjælland",
+      "id": "10202"
+    },
+    "group": "H",
+    "status": {
+      "utcTime": "2023-12-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/paok-thessaloniki-vs-hjk/2toaal#4315350",
+    "id": "4315350",
+    "home": {
+      "name": "PAOK Thessaloniki",
+      "shortName": "PAOK Thessaloniki",
+      "id": "8619"
+    },
+    "away": {
+      "name": "HJK",
+      "shortName": "HJK",
+      "id": "9861"
+    },
+    "group": "G",
+    "status": {
+      "utcTime": "2023-12-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/zrinjski-mostar-vs-aston-villa/3feelk#4315318",
+    "id": "4315318",
+    "home": {
+      "name": "Zrinjski Mostar",
+      "shortName": "Zrinjski Mostar",
+      "id": "10107"
+    },
+    "away": {
+      "name": "Aston Villa",
+      "shortName": "Aston Villa",
+      "id": "10252"
+    },
+    "group": "E",
+    "status": {
+      "utcTime": "2023-12-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/club-brugge-vs-bodoglimt/2bgx46#4315316",
+    "id": "4315316",
+    "home": {
+      "name": "Club Brugge",
+      "shortName": "Club Brugge",
+      "id": "8342"
+    },
+    "away": {
+      "name": "Bodø/Glimt",
+      "shortName": "Bodø/Glimt",
+      "id": "8402"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-12-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/dinamo-zagreb-vs-ballkani/5wxpqeps#4315309",
+    "id": "4315309",
+    "home": {
+      "name": "Dinamo Zagreb",
+      "shortName": "Dinamo Zagreb",
+      "id": "10156"
+    },
+    "away": {
+      "name": "Ballkani",
+      "shortName": "Ballkani",
+      "id": "952668"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-12-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/klaksvik-vs-lille/2bha7w#4315262",
+    "id": "4315262",
+    "home": {
+      "name": "Lille",
+      "shortName": "Lille",
+      "id": "8639"
+    },
+    "away": {
+      "name": "Klaksvik",
+      "shortName": "Klaksvik",
+      "id": "8106"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-12-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/lugano-vs-besiktas/2pd2gi#4315285",
+    "id": "4315285",
+    "home": {
+      "name": "Lugano",
+      "shortName": "Lugano",
+      "id": "7896"
+    },
+    "away": {
+      "name": "Beşiktaş",
+      "shortName": "Beşiktaş",
+      "id": "10188"
+    },
+    "group": "D",
+    "status": {
+      "utcTime": "2023-12-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/maccabi-tel-aviv-vs-gent/2mtgus#4315275",
+    "id": "4315275",
+    "home": {
+      "name": "Maccabi Tel Aviv",
+      "shortName": "Maccabi Tel Aviv",
+      "id": "7855"
+    },
+    "away": {
+      "name": "Gent",
+      "shortName": "Gent",
+      "id": "9991"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-12-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/slovan-bratislava-vs-olimpija-ljubljana/1lg7ty#4315293",
+    "id": "4315293",
+    "home": {
+      "name": "Slovan Bratislava",
+      "shortName": "Slovan Bratislava",
+      "id": "6019"
+    },
+    "away": {
+      "name": "Olimpija Ljubljana",
+      "shortName": "Olimpija Ljubljana",
+      "id": "7872"
+    },
+    "group": "A",
+    "status": {
+      "utcTime": "2023-12-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/viktoria-plzen-vs-fc-astana/6v711qc#4315310",
+    "id": "4315310",
+    "home": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "away": {
+      "name": "FC Astana",
+      "shortName": "FC Astana",
+      "id": "166865"
+    },
+    "group": "C",
+    "status": {
+      "utcTime": "2023-12-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/zorya-vs-breiablik/256xch#4315270",
+    "id": "4315270",
+    "home": {
+      "name": "Zorya",
+      "shortName": "Zorya",
+      "id": "7770"
+    },
+    "away": {
+      "name": "Breiðablik",
+      "shortName": "Breiðablik",
+      "id": "8332"
+    },
+    "group": "B",
+    "status": {
+      "utcTime": "2023-12-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/legia-warszawa-vs-molde/2uvzke#4384285",
+    "id": "4384285",
+    "home": {
+      "name": "Molde",
+      "shortName": "Molde",
+      "id": "9917"
+    },
+    "away": {
+      "name": "Legia Warszawa",
+      "shortName": "Legia Warszawa",
+      "id": "8673"
+    },
+    "status": {
+      "utcTime": "2024-02-15T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/ferencvaros-vs-olympiacos/2cmp84#4384283",
+    "id": "4384283",
+    "home": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "away": {
+      "name": "Ferencváros",
+      "shortName": "Ferencváros",
+      "id": "8222"
+    },
+    "status": {
+      "utcTime": "2024-02-15T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/slovan-bratislava-vs-sturm-graz/24j438#4384279",
+    "id": "4384279",
+    "home": {
+      "name": "Sturm Graz",
+      "shortName": "Sturm Graz",
+      "id": "10014"
+    },
+    "away": {
+      "name": "Slovan Bratislava",
+      "shortName": "Slovan Bratislava",
+      "id": "6019"
+    },
+    "status": {
+      "utcTime": "2024-02-15T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/union-stgilloise-vs-eintracht-frankfurt/2m7bbs#4384281",
+    "id": "4384281",
+    "home": {
+      "name": "Union St.Gilloise",
+      "shortName": "Union St.Gilloise",
+      "id": "7978"
+    },
+    "away": {
+      "name": "Eintracht Frankfurt",
+      "shortName": "Frankfurt",
+      "id": "9810"
+    },
+    "status": {
+      "utcTime": "2024-02-15T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/bodoglimt-vs-ajax/2dzoiv#4384284",
+    "id": "4384284",
+    "home": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "away": {
+      "name": "Bodø/Glimt",
+      "shortName": "Bodø/Glimt",
+      "id": "8402"
+    },
+    "status": {
+      "utcTime": "2024-02-15T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/gent-vs-maccabi-haifa/3d6whb#4384286",
+    "id": "4384286",
+    "home": {
+      "name": "Maccabi Haifa",
+      "shortName": "Maccabi Haifa",
+      "id": "10185"
+    },
+    "away": {
+      "name": "Gent",
+      "shortName": "Gent",
+      "id": "9991"
+    },
+    "status": {
+      "utcTime": "2024-02-15T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/real-betis-vs-dinamo-zagreb/2wrlsn#4384282",
+    "id": "4384282",
+    "home": {
+      "name": "Real Betis",
+      "shortName": "Real Betis",
+      "id": "8603"
+    },
+    "away": {
+      "name": "Dinamo Zagreb",
+      "shortName": "Dinamo Zagreb",
+      "id": "10156"
+    },
+    "status": {
+      "utcTime": "2024-02-15T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/servette-vs-ludogorets-razgrad/b41kt7u#4384280",
+    "id": "4384280",
+    "home": {
+      "name": "Servette",
+      "shortName": "Servette",
+      "id": "9777"
+    },
+    "away": {
+      "name": "Ludogorets Razgrad",
+      "shortName": "Ludogorets Razgrad",
+      "id": "210173"
+    },
+    "status": {
+      "utcTime": "2024-02-15T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/gent-vs-maccabi-haifa/3d6whb#4384294",
+    "id": "4384294",
+    "home": {
+      "name": "Gent",
+      "shortName": "Gent",
+      "id": "9991"
+    },
+    "away": {
+      "name": "Maccabi Haifa",
+      "shortName": "Maccabi Haifa",
+      "id": "10185"
+    },
+    "status": {
+      "utcTime": "2024-02-21T17:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/bodoglimt-vs-ajax/2dzoiv#4384292",
+    "id": "4384292",
+    "home": {
+      "name": "Bodø/Glimt",
+      "shortName": "Bodø/Glimt",
+      "id": "8402"
+    },
+    "away": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "status": {
+      "utcTime": "2024-02-22T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "AET",
+        "shortKey": "afterextratime_short",
+        "long": "After extra time",
+        "longKey": "afterextra"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/real-betis-vs-dinamo-zagreb/2wrlsn#4384290",
+    "id": "4384290",
+    "home": {
+      "name": "Dinamo Zagreb",
+      "shortName": "Dinamo Zagreb",
+      "id": "10156"
+    },
+    "away": {
+      "name": "Real Betis",
+      "shortName": "Real Betis",
+      "id": "8603"
+    },
+    "status": {
+      "utcTime": "2024-02-22T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/servette-vs-ludogorets-razgrad/b41kt7u#4384288",
+    "id": "4384288",
+    "home": {
+      "name": "Ludogorets Razgrad",
+      "shortName": "Ludogorets Razgrad",
+      "id": "210173"
+    },
+    "away": {
+      "name": "Servette",
+      "shortName": "Servette",
+      "id": "9777"
+    },
+    "status": {
+      "utcTime": "2024-02-22T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/union-stgilloise-vs-eintracht-frankfurt/2m7bbs#4384289",
+    "id": "4384289",
+    "home": {
+      "name": "Eintracht Frankfurt",
+      "shortName": "Frankfurt",
+      "id": "9810"
+    },
+    "away": {
+      "name": "Union St.Gilloise",
+      "shortName": "Union St.Gilloise",
+      "id": "7978"
+    },
+    "status": {
+      "utcTime": "2024-02-22T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/ferencvaros-vs-olympiacos/2cmp84#4384291",
+    "id": "4384291",
+    "home": {
+      "name": "Ferencváros",
+      "shortName": "Ferencváros",
+      "id": "8222"
+    },
+    "away": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "status": {
+      "utcTime": "2024-02-22T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/legia-warszawa-vs-molde/2uvzke#4384293",
+    "id": "4384293",
+    "home": {
+      "name": "Legia Warszawa",
+      "shortName": "Legia Warszawa",
+      "id": "8673"
+    },
+    "away": {
+      "name": "Molde",
+      "shortName": "Molde",
+      "id": "9917"
+    },
+    "status": {
+      "utcTime": "2024-02-22T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/16",
+    "roundName": "Round of 32",
+    "pageUrl": "/matches/slovan-bratislava-vs-sturm-graz/24j438#4384287",
+    "id": "4384287",
+    "home": {
+      "name": "Slovan Bratislava",
+      "shortName": "Slovan Bratislava",
+      "id": "6019"
+    },
+    "away": {
+      "name": "Sturm Graz",
+      "shortName": "Sturm Graz",
+      "id": "10014"
+    },
+    "status": {
+      "utcTime": "2024-02-22T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/ajax-vs-aston-villa/2xq9hg#4430920",
+    "id": "4430920",
+    "home": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "away": {
+      "name": "Aston Villa",
+      "shortName": "Aston Villa",
+      "id": "10252"
+    },
+    "status": {
+      "utcTime": "2024-03-07T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/club-brugge-vs-molde/2r99sr#4430921",
+    "id": "4430921",
+    "home": {
+      "name": "Molde",
+      "shortName": "Molde",
+      "id": "9917"
+    },
+    "away": {
+      "name": "Club Brugge",
+      "shortName": "Club Brugge",
+      "id": "8342"
+    },
+    "status": {
+      "utcTime": "2024-03-07T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/maccabi-tel-aviv-vs-olympiacos/28zind#4430926",
+    "id": "4430926",
+    "home": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "away": {
+      "name": "Maccabi Tel Aviv",
+      "shortName": "Maccabi Tel Aviv",
+      "id": "7855"
+    },
+    "status": {
+      "utcTime": "2024-03-07T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 4",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/lille-vs-sturm-graz/2vl3te#4430924",
+    "id": "4430924",
+    "home": {
+      "name": "Sturm Graz",
+      "shortName": "Sturm Graz",
+      "id": "10014"
+    },
+    "away": {
+      "name": "Lille",
+      "shortName": "Lille",
+      "id": "8639"
+    },
+    "status": {
+      "utcTime": "2024-03-07T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/paok-thessaloniki-vs-dinamo-zagreb/2wy1i7#4430923",
+    "id": "4430923",
+    "home": {
+      "name": "Dinamo Zagreb",
+      "shortName": "Dinamo Zagreb",
+      "id": "10156"
+    },
+    "away": {
+      "name": "PAOK Thessaloniki",
+      "shortName": "PAOK Thessaloniki",
+      "id": "8619"
+    },
+    "status": {
+      "utcTime": "2024-03-07T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/fiorentina-vs-maccabi-haifa/2wbxt3#4430925",
+    "id": "4430925",
+    "home": {
+      "name": "Maccabi Haifa",
+      "shortName": "Maccabi Haifa",
+      "id": "10185"
+    },
+    "away": {
+      "name": "Fiorentina",
+      "shortName": "Fiorentina",
+      "id": "8535"
+    },
+    "status": {
+      "utcTime": "2024-03-07T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 4",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/viktoria-plzen-vs-servette/22f3bo#4430919",
+    "id": "4430919",
+    "home": {
+      "name": "Servette",
+      "shortName": "Servette",
+      "id": "9777"
+    },
+    "away": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "status": {
+      "utcTime": "2024-03-07T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/union-stgilloise-vs-fenerbahce/2arhyg#4430922",
+    "id": "4430922",
+    "home": {
+      "name": "Union St.Gilloise",
+      "shortName": "Union St.Gilloise",
+      "id": "7978"
+    },
+    "away": {
+      "name": "Fenerbahçe",
+      "shortName": "Fenerbahçe",
+      "id": "8695"
+    },
+    "status": {
+      "utcTime": "2024-03-07T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 3",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/union-stgilloise-vs-fenerbahce/2arhyg#4430930",
+    "id": "4430930",
+    "home": {
+      "name": "Fenerbahçe",
+      "shortName": "Fenerbahçe",
+      "id": "8695"
+    },
+    "away": {
+      "name": "Union St.Gilloise",
+      "shortName": "Union St.Gilloise",
+      "id": "7978"
+    },
+    "status": {
+      "utcTime": "2024-03-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/fiorentina-vs-maccabi-haifa/2wbxt3#4430933",
+    "id": "4430933",
+    "home": {
+      "name": "Fiorentina",
+      "shortName": "Fiorentina",
+      "id": "8535"
+    },
+    "away": {
+      "name": "Maccabi Haifa",
+      "shortName": "Maccabi Haifa",
+      "id": "10185"
+    },
+    "status": {
+      "utcTime": "2024-03-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/paok-thessaloniki-vs-dinamo-zagreb/2wy1i7#4430931",
+    "id": "4430931",
+    "home": {
+      "name": "PAOK Thessaloniki",
+      "shortName": "PAOK Thessaloniki",
+      "id": "8619"
+    },
+    "away": {
+      "name": "Dinamo Zagreb",
+      "shortName": "Dinamo Zagreb",
+      "id": "10156"
+    },
+    "status": {
+      "utcTime": "2024-03-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "5 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/viktoria-plzen-vs-servette/22f3bo#4430927",
+    "id": "4430927",
+    "home": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "away": {
+      "name": "Servette",
+      "shortName": "Servette",
+      "id": "9777"
+    },
+    "status": {
+      "utcTime": "2024-03-14T17:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "Pen",
+        "shortKey": "penalties_short",
+        "long": "After penalties",
+        "longKey": "afterpenalties"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/ajax-vs-aston-villa/2xq9hg#4430928",
+    "id": "4430928",
+    "home": {
+      "name": "Aston Villa",
+      "shortName": "Aston Villa",
+      "id": "10252"
+    },
+    "away": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "status": {
+      "utcTime": "2024-03-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "4 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/club-brugge-vs-molde/2r99sr#4430929",
+    "id": "4430929",
+    "home": {
+      "name": "Club Brugge",
+      "shortName": "Club Brugge",
+      "id": "8342"
+    },
+    "away": {
+      "name": "Molde",
+      "shortName": "Molde",
+      "id": "9917"
+    },
+    "status": {
+      "utcTime": "2024-03-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/lille-vs-sturm-graz/2vl3te#4430932",
+    "id": "4430932",
+    "home": {
+      "name": "Lille",
+      "shortName": "Lille",
+      "id": "8639"
+    },
+    "away": {
+      "name": "Sturm Graz",
+      "shortName": "Sturm Graz",
+      "id": "10014"
+    },
+    "status": {
+      "utcTime": "2024-03-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/8",
+    "roundName": "Round of 16",
+    "pageUrl": "/matches/maccabi-tel-aviv-vs-olympiacos/28zind#4430934",
+    "id": "4430934",
+    "home": {
+      "name": "Maccabi Tel Aviv",
+      "shortName": "Maccabi Tel Aviv",
+      "id": "7855"
+    },
+    "away": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "status": {
+      "utcTime": "2024-03-14T20:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 6",
+      "reason": {
+        "short": "AET",
+        "shortKey": "afterextratime_short",
+        "long": "After extra time",
+        "longKey": "afterextra"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/olympiacos-vs-fenerbahce/2hg15a#4446443",
+    "id": "4446443",
+    "home": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "away": {
+      "name": "Fenerbahçe",
+      "shortName": "Fenerbahçe",
+      "id": "8695"
+    },
+    "status": {
+      "utcTime": "2024-04-11T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/viktoria-plzen-vs-fiorentina/1r6prf#4446445",
+    "id": "4446445",
+    "home": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "away": {
+      "name": "Fiorentina",
+      "shortName": "Fiorentina",
+      "id": "8535"
+    },
+    "status": {
+      "utcTime": "2024-04-11T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/lille-vs-aston-villa/2y8v8h#4446444",
+    "id": "4446444",
+    "home": {
+      "name": "Aston Villa",
+      "shortName": "Aston Villa",
+      "id": "10252"
+    },
+    "away": {
+      "name": "Lille",
+      "shortName": "Lille",
+      "id": "8639"
+    },
+    "status": {
+      "utcTime": "2024-04-11T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/club-brugge-vs-paok-thessaloniki/2dnb4c#4446442",
+    "id": "4446442",
+    "home": {
+      "name": "Club Brugge",
+      "shortName": "Club Brugge",
+      "id": "8342"
+    },
+    "away": {
+      "name": "PAOK Thessaloniki",
+      "shortName": "PAOK Thessaloniki",
+      "id": "8619"
+    },
+    "status": {
+      "utcTime": "2024-04-11T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/viktoria-plzen-vs-fiorentina/1r6prf#4446449",
+    "id": "4446449",
+    "home": {
+      "name": "Fiorentina",
+      "shortName": "Fiorentina",
+      "id": "8535"
+    },
+    "away": {
+      "name": "Viktoria Plzeň",
+      "shortName": "Viktoria Plzeň",
+      "id": "6033"
+    },
+    "status": {
+      "utcTime": "2024-04-18T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "AET",
+        "shortKey": "afterextratime_short",
+        "long": "After extra time",
+        "longKey": "afterextra"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/lille-vs-aston-villa/2y8v8h#4446448",
+    "id": "4446448",
+    "home": {
+      "name": "Lille",
+      "shortName": "Lille",
+      "id": "8639"
+    },
+    "away": {
+      "name": "Aston Villa",
+      "shortName": "Aston Villa",
+      "id": "10252"
+    },
+    "status": {
+      "utcTime": "2024-04-18T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 1",
+      "reason": {
+        "short": "Pen",
+        "shortKey": "penalties_short",
+        "long": "After penalties",
+        "longKey": "afterpenalties"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/olympiacos-vs-fenerbahce/2hg15a#4446447",
+    "id": "4446447",
+    "home": {
+      "name": "Fenerbahçe",
+      "shortName": "Fenerbahçe",
+      "id": "8695"
+    },
+    "away": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "status": {
+      "utcTime": "2024-04-18T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "Pen",
+        "shortKey": "penalties_short",
+        "long": "After penalties",
+        "longKey": "afterpenalties"
+      }
+    }
+  },
+  {
+    "round": "1/4",
+    "roundName": "Quarter-Finals",
+    "pageUrl": "/matches/club-brugge-vs-paok-thessaloniki/2dnb4c#4446446",
+    "id": "4446446",
+    "home": {
+      "name": "PAOK Thessaloniki",
+      "shortName": "PAOK Thessaloniki",
+      "id": "8619"
+    },
+    "away": {
+      "name": "Club Brugge",
+      "shortName": "Club Brugge",
+      "id": "8342"
+    },
+    "status": {
+      "utcTime": "2024-04-18T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "0 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/2",
+    "roundName": "Semi-Finals",
+    "pageUrl": "/matches/olympiacos-vs-aston-villa/2y8gnp#4446450",
+    "id": "4446450",
+    "home": {
+      "name": "Aston Villa",
+      "shortName": "Aston Villa",
+      "id": "10252"
+    },
+    "away": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "status": {
+      "utcTime": "2024-05-02T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 4",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/2",
+    "roundName": "Semi-Finals",
+    "pageUrl": "/matches/club-brugge-vs-fiorentina/2csuf6#4446451",
+    "id": "4446451",
+    "home": {
+      "name": "Fiorentina",
+      "shortName": "Fiorentina",
+      "id": "8535"
+    },
+    "away": {
+      "name": "Club Brugge",
+      "shortName": "Club Brugge",
+      "id": "8342"
+    },
+    "status": {
+      "utcTime": "2024-05-02T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "3 - 2",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/2",
+    "roundName": "Semi-Finals",
+    "pageUrl": "/matches/club-brugge-vs-fiorentina/2csuf6#4446453",
+    "id": "4446453",
+    "home": {
+      "name": "Club Brugge",
+      "shortName": "Club Brugge",
+      "id": "8342"
+    },
+    "away": {
+      "name": "Fiorentina",
+      "shortName": "Fiorentina",
+      "id": "8535"
+    },
+    "status": {
+      "utcTime": "2024-05-08T16:45:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 1",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "1/2",
+    "roundName": "Semi-Finals",
+    "pageUrl": "/matches/olympiacos-vs-aston-villa/2y8gnp#4446452",
+    "id": "4446452",
+    "home": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "away": {
+      "name": "Aston Villa",
+      "shortName": "Aston Villa",
+      "id": "10252"
+    },
+    "status": {
+      "utcTime": "2024-05-09T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "2 - 0",
+      "reason": {
+        "short": "FT",
+        "shortKey": "fulltime_short",
+        "long": "Full-Time",
+        "longKey": "finished"
+      }
+    }
+  },
+  {
+    "round": "final",
+    "roundName": "Final",
+    "pageUrl": "/matches/fiorentina-vs-olympiacos/2fsv1h#4446454",
+    "id": "4446454",
+    "home": {
+      "name": "Olympiacos",
+      "shortName": "Olympiacos",
+      "id": "8638"
+    },
+    "away": {
+      "name": "Fiorentina",
+      "shortName": "Fiorentina",
+      "id": "8535"
+    },
+    "status": {
+      "utcTime": "2024-05-29T19:00:00Z",
+      "timezone": "UTC",
+      "finished": true,
+      "started": true,
+      "cancelled": false,
+      "awarded": false,
+      "scoreStr": "1 - 0",
+      "reason": {
+        "short": "AET",
+        "shortKey": "afterextratime_short",
+        "long": "After extra time",
+        "longKey": "afterextra"
+      }
+    }
+  }
+]

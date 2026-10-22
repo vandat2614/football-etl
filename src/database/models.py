@@ -119,6 +119,9 @@ class CrawlStateLog(Base):
         DateTime(timezone=True), nullable=True
     )
  
+    # Why this crawl ran: "manual", "never_crawled", "refresh_7d", "group_finished:<time>"
+    trigger_reason: Mapped[Optional[str]] = mapped_column(String(100), nullable=True)
+
     error: Mapped[Optional[str]] = mapped_column(Text, nullable=True)
  
     __table_args__ = (

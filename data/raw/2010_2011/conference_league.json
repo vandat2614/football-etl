@@ -1,0 +1,2486 @@
+[
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/monaco-vs-cska-sofia/3arjw4#6112541",
+    "id": "6112541",
+    "home": {
+      "name": "CSKA Sofia",
+      "shortName": "CSKA Sofia",
+      "id": "10144"
+    },
+    "away": {
+      "name": "Monaco",
+      "shortName": "Monaco",
+      "id": "9829"
+    },
+    "status": {
+      "utcTime": "2026-10-15T16:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/fc-midtjylland-vs-egnatia/2q3had#6112553",
+    "id": "6112553",
+    "home": {
+      "name": "Egnatia",
+      "shortName": "Egnatia",
+      "id": "10039"
+    },
+    "away": {
+      "name": "FC Midtjylland",
+      "shortName": "FC Midtjylland",
+      "id": "8113"
+    },
+    "status": {
+      "utcTime": "2026-10-15T16:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/agf-vs-gent/2p4l9s#6112413",
+    "id": "6112413",
+    "home": {
+      "name": "Gent",
+      "shortName": "Gent",
+      "id": "9991"
+    },
+    "away": {
+      "name": "AGF",
+      "shortName": "AGF",
+      "id": "8071"
+    },
+    "status": {
+      "utcTime": "2026-10-15T16:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/ajax-vs-hajduk-split/2wms57#6112523",
+    "id": "6112523",
+    "home": {
+      "name": "Hajduk Split",
+      "shortName": "Hajduk Split",
+      "id": "10154"
+    },
+    "away": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "status": {
+      "utcTime": "2026-10-15T16:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/kups-vs-trabzonspor/1303fz#6112478",
+    "id": "6112478",
+    "home": {
+      "name": "KuPS",
+      "shortName": "KuPS",
+      "id": "1693"
+    },
+    "away": {
+      "name": "Trabzonspor",
+      "shortName": "Trabzonspor",
+      "id": "9752"
+    },
+    "status": {
+      "utcTime": "2026-10-15T16:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/lugano-vs-fk-crvena-zvezda/29vf6z#6112473",
+    "id": "6112473",
+    "home": {
+      "name": "Lugano",
+      "shortName": "Lugano",
+      "id": "7896"
+    },
+    "away": {
+      "name": "FK Crvena Zvezda",
+      "shortName": "FK Crvena Zvezda",
+      "id": "8687"
+    },
+    "status": {
+      "utcTime": "2026-10-15T16:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/mjallby-vs-inter-club-descaldes/2qd7pc#6112549",
+    "id": "6112549",
+    "home": {
+      "name": "Mjällby",
+      "shortName": "Mjällby",
+      "id": "8127"
+    },
+    "away": {
+      "name": "Inter Club d'Escaldes",
+      "shortName": "Inter Club d'Escaldes",
+      "id": "10050"
+    },
+    "status": {
+      "utcTime": "2026-10-15T16:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/borac-banja-luka-vs-panathinaikos/3evnri#6112415",
+    "id": "6112415",
+    "home": {
+      "name": "Panathinaikos",
+      "shortName": "Panathinaikos",
+      "id": "10200"
+    },
+    "away": {
+      "name": "Borac Banja Luka",
+      "shortName": "Borac Banja Luka",
+      "id": "10116"
+    },
+    "status": {
+      "utcTime": "2026-10-15T16:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/kairat-almaty-vs-riga-fc/2k0xfrxi#6112521",
+    "id": "6112521",
+    "home": {
+      "name": "Riga FC",
+      "shortName": "Riga FC",
+      "id": "624924"
+    },
+    "away": {
+      "name": "Kairat Almaty",
+      "shortName": "Kairat Almaty",
+      "id": "8037"
+    },
+    "status": {
+      "utcTime": "2026-10-15T16:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/getafe-vs-universitatea-craiova/1iu0cxwp#6112505",
+    "id": "6112505",
+    "home": {
+      "name": "Universitatea Craiova",
+      "shortName": "Universitatea Craiova",
+      "id": "480286"
+    },
+    "away": {
+      "name": "Getafe",
+      "shortName": "Getafe",
+      "id": "8305"
+    },
+    "status": {
+      "utcTime": "2026-10-15T16:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/pafos-fc-vs-atalanta/xubt7#6112387",
+    "id": "6112387",
+    "home": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "away": {
+      "name": "Pafos FC",
+      "shortName": "Pafos FC",
+      "id": "2137"
+    },
+    "status": {
+      "utcTime": "2026-10-15T19:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/brann-vs-lincoln-red-imps-fc/1yd5nz20#6112493",
+    "id": "6112493",
+    "home": {
+      "name": "Brann",
+      "shortName": "Brann",
+      "id": "8468"
+    },
+    "away": {
+      "name": "Lincoln Red Imps FC",
+      "shortName": "Lincoln Red Imps FC",
+      "id": "545012"
+    },
+    "status": {
+      "utcTime": "2026-10-15T19:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/brighton-hove-albion-vs-fk-kauno-zalgiris/1adk9iqg#6112422",
+    "id": "6112422",
+    "home": {
+      "name": "Brighton & Hove Albion",
+      "shortName": "Brighton",
+      "id": "10204"
+    },
+    "away": {
+      "name": "FK Kauno Žalgiris",
+      "shortName": "FK Kauno Žalgiris",
+      "id": "439132"
+    },
+    "status": {
+      "utcTime": "2026-10-15T19:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/fc-kobenhavn-vs-braga/2vlwev#6112402",
+    "id": "6112402",
+    "home": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "away": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "status": {
+      "utcTime": "2026-10-15T19:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/fc-twente-vs-thun/2x8wxq#6112482",
+    "id": "6112482",
+    "home": {
+      "name": "FC Twente",
+      "shortName": "FC Twente",
+      "id": "8611"
+    },
+    "away": {
+      "name": "Thun",
+      "shortName": "Thun",
+      "id": "10191"
+    },
+    "status": {
+      "utcTime": "2026-10-15T19:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/jablonec-vs-freiburg/25bre0#6112398",
+    "id": "6112398",
+    "home": {
+      "name": "Freiburg",
+      "shortName": "Freiburg",
+      "id": "8358"
+    },
+    "away": {
+      "name": "Jablonec",
+      "shortName": "Jablonec",
+      "id": "7758"
+    },
+    "status": {
+      "utcTime": "2026-10-15T19:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/heart-midlothian-vs-nordsjaelland/3btqlx#6112497",
+    "id": "6112497",
+    "home": {
+      "name": "Heart of Midlothian",
+      "shortName": "Hearts",
+      "id": "9860"
+    },
+    "away": {
+      "name": "Nordsjælland",
+      "shortName": "Nordsjælland",
+      "id": "10202"
+    },
+    "status": {
+      "utcTime": "2026-10-15T19:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "1",
+    "roundName": 1,
+    "pageUrl": "/matches/sttruiden-vs-iberia-1999/1j7qv6lh#6112491",
+    "id": "6112491",
+    "home": {
+      "name": "St.Truiden",
+      "shortName": "St.Truiden",
+      "id": "9997"
+    },
+    "away": {
+      "name": "Iberia 1999",
+      "shortName": "Iberia 1999",
+      "id": "480291"
+    },
+    "status": {
+      "utcTime": "2026-10-15T19:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/kairat-almaty-vs-panathinaikos/2r0mko#6112498",
+    "id": "6112498",
+    "home": {
+      "name": "Kairat Almaty",
+      "shortName": "Kairat Almaty",
+      "id": "8037"
+    },
+    "away": {
+      "name": "Panathinaikos",
+      "shortName": "Panathinaikos",
+      "id": "10200"
+    },
+    "status": {
+      "utcTime": "2026-10-22T14:30:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/cska-sofia-vs-nordsjaelland/3f8qeh#6112531",
+    "id": "6112531",
+    "home": {
+      "name": "Nordsjælland",
+      "shortName": "Nordsjælland",
+      "id": "10202"
+    },
+    "away": {
+      "name": "CSKA Sofia",
+      "shortName": "CSKA Sofia",
+      "id": "10144"
+    },
+    "status": {
+      "utcTime": "2026-10-22T16:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/fc-kobenhavn-vs-fk-crvena-zvezda/2etzp8#6112408",
+    "id": "6112408",
+    "home": {
+      "name": "FK Crvena Zvezda",
+      "shortName": "FK Crvena Zvezda",
+      "id": "8687"
+    },
+    "away": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "status": {
+      "utcTime": "2026-10-22T16:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/brann-vs-fk-kauno-zalgiris/1a0ohg3w#6112545",
+    "id": "6112545",
+    "home": {
+      "name": "FK Kauno Žalgiris",
+      "shortName": "FK Kauno Žalgiris",
+      "id": "439132"
+    },
+    "away": {
+      "name": "Brann",
+      "shortName": "Brann",
+      "id": "8468"
+    },
+    "status": {
+      "utcTime": "2026-10-22T16:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/lugano-vs-getafe/26575q#6112475",
+    "id": "6112475",
+    "home": {
+      "name": "Getafe",
+      "shortName": "Getafe",
+      "id": "8305"
+    },
+    "away": {
+      "name": "Lugano",
+      "shortName": "Lugano",
+      "id": "7896"
+    },
+    "status": {
+      "utcTime": "2026-10-22T16:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/mjallby-vs-iberia-1999/1ism1kdu#6112552",
+    "id": "6112552",
+    "home": {
+      "name": "Iberia 1999",
+      "shortName": "Iberia 1999",
+      "id": "480291"
+    },
+    "away": {
+      "name": "Mjällby",
+      "shortName": "Mjällby",
+      "id": "8127"
+    },
+    "status": {
+      "utcTime": "2026-10-22T16:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/inter-club-descaldes-vs-universitatea-craiova/1j855p72#6112536",
+    "id": "6112536",
+    "home": {
+      "name": "Inter Club d'Escaldes",
+      "shortName": "Inter Club d'Escaldes",
+      "id": "10050"
+    },
+    "away": {
+      "name": "Universitatea Craiova",
+      "shortName": "Universitatea Craiova",
+      "id": "480286"
+    },
+    "status": {
+      "utcTime": "2026-10-22T16:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/jablonec-vs-brighton-hove-albion/2o1xp1#6112526",
+    "id": "6112526",
+    "home": {
+      "name": "Jablonec",
+      "shortName": "Jablonec",
+      "id": "7758"
+    },
+    "away": {
+      "name": "Brighton & Hove Albion",
+      "shortName": "Brighton",
+      "id": "10204"
+    },
+    "status": {
+      "utcTime": "2026-10-22T16:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/pafos-fc-vs-riga-fc/2ibgrc0j#6112419",
+    "id": "6112419",
+    "home": {
+      "name": "Pafos FC",
+      "shortName": "Pafos FC",
+      "id": "2137"
+    },
+    "away": {
+      "name": "Riga FC",
+      "shortName": "Riga FC",
+      "id": "624924"
+    },
+    "status": {
+      "utcTime": "2026-10-22T16:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/trabzonspor-vs-heart-midlothian/36iel6#6112502",
+    "id": "6112502",
+    "home": {
+      "name": "Trabzonspor",
+      "shortName": "Trabzonspor",
+      "id": "9752"
+    },
+    "away": {
+      "name": "Heart of Midlothian",
+      "shortName": "Hearts",
+      "id": "9860"
+    },
+    "status": {
+      "utcTime": "2026-10-22T16:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/agf-vs-egnatia/2pn5ns#6112534",
+    "id": "6112534",
+    "home": {
+      "name": "AGF",
+      "shortName": "AGF",
+      "id": "8071"
+    },
+    "away": {
+      "name": "Egnatia",
+      "shortName": "Egnatia",
+      "id": "10039"
+    },
+    "status": {
+      "utcTime": "2026-10-22T19:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/atalanta-vs-ajax/2f8a5g#6112393",
+    "id": "6112393",
+    "home": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "away": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "status": {
+      "utcTime": "2026-10-22T19:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/kups-vs-borac-banja-luka/15imz2#6112487",
+    "id": "6112487",
+    "home": {
+      "name": "Borac Banja Luka",
+      "shortName": "Borac Banja Luka",
+      "id": "10116"
+    },
+    "away": {
+      "name": "KuPS",
+      "shortName": "KuPS",
+      "id": "1693"
+    },
+    "status": {
+      "utcTime": "2026-10-22T19:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/gent-vs-braga/3e54s7#6112390",
+    "id": "6112390",
+    "home": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "away": {
+      "name": "Gent",
+      "shortName": "Gent",
+      "id": "9991"
+    },
+    "status": {
+      "utcTime": "2026-10-22T19:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/fc-midtjylland-vs-sttruiden/2pn75a#6112406",
+    "id": "6112406",
+    "home": {
+      "name": "FC Midtjylland",
+      "shortName": "FC Midtjylland",
+      "id": "8113"
+    },
+    "away": {
+      "name": "St.Truiden",
+      "shortName": "St.Truiden",
+      "id": "9997"
+    },
+    "status": {
+      "utcTime": "2026-10-22T19:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/fc-twente-vs-lincoln-red-imps-fc/1yegsltj#6112484",
+    "id": "6112484",
+    "home": {
+      "name": "Lincoln Red Imps FC",
+      "shortName": "Lincoln Red Imps FC",
+      "id": "545012"
+    },
+    "away": {
+      "name": "FC Twente",
+      "shortName": "FC Twente",
+      "id": "8611"
+    },
+    "status": {
+      "utcTime": "2026-10-22T19:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/freiburg-vs-monaco/2qh5bb#6112399",
+    "id": "6112399",
+    "home": {
+      "name": "Monaco",
+      "shortName": "Monaco",
+      "id": "9829"
+    },
+    "away": {
+      "name": "Freiburg",
+      "shortName": "Freiburg",
+      "id": "8358"
+    },
+    "status": {
+      "utcTime": "2026-10-22T19:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "2",
+    "roundName": 2,
+    "pageUrl": "/matches/hajduk-split-vs-thun/3f8ap0#6112540",
+    "id": "6112540",
+    "home": {
+      "name": "Thun",
+      "shortName": "Thun",
+      "id": "10191"
+    },
+    "away": {
+      "name": "Hajduk Split",
+      "shortName": "Hajduk Split",
+      "id": "10154"
+    },
+    "status": {
+      "utcTime": "2026-10-22T19:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/agf-vs-braga/2s31dj#6112532",
+    "id": "6112532",
+    "home": {
+      "name": "AGF",
+      "shortName": "AGF",
+      "id": "8071"
+    },
+    "away": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "status": {
+      "utcTime": "2026-11-05T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/kairat-almaty-vs-atalanta/29nlqt#6112388",
+    "id": "6112388",
+    "home": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "away": {
+      "name": "Kairat Almaty",
+      "shortName": "Kairat Almaty",
+      "id": "8037"
+    },
+    "status": {
+      "utcTime": "2026-11-05T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/fc-midtjylland-vs-ajax/2b3aus#6112405",
+    "id": "6112405",
+    "home": {
+      "name": "FC Midtjylland",
+      "shortName": "FC Midtjylland",
+      "id": "8113"
+    },
+    "away": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "status": {
+      "utcTime": "2026-11-05T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/fk-crvena-zvezda-vs-inter-club-descaldes/2wirlk#6112410",
+    "id": "6112410",
+    "home": {
+      "name": "FK Crvena Zvezda",
+      "shortName": "FK Crvena Zvezda",
+      "id": "8687"
+    },
+    "away": {
+      "name": "Inter Club d'Escaldes",
+      "shortName": "Inter Club d'Escaldes",
+      "id": "10050"
+    },
+    "status": {
+      "utcTime": "2026-11-05T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/kups-vs-gent/14ncdd#6112477",
+    "id": "6112477",
+    "home": {
+      "name": "KuPS",
+      "shortName": "KuPS",
+      "id": "1693"
+    },
+    "away": {
+      "name": "Gent",
+      "shortName": "Gent",
+      "id": "9991"
+    },
+    "status": {
+      "utcTime": "2026-11-05T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/hajduk-split-vs-lincoln-red-imps-fc/1ysmeyv9#6112485",
+    "id": "6112485",
+    "home": {
+      "name": "Lincoln Red Imps FC",
+      "shortName": "Lincoln Red Imps FC",
+      "id": "545012"
+    },
+    "away": {
+      "name": "Hajduk Split",
+      "shortName": "Hajduk Split",
+      "id": "10154"
+    },
+    "status": {
+      "utcTime": "2026-11-05T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/mjallby-vs-borac-banja-luka/2r2z39#6112548",
+    "id": "6112548",
+    "home": {
+      "name": "Mjällby",
+      "shortName": "Mjällby",
+      "id": "8127"
+    },
+    "away": {
+      "name": "Borac Banja Luka",
+      "shortName": "Borac Banja Luka",
+      "id": "10116"
+    },
+    "status": {
+      "utcTime": "2026-11-05T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/heart-midlothian-vs-thun/3bp0de#6112539",
+    "id": "6112539",
+    "home": {
+      "name": "Thun",
+      "shortName": "Thun",
+      "id": "10191"
+    },
+    "away": {
+      "name": "Heart of Midlothian",
+      "shortName": "Hearts",
+      "id": "9860"
+    },
+    "status": {
+      "utcTime": "2026-11-05T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/freiburg-vs-trabzonspor/2pn6yh#6112501",
+    "id": "6112501",
+    "home": {
+      "name": "Trabzonspor",
+      "shortName": "Trabzonspor",
+      "id": "9752"
+    },
+    "away": {
+      "name": "Freiburg",
+      "shortName": "Freiburg",
+      "id": "8358"
+    },
+    "status": {
+      "utcTime": "2026-11-05T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/fc-kobenhavn-vs-iberia-1999/1iuqu04u#6112404",
+    "id": "6112404",
+    "home": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "away": {
+      "name": "Iberia 1999",
+      "shortName": "Iberia 1999",
+      "id": "480291"
+    },
+    "status": {
+      "utcTime": "2026-11-05T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/pafos-fc-vs-fc-twente/yeai1#6112480",
+    "id": "6112480",
+    "home": {
+      "name": "FC Twente",
+      "shortName": "FC Twente",
+      "id": "8611"
+    },
+    "away": {
+      "name": "Pafos FC",
+      "shortName": "Pafos FC",
+      "id": "2137"
+    },
+    "status": {
+      "utcTime": "2026-11-05T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/getafe-vs-brighton-hove-albion/2tzqy4#6112474",
+    "id": "6112474",
+    "home": {
+      "name": "Getafe",
+      "shortName": "Getafe",
+      "id": "8305"
+    },
+    "away": {
+      "name": "Brighton & Hove Albion",
+      "shortName": "Brighton",
+      "id": "10204"
+    },
+    "status": {
+      "utcTime": "2026-11-05T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/lugano-vs-fk-kauno-zalgiris/19wg5dtm#6112471",
+    "id": "6112471",
+    "home": {
+      "name": "Lugano",
+      "shortName": "Lugano",
+      "id": "7896"
+    },
+    "away": {
+      "name": "FK Kauno Žalgiris",
+      "shortName": "FK Kauno Žalgiris",
+      "id": "439132"
+    },
+    "status": {
+      "utcTime": "2026-11-05T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/monaco-vs-nordsjaelland/3bgf2d#6112401",
+    "id": "6112401",
+    "home": {
+      "name": "Monaco",
+      "shortName": "Monaco",
+      "id": "9829"
+    },
+    "away": {
+      "name": "Nordsjælland",
+      "shortName": "Nordsjælland",
+      "id": "10202"
+    },
+    "status": {
+      "utcTime": "2026-11-05T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/cska-sofia-vs-panathinaikos/3f7v04#6112416",
+    "id": "6112416",
+    "home": {
+      "name": "Panathinaikos",
+      "shortName": "Panathinaikos",
+      "id": "10200"
+    },
+    "away": {
+      "name": "CSKA Sofia",
+      "shortName": "CSKA Sofia",
+      "id": "10144"
+    },
+    "status": {
+      "utcTime": "2026-11-05T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/jablonec-vs-riga-fc/2jy0bj79#6112522",
+    "id": "6112522",
+    "home": {
+      "name": "Riga FC",
+      "shortName": "Riga FC",
+      "id": "624924"
+    },
+    "away": {
+      "name": "Jablonec",
+      "shortName": "Jablonec",
+      "id": "7758"
+    },
+    "status": {
+      "utcTime": "2026-11-05T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/brann-vs-sttruiden/2ticla#6112490",
+    "id": "6112490",
+    "home": {
+      "name": "St.Truiden",
+      "shortName": "St.Truiden",
+      "id": "9997"
+    },
+    "away": {
+      "name": "Brann",
+      "shortName": "Brann",
+      "id": "8468"
+    },
+    "status": {
+      "utcTime": "2026-11-05T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "3",
+    "roundName": 3,
+    "pageUrl": "/matches/egnatia-vs-universitatea-craiova/1j81y3fp#6112506",
+    "id": "6112506",
+    "home": {
+      "name": "Universitatea Craiova",
+      "shortName": "Universitatea Craiova",
+      "id": "480286"
+    },
+    "away": {
+      "name": "Egnatia",
+      "shortName": "Egnatia",
+      "id": "10039"
+    },
+    "status": {
+      "utcTime": "2026-11-05T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/kairat-almaty-vs-mjallby/25sd09#6112500",
+    "id": "6112500",
+    "home": {
+      "name": "Kairat Almaty",
+      "shortName": "Kairat Almaty",
+      "id": "8037"
+    },
+    "away": {
+      "name": "Mjällby",
+      "shortName": "Mjällby",
+      "id": "8127"
+    },
+    "status": {
+      "utcTime": "2026-11-26T15:30:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/ajax-vs-thun/2x1nwh#6112395",
+    "id": "6112395",
+    "home": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "away": {
+      "name": "Thun",
+      "shortName": "Thun",
+      "id": "10191"
+    },
+    "status": {
+      "utcTime": "2026-11-26T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/agf-vs-brann/29fsr2#6112494",
+    "id": "6112494",
+    "home": {
+      "name": "Brann",
+      "shortName": "Brann",
+      "id": "8468"
+    },
+    "away": {
+      "name": "AGF",
+      "shortName": "AGF",
+      "id": "8071"
+    },
+    "status": {
+      "utcTime": "2026-11-26T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/brighton-hove-albion-vs-universitatea-craiova/1j9e4fn1#6112421",
+    "id": "6112421",
+    "home": {
+      "name": "Brighton & Hove Albion",
+      "shortName": "Brighton",
+      "id": "10204"
+    },
+    "away": {
+      "name": "Universitatea Craiova",
+      "shortName": "Universitatea Craiova",
+      "id": "480286"
+    },
+    "status": {
+      "utcTime": "2026-11-26T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/egnatia-vs-lincoln-red-imps-fc/1yrkepie#6112554",
+    "id": "6112554",
+    "home": {
+      "name": "Egnatia",
+      "shortName": "Egnatia",
+      "id": "10039"
+    },
+    "away": {
+      "name": "Lincoln Red Imps FC",
+      "shortName": "Lincoln Red Imps FC",
+      "id": "545012"
+    },
+    "status": {
+      "utcTime": "2026-11-26T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/fk-kauno-zalgiris-vs-riga-fc/782ej1bs#6112546",
+    "id": "6112546",
+    "home": {
+      "name": "FK Kauno Žalgiris",
+      "shortName": "FK Kauno Žalgiris",
+      "id": "439132"
+    },
+    "away": {
+      "name": "Riga FC",
+      "shortName": "Riga FC",
+      "id": "624924"
+    },
+    "status": {
+      "utcTime": "2026-11-26T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/monaco-vs-heart-midlothian/37eu4h#6112495",
+    "id": "6112495",
+    "home": {
+      "name": "Heart of Midlothian",
+      "shortName": "Hearts",
+      "id": "9860"
+    },
+    "away": {
+      "name": "Monaco",
+      "shortName": "Monaco",
+      "id": "9829"
+    },
+    "status": {
+      "utcTime": "2026-11-26T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/getafe-vs-iberia-1999/1iu1tawz#6112551",
+    "id": "6112551",
+    "home": {
+      "name": "Iberia 1999",
+      "shortName": "Iberia 1999",
+      "id": "480291"
+    },
+    "away": {
+      "name": "Getafe",
+      "shortName": "Getafe",
+      "id": "8305"
+    },
+    "status": {
+      "utcTime": "2026-11-26T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/jablonec-vs-lugano/20yg59#6112527",
+    "id": "6112527",
+    "home": {
+      "name": "Jablonec",
+      "shortName": "Jablonec",
+      "id": "7758"
+    },
+    "away": {
+      "name": "Lugano",
+      "shortName": "Lugano",
+      "id": "7896"
+    },
+    "status": {
+      "utcTime": "2026-11-26T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/pafos-fc-vs-fc-midtjylland/va7l4#6112417",
+    "id": "6112417",
+    "home": {
+      "name": "Pafos FC",
+      "shortName": "Pafos FC",
+      "id": "2137"
+    },
+    "away": {
+      "name": "FC Midtjylland",
+      "shortName": "FC Midtjylland",
+      "id": "8113"
+    },
+    "status": {
+      "utcTime": "2026-11-26T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/atalanta-vs-borac-banja-luka/2vfwok#6112486",
+    "id": "6112486",
+    "home": {
+      "name": "Borac Banja Luka",
+      "shortName": "Borac Banja Luka",
+      "id": "10116"
+    },
+    "away": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "status": {
+      "utcTime": "2026-11-26T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/kups-vs-braga/16kc1g#6112391",
+    "id": "6112391",
+    "home": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "away": {
+      "name": "KuPS",
+      "shortName": "KuPS",
+      "id": "1693"
+    },
+    "status": {
+      "utcTime": "2026-11-26T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/trabzonspor-vs-cska-sofia/39unf8#6112542",
+    "id": "6112542",
+    "home": {
+      "name": "CSKA Sofia",
+      "shortName": "CSKA Sofia",
+      "id": "10144"
+    },
+    "away": {
+      "name": "Trabzonspor",
+      "shortName": "Trabzonspor",
+      "id": "9752"
+    },
+    "status": {
+      "utcTime": "2026-11-26T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/panathinaikos-vs-nordsjaelland/3fx6s5#6112529",
+    "id": "6112529",
+    "home": {
+      "name": "Nordsjælland",
+      "shortName": "Nordsjælland",
+      "id": "10202"
+    },
+    "away": {
+      "name": "Panathinaikos",
+      "shortName": "Panathinaikos",
+      "id": "10200"
+    },
+    "status": {
+      "utcTime": "2026-11-26T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/freiburg-vs-fc-twente/2dq7u8#6112397",
+    "id": "6112397",
+    "home": {
+      "name": "Freiburg",
+      "shortName": "Freiburg",
+      "id": "8358"
+    },
+    "away": {
+      "name": "FC Twente",
+      "shortName": "FC Twente",
+      "id": "8611"
+    },
+    "status": {
+      "utcTime": "2026-11-26T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/fk-crvena-zvezda-vs-gent/2vv4xg#6112411",
+    "id": "6112411",
+    "home": {
+      "name": "Gent",
+      "shortName": "Gent",
+      "id": "9991"
+    },
+    "away": {
+      "name": "FK Crvena Zvezda",
+      "shortName": "FK Crvena Zvezda",
+      "id": "8687"
+    },
+    "status": {
+      "utcTime": "2026-11-26T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/sttruiden-vs-hajduk-split/3cw3ip#6112524",
+    "id": "6112524",
+    "home": {
+      "name": "Hajduk Split",
+      "shortName": "Hajduk Split",
+      "id": "10154"
+    },
+    "away": {
+      "name": "St.Truiden",
+      "shortName": "St.Truiden",
+      "id": "9997"
+    },
+    "status": {
+      "utcTime": "2026-11-26T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "4",
+    "roundName": 4,
+    "pageUrl": "/matches/fc-kobenhavn-vs-inter-club-descaldes/2t8tmc#6112535",
+    "id": "6112535",
+    "home": {
+      "name": "Inter Club d'Escaldes",
+      "shortName": "Inter Club d'Escaldes",
+      "id": "10050"
+    },
+    "away": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "status": {
+      "utcTime": "2026-11-26T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/kairat-almaty-vs-universitatea-craiova/1iruf5ij#6112499",
+    "id": "6112499",
+    "home": {
+      "name": "Kairat Almaty",
+      "shortName": "Kairat Almaty",
+      "id": "8037"
+    },
+    "away": {
+      "name": "Universitatea Craiova",
+      "shortName": "Universitatea Craiova",
+      "id": "480286"
+    },
+    "status": {
+      "utcTime": "2026-12-10T15:30:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/brann-vs-braga/2wgr5e#6112492",
+    "id": "6112492",
+    "home": {
+      "name": "Brann",
+      "shortName": "Brann",
+      "id": "8468"
+    },
+    "away": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "status": {
+      "utcTime": "2026-12-10T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/lugano-vs-fc-kobenhavn/26z56f#6112403",
+    "id": "6112403",
+    "home": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "away": {
+      "name": "Lugano",
+      "shortName": "Lugano",
+      "id": "7896"
+    },
+    "status": {
+      "utcTime": "2026-12-10T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/freiburg-vs-panathinaikos/2uj7qf#6112396",
+    "id": "6112396",
+    "home": {
+      "name": "Freiburg",
+      "shortName": "Freiburg",
+      "id": "8358"
+    },
+    "away": {
+      "name": "Panathinaikos",
+      "shortName": "Panathinaikos",
+      "id": "10200"
+    },
+    "status": {
+      "utcTime": "2026-12-10T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/getafe-vs-inter-club-descaldes/2sawnz#6112476",
+    "id": "6112476",
+    "home": {
+      "name": "Getafe",
+      "shortName": "Getafe",
+      "id": "8305"
+    },
+    "away": {
+      "name": "Inter Club d'Escaldes",
+      "shortName": "Inter Club d'Escaldes",
+      "id": "10050"
+    },
+    "status": {
+      "utcTime": "2026-12-10T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/fk-crvena-zvezda-vs-iberia-1999/1ix4zau2#6112550",
+    "id": "6112550",
+    "home": {
+      "name": "Iberia 1999",
+      "shortName": "Iberia 1999",
+      "id": "480291"
+    },
+    "away": {
+      "name": "FK Crvena Zvezda",
+      "shortName": "FK Crvena Zvezda",
+      "id": "8687"
+    },
+    "status": {
+      "utcTime": "2026-12-10T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/kups-vs-cska-sofia/15pqf4#6112479",
+    "id": "6112479",
+    "home": {
+      "name": "KuPS",
+      "shortName": "KuPS",
+      "id": "1693"
+    },
+    "away": {
+      "name": "CSKA Sofia",
+      "shortName": "CSKA Sofia",
+      "id": "10144"
+    },
+    "status": {
+      "utcTime": "2026-12-10T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/fc-midtjylland-vs-lincoln-red-imps-fc/1y9wpy5s#6112483",
+    "id": "6112483",
+    "home": {
+      "name": "Lincoln Red Imps FC",
+      "shortName": "Lincoln Red Imps FC",
+      "id": "545012"
+    },
+    "away": {
+      "name": "FC Midtjylland",
+      "shortName": "FC Midtjylland",
+      "id": "8113"
+    },
+    "status": {
+      "utcTime": "2026-12-10T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/atalanta-vs-riga-fc/2k6118rk#6112520",
+    "id": "6112520",
+    "home": {
+      "name": "Riga FC",
+      "shortName": "Riga FC",
+      "id": "624924"
+    },
+    "away": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "status": {
+      "utcTime": "2026-12-10T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/jablonec-vs-trabzonspor/2ja5ct#6112503",
+    "id": "6112503",
+    "home": {
+      "name": "Trabzonspor",
+      "shortName": "Trabzonspor",
+      "id": "9752"
+    },
+    "away": {
+      "name": "Jablonec",
+      "shortName": "Jablonec",
+      "id": "7758"
+    },
+    "status": {
+      "utcTime": "2026-12-10T17:45:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/agf-vs-fc-twente/2auppm#6112533",
+    "id": "6112533",
+    "home": {
+      "name": "AGF",
+      "shortName": "AGF",
+      "id": "8071"
+    },
+    "away": {
+      "name": "FC Twente",
+      "shortName": "FC Twente",
+      "id": "8611"
+    },
+    "status": {
+      "utcTime": "2026-12-10T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/monaco-vs-brighton-hove-albion/3bh9za#6112420",
+    "id": "6112420",
+    "home": {
+      "name": "Brighton & Hove Albion",
+      "shortName": "Brighton",
+      "id": "10204"
+    },
+    "away": {
+      "name": "Monaco",
+      "shortName": "Monaco",
+      "id": "9829"
+    },
+    "status": {
+      "utcTime": "2026-12-10T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/egnatia-vs-fk-kauno-zalgiris/1acc4q1m#6112555",
+    "id": "6112555",
+    "home": {
+      "name": "Egnatia",
+      "shortName": "Egnatia",
+      "id": "10039"
+    },
+    "away": {
+      "name": "FK Kauno Žalgiris",
+      "shortName": "FK Kauno Žalgiris",
+      "id": "439132"
+    },
+    "status": {
+      "utcTime": "2026-12-10T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/hajduk-split-vs-nordsjaelland/3fd3fo#6112525",
+    "id": "6112525",
+    "home": {
+      "name": "Hajduk Split",
+      "shortName": "Hajduk Split",
+      "id": "10154"
+    },
+    "away": {
+      "name": "Nordsjælland",
+      "shortName": "Nordsjælland",
+      "id": "10202"
+    },
+    "status": {
+      "utcTime": "2026-12-10T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/heart-midlothian-vs-borac-banja-luka/3asu5k#6112496",
+    "id": "6112496",
+    "home": {
+      "name": "Heart of Midlothian",
+      "shortName": "Hearts",
+      "id": "9860"
+    },
+    "away": {
+      "name": "Borac Banja Luka",
+      "shortName": "Borac Banja Luka",
+      "id": "10116"
+    },
+    "status": {
+      "utcTime": "2026-12-10T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/pafos-fc-vs-mjallby/vdaej#6112547",
+    "id": "6112547",
+    "home": {
+      "name": "Mjällby",
+      "shortName": "Mjällby",
+      "id": "8127"
+    },
+    "away": {
+      "name": "Pafos FC",
+      "shortName": "Pafos FC",
+      "id": "2137"
+    },
+    "status": {
+      "utcTime": "2026-12-10T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/ajax-vs-sttruiden/2uvzmm#6112489",
+    "id": "6112489",
+    "home": {
+      "name": "St.Truiden",
+      "shortName": "St.Truiden",
+      "id": "9997"
+    },
+    "away": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "status": {
+      "utcTime": "2026-12-10T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "5",
+    "roundName": 5,
+    "pageUrl": "/matches/gent-vs-thun/3d9hwk#6112538",
+    "id": "6112538",
+    "home": {
+      "name": "Thun",
+      "shortName": "Thun",
+      "id": "10191"
+    },
+    "away": {
+      "name": "Gent",
+      "shortName": "Gent",
+      "id": "9991"
+    },
+    "status": {
+      "utcTime": "2026-12-10T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/getafe-vs-ajax/2d0g44#6112394",
+    "id": "6112394",
+    "home": {
+      "name": "Ajax",
+      "shortName": "Ajax",
+      "id": "8593"
+    },
+    "away": {
+      "name": "Getafe",
+      "shortName": "Getafe",
+      "id": "8305"
+    },
+    "status": {
+      "utcTime": "2026-12-17T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/mjallby-vs-atalanta/2ajmz2#6112389",
+    "id": "6112389",
+    "home": {
+      "name": "Atalanta",
+      "shortName": "Atalanta",
+      "id": "8524"
+    },
+    "away": {
+      "name": "Mjällby",
+      "shortName": "Mjällby",
+      "id": "8127"
+    },
+    "status": {
+      "utcTime": "2026-12-17T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/borac-banja-luka-vs-riga-fc/2kmqk770#6112488",
+    "id": "6112488",
+    "home": {
+      "name": "Borac Banja Luka",
+      "shortName": "Borac Banja Luka",
+      "id": "10116"
+    },
+    "away": {
+      "name": "Riga FC",
+      "shortName": "Riga FC",
+      "id": "624924"
+    },
+    "status": {
+      "utcTime": "2026-12-17T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/egnatia-vs-braga/3eq034#6112392",
+    "id": "6112392",
+    "home": {
+      "name": "Braga",
+      "shortName": "Braga",
+      "id": "10264"
+    },
+    "away": {
+      "name": "Egnatia",
+      "shortName": "Egnatia",
+      "id": "10039"
+    },
+    "status": {
+      "utcTime": "2026-12-17T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/cska-sofia-vs-thun/3f3xqv#6112543",
+    "id": "6112543",
+    "home": {
+      "name": "CSKA Sofia",
+      "shortName": "CSKA Sofia",
+      "id": "10144"
+    },
+    "away": {
+      "name": "Thun",
+      "shortName": "Thun",
+      "id": "10191"
+    },
+    "status": {
+      "utcTime": "2026-12-17T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/fc-midtjylland-vs-hajduk-split/2rcd57#6112407",
+    "id": "6112407",
+    "home": {
+      "name": "FC Midtjylland",
+      "shortName": "FC Midtjylland",
+      "id": "8113"
+    },
+    "away": {
+      "name": "Hajduk Split",
+      "shortName": "Hajduk Split",
+      "id": "10154"
+    },
+    "status": {
+      "utcTime": "2026-12-17T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/kups-vs-nordsjaelland/164hhd#6112530",
+    "id": "6112530",
+    "home": {
+      "name": "Nordsjælland",
+      "shortName": "Nordsjælland",
+      "id": "10202"
+    },
+    "away": {
+      "name": "KuPS",
+      "shortName": "KuPS",
+      "id": "1693"
+    },
+    "status": {
+      "utcTime": "2026-12-17T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/kairat-almaty-vs-fc-twente/2aikhz#6112481",
+    "id": "6112481",
+    "home": {
+      "name": "FC Twente",
+      "shortName": "FC Twente",
+      "id": "8611"
+    },
+    "away": {
+      "name": "Kairat Almaty",
+      "shortName": "Kairat Almaty",
+      "id": "8037"
+    },
+    "status": {
+      "utcTime": "2026-12-17T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/fk-crvena-zvezda-vs-trabzonspor/2t827o#6112409",
+    "id": "6112409",
+    "home": {
+      "name": "FK Crvena Zvezda",
+      "shortName": "FK Crvena Zvezda",
+      "id": "8687"
+    },
+    "away": {
+      "name": "Trabzonspor",
+      "shortName": "Trabzonspor",
+      "id": "9752"
+    },
+    "status": {
+      "utcTime": "2026-12-17T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/freiburg-vs-fk-kauno-zalgiris/19zv69wp#6112544",
+    "id": "6112544",
+    "home": {
+      "name": "FK Kauno Žalgiris",
+      "shortName": "FK Kauno Žalgiris",
+      "id": "439132"
+    },
+    "away": {
+      "name": "Freiburg",
+      "shortName": "Freiburg",
+      "id": "8358"
+    },
+    "status": {
+      "utcTime": "2026-12-17T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/brann-vs-gent/2tfz41#6112412",
+    "id": "6112412",
+    "home": {
+      "name": "Gent",
+      "shortName": "Gent",
+      "id": "9991"
+    },
+    "away": {
+      "name": "Brann",
+      "shortName": "Brann",
+      "id": "8468"
+    },
+    "status": {
+      "utcTime": "2026-12-17T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/agf-vs-inter-club-descaldes/2prff8#6112537",
+    "id": "6112537",
+    "home": {
+      "name": "Inter Club d'Escaldes",
+      "shortName": "Inter Club d'Escaldes",
+      "id": "10050"
+    },
+    "away": {
+      "name": "AGF",
+      "shortName": "AGF",
+      "id": "8071"
+    },
+    "status": {
+      "utcTime": "2026-12-17T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/jablonec-vs-iberia-1999/1ipms513#6112528",
+    "id": "6112528",
+    "home": {
+      "name": "Jablonec",
+      "shortName": "Jablonec",
+      "id": "7758"
+    },
+    "away": {
+      "name": "Iberia 1999",
+      "shortName": "Iberia 1999",
+      "id": "480291"
+    },
+    "status": {
+      "utcTime": "2026-12-17T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/lugano-vs-sttruiden/2nbgx8#6112472",
+    "id": "6112472",
+    "home": {
+      "name": "Lugano",
+      "shortName": "Lugano",
+      "id": "7896"
+    },
+    "away": {
+      "name": "St.Truiden",
+      "shortName": "St.Truiden",
+      "id": "9997"
+    },
+    "status": {
+      "utcTime": "2026-12-17T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/monaco-vs-lincoln-red-imps-fc/1ypmpeoa#6112400",
+    "id": "6112400",
+    "home": {
+      "name": "Monaco",
+      "shortName": "Monaco",
+      "id": "9829"
+    },
+    "away": {
+      "name": "Lincoln Red Imps FC",
+      "shortName": "Lincoln Red Imps FC",
+      "id": "545012"
+    },
+    "status": {
+      "utcTime": "2026-12-17T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/pafos-fc-vs-heart-midlothian/16us0n#6112418",
+    "id": "6112418",
+    "home": {
+      "name": "Pafos FC",
+      "shortName": "Pafos FC",
+      "id": "2137"
+    },
+    "away": {
+      "name": "Heart of Midlothian",
+      "shortName": "Hearts",
+      "id": "9860"
+    },
+    "status": {
+      "utcTime": "2026-12-17T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/panathinaikos-vs-brighton-hove-albion/3fy29q#6112414",
+    "id": "6112414",
+    "home": {
+      "name": "Panathinaikos",
+      "shortName": "Panathinaikos",
+      "id": "10200"
+    },
+    "away": {
+      "name": "Brighton & Hove Albion",
+      "shortName": "Brighton",
+      "id": "10204"
+    },
+    "status": {
+      "utcTime": "2026-12-17T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  },
+  {
+    "round": "6",
+    "roundName": 6,
+    "pageUrl": "/matches/fc-kobenhavn-vs-universitatea-craiova/1iupdmsm#6112504",
+    "id": "6112504",
+    "home": {
+      "name": "Universitatea Craiova",
+      "shortName": "Universitatea Craiova",
+      "id": "480286"
+    },
+    "away": {
+      "name": "FC København",
+      "shortName": "FC København",
+      "id": "8391"
+    },
+    "status": {
+      "utcTime": "2026-12-17T20:00:00Z",
+      "timezone": "UTC",
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    }
+  }
+]

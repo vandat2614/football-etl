@@ -27,6 +27,8 @@ def publish_raw_fixtures(
     season: str,
     fixtures: List[Dict[str, Any]],
     bootstrap_servers: str = None,
+    trigger_reason: Optional[str] = None,
+    crawled_at: Optional[str] = None,
 ) -> None:
     """
     Publish raw crawled fixtures to Kafka topic 'raw-fixtures'.
@@ -44,8 +46,9 @@ def publish_raw_fixtures(
         "season": season,
         "fixtures": fixtures,
         "count": len(fixtures),
+        "trigger_reason": trigger_reason,
+        "crawled_at": crawled_at,
     }
-
     key = str(league_id)
 
     p.produce_message(
