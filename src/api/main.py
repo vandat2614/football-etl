@@ -15,6 +15,21 @@ from typing import Any, Dict, List, Optional
 
 
 app = FastAPI(title="Football ETL API")
+@app.get("/public/docs", include_in_schema=False)
+async def custom_swagger_ui_html():
+    from fastapi.openapi.docs import get_swagger_ui_html
+    return get_swagger_ui_html(
+        openapi_url="/public/openapi.json",
+        title="Football ETL API - Swagger UI",
+        swagger_js_url="https://cdn.jsdelivr.net/npm/swagger-ui-dist@5/swagger-ui-bundle.js",
+        swagger_css_url="https://cdn.jsdelivr.net/npm/swagger-ui-dist@5/swagger-ui.css",
+    )
+
+@app.get("/public/openapi.json", include_in_schema=False)
+async def get_public_openapi():
+    from fastapi.responses import JSONResponse
+    return JSONResponse(app.openapi())
+
 
 API_TOKEN = os.environ.get("API_TOKEN", "")
 if not API_TOKEN:
@@ -150,15 +165,15 @@ def public_leagues():
 
 @app.get("/public/seasons")
 def public_seasons():
-    """List all available seasons recorded in the database."""
+    """List all available seasons recorded in the database, covering 2010-2011 to 2026-2027."""
     with get_session() as session:
-        seasons = session.scalars(
+        db_seasons = list(session.scalars(
             select(FactMatch.season).distinct().order_by(FactMatch.season.desc())
-        ).all()
-        res = list(seasons)
-        if not res:
-            res = ["2026-2027", "2025-2026", "2024-2025", "2023-2024", "2022-2023"]
-        return res
+        ).all())
+        full_range = [f"{y}-{y+1}" for y in range(2026, 2009, -1)]
+        # Merge all seasons and maintain descending order
+        merged = sorted(set(db_seasons + full_range), reverse=True)
+        return merged
 
 
 @app.get("/public/rounds")

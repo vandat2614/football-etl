@@ -1202,6 +1202,20 @@
                 <option value="2026-2027">2026-2027</option>
                 <option value="2025-2026" selected>2025-2026</option>
                 <option value="2024-2025">2024-2025</option>
+                <option value="2023-2024">2023-2024</option>
+                <option value="2022-2023">2022-2023</option>
+                <option value="2021-2022">2021-2022</option>
+                <option value="2020-2021">2020-2021</option>
+                <option value="2019-2020">2019-2020</option>
+                <option value="2018-2019">2018-2019</option>
+                <option value="2017-2018">2017-2018</option>
+                <option value="2016-2017">2016-2017</option>
+                <option value="2015-2016">2015-2016</option>
+                <option value="2014-2015">2014-2015</option>
+                <option value="2013-2014">2013-2014</option>
+                <option value="2012-2013">2012-2013</option>
+                <option value="2011-2012">2011-2012</option>
+                <option value="2010-2011">2010-2011</option>
               </select>
             </div>
             <div class="select-wrap" style="min-width: 130px;">
@@ -1260,6 +1274,20 @@
                 <option value="2026-2027">2026-2027</option>
                 <option value="2025-2026" selected>2025-2026</option>
                 <option value="2024-2025">2024-2025</option>
+                <option value="2023-2024">2023-2024</option>
+                <option value="2022-2023">2022-2023</option>
+                <option value="2021-2022">2021-2022</option>
+                <option value="2020-2021">2020-2021</option>
+                <option value="2019-2020">2019-2020</option>
+                <option value="2018-2019">2018-2019</option>
+                <option value="2017-2018">2017-2018</option>
+                <option value="2016-2017">2016-2017</option>
+                <option value="2015-2016">2015-2016</option>
+                <option value="2014-2015">2014-2015</option>
+                <option value="2013-2014">2013-2014</option>
+                <option value="2012-2013">2012-2013</option>
+                <option value="2011-2012">2011-2012</option>
+                <option value="2010-2011">2010-2011</option>
               </select>
             </div>
           </div>
@@ -1751,6 +1779,32 @@
             const opt3 = document.createElement('option');
             opt3.value = lg.league_id; opt3.textContent = lg.league_name;
             selL.appendChild(opt3);
+          });
+        }
+      } catch (e) { }
+
+      // Dynamically load all seasons from API (2010-2011 to 2026-2027)
+      try {
+        const sRes = await fetch('/public/seasons');
+        if (sRes.ok) {
+          const seasons = await sRes.json();
+          const selMatchS = document.getElementById('sel-match-season');
+          const selStandS = document.getElementById('sel-stand-season');
+          const curMatchVal = selMatchS.value || '2025-2026';
+          const curStandVal = selStandS.value || '2025-2026';
+
+          selMatchS.innerHTML = '';
+          selStandS.innerHTML = '';
+          seasons.forEach(s => {
+            const optM = document.createElement('option');
+            optM.value = s; optM.textContent = s;
+            if (s === curMatchVal) optM.selected = true;
+            selMatchS.appendChild(optM);
+
+            const optS = document.createElement('option');
+            optS.value = s; optS.textContent = s;
+            if (s === curStandVal) optS.selected = true;
+            selStandS.appendChild(optS);
           });
         }
       } catch (e) { }

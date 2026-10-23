@@ -31,3 +31,11 @@ transformed_output/
 *.swp
 
 certs/
+# Archives and compressed dumps
+*.tar.gz
+*.tar
+*.gz
+*.zip
+*.rar
+*.7z
+*.parquet
