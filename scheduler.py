@@ -173,6 +173,12 @@ def main() -> None:
         default=2.0,
         help="Seconds to wait between league crawls (default: 2.0)",
     )
+    parser.add_argument(
+        "--skip-existing",
+        action="store_true",
+        help="Skip leagues that already have a successful crawl recorded for the season",
+    )
+
     args = parser.parse_args()
 
     setup_logging(log_level=config.LOG_LEVEL, log_file=config.LOG_FILE)
@@ -195,7 +201,7 @@ def main() -> None:
     logger.info("Processing %d league(s)...", len(leagues))    
     latest_success: Dict[int, Any] = {}
     
-    if args.only_due:
+    if args.only_due or args.skip_existing:
         latest_success = fetch_latest_success(args.season)
 
     results = {"success": 0, "failed": 0, "skipped": 0, "total_fixtures": 0}
@@ -204,6 +210,11 @@ def main() -> None:
     for league in leagues:
         league_id = league_id_of(league)
         league_name = league.get("name", f"League {league_id}")
+
+        if args.skip_existing and int(league_id) in latest_success:
+            logger.info("Skip [%s]: already crawled for %s.", league_name, args.season)
+            results["skipped"] += 1
+            continue
 
         trigger_reason = "manual"
 
