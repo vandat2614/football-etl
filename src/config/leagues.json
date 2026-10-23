@@ -35,13 +35,103 @@
     "country_code": "INT"
   },
   {
-    "id": 133,
-    "name": "EFL Cup",
-    "country_code": "ENG"
+    "id": 10216,
+    "name": "Europa Conference League",
+    "country_code": "INT"
+  },
+  {
+    "id": 57,
+    "name": "Eredivisie",
+    "country_code": "NED"
+  },
+  {
+    "id": 61,
+    "name": "Liga Portugal",
+    "country_code": "POR"
+  },
+  {
+    "id": 536,
+    "name": "Saudi Pro League",
+    "country_code": "KSA"
+  },
+  {
+    "id": 40,
+    "name": "First Division A",
+    "country_code": "BEL"
+  },
+  {
+    "id": 268,
+    "name": "Série A",
+    "country_code": "BRA"
+  },
+  {
+    "id": 252,
+    "name": "HNL",
+    "country_code": "CRO"
+  },
+  {
+    "id": 59,
+    "name": "Eliteserien",
+    "country_code": "NOR"
+  },
+  {
+    "id": 223,
+    "name": "J. League",
+    "country_code": "JPN"
+  },
+  {
+    "id": 46,
+    "name": "Superligaen",
+    "country_code": "DEN"
+  },
+  {
+    "id": 69,
+    "name": "Super League",
+    "country_code": "SUI"
+  },
+  {
+    "id": 64,
+    "name": "Premiership",
+    "country_code": "SCO"
+  },
+  {
+    "id": 130,
+    "name": "MLS",
+    "country_code": "USA"
+  },
+  {
+    "id": 38,
+    "name": "Austrian Bundesliga",
+    "country_code": "AUT"
   },
   {
     "id": 132,
     "name": "FA Cup",
     "country_code": "ENG"
+  },
+  {
+    "id": 133,
+    "name": "EFL Cup",
+    "country_code": "ENG"
+  },
+  {
+    "id": 138,
+    "name": "Copa del Rey",
+    "country_code": "ESP"
+  },
+  {
+    "id": 141,
+    "name": "Coppa Italia",
+    "country_code": "ITA"
+  },
+  {
+    "id": 209,
+    "name": "DFB-Pokal",
+    "country_code": "GER"
+  },
+  {
+    "id": 134,
+    "name": "Coupe de France",
+    "country_code": "FRA"
   }
 ]
