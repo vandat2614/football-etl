@@ -416,30 +416,6 @@ def serve_architecture():
     return HTMLResponse("<h2>Architecture blueprint not found</h2>", status_code=404)
 
 
-@app.get("/public/teams")
-def public_teams(
-    query: Optional[str] = Query(None),
-    league_id: Optional[int] = Query(None),
-    limit: int = Query(1000, ge=1, le=5000),
-):
-    """List available clubs with optional search or league filter for H2H."""
-    with get_session() as session:
-        stmt = select(DimTeam)
-        if league_id:
-            stmt = stmt.where(
-                DimTeam.team_id.in_(
-                    select(FactMatch.home_team_id)
-                    .where(FactMatch.league_id == league_id)
-                    .distinct()
-                )
-            )
-        if query:
-            stmt = stmt.where(DimTeam.team_name.ilike(f"%{query.strip()}%"))
-        stmt = stmt.order_by(DimTeam.team_name.asc()).limit(limit)
-        teams = session.scalars(stmt).all()
-        return [{"team_id": t.team_id, "team_name": t.team_name} for t in teams]
-
-
 COMMON_H2H_ALIASES = {
     "barca": "Barcelona",
     "barcelona": "Barcelona",
@@ -448,19 +424,63 @@ COMMON_H2H_ALIASES = {
     "man united": "Manchester United",
     "man city": "Manchester City",
     "mc": "Manchester City",
+    "chelsea": "Chelsea",
+    "arsenal": "Arsenal",
+    "liverpool": "Liverpool",
+    "spurs": "Tottenham Hotspur",
+    "tottenham": "Tottenham Hotspur",
     "psg": "Paris Saint-Germain",
     "dortmund": "Borussia Dortmund",
-    "bayern": "Bayern",
-    "munich": "Bayern",
+    "bvb": "Borussia Dortmund",
+    "bayern": "Bayern München",
+    "munich": "Bayern München",
     "inter": "Inter",
     "inter milan": "Inter",
+    "milan": "AC Milan",
+    "ac milan": "AC Milan",
     "juve": "Juventus",
     "juventus": "Juventus",
-    "spurs": "Tottenham",
-    "tottenham": "Tottenham",
     "atletico": "Atlético Madrid",
     "real": "Real Madrid",
+    "leverkusen": "Bayer Leverkusen",
+    "al nassr": "Al Nassr FC",
+    "al hilal": "Al Hilal",
+    "inter miami": "Inter Miami CF",
 }
+
+
+@app.get("/public/teams")
+def public_teams(
+    query: Optional[str] = Query(None),
+    league_id: Optional[int] = Query(None),
+    limit: int = Query(5000, ge=1, le=10000),
+):
+    """List available clubs with optional search or league filter for H2H."""
+    with get_session() as session:
+        stmt = select(DimTeam)
+        if league_id:
+            stmt = stmt.where(
+                (DimTeam.team_id.in_(
+                    select(FactMatch.home_team_id)
+                    .where(FactMatch.league_id == league_id)
+                    .distinct()
+                )) |
+                (DimTeam.team_id.in_(
+                    select(FactMatch.away_team_id)
+                    .where(FactMatch.league_id == league_id)
+                    .distinct()
+                ))
+            )
+        if query:
+            clean_q = query.strip()
+            alias_target = COMMON_H2H_ALIASES.get(clean_q.lower(), clean_q)
+            stmt = stmt.where(
+                (DimTeam.team_name.ilike(f"%{clean_q}%")) |
+                (DimTeam.team_name.ilike(f"%{alias_target}%"))
+            )
+        stmt = stmt.order_by(DimTeam.team_name.asc()).limit(limit)
+        teams = session.scalars(stmt).all()
+        return [{"team_id": t.team_id, "team_name": t.team_name} for t in teams]
 
 @app.get("/public/h2h")
 def public_h2h(

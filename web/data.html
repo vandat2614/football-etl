@@ -1990,6 +1990,7 @@
 
         // 5. Head-to-Head (H2H) Logic
     let h2hTeams = [];
+    let isFetchingTeams = false;
     const H2H_ALIASES = {
       'barca': 'Barcelona',
       'barcelona': 'Barcelona',
@@ -1998,23 +1999,45 @@
       'man united': 'Manchester United',
       'man city': 'Manchester City',
       'mc': 'Manchester City',
-      'psg': 'Paris Saint-Germain',
-      'dortmund': 'Borussia Dortmund',
-      'bayern': 'Bayern',
-      'munich': 'Bayern',
-      'inter': 'Inter',
-      'juve': 'Juventus',
-      'juventus': 'Juventus',
-      'spurs': 'Tottenham',
-      'tottenham': 'Tottenham',
-      'atletico': 'Atlético Madrid',
-      'real': 'Real Madrid',
       'chelsea': 'Chelsea',
       'arsenal': 'Arsenal',
       'liverpool': 'Liverpool',
-      'newcastle': 'Newcastle',
-      'villa': 'Aston Villa'
+      'spurs': 'Tottenham Hotspur',
+      'tottenham': 'Tottenham Hotspur',
+      'psg': 'Paris Saint-Germain',
+      'dortmund': 'Borussia Dortmund',
+      'bvb': 'Borussia Dortmund',
+      'bayern': 'Bayern München',
+      'munich': 'Bayern München',
+      'inter': 'Inter',
+      'inter milan': 'Inter',
+      'milan': 'AC Milan',
+      'ac milan': 'AC Milan',
+      'juve': 'Juventus',
+      'juventus': 'Juventus',
+      'atletico': 'Atlético Madrid',
+      'real': 'Real Madrid',
+      'leverkusen': 'Bayer Leverkusen',
+      'newcastle': 'Newcastle United',
+      'villa': 'Aston Villa',
+      'ajax': 'Ajax',
+      'benfica': 'Benfica',
+      'porto': 'FC Porto',
+      'sporting': 'Sporting CP',
+      'al nassr': 'Al Nassr FC',
+      'al hilal': 'Al Hilal',
+      'inter miami': 'Inter Miami CF',
+      'miami': 'Inter Miami CF'
     };
+
+    const POPULAR_CLUBS = new Set([
+      'real madrid', 'barcelona', 'manchester united', 'manchester city',
+      'arsenal', 'liverpool', 'chelsea', 'tottenham hotspur',
+      'bayern munchen', 'borussia dortmund', 'bayer leverkusen',
+      'paris saint-germain', 'juventus', 'inter', 'ac milan',
+      'atletico madrid', 'ajax', 'benfica', 'fc porto', 'sporting cp',
+      'al nassr fc', 'al hilal', 'inter miami cf'
+    ]);
 
     function normalizeStr(s) {
       if (!s) return '';
@@ -2022,13 +2045,16 @@
     }
 
     async function loadAllTeamsForH2H() {
-      if (h2hTeams.length > 0) return;
+      if (h2hTeams.length > 0 || isFetchingTeams) return;
+      isFetchingTeams = true;
       try {
-        const res = await fetch('/public/teams?limit=1000');
+        const res = await fetch('/public/teams?limit=5000');
         if (!res.ok) return;
         h2hTeams = await res.json();
       } catch (e) {
         console.error('Failed to load teams for H2H:', e);
+      } finally {
+        isFetchingTeams = false;
       }
     }
 
@@ -2039,6 +2065,8 @@
       const clearEl = document.getElementById(clearId);
       const dropdownEl = document.getElementById(dropdownId);
       let activeIndex = -1;
+      let renderedCount = 0;
+      let currentFiltered = [];
 
       function setSelectedTeam(team) {
         if (!team) {
@@ -2057,64 +2085,108 @@
         activeIndex = -1;
       }
 
-      function renderDropdown(items) {
-        if (!items || items.length === 0) {
+      function renderDropdown(items, reset = true) {
+        currentFiltered = items || [];
+        if (reset) {
+          activeIndex = -1;
+          renderedCount = 0;
+          dropdownEl.innerHTML = '';
+          dropdownEl.scrollTop = 0;
+        }
+
+        if (currentFiltered.length === 0) {
           dropdownEl.innerHTML = '<div style="padding:10px 14px; font-size:0.82rem; color:var(--text-muted); font-style:italic;">No matching clubs found</div>';
           dropdownEl.style.display = 'block';
           return;
         }
-        dropdownEl.innerHTML = items.map((t, idx) => `
-          <div class="h2h-autocomplete-item ${idx === activeIndex ? 'active' : ''}" data-idx="${idx}">
-            ${renderTeamBadge(t.team_id, t.team_name, 22)}
-            <span class="team-name" style="font-weight:600;">${t.team_name}</span>
-          </div>
-        `).join('');
+
+        const CHUNK_SIZE = 50;
+        const nextBatch = currentFiltered.slice(renderedCount, renderedCount + CHUNK_SIZE);
+        if (nextBatch.length === 0) return;
+
+        const html = nextBatch.map((t, idx) => {
+          const itemIdx = renderedCount + idx;
+          return `
+            <div class="h2h-autocomplete-item ${itemIdx === activeIndex ? 'active' : ''}" data-idx="${itemIdx}">
+              ${renderTeamBadge(t.team_id, t.team_name, 22)}
+              <span class="team-name" style="font-weight:600;">${t.team_name}</span>
+            </div>
+          `;
+        }).join('');
+
+        if (reset) {
+          dropdownEl.innerHTML = html;
+        } else {
+          dropdownEl.insertAdjacentHTML('beforeend', html);
+        }
+
+        renderedCount += nextBatch.length;
         dropdownEl.style.display = 'block';
 
-        dropdownEl.querySelectorAll('.h2h-autocomplete-item').forEach((item, idx) => {
-          item.addEventListener('mousedown', (e) => {
+        dropdownEl.querySelectorAll('.h2h-autocomplete-item').forEach((item) => {
+          item.onmousedown = (e) => {
             e.preventDefault();
-            setSelectedTeam(items[idx]);
-            const partner = document.getElementById(partnerInputId);
-            if (partner && !partner.value.trim()) {
-              partner.focus();
+            const idx = parseInt(item.dataset.idx, 10);
+            if (!isNaN(idx) && currentFiltered[idx]) {
+              setSelectedTeam(currentFiltered[idx]);
+              const partner = document.getElementById(partnerInputId);
+              if (partner && !partner.value.trim()) {
+                partner.focus();
+              }
             }
-          });
+          };
         });
       }
+
+      dropdownEl.addEventListener('scroll', () => {
+        if (dropdownEl.scrollTop + dropdownEl.clientHeight >= dropdownEl.scrollHeight - 60) {
+          if (renderedCount < currentFiltered.length) {
+            renderDropdown(currentFiltered, false);
+          }
+        }
+      });
 
       function filterTeams(query) {
         if (!h2hTeams || h2hTeams.length === 0) return [];
         const raw = query.trim();
         if (!raw) {
-          return h2hTeams.slice(0, 25);
+          const pop = [];
+          const rest = [];
+          h2hTeams.forEach(t => {
+            const norm = normalizeStr(t.team_name);
+            if (POPULAR_CLUBS.has(norm)) pop.push(t);
+            else rest.push(t);
+          });
+          return [...pop, ...rest];
         }
+
         const norm = normalizeStr(raw);
-        const aliasTarget = H2H_ALIASES[norm];
+        const aliasTarget = H2H_ALIASES[norm] ? normalizeStr(H2H_ALIASES[norm]) : null;
 
         const results = [];
         h2hTeams.forEach(t => {
           const tNorm = normalizeStr(t.team_name);
           let score = 0;
           if (tNorm === norm) score = 100;
-          else if (aliasTarget && tNorm.includes(normalizeStr(aliasTarget))) score = 90;
+          else if (aliasTarget && tNorm.includes(aliasTarget)) score = 95;
           else if (tNorm.startsWith(norm)) score = 80;
           else if (tNorm.includes(' ' + norm)) score = 70;
           else if (tNorm.includes(norm)) score = 50;
 
           if (score > 0) {
+            if (POPULAR_CLUBS.has(tNorm)) score += 15;
             results.push({ team: t, score });
           }
         });
 
         results.sort((a, b) => b.score - a.score || a.team.team_name.localeCompare(b.team.team_name));
-        return results.slice(0, 25).map(r => r.team);
+        return results.map(r => r.team);
       }
 
       inputEl.addEventListener('focus', async () => {
         await loadAllTeamsForH2H();
         const items = filterTeams(inputEl.value);
-        renderDropdown(items);
+        renderDropdown(items, true);
       });
 
       inputEl.addEventListener('input', async () => {
@@ -2124,32 +2196,36 @@
         clearEl.style.display = inputEl.value.trim() ? 'flex' : 'none';
         activeIndex = -1;
         const items = filterTeams(inputEl.value);
-        renderDropdown(items);
+        renderDropdown(items, true);
       });
 
       inputEl.addEventListener('keydown', (e) => {
-        const items = dropdownEl.querySelectorAll('.h2h-autocomplete-item');
-        if (dropdownEl.style.display === 'block' && items.length > 0) {
+        if (dropdownEl.style.display === 'block' && currentFiltered.length > 0) {
           if (e.key === 'ArrowDown') {
             e.preventDefault();
-            activeIndex = (activeIndex + 1) % items.length;
+            activeIndex = Math.min(activeIndex + 1, currentFiltered.length - 1);
+            if (activeIndex >= renderedCount) {
+              renderDropdown(currentFiltered, false);
+            }
+            const items = dropdownEl.querySelectorAll('.h2h-autocomplete-item');
             items.forEach((it, idx) => it.classList.toggle('active', idx === activeIndex));
-            items[activeIndex].scrollIntoView({ block: 'nearest' });
+            if (items[activeIndex]) items[activeIndex].scrollIntoView({ block: 'nearest' });
             return;
           }
           if (e.key === 'ArrowUp') {
             e.preventDefault();
-            activeIndex = (activeIndex - 1 + items.length) % items.length;
+            activeIndex = Math.max(activeIndex - 1, 0);
+            const items = dropdownEl.querySelectorAll('.h2h-autocomplete-item');
             items.forEach((it, idx) => it.classList.toggle('active', idx === activeIndex));
-            items[activeIndex].scrollIntoView({ block: 'nearest' });
+            if (items[activeIndex]) items[activeIndex].scrollIntoView({ block: 'nearest' });
             return;
           }
           if (e.key === 'Enter') {
             e.preventDefault();
-            if (activeIndex >= 0 && activeIndex < items.length) {
-              items[activeIndex].dispatchEvent(new MouseEvent('mousedown'));
-            } else if (items.length > 0) {
-              items[0].dispatchEvent(new MouseEvent('mousedown'));
+            if (activeIndex >= 0 && activeIndex < currentFiltered.length) {
+              setSelectedTeam(currentFiltered[activeIndex]);
+            } else if (currentFiltered.length > 0) {
+              setSelectedTeam(currentFiltered[0]);
             } else {
               dropdownEl.style.display = 'none';
               runH2HFromInputs();
@@ -2169,7 +2245,7 @@
       inputEl.addEventListener('blur', () => {
         setTimeout(() => {
           dropdownEl.style.display = 'none';
-        }, 200);
+        }, 250);
       });
 
       clearEl.addEventListener('click', () => {
@@ -2323,6 +2399,7 @@
 
         // Attach H2H Button Listeners & Setup Autocomplete
     document.addEventListener('DOMContentLoaded', () => {
+      loadAllTeamsForH2H(); // Prefetch all clubs in background
       const cb1 = setupCombobox('h2h-team1-input', 'h2h-team1-id', 'h2h-team1-badge', 'h2h-team1-clear', 'h2h-team1-dropdown', 'h2h-team2-input');
       const cb2 = setupCombobox('h2h-team2-input', 'h2h-team2-id', 'h2h-team2-badge', 'h2h-team2-clear', 'h2h-team2-dropdown', 'h2h-team1-input');
 
