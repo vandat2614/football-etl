@@ -58,7 +58,7 @@ Python 3.12, Apache Kafka, PostgreSQL 16, SQLAlchemy 2, FastAPI, Docker Compose,
 
 ### Requirements
 
-Docker with Compose, and a Kafka broker that the containers can reach. The compose file expects the broker on an external Docker network named `kafka_default`.
+Docker with Compose. Kafka runs as a service in the same compose file, so there is nothing else to install and no extra network to create.
 
 ### Configuration
 
@@ -95,6 +95,8 @@ docker compose ps
 
 This starts PostgreSQL, the transform and load consumers, and the API on `127.0.0.1:8000`. Put a reverse proxy such as nginx in front of it for HTTPS and to serve the files in `web/`.
 
+Do not use `docker compose down -v`: the `-v` flag deletes the volumes, which hold the database (`pgdata`) and the Kafka data (`kafkadata`). Plain `docker compose down` is safe.
+
 ### Create the tables and load history
 
 ```bash
@@ -119,6 +121,15 @@ python scheduler.py --dry-run                     # crawl without sending anythi
 ```
 
 The scheduler needs only `API_URL` and `API_TOKEN`. The workflow in `.github/workflows/scheduler.yml` runs it every hour and can also be started manually.
+
+## Tests
+
+```bash
+pip install -r requirements-dev.txt
+pytest
+```
+
+Unit tests cover the recrawl scheduling logic and the transform functions. Integration tests start a temporary PostgreSQL container with testcontainers, so Docker must be running. They cover loading fixtures and the API. The same suite runs on every push through GitHub Actions.
 
 ## API
 
