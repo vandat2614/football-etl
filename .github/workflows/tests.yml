@@ -20,11 +20,6 @@ jobs:
 
       - run: pytest -v
 
-      - name: Check secrets
-        run: |
-          echo "host length: ${#VM_HOST}"
-          echo "user length: ${#VM_USER}"
-
   deploy:
   
     needs: test
